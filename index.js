@@ -1,14 +1,197 @@
+require('dotenv').config();
 const https = require('follow-redirects').https;
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
+const path = require('path');
 const log = require('log-to-file');
 const JSONdb = require('simple-json-db');
-const moduleJSONdb = new JSONdb('./foundryApi/modules.json', {asyncWrite: true})
+const simpleGit = require('simple-git');
 
-let workingObject = {};
-let moduleList = [];
+const moduleJSONdb = new JSONdb('./foundryApi/modules.json');
+const systemJSONdb = new JSONdb('./foundryApi/systems.json');
+const fetchDurationJSONdb = new JSONdb('./foundryApi/fetchDuration.json');
 
-const getScript = (url) => {
+// env vars
+const githubToken = process.env.GITHUB_TOKEN;
+const botUser = process.env.BOT_USER;
+const botUserEmail = process.env.BOT_USER_EMAIL;
+const repoUrl = process.env.REPO_URL;
+
+// github info
+const remote = `https://${botUser}:${githubToken}@${repoUrl}`;
+const branch = "api";
+
+/** @type {import('simple-git').SimpleGitOptions} */
+const gitOptions = {
+    baseDir: path.join(__dirname, "foundryAPI")
+};
+
+/** @type {import('simple-git').SimpleGit} */
+const git = simpleGit(gitOptions);
+
+
+/* -------------------------< timeout >----------------------- */
+
+const timeout = 15; // timeout in minutes
+
+const interval = minutesToMS(timeout); // timeout in ms
+
+
+
+
+/* -------------------------< init >----------------------- */
+
+git.init();
+
+git.pull(remote, branch, { '--rebase': 'true' });
+
+getData();
+setInterval(getData, interval);
+
+
+
+/* -------------------------< gets the data >----------------------- */
+
+async function getData() {
+    let fetchStart = Date.now();
+    let workingObject = {};
+    let moduleList = [];
+    let systemList = [];
+
+    let moduleHtmlString = await getScript("https://foundryvtt.com/packages/modules");
+    let moduleDom = new JSDOM(moduleHtmlString);
+
+    let modulesHTMLCollection = moduleDom.window.document.body.getElementsByClassName("article package");
+
+
+    let systemHTMLString = await getScript("https://foundryvtt.com/packages/systems");
+    let systemDom = new JSDOM(systemHTMLString);
+
+    let systemHTMLCollection = systemDom.window.document.body.getElementsByClassName("article package");
+
+    // modules
+    let i = 0;
+    for (let moduleHTML of modulesHTMLCollection) {
+        i++;
+        workingObject[`module${i}`] = "";
+        setTimeout((function (num) {
+            return async function () {
+
+                try {
+                    /** @type {string} */
+                    const foundryUrl = moduleHTML.getElementsByClassName("article-title")[0].firstElementChild.href.trim();
+                    const updateDate = moduleHTML.getElementsByClassName("tag updated")[0].textContent.trim();
+                    /** @type {string} */
+                    const manifestUrl = moduleHTML.getElementsByClassName("fas fa-download")[0].nextElementSibling.href.trim();
+                    /** @type {{name:string,title:string,description:string,version:string,author:string,languages:[{lang:string,name:string,path:string}],minimumCoreVersion:string,compatibleCoreVersion:string,url:string,manifest:string,download:string,foundryUrl:string,lastUpdate:string}} */
+                    let manifest = await JSON.parse(await getScript(manifestUrl));
+                    manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
+
+                    // push to 
+                    moduleList.push(manifest);
+                } catch (e) {
+                    log(e, 'error.log');
+                } finally {
+                    delete workingObject[`module${num}`];
+                }
+            };
+        })(i), i * 500);
+    }
+
+    // systems
+    let j = 0;
+    for (let systemHTML of systemHTMLCollection) {
+        j++;
+        workingObject[`system${j}`] = "";
+        setTimeout((function (num) {
+            return async function () {
+
+                try {
+                    /** @type {string} */
+                    const foundryUrl = systemHTML.getElementsByClassName("article-title")[0].firstElementChild.href.trim();
+                    const updateDate = systemHTML.getElementsByClassName("tag updated")[0].textContent.trim();
+                    /** @type {string} */
+                    const manifestUrl = systemHTML.getElementsByClassName("fas fa-download")[0].nextElementSibling.href.trim();
+                    /** @type {{name:string,title:string,description:string,version:string,author:string,languages:[{lang:string,name:string,path:string}],minimumCoreVersion:string,compatibleCoreVersion:string,url:string,manifest:string,download:string,foundryUrl:string,lastUpdate:string}} */
+                    let manifest = await JSON.parse(await getScript(manifestUrl));
+                    manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
+
+                    // push to 
+                    systemList.push(manifest);
+                } catch (e) {
+                    log(e, 'error.log');
+                } finally {
+                    delete workingObject[`system${num}`];
+                }
+            };
+        })(j), j * 500);
+    }
+
+    while (Object.keys(workingObject).length !== 0) {
+        await pause(1000);
+    }
+
+    await setupModuleApi(moduleList);
+
+    await setupSystemApi(systemList);
+
+    await setupFetchDuration(fetchStart);
+
+    git.add(path.join(__dirname, "foundryApi"))
+        .addConfig('user.name', botUser)
+        .addConfig('user.email', botUserEmail)
+        .commit("automated update")
+        .push(remote, branch)
+        .pull();
+
+    log("fetched", "default.log");
+
+};
+
+
+
+/* -------------------------< apis >----------------------- */
+
+function setupModuleApi(moduleList) {
+    return new Promise(resolve => {
+        const updateTime = new Date(Date.now()).toUTCString();
+        moduleJSONdb.JSON({ "updated": updateTime, "modules": moduleList });
+        moduleJSONdb.sync();
+        resolve();
+    });
+}
+
+function setupSystemApi(systemList) {
+    return new Promise(resolve => {
+        const updateTime = new Date(Date.now()).toUTCString();
+        systemJSONdb.JSON({ "updated": updateTime, "modules": systemList });
+        systemJSONdb.sync();
+        resolve();
+    });
+}
+
+function setupFetchDuration(fetchStart) {
+    return new Promise(resolve => {
+        const now = Date.now();
+        const duration = now - fetchStart;
+        fetchDurationJSONdb.JSON({ "duration": `${Math.ceil(duration / 1000)}s`, "miliseconds": duration, "timeout": interval });
+        fetchDurationJSONdb.sync();
+        resolve();
+    });
+}
+
+
+
+/* ------------------------< functions >------------------------- */
+
+/**
+ * @param  {number} ms miliseconds to wait
+ */
+function pause(ms) {
+    return new Promise(resolve => setTimeout(() => resolve(), ms));
+}
+
+function getScript(url) {
     return new Promise((resolve, reject) => {
 
         const client = https;
@@ -30,73 +213,11 @@ const getScript = (url) => {
             reject(err);
         });
     });
-};
-
-
-async function getModules() {
-    workingObject = {}
-    moduleList = []
-
-    let htmlString = await getScript("https://foundryvtt.com/packages/modules");
-    let dom = new JSDOM(htmlString);
-
-    let modulesHTMLCollection = dom.window.document.body.getElementsByClassName("article package");
-
-
-    
-    let i = 0;
-    for (let moduleHTML of modulesHTMLCollection) {
-        i++;
-        workingObject[`module${i}`] = "";
-        setTimeout((function (num) {
-            return async function () {
-
-                try {
-                    /** @type {string} */
-                    const foundryUrl = moduleHTML.getElementsByClassName("article-title")[0].firstElementChild.href.trim();
-                    const updateDate = moduleHTML.getElementsByClassName("tag updated")[0].textContent.trim();
-                    /** @type {string} */
-                    const manifestUrl = moduleHTML.getElementsByClassName("fas fa-download")[0].nextElementSibling.href.trim();
-                    /** @type {{name:string,title:string,description:string,version:string,author:string,languages:[{lang:string,name:string,path:string}],minimumCoreVersion:string,compatibleCoreVersion:string,url:string,manifest:string,download:string,foundryUrl:string,lastUpdate:string}} */
-                    let manifest = await JSON.parse(await getScript(manifestUrl));
-                    manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
-
-                    // push to 
-                    moduleList.push(manifest);
-                    delete workingObject[`module${num}`];
-                } catch (e) {
-                    delete workingObject[`module${num}`];
-                    log(e, 'error.log');
-                }
-            };
-        })(i), i * 500);
-    }
-
-    setupManifestApi();
-
-
-};
-
-
-
-/* -------------------------< apis >----------------------- */
-
-async function setupManifestApi() {
-    while (Object.keys(workingObject).length !== 0) {
-        await pause(1000);
-    }
-    const updateTime = new Date(Date.now()).toUTCString();
-    moduleJSONdb.JSON({ "updated": updateTime, "modules": moduleList });
-    moduleJSONdb.sync()
 }
-/**
- * @param  {number} ms miliseconds to wait
- */
-function pause(ms) {
-    return new Promise(resolve => setTimeout(() => resolve(), ms));
+
+function minutesToMS(minutes) {
+    return (minutes * 60 * 1000);
 }
 
 
 
-
-getModules();
