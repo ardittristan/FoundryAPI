@@ -23,7 +23,7 @@ const branch = "api";
 
 /** @type {import('simple-git').SimpleGitOptions} */
 const gitOptions = {
-    baseDir: path.join(__dirname, "foundryAPI")
+    baseDir: path.join(__dirname, "foundryApi")
 };
 
 /** @type {import('simple-git').SimpleGit} */
