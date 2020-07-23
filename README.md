@@ -2,4 +2,4 @@
 
 Logs all modules/systems that are on foundry.
 
-[API available here](FoundryAPI/tree/api)
+[API available here](../../tree/api)
