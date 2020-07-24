@@ -1,6 +1,82 @@
 {
-    "updated": "Fri, 24 Jul 2020 12:39:28 GMT",
+    "updated": "Fri, 24 Jul 2020 12:54:28 GMT",
     "modules": [
+        {
+            "name": "swade",
+            "title": "Savage Worlds Adventure Edition",
+            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
+            "version": "0.10.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "FloRad",
+            "templateVersion": 2,
+            "esmodules": [
+                "swade.js"
+            ],
+            "styles": [
+                "swade.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "swade",
+                    "path": "./packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "edges",
+                    "label": "Edges",
+                    "system": "swade",
+                    "path": "./packs/edges.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hindrances",
+                    "label": "Hindrances",
+                    "system": "swade",
+                    "path": "./packs/hindrances.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "action-cards",
+                    "label": "Action Cards",
+                    "system": "swade",
+                    "path": "./packs/action-cards.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pl",
+                    "name": "Polski",
+                    "path": "lang/pl.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "url": "https://gitlab.com/florad-foundry/swade",
+            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
+            "foundryUrl": "/packages/swade/",
+            "lastUpdate": "1 minute ago"
+        },
         {
             "name": "alienrpg",
             "title": "Alien RPG",
@@ -67,7 +143,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "2 hours, 23 minutes ago"
+            "lastUpdate": "2 hours, 38 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -167,7 +243,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "2 hours, 43 minutes ago"
+            "lastUpdate": "2 hours, 58 minutes ago"
         },
         {
             "name": "svnsea2e",
@@ -205,7 +281,7 @@
             "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.1.4.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "13 hours, 22 minutes ago"
+            "lastUpdate": "13 hours, 37 minutes ago"
         },
         {
             "name": "pf1",
@@ -404,7 +480,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.7/foundryvtt-pathfinder1-v0.7.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "14 hours, 13 minutes ago"
+            "lastUpdate": "14 hours, 28 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -439,7 +515,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "22 hours, 30 minutes ago"
+            "lastUpdate": "22 hours, 45 minutes ago"
         },
         {
             "name": "sandbox",
@@ -596,7 +672,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 1 hour ago"
+            "lastUpdate": "1 day, 2 hours ago"
         },
         {
             "name": "ModularFate",
@@ -1165,7 +1241,7 @@
             "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "4 days, 19 hours ago"
+            "lastUpdate": "4 days, 20 hours ago"
         },
         {
             "name": "sfrpg",
@@ -1288,82 +1364,6 @@
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.3/sfrpg-v0.3.3.zip",
             "foundryUrl": "/packages/sfrpg/",
             "lastUpdate": "6 days, 17 hours ago"
-        },
-        {
-            "name": "swade",
-            "title": "Savage Worlds Adventure Edition",
-            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
-            "version": "0.10.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "FloRad",
-            "templateVersion": 2,
-            "esmodules": [
-                "swade.js"
-            ],
-            "styles": [
-                "swade.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "swade",
-                    "path": "./packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "edges",
-                    "label": "Edges",
-                    "system": "swade",
-                    "path": "./packs/edges.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hindrances",
-                    "label": "Hindrances",
-                    "system": "swade",
-                    "path": "./packs/hindrances.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "action-cards",
-                    "label": "Action Cards",
-                    "system": "swade",
-                    "path": "./packs/action-cards.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "pl",
-                    "name": "Polski",
-                    "path": "lang/pl.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "url": "https://gitlab.com/florad-foundry/swade",
-            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
-            "foundryUrl": "/packages/swade/",
-            "lastUpdate": "1 week ago"
         },
         {
             "name": "fate",
