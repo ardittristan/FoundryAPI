@@ -1,36 +1,40 @@
 {
-    "updated": "Sun, 26 Jul 2020 23:24:48 GMT",
+    "updated": "Sun, 26 Jul 2020 23:39:48 GMT",
     "modules": [
         {
-            "name": "turnAlert",
-            "title": "Turn Alert",
-            "description": "Set alerts to trigger on a particular round of combat or on a particular token's turn.",
-            "version": "1.0.1",
-            "author": "Cole Schultz (cole#9640)",
-            "languages": [
+            "name": "pick-up-stix",
+            "title": "Pick-Up-Stix",
+            "description": "Allows Items to be placed on the map as Tokens that players are able to pick up.",
+            "version": "0.2.0",
+            "author": "Kyle McKnight",
+            "socket": true,
+            "authors": [
                 {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
+                    "name": "Kyle McKnight",
+                    "email": "kamcknig@gmail.com",
+                    "url": "https://turkeysunite.com"
                 }
             ],
+            "scripts": [],
             "esmodules": [
-                "turn-alert.js"
+                "pick-up-stix.js"
             ],
             "styles": [
-                "styles/turn-alert-style.css"
+                "pick-up-stix.css"
             ],
-            "socket": true,
-            "minimumCoreVersion": "0.6.4",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/schultzcole/FVTT-Turn-Alert",
-            "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Turn-Alert/master/module.json",
-            "download": "https://github.com/schultzcole/FVTT-Turn-Alert/archive/1.0.1.zip",
-            "license": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/LICENSE",
-            "readme": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/README.md",
-            "changelog": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/CHANGELOG.md",
-            "foundryUrl": "/packages/turnAlert/",
-            "lastUpdate": "2 hours, 53 minutes ago"
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "git@github.com:kamcknig/pick-up-stix.git",
+            "manifest": "https://raw.githubusercontent.com/kamcknig/pick-up-stix/master/src/module.json",
+            "download": "https://turkeysunite-foundry-modules.s3.amazonaws.com/pick-up-stix/releases/pick-up-stix-v0.2.0.zip",
+            "license": "",
+            "readme": "",
+            "bugs": "https://github.com/kamcknig/pick-up-stix/issues",
+            "changelog": "https://github.com/kamcknig/pick-up-stix/releases",
+            "foundryUrl": "/packages/pick-up-stix/",
+            "lastUpdate": "5 minutes ago"
         },
         {
             "name": "one-journal",
@@ -63,42 +67,38 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/one-journal/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/one-journal/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/one-journal/",
-            "lastUpdate": "33 minutes ago"
+            "lastUpdate": "48 minutes ago"
         },
         {
-            "name": "pick-up-stix",
-            "title": "Pick-Up-Stix",
-            "description": "Allows Items to be placed on the map as Tokens that players are able to pick up.",
-            "version": "0.2.0",
-            "author": "Kyle McKnight",
-            "socket": true,
-            "authors": [
+            "name": "turnAlert",
+            "title": "Turn Alert",
+            "description": "Set alerts to trigger on a particular round of combat or on a particular token's turn.",
+            "version": "1.0.1",
+            "author": "Cole Schultz (cole#9640)",
+            "languages": [
                 {
-                    "name": "Kyle McKnight",
-                    "email": "kamcknig@gmail.com",
-                    "url": "https://turkeysunite.com"
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
                 }
             ],
-            "scripts": [],
             "esmodules": [
-                "pick-up-stix.js"
+                "turn-alert.js"
             ],
             "styles": [
-                "pick-up-stix.css"
+                "styles/turn-alert-style.css"
             ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://turkeysunite.com",
-            "manifest": "https://raw.githubusercontent.com/kamcknig/pick-up-stix/master/src/module.json",
-            "download": "https://turkeysunite-foundry-modules.s3.amazonaws.com/pick-up-stix/releases/pick-up-stix-v0.1.0.zip",
-            "license": "",
-            "readme": "",
-            "bugs": "https://github.com/kamcknig/pick-up-stix/issues",
-            "changelog": "https://github.com/kamcknig/pick-up-stix/releases",
-            "foundryUrl": "/packages/pick-up-stix/",
-            "lastUpdate": "3 hours, 24 minutes ago"
+            "socket": true,
+            "minimumCoreVersion": "0.6.4",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/schultzcole/FVTT-Turn-Alert",
+            "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Turn-Alert/master/module.json",
+            "download": "https://github.com/schultzcole/FVTT-Turn-Alert/archive/1.0.1.zip",
+            "license": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/LICENSE",
+            "readme": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/README.md",
+            "changelog": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.0.1/CHANGELOG.md",
+            "foundryUrl": "/packages/turnAlert/",
+            "lastUpdate": "3 hours, 8 minutes ago"
         },
         {
             "name": "tidy5e-sheet",
@@ -169,7 +169,7 @@
             "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json",
             "download": "https://github.com/sdenec/tidy5e-sheet/raw/master/tidy5e-sheet.zip",
             "foundryUrl": "/packages/tidy5e-sheet/",
-            "lastUpdate": "3 hours, 46 minutes ago"
+            "lastUpdate": "4 hours, 1 minute ago"
         },
         {
             "name": "token-tooltip",
@@ -193,7 +193,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/token-tooltip/token-tooltip/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/token-tooltip/token-tooltip.zip",
             "foundryUrl": "/packages/token-tooltip/",
-            "lastUpdate": "8 hours, 38 minutes ago"
+            "lastUpdate": "8 hours, 53 minutes ago"
         },
         {
             "name": "poi-sheet",
@@ -213,7 +213,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/poi-sheet/poi-sheet/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/poi-sheet/poi-sheet.zip",
             "foundryUrl": "/packages/poi-sheet/",
-            "lastUpdate": "8 hours, 39 minutes ago"
+            "lastUpdate": "8 hours, 54 minutes ago"
         },
         {
             "name": "luminous",
@@ -231,7 +231,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/luminous/luminous/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/luminous/luminous.zip",
             "foundryUrl": "/packages/luminous/",
-            "lastUpdate": "8 hours, 39 minutes ago"
+            "lastUpdate": "8 hours, 54 minutes ago"
         },
         {
             "name": "deselection",
@@ -248,7 +248,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/deselection/deselection.zip",
             "foundryUrl": "/packages/deselection/",
-            "lastUpdate": "8 hours, 40 minutes ago"
+            "lastUpdate": "8 hours, 55 minutes ago"
         },
         {
             "name": "expander",
@@ -265,7 +265,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/expander/expander/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/expander/expander.zip",
             "foundryUrl": "/packages/expander/",
-            "lastUpdate": "8 hours, 49 minutes ago"
+            "lastUpdate": "9 hours, 4 minutes ago"
         },
         {
             "name": "wall-height",
@@ -285,7 +285,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Wall-Height/blob/1.0.5/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Wall-Height/blob/1.0.5/CHANGELOG.md",
             "foundryUrl": "/packages/wall-height/",
-            "lastUpdate": "8 hours, 52 minutes ago"
+            "lastUpdate": "9 hours, 7 minutes ago"
         },
         {
             "name": "alt5e",
@@ -310,7 +310,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/alt5e/alt5e/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/alt5e/alt5e.zip",
             "foundryUrl": "/packages/alt5e/",
-            "lastUpdate": "8 hours, 53 minutes ago"
+            "lastUpdate": "9 hours, 8 minutes ago"
         },
         {
             "name": "betternpcsheet5e",
@@ -358,7 +358,7 @@
             "minimumCoreVersion": "0.6.3",
             "compatibleCoreVersion": "0.6.4",
             "foundryUrl": "/packages/betternpcsheet5e/",
-            "lastUpdate": "13 hours, 43 minutes ago"
+            "lastUpdate": "13 hours, 58 minutes ago"
         },
         {
             "name": "sadness-chan",
@@ -382,7 +382,7 @@
             "download": "https://github.com/bmarian/sadness-chan/raw/f-0.7.x/package/sadness-chan-v1.1.0.zip",
             "changelog": "https://github.com/bmarian/sadness-chan/releases",
             "foundryUrl": "/packages/sadness-chan/",
-            "lastUpdate": "14 hours, 2 minutes ago"
+            "lastUpdate": "14 hours, 17 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -402,7 +402,7 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/0.1.1/module.json",
             "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/0.1.1.zip",
             "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "21 hours, 1 minute ago"
+            "lastUpdate": "21 hours, 16 minutes ago"
         },
         {
             "name": "inventory-plus",
@@ -426,7 +426,7 @@
             "minimumCoreVersion": "0.6.5",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/inventory-plus/",
-            "lastUpdate": "21 hours, 24 minutes ago"
+            "lastUpdate": "21 hours, 39 minutes ago"
         },
         {
             "name": "fpsmeter",
@@ -527,7 +527,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-DancingLights/releases/download/latest/dancinglights-release.zip",
             "foundryUrl": "/packages/DancingLights/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
         },
         {
             "name": "itemcollection",
@@ -771,7 +771,7 @@
             "download": "https://github.com/Norc/foundry-custom-hotbar/archive/v2.0.4.zip",
             "url": "https://github.com/Norc/foundry-custom-hotbar",
             "foundryUrl": "/packages/custom-hotbar/",
-            "lastUpdate": "2 days, 9 hours ago"
+            "lastUpdate": "2 days, 10 hours ago"
         },
         {
             "name": "SupersHomebrewPack",
@@ -1029,7 +1029,7 @@
             "version": "0.5.12",
             "download": "https://github.com/espositos/fvtt-tokenactionhud/releases/download/0.5.12/release_0.5.12.zip",
             "foundryUrl": "/packages/token-action-hud/",
-            "lastUpdate": "3 days, 11 hours ago"
+            "lastUpdate": "3 days, 12 hours ago"
         },
         {
             "name": "monsterblock",
@@ -1140,7 +1140,7 @@
                 "main.js"
             ],
             "foundryUrl": "/packages/hidden-initiative/",
-            "lastUpdate": "4 days, 4 hours ago"
+            "lastUpdate": "4 days, 5 hours ago"
         },
         {
             "name": "no-summon-vision",
@@ -1193,7 +1193,7 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/ernies-modern-layout/",
-            "lastUpdate": "4 days, 20 hours ago"
+            "lastUpdate": "4 days, 21 hours ago"
         },
         {
             "name": "CautiousGamemastersPack",
@@ -1241,7 +1241,7 @@
             "manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-CGMP/master/module/module.json",
             "download": "https://github.com/ShoyuVanilla/FoundryVTT-CGMP/releases/download/v0.1.6/release.zip",
             "foundryUrl": "/packages/CautiousGamemastersPack/",
-            "lastUpdate": "4 days, 23 hours ago"
+            "lastUpdate": "5 days ago"
         },
         {
             "name": "colorsettings",
@@ -1328,7 +1328,7 @@
             "manifest": "https://raw.githubusercontent.com/Brownie79/swade-macros-simple/master/module.json",
             "download": "https://github.com/Brownie79/swade-macros-simple/archive/v1.5.5.zip",
             "foundryUrl": "/packages/swade-macros-simple/",
-            "lastUpdate": "5 days, 5 hours ago"
+            "lastUpdate": "5 days, 6 hours ago"
         },
         {
             "name": "resourcesplus",
@@ -1580,7 +1580,7 @@
             "manifest": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/module.json",
             "download": "https://github.com/sdenec/tidy-ui_game-settings/raw/master/tidy-ui_game-settings.zip",
             "foundryUrl": "/packages/tidy-ui_game-settings/",
-            "lastUpdate": "6 days, 3 hours ago"
+            "lastUpdate": "6 days, 4 hours ago"
         },
         {
             "name": "1000-fish",
@@ -1736,7 +1736,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-easy-polls/",
-            "lastUpdate": "6 days, 11 hours ago"
+            "lastUpdate": "6 days, 12 hours ago"
         },
         {
             "name": "better-rolltables",
@@ -2905,7 +2905,7 @@
             "download": "https://github.com/sytone/foundry-vtt-journal-sync/releases/download/latest/journal-sync.zip",
             "socket": true,
             "foundryUrl": "/packages/foundry-vtt-journal-sync/",
-            "lastUpdate": "2 weeks, 1 day ago"
+            "lastUpdate": "2 weeks, 2 days ago"
         },
         {
             "name": "dnd-ui",
