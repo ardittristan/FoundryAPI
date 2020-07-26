@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 26 Jul 2020 14:39:44 GMT",
+    "updated": "Sun, 26 Jul 2020 14:54:44 GMT",
     "modules": [
         {
             "name": "ModularFate",
@@ -34,7 +34,7 @@
             "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "51 minutes ago"
+            "lastUpdate": "1 hour, 6 minutes ago"
         },
         {
             "name": "sandbox",
@@ -61,7 +61,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "7 hours, 26 minutes ago"
+            "lastUpdate": "7 hours, 41 minutes ago"
         },
         {
             "name": "wfrp4e",
@@ -137,7 +137,7 @@
             "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
             "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
             "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "18 hours, 35 minutes ago"
+            "lastUpdate": "18 hours, 50 minutes ago"
         },
         {
             "name": "vaesen",
@@ -272,7 +272,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 14 hours ago"
+            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "swade",
@@ -348,7 +348,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "2 days, 1 hour ago"
+            "lastUpdate": "2 days, 2 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1274,6 +1274,57 @@
             "lastUpdate": "5 days, 21 hours ago"
         },
         {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.07,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "6 days, 22 hours ago"
+        },
+        {
             "name": "sfrpg",
             "title": "Starfinder",
             "description": "A game system for running Starfinder in the Foundry VTT environment.",
@@ -1394,57 +1445,6 @@
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.3/sfrpg-v0.3.3.zip",
             "foundryUrl": "/packages/sfrpg/",
             "lastUpdate": "1 week, 1 day ago"
-        },
-        {
-            "name": "dcc",
-            "title": "Dungeon Crawl Classics",
-            "description": "Dungeon Crawl Classics from Goodman Games",
-            "version": 0.07,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "Tim L. White",
-            "esmodules": [
-                "module/dcc.js"
-            ],
-            "styles": [
-                "styles/dcc.css"
-            ],
-            "packs": [
-                {
-                    "name": "criticalhits",
-                    "label": "Critical Hits",
-                    "system": "dcc",
-                    "path": "./packs/criticalhits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "fumbles",
-                    "label": "Fumbles",
-                    "system": "dcc",
-                    "path": "./packs/fumbles.db",
-                    "entity": "RollTable"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "luck",
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.value",
-            "url": "https://github.com/cyface/foundryvtt-dcc",
-            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
-            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "6 days, 21 hours ago"
         },
         {
             "name": "fate",
@@ -1815,7 +1815,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "3 weeks, 2 days ago"
+            "lastUpdate": "3 weeks, 3 days ago"
         },
         {
             "name": "kamigakari",
