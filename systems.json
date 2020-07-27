@@ -1,6 +1,98 @@
 {
-    "updated": "Mon, 27 Jul 2020 15:51:07 GMT",
+    "updated": "Mon, 27 Jul 2020 16:06:07 GMT",
     "modules": [
+        {
+            "name": "ratasenlasparedes",
+            "title": "Ratas en las paredes",
+            "description": "Ratas en las paredes para FoundryVTT!",
+            "version": "0.5.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "jvir",
+            "esmodules": [
+                "module/ratasenlasparedes.js"
+            ],
+            "styles": [
+                "css/ratasenlasparedes.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armas",
+                    "label": "Armas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/armas.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ayudas",
+                    "label": "Ayudas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/ayudas.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "equipo",
+                    "label": "Equipo",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/equipo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "profesiones",
+                    "label": "Profesiones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/profesiones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "reputaciones",
+                    "label": "Reputaciones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/reputaciones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hechizos",
+                    "label": "Hechizos",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/hechizos.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tablas",
+                    "label": "Tablas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/tablas.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "antagonistas",
+                    "label": "Antagonistas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/antagonistas.db",
+                    "entity": "Actor"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 2,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "pv",
+            "secondaryTokenAttribute": "pc",
+            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
+            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/ratasenlasparedes/",
+            "lastUpdate": "13 minutes ago"
+        },
         {
             "name": "demonlord",
             "title": "Shadow of the Demon Lord",
@@ -68,7 +160,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "40 minutes ago"
+            "lastUpdate": "55 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -168,7 +260,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "2 hours, 44 minutes ago"
+            "lastUpdate": "2 hours, 59 minutes ago"
         },
         {
             "name": "knave",
@@ -287,7 +379,7 @@
             "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
-            "lastUpdate": "4 hours, 2 minutes ago"
+            "lastUpdate": "4 hours, 17 minutes ago"
         },
         {
             "name": "sandbox",
@@ -314,7 +406,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "8 hours, 39 minutes ago"
+            "lastUpdate": "8 hours, 54 minutes ago"
         },
         {
             "name": "burningwheel",
@@ -341,7 +433,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.1.3/release0.1.3.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "10 hours, 31 minutes ago"
+            "lastUpdate": "10 hours, 46 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -377,6 +469,72 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "foundryUrl": "/packages/ModularFate/",
             "lastUpdate": "1 day, 2 hours ago"
+        },
+        {
+            "name": "vaesen",
+            "title": "Vaesen",
+            "description": "Nordic horror role-playing",
+            "version": 1.2,
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/player.css",
+                "style/tab/player-main.css",
+                "style/tab/player-combat.css",
+                "style/tab/player-talent.css",
+                "style/tab/player-gear.css",
+                "style/tab/player-note.css",
+                "style/npc.css",
+                "style/tab/npc-main.css",
+                "style/tab/npc-combat.css",
+                "style/tab/npc-talent.css",
+                "style/tab/npc-gear.css",
+                "style/tab/npc-note.css",
+                "style/critical-injury.css",
+                "style/vaesen.css",
+                "style/tab/vaesen-main.css",
+                "style/tab/vaesen-combat.css",
+                "style/tab/vaesen-gear.css",
+                "style/tab/vaesen-note.css",
+                "style/headquarter.css",
+                "style/tab/headquarter-history.css",
+                "style/tab/headquarter-upgrade.css",
+                "style/weapon.css",
+                "style/armor.css",
+                "style/talent.css",
+                "style/gear.css",
+                "style/magic.css",
+                "style/condition.css",
+                "style/attack.css",
+                "style/upgrade.css",
+                "style/dialog/roll.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/vaesen-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/vaesen-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.2.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/vaesen/",
+            "lastUpdate": "2 days, 7 hours ago"
         },
         {
             "name": "wfrp4e",
@@ -452,73 +610,7 @@
             "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
             "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
             "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "1 day, 19 hours ago"
-        },
-        {
-            "name": "vaesen",
-            "title": "Vaesen",
-            "description": "Nordic horror role-playing",
-            "version": 1.2,
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/player.css",
-                "style/tab/player-main.css",
-                "style/tab/player-combat.css",
-                "style/tab/player-talent.css",
-                "style/tab/player-gear.css",
-                "style/tab/player-note.css",
-                "style/npc.css",
-                "style/tab/npc-main.css",
-                "style/tab/npc-combat.css",
-                "style/tab/npc-talent.css",
-                "style/tab/npc-gear.css",
-                "style/tab/npc-note.css",
-                "style/critical-injury.css",
-                "style/vaesen.css",
-                "style/tab/vaesen-main.css",
-                "style/tab/vaesen-combat.css",
-                "style/tab/vaesen-gear.css",
-                "style/tab/vaesen-note.css",
-                "style/headquarter.css",
-                "style/tab/headquarter-history.css",
-                "style/tab/headquarter-upgrade.css",
-                "style/weapon.css",
-                "style/armor.css",
-                "style/talent.css",
-                "style/gear.css",
-                "style/magic.css",
-                "style/condition.css",
-                "style/attack.css",
-                "style/upgrade.css",
-                "style/dialog/roll.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/vaesen-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/vaesen-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.2.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "2 days, 7 hours ago"
+            "lastUpdate": "1 day, 20 hours ago"
         },
         {
             "name": "swade",
@@ -594,7 +686,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "3 days, 2 hours ago"
+            "lastUpdate": "3 days, 3 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1306,98 +1398,6 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "6 days, 11 hours ago"
-        },
-        {
-            "name": "ratasenlasparedes",
-            "title": "Ratas en las paredes",
-            "description": "Ratas en las paredes para FoundryVTT!",
-            "version": "0.5.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "jvir",
-            "esmodules": [
-                "module/ratasenlasparedes.js"
-            ],
-            "styles": [
-                "css/ratasenlasparedes.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armas",
-                    "label": "Armas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/armas.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ayudas",
-                    "label": "Ayudas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/ayudas.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "equipo",
-                    "label": "Equipo",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/equipo.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "profesiones",
-                    "label": "Profesiones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/profesiones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "reputaciones",
-                    "label": "Reputaciones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/reputaciones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hechizos",
-                    "label": "Hechizos",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/hechizos.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tablas",
-                    "label": "Tablas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/tablas.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "antagonistas",
-                    "label": "Antagonistas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/antagonistas.db",
-                    "entity": "Actor"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 2,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "pv",
-            "secondaryTokenAttribute": "pc",
-            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
-            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
-            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "6 days, 22 hours ago"
         },
         {
             "name": "dcc",
@@ -2560,7 +2560,7 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
-            "lastUpdate": "1 month, 2 weeks ago"
+            "lastUpdate": "1��month, 2 weeks ago"
         },
         {
             "name": "worldbuilding",
