@@ -2,14 +2,14 @@ require('dotenv').config();
 const https = require('follow-redirects').https;
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
-const path = require('path');
+const { join } = require('path');
 const log = require('log-to-file');
 const JSONdb = require('simple-json-db');
 const simpleGit = require('simple-git');
 
-const moduleJSONdb = new JSONdb('./foundryApi/modules.json');
-const systemJSONdb = new JSONdb('./foundryApi/systems.json');
-const fetchDurationJSONdb = new JSONdb('./foundryApi/fetchDuration.json');
+const moduleJSONdb = new JSONdb(join(__dirname, './foundryApi/modules.json'));
+const systemJSONdb = new JSONdb(join(__dirname, './foundryApi/systems.json'));
+const fetchDurationJSONdb = new JSONdb(join(__dirname, './foundryApi/fetchDuration.json'));
 
 // env vars
 const githubToken = process.env.GITHUB_TOKEN;
@@ -23,7 +23,7 @@ const branch = "api";
 
 /** @type {import('simple-git').SimpleGitOptions} */
 const gitOptions = {
-    baseDir: path.join(__dirname, "foundryApi")
+    baseDir: join(__dirname, "foundryApi")
 };
 
 /** @type {import('simple-git').SimpleGit} */
@@ -137,7 +137,7 @@ async function getData() {
 
     await setupFetchDuration(fetchStart);
 
-    git.add(path.join(__dirname, "foundryApi"))
+    git.add(join(__dirname, "foundryApi"))
         .addConfig('user.name', botUser)
         .addConfig('user.email', botUserEmail)
         .commit("automated update")
