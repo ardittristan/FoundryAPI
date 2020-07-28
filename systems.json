@@ -1,6 +1,128 @@
 {
-    "updated": "Tue, 28 Jul 2020 18:21:19 GMT",
+    "updated": "Tue, 28 Jul 2020 18:36:18 GMT",
     "modules": [
+        {
+            "name": "sfrpg",
+            "title": "Starfinder",
+            "description": "A game system for running Starfinder in the Foundry VTT environment.",
+            "version": "0.3.4",
+            "author": "wildj79",
+            "templateVersion": 2,
+            "schema": 0.003,
+            "scripts": [
+                "lib/popperjs/core/popper.min.js",
+                "lib/tippy/tippy.min.js"
+            ],
+            "esmodules": [
+                "sfrpg.js"
+            ],
+            "styles": [
+                "styles/tippy.css",
+                "sfrpg.css"
+            ],
+            "packs": [
+                {
+                    "name": "equipment",
+                    "label": "Equipment",
+                    "system": "sfrpg",
+                    "path": "./packs/equipment.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "sfrpg",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "sfrpg",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "sfrpg",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "label": "Classes",
+                    "entity": "Item",
+                    "name": "classes",
+                    "path": "./packs/classes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Themes",
+                    "entity": "Item",
+                    "name": "themes",
+                    "path": "./packs/themes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Starship Weapons",
+                    "entity": "Item",
+                    "name": "starship-weapons",
+                    "path": "./packs/starship-weapons.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "SFRPG Rules",
+                    "entity": "JournalEntry",
+                    "name": "rules",
+                    "path": "./packs/rules.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Tables",
+                    "entity": "RollTable",
+                    "name": "tables",
+                    "path": "./packs/tables.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Conditions",
+                    "entity": "JournalEntry",
+                    "name": "conditions",
+                    "path": "./packs/conditions.db",
+                    "system": "sfrpg"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": "attributes.sp",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/wildj79/foundryvtt-starfinder",
+            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
+            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.4/sfrpg-v0.3.4.zip",
+            "foundryUrl": "/packages/sfrpg/",
+            "lastUpdate": "7 minutes ago"
+        },
         {
             "version": 0.31,
             "name": "cyberpunkred",
@@ -33,7 +155,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "3 hours, 30 minutes ago"
+            "lastUpdate": "3 hours, 45 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -89,7 +211,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "9 hours, 6 minutes ago"
+            "lastUpdate": "9 hours, 21 minutes ago"
         },
         {
             "name": "sandbox",
@@ -116,7 +238,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "11 hours, 50 minutes ago"
+            "lastUpdate": "12 hours, 5 minutes ago"
         },
         {
             "name": "lancer",
@@ -247,7 +369,7 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
-            "lastUpdate": "14 hours, 34 minutes ago"
+            "lastUpdate": "14 hours, 49 minutes ago"
         },
         {
             "name": "pf1",
@@ -446,7 +568,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.701/foundryvtt-pathfinder1-v0.701.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "17 hours, 57 minutes ago"
+            "lastUpdate": "18 hours, 12 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -1030,7 +1152,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.2.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "3 days, 9 hours ago"
+            "lastUpdate": "3 days, 10 hours ago"
         },
         {
             "name": "swade",
@@ -1485,7 +1607,7 @@
             "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/raw/master/system.json",
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
-            "lastUpdate": "6 days, 4 hours ago"
+            "lastUpdate": "6 days, 5 hours ago"
         },
         {
             "name": "ose",
@@ -1672,128 +1794,6 @@
             "lastUpdate": "1 week, 2 days ago"
         },
         {
-            "name": "sfrpg",
-            "title": "Starfinder",
-            "description": "A game system for running Starfinder in the Foundry VTT environment.",
-            "version": "0.3.4",
-            "author": "wildj79",
-            "templateVersion": 2,
-            "schema": 0.003,
-            "scripts": [
-                "lib/popperjs/core/popper.min.js",
-                "lib/tippy/tippy.min.js"
-            ],
-            "esmodules": [
-                "sfrpg.js"
-            ],
-            "styles": [
-                "styles/tippy.css",
-                "sfrpg.css"
-            ],
-            "packs": [
-                {
-                    "name": "equipment",
-                    "label": "Equipment",
-                    "system": "sfrpg",
-                    "path": "./packs/equipment.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "feats",
-                    "label": "Feats",
-                    "system": "sfrpg",
-                    "path": "./packs/feats.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "sfrpg",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "races",
-                    "label": "Races",
-                    "system": "sfrpg",
-                    "path": "./packs/races.db",
-                    "entity": "Item"
-                },
-                {
-                    "label": "Classes",
-                    "entity": "Item",
-                    "name": "classes",
-                    "path": "./packs/classes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Themes",
-                    "entity": "Item",
-                    "name": "themes",
-                    "path": "./packs/themes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Starship Weapons",
-                    "entity": "Item",
-                    "name": "starship-weapons",
-                    "path": "./packs/starship-weapons.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "SFRPG Rules",
-                    "entity": "JournalEntry",
-                    "name": "rules",
-                    "path": "./packs/rules.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Tables",
-                    "entity": "RollTable",
-                    "name": "tables",
-                    "path": "./packs/tables.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Conditions",
-                    "entity": "JournalEntry",
-                    "name": "conditions",
-                    "path": "./packs/conditions.db",
-                    "system": "sfrpg"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": "attributes.sp",
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/wildj79/foundryvtt-starfinder",
-            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
-            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.4/sfrpg-v0.3.4.zip",
-            "foundryUrl": "/packages/sfrpg/",
-            "lastUpdate": "1 week, 3 days ago"
-        },
-        {
             "name": "fate",
             "title": "FATE",
             "description": "An implementation of FATE Core and Accelerated for Foundry",
@@ -1823,6 +1823,47 @@
             "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
             "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "shadowrun5e",
+            "title": "Shadowrun 5th Edition",
+            "description": "Shadowrun 5th Edition game",
+            "version": "0.6.8",
+            "templateVersion": "1.4",
+            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+            "esmodules": [
+                "dist/bundle.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "dist/bundle.css"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.1",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "dist/locale/en/config.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "dist/locale/de/config.json"
+                }
+            ],
+            "packs": [],
+            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+            "primaryTokenAttribute": "track.physical",
+            "secondaryTokenAttribute": "track.stun",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
+            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
+            "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "2 weeks ago"
         },
         {
             "name": "icrpg",
@@ -1873,91 +1914,6 @@
             "license": "LICENSE",
             "foundryUrl": "/packages/icrpg/",
             "lastUpdate": "2 weeks, 1 day ago"
-        },
-        {
-            "name": "shadowrun5e",
-            "title": "Shadowrun 5th Edition",
-            "description": "Shadowrun 5th Edition game",
-            "version": "0.6.8",
-            "templateVersion": "1.4",
-            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
-            "esmodules": [
-                "dist/bundle.js",
-                "pdfoundry-dist/bundle.js"
-            ],
-            "styles": [
-                "dist/bundle.css"
-            ],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.1",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "dist/locale/en/config.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "dist/locale/de/config.json"
-                }
-            ],
-            "packs": [],
-            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
-            "primaryTokenAttribute": "track.physical",
-            "secondaryTokenAttribute": "track.stun",
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
-            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
-            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
-            "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "2 weeks ago"
-        },
-        {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "callofcthulhu",
@@ -2091,6 +2047,50 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/symbaroum/",
             "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "numenera",
@@ -2471,7 +2471,7 @@
             "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
             "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
             "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "4 weeks ago"
+            "lastUpdate": "4 weeks, 1 day ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
