@@ -1,6 +1,137 @@
 {
-    "updated": "Tue, 28 Jul 2020 03:36:12 GMT",
+    "updated": "Tue, 28 Jul 2020 03:51:12 GMT",
     "modules": [
+        {
+            "name": "lancer",
+            "title": "LANCER",
+            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "Eranziel",
+            "scripts": [],
+            "esmodules": [
+                "lancer.js"
+            ],
+            "styles": [
+                "lancer.css",
+                "fonts/compcon/glyphs.css",
+                "fonts/mdi/css/materialdesignicons.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "talents",
+                    "label": "Talents",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/talents.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "core_bonuses",
+                    "label": "Core Bonuses",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/core_bonuses.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_armor",
+                    "label": "Pilot Armor",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_weapons",
+                    "label": "Pilot Weapons",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_gear",
+                    "label": "Pilot Gear",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_gear.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "frames",
+                    "label": "Frames",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/frames.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "systems",
+                    "label": "Systems",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/systems.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_classes",
+                    "label": "NPC Classes",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_templates",
+                    "label": "NPC Templates",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_features",
+                    "label": "NPC Features",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_features.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [],
+            "socket": true,
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "mech.hp",
+            "secondaryTokenAttribute": "mech.heat",
+            "url": "https://github.com/Eranziel/foundryvtt-lancer",
+            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
+            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.1/package/lancer-v0.1.1.zip",
+            "license": "GNU GPLv3",
+            "readme": "",
+            "bugs": "",
+            "changelog": "",
+            "foundryUrl": "/packages/lancer/",
+            "lastUpdate": "4 minutes ago"
+        },
         {
             "name": "pf1",
             "title": "Pathfinder 1",
@@ -198,7 +329,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.701/foundryvtt-pathfinder1-v0.701.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "3 hours, 12 minutes ago"
+            "lastUpdate": "3 hours, 27 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -290,7 +421,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "11 hours, 43 minutes ago"
+            "lastUpdate": "11 hours, 58 minutes ago"
         },
         {
             "name": "demonlord",
@@ -359,7 +490,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "12 hours, 25 minutes ago"
+            "lastUpdate": "12 hours, 40 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -459,7 +590,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "14 hours, 29 minutes ago"
+            "lastUpdate": "14 hours, 44 minutes ago"
         },
         {
             "name": "knave",
@@ -578,7 +709,7 @@
             "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
-            "lastUpdate": "15 hours, 48 minutes ago"
+            "lastUpdate": "16 hours, 3 minutes ago"
         },
         {
             "name": "sandbox",
@@ -605,7 +736,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "20 hours, 24 minutes ago"
+            "lastUpdate": "20 hours, 39 minutes ago"
         },
         {
             "name": "burningwheel",
@@ -632,7 +763,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.1.3/release0.1.3.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "22 hours, 16 minutes ago"
+            "lastUpdate": "22 hours, 31 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -667,7 +798,7 @@
             "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
         },
         {
             "name": "wfrp4e",
