@@ -6,10 +6,11 @@ const { join } = require('path');
 const log = require('log-to-file');
 const JSONdb = require('simple-json-db');
 const simpleGit = require('simple-git');
+const { exec } = require('child_process');
 
-const moduleJSONdb = new JSONdb(join(__dirname, './foundryApi/modules.json'));
-const systemJSONdb = new JSONdb(join(__dirname, './foundryApi/systems.json'));
-const fetchDurationJSONdb = new JSONdb(join(__dirname, './foundryApi/fetchDuration.json'));
+const moduleJSONdb = new JSONdb(join(__dirname, 'foundryApi/modules.json'));
+const systemJSONdb = new JSONdb(join(__dirname, 'foundryApi/systems.json'));
+const fetchDurationJSONdb = new JSONdb(join(__dirname, 'foundryApi/fetchDuration.json'));
 
 // env vars
 const githubToken = process.env.GITHUB_TOKEN;
@@ -142,7 +143,10 @@ async function getData() {
         .addConfig('user.email', botUserEmail)
         .commit("automated update")
         .push(remote, branch)
-        .pull();
+        .pull()
+        .then(() => {
+            exec("git reflog expire && git repack -ad && git prune", { cwd: join(__dirname, "foundryApi") });
+        });
 
     log("fetched", "default.log");
 
