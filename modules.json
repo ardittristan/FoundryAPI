@@ -1,6 +1,33 @@
 {
-    "updated": "Wed, 29 Jul 2020 03:21:22 GMT",
+    "updated": "Wed, 29 Jul 2020 03:36:21 GMT",
     "modules": [
+        {
+            "name": "token-animation-tools",
+            "title": "Token Animation Tools",
+            "description": "Provides macros and configuration options to control Token animations.",
+            "version": "1.1.0",
+            "author": "Rui Pinheiro",
+            "scripts": [
+                "wrapper.js",
+                "main.js"
+            ],
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/ruipin/fvtt-token-animation-tools",
+            "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-token-animation-tools/master/module.json",
+            "download": "https://github.com/ruipin/fvtt-token-animation-tools/archive/master.zip",
+            "packs": [
+                {
+                    "name": "token-animation-macros",
+                    "label": "Token Animation Macros",
+                    "path": "./token-animation-macros.db",
+                    "entity": "Macro",
+                    "module": "token-animation-tools"
+                }
+            ],
+            "foundryUrl": "/packages/token-animation-tools/",
+            "lastUpdate": "10 minutes ago"
+        },
         {
             "name": "token-vision-tweaks",
             "title": "Token Vision Tweaks",
@@ -17,7 +44,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-token-vision-tweaks/master/module.json",
             "download": "https://github.com/ruipin/fvtt-token-vision-tweaks/archive/master.zip",
             "foundryUrl": "/packages/token-vision-tweaks/",
-            "lastUpdate": "6 minutes ago"
+            "lastUpdate": "21 minutes ago"
         },
         {
             "name": "wall-height",
@@ -37,7 +64,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Wall-Height/blob/2.0.1/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Wall-Height/blob/2.0.1/CHANGELOG.md",
             "foundryUrl": "/packages/wall-height/",
-            "lastUpdate": "1 hour, 16 minutes ago"
+            "lastUpdate": "1 hour, 31 minutes ago"
         },
         {
             "name": "pick-up-stix",
@@ -72,7 +99,7 @@
             "bugs": "https://github.com/kamcknig/pick-up-stix/issues",
             "changelog": "https://github.com/kamcknig/pick-up-stix/releases",
             "foundryUrl": "/packages/pick-up-stix/",
-            "lastUpdate": "1 hour, 38 minutes ago"
+            "lastUpdate": "1 hour, 53 minutes ago"
         },
         {
             "name": "quick-insert",
@@ -101,7 +128,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/quick-insert/",
-            "lastUpdate": "4 hours, 2 minutes ago"
+            "lastUpdate": "4 hours, 17 minutes ago"
         },
         {
             "name": "dragupload",
@@ -121,7 +148,7 @@
             "manifest": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/latest/module.json",
             "download": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/1.1.0/module.zip",
             "foundryUrl": "/packages/dragupload/",
-            "lastUpdate": "5 hours, 52 minutes ago"
+            "lastUpdate": "6 hours, 7 minutes ago"
         },
         {
             "name": "condition-automation",
@@ -149,7 +176,7 @@
             "manifest": "https://raw.githubusercontent.com/kandashi/condition-automation/master/module.json",
             "download": "https://github.com/kandashi/condition-automation/archive/master.zip",
             "foundryUrl": "/packages/condition-automation/",
-            "lastUpdate": "5 hours, 54 minutes ago"
+            "lastUpdate": "6 hours, 9 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -169,7 +196,7 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/0.1.2/module.json",
             "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/0.1.2.zip",
             "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "6 hours, 46 minutes ago"
+            "lastUpdate": "7 hours, 1 minute ago"
         },
         {
             "name": "one-journal",
@@ -202,7 +229,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/one-journal/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/one-journal/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/one-journal/",
-            "lastUpdate": "8 hours, 50 minutes ago"
+            "lastUpdate": "9 hours, 5 minutes ago"
         },
         {
             "name": "token-attacher",
@@ -229,7 +256,7 @@
             "download": "https://github.com/KayelGee/token-attacher/releases/download/v1.0.1/v1.0.1.zip",
             "readme": "https://github.com/KayelGee/token-attacher/blob/v1.0.1/README.md",
             "foundryUrl": "/packages/token-attacher/",
-            "lastUpdate": "9 hours, 43 minutes ago"
+            "lastUpdate": "9 hours, 58 minutes ago"
         },
         {
             "name": "DancingLights",
@@ -249,7 +276,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-DancingLights/releases/download/latest/dancinglights-release.zip",
             "foundryUrl": "/packages/DancingLights/",
-            "lastUpdate": "10 hours, 58 minutes ago"
+            "lastUpdate": "11 hours, 13 minutes ago"
         },
         {
             "name": "navbar-tweaks",
@@ -266,34 +293,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-navbar-tweaks/master/module.json",
             "download": "https://github.com/ruipin/fvtt-navbar-tweaks/archive/master.zip",
             "foundryUrl": "/packages/navbar-tweaks/",
-            "lastUpdate": "22 hours, 43 minutes ago"
-        },
-        {
-            "name": "token-animation-tools",
-            "title": "Token Animation Tools",
-            "description": "Provides macros and configuration options to control Token animations.",
-            "version": "1.1.0",
-            "author": "Rui Pinheiro",
-            "scripts": [
-                "wrapper.js",
-                "main.js"
-            ],
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/ruipin/fvtt-token-animation-tools",
-            "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-token-animation-tools/master/module.json",
-            "download": "https://github.com/ruipin/fvtt-token-animation-tools/archive/master.zip",
-            "packs": [
-                {
-                    "name": "token-animation-macros",
-                    "label": "Token Animation Macros",
-                    "path": "./token-animation-macros.db",
-                    "entity": "Macro",
-                    "module": "token-animation-tools"
-                }
-            ],
-            "foundryUrl": "/packages/token-animation-tools/",
-            "lastUpdate": "1 day, 4 hours ago"
+            "lastUpdate": "22 hours, 58 minutes ago"
         },
         {
             "name": "savaged-foundry",
@@ -403,7 +403,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.1.1/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.1.1/CHANGELOG.md",
             "foundryUrl": "/packages/turnAlert/",
-            "lastUpdate": "1 day, 6 hours ago"
+            "lastUpdate": "1 day, 7 hours ago"
         },
         {
             "name": "5e-training",
@@ -613,7 +613,7 @@
             "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json",
             "download": "https://github.com/sdenec/tidy5e-sheet/raw/master/tidy5e-sheet.zip",
             "foundryUrl": "/packages/tidy5e-sheet/",
-            "lastUpdate": "1 day, 19 hours ago"
+            "lastUpdate": "1 day, 20 hours ago"
         },
         {
             "name": "cycle-token-stack",
@@ -738,7 +738,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/expander/expander/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/expander/expander.zip",
             "foundryUrl": "/packages/expander/",
-            "lastUpdate": "2 days, 12 hours ago"
+            "lastUpdate": "2 days, 13 hours ago"
         },
         {
             "name": "alt5e",
@@ -763,7 +763,7 @@
             "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/alt5e/alt5e/module.json",
             "download": "https://github.com/Sky-Captain-13/foundry/raw/master/alt5e/alt5e.zip",
             "foundryUrl": "/packages/alt5e/",
-            "lastUpdate": "2 days, 12 hours ago"
+            "lastUpdate": "2 days, 13 hours ago"
         },
         {
             "name": "betternpcsheet5e",
@@ -835,7 +835,7 @@
             "download": "https://github.com/bmarian/sadness-chan/raw/f-0.7.x/package/sadness-chan-v1.1.0.zip",
             "changelog": "https://github.com/bmarian/sadness-chan/releases",
             "foundryUrl": "/packages/sadness-chan/",
-            "lastUpdate": "2 days, 17 hours ago"
+            "lastUpdate": "2 days, 18 hours ago"
         },
         {
             "name": "inventory-plus",
@@ -1384,7 +1384,7 @@
             "version": "0.5.12",
             "download": "https://github.com/espositos/fvtt-tokenactionhud/releases/download/0.5.12/release_0.5.12.zip",
             "foundryUrl": "/packages/token-action-hud/",
-            "lastUpdate": "5 days, 15 hours ago"
+            "lastUpdate": "5 days, 16 hours ago"
         },
         {
             "name": "monsterblock",
