@@ -1,6 +1,137 @@
 {
-    "updated": "Thu, 30 Jul 2020 02:49:53 GMT",
+    "updated": "Thu, 30 Jul 2020 03:04:53 GMT",
     "modules": [
+        {
+            "name": "lancer",
+            "title": "LANCER",
+            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
+            "version": "0.1.2",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "Eranziel",
+            "scripts": [],
+            "esmodules": [
+                "lancer.js"
+            ],
+            "styles": [
+                "lancer.css",
+                "fonts/compcon/glyphs.css",
+                "fonts/mdi/css/materialdesignicons.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "talents",
+                    "label": "Talents",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/talents.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "core_bonuses",
+                    "label": "Core Bonuses",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/core_bonuses.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_armor",
+                    "label": "Pilot Armor",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_weapons",
+                    "label": "Pilot Weapons",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_gear",
+                    "label": "Pilot Gear",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_gear.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "frames",
+                    "label": "Frames",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/frames.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "systems",
+                    "label": "Systems",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/systems.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_classes",
+                    "label": "NPC Classes",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_templates",
+                    "label": "NPC Templates",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_features",
+                    "label": "NPC Features",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_features.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [],
+            "socket": true,
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "mech.hp",
+            "secondaryTokenAttribute": "mech.heat",
+            "url": "https://github.com/Eranziel/foundryvtt-lancer",
+            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
+            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.2/package/lancer-v0.1.2.zip",
+            "license": "GNU GPLv3",
+            "readme": "",
+            "bugs": "",
+            "changelog": "",
+            "foundryUrl": "/packages/lancer/",
+            "lastUpdate": "13 minutes ago"
+        },
         {
             "name": "burningwheel",
             "title": "The Burning Wheel",
@@ -26,7 +157,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.0/release0.2.0.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "2 hours, 32 minutes ago"
+            "lastUpdate": "2 hours, 47 minutes ago"
         },
         {
             "name": "mothership",
@@ -60,7 +191,7 @@
             "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
             "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
             "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "5 hours, 13 minutes ago"
+            "lastUpdate": "5 hours, 28 minutes ago"
         },
         {
             "name": "ose",
@@ -101,7 +232,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v0.9.7.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "6 hours, 54 minutes ago"
+            "lastUpdate": "7 hours, 9 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -136,7 +267,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "10 hours, 21 minutes ago"
+            "lastUpdate": "10 hours, 37 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -171,7 +302,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day ago"
+            "lastUpdate": "1 day, 1 hour ago"
         },
         {
             "name": "sfrpg",
@@ -327,7 +458,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "1 day, 11 hours ago"
+            "lastUpdate": "1 day, 12 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -411,137 +542,6 @@
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
             "lastUpdate": "1 day, 20 hours ago"
-        },
-        {
-            "name": "lancer",
-            "title": "LANCER",
-            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "Eranziel",
-            "scripts": [],
-            "esmodules": [
-                "lancer.js"
-            ],
-            "styles": [
-                "lancer.css",
-                "fonts/compcon/glyphs.css",
-                "fonts/mdi/css/materialdesignicons.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "talents",
-                    "label": "Talents",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/talents.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "core_bonuses",
-                    "label": "Core Bonuses",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/core_bonuses.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_armor",
-                    "label": "Pilot Armor",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_weapons",
-                    "label": "Pilot Weapons",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_gear",
-                    "label": "Pilot Gear",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_gear.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "frames",
-                    "label": "Frames",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/frames.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "systems",
-                    "label": "Systems",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/systems.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_classes",
-                    "label": "NPC Classes",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_templates",
-                    "label": "NPC Templates",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_templates.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_features",
-                    "label": "NPC Features",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_features.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [],
-            "socket": true,
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "mech.hp",
-            "secondaryTokenAttribute": "mech.heat",
-            "url": "https://github.com/Eranziel/foundryvtt-lancer",
-            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
-            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.1/package/lancer-v0.1.1.zip",
-            "license": "GNU GPLv3",
-            "readme": "",
-            "bugs": "",
-            "changelog": "",
-            "foundryUrl": "/packages/lancer/",
-            "lastUpdate": "1 day, 23 hours ago"
         },
         {
             "name": "pf1",
@@ -832,7 +832,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "2 days, 10 hours ago"
+            "lastUpdate": "2 days, 11 hours ago"
         },
         {
             "name": "demonlord",
@@ -1231,7 +1231,7 @@
             "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
             "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
             "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "4 days, 6 hours ago"
+            "lastUpdate": "4 days, 7 hours ago"
         },
         {
             "name": "vaesen",
@@ -1373,7 +1373,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "5 days, 13 hours ago"
+            "lastUpdate": "5 days, 14 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1985,6 +1985,50 @@
             "lastUpdate": "2 weeks, 2 days ago"
         },
         {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
             "name": "callofcthulhu",
             "title": "CallofCthulhu(7thEd.)",
             "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
@@ -2116,50 +2160,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/symbaroum/",
             "lastUpdate": "3 weeks, 4 days ago"
-        },
-        {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "2 weeks, 6 days ago"
         },
         {
             "name": "numenera",
