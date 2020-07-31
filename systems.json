@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 31 Jul 2020 20:35:13 GMT",
+    "updated": "Fri, 31 Jul 2020 20:50:12 GMT",
     "modules": [
         {
             "name": "ratasenlasparedes",
@@ -98,7 +98,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "9 hours, 28 minutes ago"
+            "lastUpdate": "9 hours, 44 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -198,7 +198,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "10 hours, 43 minutes ago"
+            "lastUpdate": "10 hours, 58 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -233,7 +233,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "13 hours, 59 minutes ago"
+            "lastUpdate": "14 hours, 14 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -289,7 +289,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "21 hours, 25 minutes ago"
+            "lastUpdate": "21 hours, 40 minutes ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -408,7 +408,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v0.9.9.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 day, 6 hours ago"
+            "lastUpdate": "1 day, 7 hours ago"
         },
         {
             "name": "sandbox",
@@ -435,7 +435,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
         },
         {
             "name": "lancer",
@@ -1171,7 +1171,7 @@
             "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
-            "lastUpdate": "4 days, 8 hours ago"
+            "lastUpdate": "4 days, 9 hours ago"
         },
         {
             "name": "ModularFate",
@@ -1206,7 +1206,7 @@
             "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "5 days, 6 hours ago"
+            "lastUpdate": "5 days, 7 hours ago"
         },
         {
             "name": "wfrp4e",
@@ -2036,6 +2036,50 @@
             "lastUpdate": "2 weeks, 4 days ago"
         },
         {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "3 weeks ago"
+        },
+        {
             "name": "callofcthulhu",
             "title": "CallofCthulhu(7thEd.)",
             "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
@@ -2107,50 +2151,6 @@
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
             "lastUpdate": "3 weeks, 3 days ago"
-        },
-        {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "3 weeks ago"
         },
         {
             "name": "symbaroum",
