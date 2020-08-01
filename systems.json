@@ -1,5 +1,5 @@
 {
-    "updated": "Sat, 01 Aug 2020 13:50:18 GMT",
+    "updated": "Sat, 01 Aug 2020 14:05:15 GMT",
     "modules": [
         {
             "name": "tormenta20",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "5 hours, 9 minutes ago"
+            "lastUpdate": "5 hours, 24 minutes ago"
         },
         {
             "name": "sandbox",
@@ -61,7 +61,106 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "7 hours, 5 minutes ago"
+            "lastUpdate": "7 hours, 20 minutes ago"
+        },
+        {
+            "name": "ratasenlasparedes",
+            "title": "Ratas en las paredes",
+            "description": "Ratas en las paredes para FoundryVTT!",
+            "version": "0.6.1",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "jvir",
+            "esmodules": [
+                "module/ratasenlasparedes.js"
+            ],
+            "styles": [
+                "css/ratasenlasparedes.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armas",
+                    "label": "Armas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/armas.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ayudas",
+                    "label": "Ayudas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/ayudas.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "equipo",
+                    "label": "Equipo",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/equipo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "profesiones",
+                    "label": "Profesiones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/profesiones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "reputaciones",
+                    "label": "Reputaciones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/reputaciones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hechizos",
+                    "label": "Hechizos",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/hechizos.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tablas",
+                    "label": "Tablas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/tablas.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "antagonistas",
+                    "label": "Antagonistas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/antagonistas.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "horrores-tras-los-muros-de-la-cordura",
+                    "label": "Horrores tras los muros de la cordura",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
+                    "entity": "Actor"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 2,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "pv",
+            "secondaryTokenAttribute": "pc",
+            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
+            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/ratasenlasparedes/",
+            "lastUpdate": "1 day, 2 hours ago"
         },
         {
             "name": "pf1",
@@ -260,106 +359,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.71/foundryvtt-pathfinder1-v0.71.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "8 hours, 33 minutes ago"
-        },
-        {
-            "name": "ratasenlasparedes",
-            "title": "Ratas en las paredes",
-            "description": "Ratas en las paredes para FoundryVTT!",
-            "version": "0.6.1",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "jvir",
-            "esmodules": [
-                "module/ratasenlasparedes.js"
-            ],
-            "styles": [
-                "css/ratasenlasparedes.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armas",
-                    "label": "Armas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/armas.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ayudas",
-                    "label": "Ayudas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/ayudas.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "equipo",
-                    "label": "Equipo",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/equipo.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "profesiones",
-                    "label": "Profesiones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/profesiones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "reputaciones",
-                    "label": "Reputaciones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/reputaciones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hechizos",
-                    "label": "Hechizos",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/hechizos.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tablas",
-                    "label": "Tablas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/tablas.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "antagonistas",
-                    "label": "Antagonistas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/antagonistas.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "horrores-tras-los-muros-de-la-cordura",
-                    "label": "Horrores tras los muros de la cordura",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
-                    "entity": "Actor"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 2,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "pv",
-            "secondaryTokenAttribute": "pc",
-            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
-            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
-            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "1 day, 2 hours ago"
+            "lastUpdate": "8 hours, 48 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -459,7 +459,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "1 day, 3 hours ago"
+            "lastUpdate": "1 day, 4 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -583,7 +583,7 @@
             "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
             "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
             "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "1 day, 21 hours ago"
+            "lastUpdate": "1 day, 22 hours ago"
         },
         {
             "name": "ose",
@@ -765,7 +765,7 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
-            "lastUpdate": "2 days, 10 hours ago"
+            "lastUpdate": "2 days, 11 hours ago"
         },
         {
             "name": "burningwheel",
@@ -983,7 +983,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "3 days, 22 hours ago"
+            "lastUpdate": "3 days, 23 hours ago"
         },
         {
             "name": "demonlord",
@@ -1282,7 +1282,7 @@
             "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
             "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
             "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "6 days, 17 hours ago"
+            "lastUpdate": "6 days, 18 hours ago"
         },
         {
             "name": "vaesen",
@@ -2111,50 +2111,6 @@
             "lastUpdate": "3 weeks, 4 days ago"
         },
         {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "3 weeks, 1 day ago"
-        },
-        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2251,6 +2207,50 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "4 weeks, 1 day ago"
+        },
+        {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "3 weeks, 1 day ago"
         },
         {
             "name": "kamigakari",
