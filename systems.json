@@ -1,5 +1,5 @@
 {
-    "updated": "Sat, 01 Aug 2020 10:20:14 GMT",
+    "updated": "Sat, 01 Aug 2020 10:35:17 GMT",
     "modules": [
         {
             "name": "tormenta20",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 hour, 39 minutes ago"
+            "lastUpdate": "1 hour, 54 minutes ago"
         },
         {
             "name": "sandbox",
@@ -61,7 +61,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "3 hours, 35 minutes ago"
+            "lastUpdate": "3 hours, 50 minutes ago"
         },
         {
             "name": "pf1",
@@ -260,7 +260,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.71/foundryvtt-pathfinder1-v0.71.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "5 hours, 2 minutes ago"
+            "lastUpdate": "5 hours, 17 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -359,7 +359,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "23 hours, 14 minutes ago"
+            "lastUpdate": "23 hours, 29 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -827,7 +827,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "2 days, 17 hours ago"
+            "lastUpdate": "2 days, 18 hours ago"
         },
         {
             "name": "sfrpg",
@@ -1863,37 +1863,6 @@
             "lastUpdate": "1 week, 4 days ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "2 weeks, 1 day ago"
-        },
-        {
             "name": "dcc",
             "title": "Dungeon Crawl Classics",
             "description": "Dungeon Crawl Classics from Goodman Games",
@@ -1943,6 +1912,37 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/dcc/",
             "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "2 weeks, 1 day ago"
         },
         {
             "name": "shadowrun5e",
@@ -2314,42 +2314,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2593,6 +2557,42 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month ago"
         },
         {
