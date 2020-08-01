@@ -1,219 +1,11 @@
 {
-    "updated": "Sat, 01 Aug 2020 23:20:23 GMT",
+    "updated": "Sat, 01 Aug 2020 23:35:17 GMT",
     "modules": [
-        {
-            "name": "svnsea2e",
-            "title": "7th Sea Second Edition (Unofficial)",
-            "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
-            "version": 0.8,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "psychoph",
-            "esmodules": [
-                "module/svnsea2e.js"
-            ],
-            "styles": [
-                "css/svnsea2e.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "wounds",
-            "secondaryTokenAttribute": "dwounds",
-            "url": "https://github.com/Detailing-the-Realm/svnsea2e/",
-            "manifest": "https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json",
-            "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "1 hour, 56 minutes ago"
-        },
-        {
-            "name": "FVTT-Dishonored",
-            "title": "Dishonored Roleplaying Game Unofficial",
-            "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
-            "version": "0.2.2",
-            "minimumCoreVersion": "0.6.4",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "KaitoR95",
-            "esmodules": [
-                "module/dishonored.js"
-            ],
-            "styles": [
-                "styles/dishonored.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "stress",
-            "secondaryTokenAttribute": "void",
-            "url": "https://github.com/CurtR95/FVTT-Dishonored",
-            "manifest": "https://raw.githubusercontent.com/CurtR95/FVTT-Dishonored/master/system.json",
-            "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "3 hours, 49 minutes ago"
-        },
-        {
-            "name": "callofcthulhu",
-            "title": "CallofCthulhu(7thEd.)",
-            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-            "version": "1.0.0",
-            "author": "ただいま",
-            "minimumCoreVersion": "0.7.0",
-            "compatibleCoreVersion": "0.7.0",
-            "esmodules": [
-                "module/callofcthulhu.js",
-                "module/dicebot.js"
-            ],
-            "styles": [
-                "callofcthulhu.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "character",
-                    "label": "character",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/character.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "journalentry",
-                    "label": "journalentry",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/journalentry.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "template",
-                    "label": "template",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/template.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/tadaimatrpg/callofcthulhu",
-            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
-            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
-            "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "8 hours, 35 minutes ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.5",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "14 hours, 39 minutes ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.1.6",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "16 hours, 35 minutes ago"
-        },
         {
             "name": "pf1",
             "title": "Pathfinder 1",
             "description": "A comprehensive game system for running games of Pathfinder 1 in the Foundry VTT environment.",
-            "version": 0.71,
+            "version": 0.72,
             "author": "Furyspark",
             "templateVersion": 2,
             "scripts": [],
@@ -404,9 +196,217 @@
             "compatibleCoreVersion": "0.6.5",
             "url": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1",
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
-            "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.71/foundryvtt-pathfinder1-v0.71.zip",
+            "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.72/foundryvtt-pathfinder1-v0.72.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "18 hours, 3 minutes ago"
+            "lastUpdate": "11 minutes ago"
+        },
+        {
+            "name": "svnsea2e",
+            "title": "7th Sea Second Edition (Unofficial)",
+            "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
+            "version": 0.8,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "psychoph",
+            "esmodules": [
+                "module/svnsea2e.js"
+            ],
+            "styles": [
+                "css/svnsea2e.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "wounds",
+            "secondaryTokenAttribute": "dwounds",
+            "url": "https://github.com/Detailing-the-Realm/svnsea2e/",
+            "manifest": "https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json",
+            "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/svnsea2e/",
+            "lastUpdate": "2 hours, 11 minutes ago"
+        },
+        {
+            "name": "FVTT-Dishonored",
+            "title": "Dishonored Roleplaying Game Unofficial",
+            "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
+            "version": "0.2.2",
+            "minimumCoreVersion": "0.6.4",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "KaitoR95",
+            "esmodules": [
+                "module/dishonored.js"
+            ],
+            "styles": [
+                "styles/dishonored.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "stress",
+            "secondaryTokenAttribute": "void",
+            "url": "https://github.com/CurtR95/FVTT-Dishonored",
+            "manifest": "https://raw.githubusercontent.com/CurtR95/FVTT-Dishonored/master/system.json",
+            "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/FVTT-Dishonored/",
+            "lastUpdate": "4 hours, 4 minutes ago"
+        },
+        {
+            "name": "callofcthulhu",
+            "title": "CallofCthulhu(7thEd.)",
+            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+            "version": "1.0.0",
+            "author": "ただいま",
+            "minimumCoreVersion": "0.7.0",
+            "compatibleCoreVersion": "0.7.0",
+            "esmodules": [
+                "module/callofcthulhu.js",
+                "module/dicebot.js"
+            ],
+            "styles": [
+                "callofcthulhu.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "character",
+                    "label": "character",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/character.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "journalentry",
+                    "label": "journalentry",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/journalentry.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "template",
+                    "label": "template",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/template.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/tadaimatrpg/callofcthulhu",
+            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
+            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
+            "foundryUrl": "/packages/callofcthulhu/",
+            "lastUpdate": "8 hours, 50 minutes ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.5",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "14 hours, 54 minutes ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.1.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "16 hours, 50 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -939,7 +939,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "3 days, 6 hours ago"
+            "lastUpdate": "3 days, 7 hours ago"
         },
         {
             "name": "sfrpg",
