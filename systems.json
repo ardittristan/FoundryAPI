@@ -1,5 +1,5 @@
 {
-    "updated": "Sat, 01 Aug 2020 20:05:14 GMT",
+    "updated": "Sat, 01 Aug 2020 20:20:21 GMT",
     "modules": [
         {
             "name": "FVTT-Dishonored",
@@ -33,7 +33,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "34 minutes ago"
+            "lastUpdate": "49 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -107,7 +107,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "5 hours, 20 minutes ago"
+            "lastUpdate": "5 hours, 35 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -142,7 +142,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "11 hours, 24 minutes ago"
+            "lastUpdate": "11 hours, 39 minutes ago"
         },
         {
             "name": "sandbox",
@@ -169,7 +169,262 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "13 hours, 20 minutes ago"
+            "lastUpdate": "13 hours, 35 minutes ago"
+        },
+        {
+            "name": "ratasenlasparedes",
+            "title": "Ratas en las paredes",
+            "description": "Ratas en las paredes para FoundryVTT!",
+            "version": "0.6.1",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "jvir",
+            "esmodules": [
+                "module/ratasenlasparedes.js"
+            ],
+            "styles": [
+                "css/ratasenlasparedes.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armas",
+                    "label": "Armas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/armas.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ayudas",
+                    "label": "Ayudas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/ayudas.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "equipo",
+                    "label": "Equipo",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/equipo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "profesiones",
+                    "label": "Profesiones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/profesiones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "reputaciones",
+                    "label": "Reputaciones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/reputaciones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hechizos",
+                    "label": "Hechizos",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/hechizos.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tablas",
+                    "label": "Tablas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/tablas.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "antagonistas",
+                    "label": "Antagonistas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/antagonistas.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "horrores-tras-los-muros-de-la-cordura",
+                    "label": "Horrores tras los muros de la cordura",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
+                    "entity": "Actor"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 2,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "pv",
+            "secondaryTokenAttribute": "pc",
+            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
+            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/ratasenlasparedes/",
+            "lastUpdate": "1 day, 9 hours ago"
+        },
+        {
+            "name": "blades-in-the-dark",
+            "title": "Blades in the Dark",
+            "description": "Blades in the dark game system.",
+            "version": "0.7.4",
+            "minimumCoreVersion": "0.5.3",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "megastruktur",
+            "esmodules": [
+                "module/blades.js"
+            ],
+            "styles": [
+                "styles/blades.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "url": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/",
+            "manifest": "https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/0.7.4/system.json",
+            "download": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/archive/0.7.4.zip",
+            "packs": [
+                {
+                    "name": "class",
+                    "label": "Classes",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "heritage",
+                    "label": "Heritages",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/heritages.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "vice",
+                    "label": "Vices",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/vices.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "background",
+                    "label": "Backgrounds",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/backgrounds.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "item",
+                    "label": "Items",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ability",
+                    "label": "Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/abilities.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_reputation",
+                    "label": "Crew Reputation",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_reputation.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_type",
+                    "label": "Crew Types",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_types.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_upgrade",
+                    "label": "Crew Upgrades",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_upgrades.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_ability",
+                    "label": "Crew Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_abilities.db",
+                    "entity": "Item"
+                }
+            ],
+            "foundryUrl": "/packages/blades-in-the-dark/",
+            "lastUpdate": "1 day, 10 hours ago"
+        },
+        {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.3,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "1 day, 21 hours ago"
         },
         {
             "name": "pf1",
@@ -368,262 +623,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.71/foundryvtt-pathfinder1-v0.71.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "14 hours, 47 minutes ago"
-        },
-        {
-            "name": "ratasenlasparedes",
-            "title": "Ratas en las paredes",
-            "description": "Ratas en las paredes para FoundryVTT!",
-            "version": "0.6.1",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "jvir",
-            "esmodules": [
-                "module/ratasenlasparedes.js"
-            ],
-            "styles": [
-                "css/ratasenlasparedes.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armas",
-                    "label": "Armas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/armas.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ayudas",
-                    "label": "Ayudas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/ayudas.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "equipo",
-                    "label": "Equipo",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/equipo.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "profesiones",
-                    "label": "Profesiones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/profesiones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "reputaciones",
-                    "label": "Reputaciones",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/reputaciones.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hechizos",
-                    "label": "Hechizos",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/hechizos.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tablas",
-                    "label": "Tablas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/tablas.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "antagonistas",
-                    "label": "Antagonistas",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/antagonistas.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "horrores-tras-los-muros-de-la-cordura",
-                    "label": "Horrores tras los muros de la cordura",
-                    "system": "ratasenlasparedes",
-                    "path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
-                    "entity": "Actor"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 2,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "pv",
-            "secondaryTokenAttribute": "pc",
-            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
-            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
-            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "1 day, 8 hours ago"
-        },
-        {
-            "name": "blades-in-the-dark",
-            "title": "Blades in the Dark",
-            "description": "Blades in the dark game system.",
-            "version": "0.7.4",
-            "minimumCoreVersion": "0.5.3",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "megastruktur",
-            "esmodules": [
-                "module/blades.js"
-            ],
-            "styles": [
-                "styles/blades.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "url": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/",
-            "manifest": "https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/0.7.4/system.json",
-            "download": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/archive/0.7.4.zip",
-            "packs": [
-                {
-                    "name": "class",
-                    "label": "Classes",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "heritage",
-                    "label": "Heritages",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/heritages.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "vice",
-                    "label": "Vices",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/vices.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "background",
-                    "label": "Backgrounds",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/backgrounds.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "item",
-                    "label": "Items",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ability",
-                    "label": "Abilities",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/abilities.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_reputation",
-                    "label": "Crew Reputation",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_reputation.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_type",
-                    "label": "Crew Types",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_types.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_upgrade",
-                    "label": "Crew Upgrades",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_upgrades.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_ability",
-                    "label": "Crew Abilities",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_abilities.db",
-                    "entity": "Item"
-                }
-            ],
-            "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "1 day, 10 hours ago"
-        },
-        {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": 3.3,
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "1 day, 20 hours ago"
+            "lastUpdate": "15 hours, 3 minutes ago"
         },
         {
             "name": "mothership",
@@ -866,7 +866,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.0/release0.2.0.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "2 days, 19 hours ago"
+            "lastUpdate": "2 days, 20 hours ago"
         },
         {
             "name": "gurps4e",
@@ -1023,7 +1023,7 @@
             "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
             "foundryUrl": "/packages/sfrpg/",
-            "lastUpdate": "3 days, 23 hours ago"
+            "lastUpdate": "4 days ago"
         },
         {
             "version": 0.31,
@@ -1126,7 +1126,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "5 days, 4 hours ago"
+            "lastUpdate": "5 days, 5 hours ago"
         },
         {
             "name": "knave",
@@ -1607,98 +1607,6 @@
             "lastUpdate": "1 week, 1 day ago"
         },
         {
-            "name": "dnd5e",
-            "title": "DnD5e - Fifth Edition System",
-            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
-            "version": 0.94,
-            "author": "Atropos",
-            "scripts": [],
-            "esmodules": [
-                "dnd5e.js"
-            ],
-            "styles": [
-                "dnd5e.css"
-            ],
-            "packs": [
-                {
-                    "name": "heroes",
-                    "label": "Starter Heroes",
-                    "system": "dnd5e",
-                    "path": "./packs/heroes.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "monsters",
-                    "label": "Monsters (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsters.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tradegoods",
-                    "label": "Trade Goods (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/tradegoods.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classes",
-                    "label": "Classes (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classfeatures",
-                    "label": "Class Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classfeatures.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "monsterfeatures",
-                    "label": "Monster Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsterfeatures.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": null,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.2",
-            "url": "https://gitlab.com/foundrynet/dnd5e",
-            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
-            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
-            "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "1 week, 4 days ago"
-        },
-        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -1935,6 +1843,98 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "1 week, 3 days ago"
+        },
+        {
+            "name": "dnd5e",
+            "title": "DnD5e - Fifth Edition System",
+            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+            "version": 0.94,
+            "author": "Atropos",
+            "scripts": [],
+            "esmodules": [
+                "dnd5e.js"
+            ],
+            "styles": [
+                "dnd5e.css"
+            ],
+            "packs": [
+                {
+                    "name": "heroes",
+                    "label": "Starter Heroes",
+                    "system": "dnd5e",
+                    "path": "./packs/heroes.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "monsters",
+                    "label": "Monsters (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tradegoods",
+                    "label": "Trade Goods (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/tradegoods.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classfeatures",
+                    "label": "Class Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classfeatures.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monsterfeatures",
+                    "label": "Monster Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsterfeatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.2",
+            "url": "https://gitlab.com/foundrynet/dnd5e",
+            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
+            "foundryUrl": "/packages/dnd5e/",
+            "lastUpdate": "1 week, 4 days ago"
         },
         {
             "name": "dcc",
