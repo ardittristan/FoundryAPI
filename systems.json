@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 03 Aug 2020 18:05:35 GMT",
+    "updated": "Mon, 03 Aug 2020 18:20:32 GMT",
     "modules": [
         {
             "name": "electricbastionland",
@@ -26,7 +26,7 @@
             "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
             "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
             "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "4 hours, 20 minutes ago"
+            "lastUpdate": "4 hours, 35 minutes ago"
         },
         {
             "name": "sandbox",
@@ -53,7 +53,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "11 hours, 19 minutes ago"
+            "lastUpdate": "11 hours, 34 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -121,7 +121,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "1 day, 5 hours ago"
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "pf1",
@@ -323,6 +323,80 @@
             "lastUpdate": "1 day, 10 hours ago"
         },
         {
+            "name": "callofcthulhu",
+            "title": "CallofCthulhu(7thEd.)",
+            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+            "version": "1.1.0",
+            "author": "ただいま",
+            "minimumCoreVersion": "0.7.0",
+            "compatibleCoreVersion": "0.7.0",
+            "esmodules": [
+                "module/callofcthulhu.js",
+                "module/dicebot.js"
+            ],
+            "styles": [
+                "callofcthulhu.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "character",
+                    "label": "character",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/character.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "journalentry",
+                    "label": "journalentry",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/journalentry.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "template",
+                    "label": "template",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/template.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/tadaimatrpg/callofcthulhu",
+            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
+            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
+            "foundryUrl": "/packages/callofcthulhu/",
+            "lastUpdate": "1 day, 15 hours ago"
+        },
+        {
             "name": "ModularFate",
             "title": "Modular Fate Core",
             "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
@@ -396,80 +470,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
             "lastUpdate": "1 day, 20 hours ago"
-        },
-        {
-            "name": "callofcthulhu",
-            "title": "CallofCthulhu(7thEd.)",
-            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-            "version": "1.1.0",
-            "author": "ただいま",
-            "minimumCoreVersion": "0.7.0",
-            "compatibleCoreVersion": "0.7.0",
-            "esmodules": [
-                "module/callofcthulhu.js",
-                "module/dicebot.js"
-            ],
-            "styles": [
-                "callofcthulhu.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "character",
-                    "label": "character",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/character.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "journalentry",
-                    "label": "journalentry",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/journalentry.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "template",
-                    "label": "template",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/template.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/tadaimatrpg/callofcthulhu",
-            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
-            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
-            "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -637,7 +637,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "3 days, 6 hours ago"
+            "lastUpdate": "3 days, 7 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -793,7 +793,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "3 days, 18 hours ago"
+            "lastUpdate": "3 days, 19 hours ago"
         },
         {
             "name": "mothership",
@@ -1036,7 +1036,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.0/release0.2.0.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "4 days, 17 hours ago"
+            "lastUpdate": "4 days, 18 hours ago"
         },
         {
             "name": "gurps4e",
@@ -1193,7 +1193,7 @@
             "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
             "foundryUrl": "/packages/sfrpg/",
-            "lastUpdate": "5 days, 21 hours ago"
+            "lastUpdate": "5 days, 22 hours ago"
         },
         {
             "version": 0.31,
