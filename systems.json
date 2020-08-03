@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 03 Aug 2020 07:20:38 GMT",
+    "updated": "Mon, 03 Aug 2020 07:35:29 GMT",
     "modules": [
         {
             "name": "sandbox",
@@ -26,7 +26,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "34 minutes ago"
+            "lastUpdate": "49 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -94,7 +94,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "19 hours, 1 minute ago"
+            "lastUpdate": "19 hours, 16 minutes ago"
         },
         {
             "name": "pf1",
@@ -293,7 +293,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.72.1/foundryvtt-pathfinder1-v0.72.1.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "23 hours, 23 minutes ago"
+            "lastUpdate": "23 hours, 38 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -442,7 +442,7 @@
             "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "1 day, 9 hours ago"
+            "lastUpdate": "1 day, 10 hours ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -476,7 +476,42 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "1 day, 11 hours ago"
+            "lastUpdate": "1 day, 12 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.5",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "1 day, 22 hours ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -676,41 +711,6 @@
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
             "lastUpdate": "2 days, 21 hours ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.5",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day, 22 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -1044,7 +1044,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "4 days, 14 hours ago"
+            "lastUpdate": "4 days, 15 hours ago"
         },
         {
             "name": "sfrpg",
@@ -2062,56 +2062,6 @@
             "lastUpdate": "2 weeks, 6 days ago"
         },
         {
-            "name": "icrpg",
-            "title": "Index Card RPG",
-            "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
-            "version": "1.0.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "TomCosaert",
-            "esmodules": [
-                "module/icrpg.js"
-            ],
-            "styles": [
-                "css/icrpg.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Español",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "nl",
-                    "name": "Nederlands",
-                    "path": "lang/nl.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/TomCosaert/FoundryVTT-ICRPG/",
-            "manifest": "https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json",
-            "download": "https://github.com/TomCosaert/FoundryVTT-ICRPG/archive/master.zip",
-            "license": "LICENSE",
-            "foundryUrl": "/packages/icrpg/",
-            "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2172,44 +2122,6 @@
             "lastUpdate": "4 weeks, 1 day ago"
         },
         {
-            "name": "numenera",
-            "title": "Numenera",
-            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
-            "version": "0.15.1",
-            "author": "SolarBear",
-            "scripts": [
-                "lib/dragula/dragula.min.js"
-            ],
-            "esmodules": [
-                "numenera.js"
-            ],
-            "styles": [
-                "numenera.css",
-                "lib/dragula/dragula.min.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "compatibleCoreVersion": "0.6.4",
-            "minimumCoreVersion": "0.5.5",
-            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
-            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
-            "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "zork",
             "title": "Zork",
             "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
@@ -2252,6 +2164,94 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
+            "name": "icrpg",
+            "title": "Index Card RPG",
+            "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
+            "version": "1.0.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "TomCosaert",
+            "esmodules": [
+                "module/icrpg.js"
+            ],
+            "styles": [
+                "css/icrpg.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "nl",
+                    "name": "Nederlands",
+                    "path": "lang/nl.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/TomCosaert/FoundryVTT-ICRPG/",
+            "manifest": "https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json",
+            "download": "https://github.com/TomCosaert/FoundryVTT-ICRPG/archive/master.zip",
+            "license": "LICENSE",
+            "foundryUrl": "/packages/icrpg/",
+            "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.15.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.4",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "1 month ago"
         },
         {
             "name": "kamigakari",
