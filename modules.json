@@ -1,6 +1,40 @@
 {
-    "updated": "Mon, 03 Aug 2020 14:05:32 GMT",
+    "updated": "Mon, 03 Aug 2020 14:20:31 GMT",
     "modules": [
+        {
+            "name": "externalactor",
+            "title": "External Actor Viewer",
+            "description": "Makes you able to see characters from unloaded worlds.",
+            "version": "1.0.0",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "actorviewer.js"
+            ],
+            "scripts": [
+                "modules/dnd5e.js"
+            ],
+            "systems": [
+                "dnd5e"
+            ],
+            "styles": [
+                "css/externalactor.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "url": "https://github.com/ardittristan/VTTExternalActorViewer",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTExternalActorViewer/master/module.json",
+            "download": "https://github.com/ardittristan/VTTExternalActorViewer/releases/download/latest/actorViewer.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/externalactor/",
+            "lastUpdate": "5 minutes ago"
+        },
         {
             "name": "BetterAmbientLoop",
             "title": "Better Ambient Loop by Blitz",
@@ -18,7 +52,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-BetterAmbientLoop/master/module.json",
             "download": " https://github.com/BlitzKraig/fvtt-BetterAmbientLoop/releases/download/latest/betterambientloop-release.zip",
             "foundryUrl": "/packages/BetterAmbientLoop/",
-            "lastUpdate": "2 hours, 52 minutes ago"
+            "lastUpdate": "3 hours, 7 minutes ago"
         },
         {
             "name": "TinyTokens",
@@ -37,7 +71,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-TinyTokens/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-TinyTokens/releases/download/latest/tinytokens-release.zip",
             "foundryUrl": "/packages/TinyTokens/",
-            "lastUpdate": "3 hours, 7 minutes ago"
+            "lastUpdate": "3 hours, 22 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -57,7 +91,35 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/0.1.5/module.json",
             "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/0.1.5.zip",
             "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "4 hours, 33 minutes ago"
+            "lastUpdate": "4 hours, 48 minutes ago"
+        },
+        {
+            "name": "DancingLights",
+            "title": "Dancing Lights by Blitz",
+            "description": "The Ambient Light & Token Light toolkit to make your scenes pop!",
+            "version": "2.1.2",
+            "author": "Blitzkraig",
+            "scripts": [
+                "./dancinglights.js",
+                "./dependencies/chroma.min.js"
+            ],
+            "styles": [],
+            "packs": [
+                {
+                    "name": "dancinglights-macros",
+                    "label": "Dancing Lights - Macros",
+                    "path": "packs/dancinglights-macros.db",
+                    "module": "DancingLights",
+                    "entity": "Macro"
+                }
+            ],
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/BlitzKraig/fvtt-DancingLights",
+            "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
+            "download": "https://github.com/BlitzKraig/fvtt-DancingLights/releases/download/latest/dancinglights-release.zip",
+            "foundryUrl": "/packages/DancingLights/",
+            "lastUpdate": "16 hours, 47 minutes ago"
         },
         {
             "name": "itemacro",
@@ -88,35 +150,7 @@
             "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json",
             "download": "https://github.com/Kekilla0/Item-Macro/archive/v1.1.1.zip",
             "foundryUrl": "/packages/itemacro/",
-            "lastUpdate": "8 hours, 24 minutes ago"
-        },
-        {
-            "name": "DancingLights",
-            "title": "Dancing Lights by Blitz",
-            "description": "The Ambient Light & Token Light toolkit to make your scenes pop!",
-            "version": "2.1.2",
-            "author": "Blitzkraig",
-            "scripts": [
-                "./dancinglights.js",
-                "./dependencies/chroma.min.js"
-            ],
-            "styles": [],
-            "packs": [
-                {
-                    "name": "dancinglights-macros",
-                    "label": "Dancing Lights - Macros",
-                    "path": "packs/dancinglights-macros.db",
-                    "module": "DancingLights",
-                    "entity": "Macro"
-                }
-            ],
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/BlitzKraig/fvtt-DancingLights",
-            "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
-            "download": "https://github.com/BlitzKraig/fvtt-DancingLights/releases/download/latest/dancinglights-release.zip",
-            "foundryUrl": "/packages/DancingLights/",
-            "lastUpdate": "16 hours, 32 minutes ago"
+            "lastUpdate": "8 hours, 39 minutes ago"
         },
         {
             "name": "vtta-didyouknow",
@@ -149,7 +183,7 @@
             "readme": "https://github.com/VTTAssets/vtta-didyouknow/blob/master/README.md",
             "changelog": "https://github.com/VTTAssets/vtta-didyouknow/releases",
             "foundryUrl": "/packages/vtta-didyouknow/",
-            "lastUpdate": "17 hours, 50 minutes ago"
+            "lastUpdate": "18 hours, 5 minutes ago"
         },
         {
             "name": "token-hud-wildcard",
@@ -563,7 +597,7 @@
             "bugs": "https://github.com/kamcknig/pick-up-stix/issues",
             "changelog": "https://github.com/kamcknig/pick-up-stix/releases",
             "foundryUrl": "/packages/pick-up-stix/",
-            "lastUpdate": "3 days, 11 hours ago"
+            "lastUpdate": "3 days, 12 hours ago"
         },
         {
             "name": "TokenBar",
@@ -715,7 +749,7 @@
             "download": "https://github.com/KayelGee/select-tool-everywhere/releases/download/v1.1.1/v1.1.1.zip",
             "readme": "https://github.com/KayelGee/select-tool-everywhere/blob/v1.1.1/README.md",
             "foundryUrl": "/packages/select-tool-everywhere/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "simplemobile",
@@ -736,7 +770,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/simplemobile/",
-            "lastUpdate": "4 days, 1 hour ago"
+            "lastUpdate": "4 days, 2 hours ago"
         },
         {
             "name": "cycle-token-stack",
@@ -1046,7 +1080,7 @@
             "manifest": "https://raw.githubusercontent.com/kandashi/condition-automation/master/module.json",
             "download": "https://github.com/kandashi/condition-automation/archive/master.zip",
             "foundryUrl": "/packages/condition-automation/",
-            "lastUpdate": "4 days, 20 hours ago"
+            "lastUpdate": "4 days, 21 hours ago"
         },
         {
             "name": "wall-height",
@@ -1095,7 +1129,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/quick-insert/",
-            "lastUpdate": "5 days, 14 hours ago"
+            "lastUpdate": "5 days, 15 hours ago"
         },
         {
             "name": "dragupload",
@@ -1185,7 +1219,7 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/savaged-foundry/",
-            "lastUpdate": "6 days, 15 hours ago"
+            "lastUpdate": "6 days, 16 hours ago"
         },
         {
             "name": "colorsettings",
@@ -1294,7 +1328,7 @@
                 }
             ],
             "foundryUrl": "/packages/npcgen/",
-            "lastUpdate": "6 days, 23 hours ago"
+            "lastUpdate": "1 week ago"
         },
         {
             "name": "custom-hotbar",
@@ -2457,7 +2491,7 @@
             "minimumCoreVersion": "0.6.2",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/foundry_community_macros/",
-            "lastUpdate": "1 week, 6 days ago"
+            "lastUpdate": "2 weeks ago"
         },
         {
             "name": "1000-fish",
@@ -3224,7 +3258,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-unidentified-items/",
-            "lastUpdate": "2 weeks, 4 days ago"
+            "lastUpdate": "2 weeks, 5 days ago"
         },
         {
             "name": "macro-marker",
@@ -3348,30 +3382,6 @@
             "lastUpdate": "2 weeks, 5 days ago"
         },
         {
-            "name": "pdftofoundry",
-            "title": "PDF to Foundry Importer",
-            "description": "",
-            "version": "1.0.0",
-            "author": "fryguy",
-            "scripts": [],
-            "esmodules": [
-                "main.bundle.js"
-            ],
-            "styles": [
-                "./css/style.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "socket": true,
-            "url": "https://gitlab.com/fryguy1013/pdftofoundry",
-            "manifest": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/static_module/module.json?job=build",
-            "download": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/pdftofoundry.zip?job=build",
-            "foundryUrl": "/packages/pdftofoundry/",
-            "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
             "name": "special-dice-roller",
             "title": "Special Dice Roller",
             "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
@@ -3417,6 +3427,30 @@
                 }
             ],
             "foundryUrl": "/packages/point-of-vision/",
+            "lastUpdate": "2 weeks, 5 days ago"
+        },
+        {
+            "name": "pdftofoundry",
+            "title": "PDF to Foundry Importer",
+            "description": "",
+            "version": "1.0.0",
+            "author": "fryguy",
+            "scripts": [],
+            "esmodules": [
+                "main.bundle.js"
+            ],
+            "styles": [
+                "./css/style.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "socket": true,
+            "url": "https://gitlab.com/fryguy1013/pdftofoundry",
+            "manifest": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/static_module/module.json?job=build",
+            "download": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/pdftofoundry.zip?job=build",
+            "foundryUrl": "/packages/pdftofoundry/",
             "lastUpdate": "2 weeks, 5 days ago"
         },
         {
@@ -6861,7 +6895,7 @@
             "download": "https://gitlab.com/moerills-fvtt-modules/pointer/raw/v1.4.7/pointer.zip",
             "url": "https://gitlab.com/moerills-fvtt-modules/pointer",
             "foundryUrl": "/packages/pointer/",
-            "lastUpdate": "1 month, 4 weeks ago"
+            "lastUpdate": "2 months ago"
         },
         {
             "name": "mindmap",
@@ -6881,7 +6915,7 @@
             "manifest": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/master/src/module.json",
             "download": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/v0.5.1/package/mindmap-v0.5.1.zip",
             "foundryUrl": "/packages/mindmap/",
-            "lastUpdate": "1 month, 4 weeks ago"
+            "lastUpdate": "2 months ago"
         },
         {
             "name": "layer-hotkeys",
@@ -6910,7 +6944,7 @@
             "manifest": "https://raw.githubusercontent.com/Moerill/Layer-Hotkeys/master/src/module.json",
             "download": "https://github.com/Moerill/Layer-Hotkeys/releases/download/v1.7.0/layer-hotkeys.zip",
             "foundryUrl": "/packages/layer-hotkeys/",
-            "lastUpdate": "1 month, 4 weeks ago"
+            "lastUpdate": "2 months ago"
         },
         {
             "name": "foundry-patrol",
@@ -7717,6 +7751,23 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "notokenanim",
+            "title": "No Token Animations",
+            "description": "Provides an option to disable token movement animations.",
+            "version": "2.1",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "minimumCoreVersion": "0.4.4",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://bitbucket.org/Fyorl/notokenanim",
+            "manifest": "https://bitbucket.org/Fyorl/notokenanim/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/notokenanim/get/master.zip",
+            "foundryUrl": "/packages/notokenanim/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "scaleGrid",
             "title": "Grid Scale Menu",
             "description": "This should add some buttons to modify grids to the canvas. Updated for 0.6.0",
@@ -7735,23 +7786,6 @@
             "manifest": "https://raw.githubusercontent.com/UberV/scaleGrid/master/module.json",
             "download": "https://github.com/UberV/scaleGrid/archive/master.zip",
             "foundryUrl": "/packages/grid_scaler/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "notokenanim",
-            "title": "No Token Animations",
-            "description": "Provides an option to disable token movement animations.",
-            "version": "2.1",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "minimumCoreVersion": "0.4.4",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://bitbucket.org/Fyorl/notokenanim",
-            "manifest": "https://bitbucket.org/Fyorl/notokenanim/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/notokenanim/get/master.zip",
-            "foundryUrl": "/packages/notokenanim/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -7790,32 +7824,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "chatdamagebuttons-beyond20",
-            "title": "Chat Damage Buttons - Beyond20 Edition",
-            "description": "Adds 'Apply Damage' button to KaKaRoTo's Beyond20 chat cards.",
-            "version": "1.1.2",
-            "author": "Victor Ling <victorling@ionshard.com> (http://ionshard.com)",
-            "url": "https://gitlab.com/Ionshard/foundry-vtt-bullseye",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.0",
-            "esmodules": [
-                "src/index.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "styles": [],
-            "packs": [],
-            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module",
-            "download": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/chatdamagebuttons-beyond20.zip?job=build-module",
-            "foundryUrl": "/packages/chatdamagebuttons-beyond20/",
-            "lastUpdate": "2 months ago"
-        },
-        {
             "name": "spell-school-icons",
             "title": "5e Spell School Icons",
             "description": "Module that adds a new default icon to spells based off their school (requires DND5e)",
@@ -7851,6 +7859,32 @@
             "manifest": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/raw/master/spell-school-icons/module.json",
             "download": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/-/jobs/artifacts/0.9.1/raw/spell-school-icons.zip?job=build",
             "foundryUrl": "/packages/spell-school-icons/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "chatdamagebuttons-beyond20",
+            "title": "Chat Damage Buttons - Beyond20 Edition",
+            "description": "Adds 'Apply Damage' button to KaKaRoTo's Beyond20 chat cards.",
+            "version": "1.1.2",
+            "author": "Victor Ling <victorling@ionshard.com> (http://ionshard.com)",
+            "url": "https://gitlab.com/Ionshard/foundry-vtt-bullseye",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.0",
+            "esmodules": [
+                "src/index.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "styles": [],
+            "packs": [],
+            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module",
+            "download": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/chatdamagebuttons-beyond20.zip?job=build-module",
+            "foundryUrl": "/packages/chatdamagebuttons-beyond20/",
             "lastUpdate": "2 months ago"
         },
         {
