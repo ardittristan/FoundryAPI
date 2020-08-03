@@ -1,6 +1,141 @@
 {
-    "updated": "Mon, 03 Aug 2020 20:35:36 GMT",
+    "updated": "Mon, 03 Aug 2020 20:50:33 GMT",
     "modules": [
+        {
+            "name": "archmage",
+            "title": "Toolkit13 Character Sheet",
+            "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
+            "version": "1.6.2",
+            "author": "Matt Smith",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/archmage.js"
+            ],
+            "scripts": [
+                "scripts/lib/parse-md.js",
+                "scripts/migrate/archmage-updates.js"
+            ],
+            "styles": [
+                "css/archmage.css"
+            ],
+            "packs": [
+                {
+                    "label": "Races",
+                    "entity": "Item",
+                    "name": "races",
+                    "path": "packs/races.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Barbarian",
+                    "entity": "Item",
+                    "name": "barbarian",
+                    "path": "packs/barbarian.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Bard",
+                    "entity": "Item",
+                    "name": "bard",
+                    "path": "packs/bard.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Cleric",
+                    "entity": "Item",
+                    "name": "cleric",
+                    "path": "packs/cleric.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Fighter",
+                    "entity": "Item",
+                    "name": "fighter",
+                    "path": "packs/fighter.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Paladin",
+                    "entity": "Item",
+                    "name": "paladin",
+                    "path": "packs/paladin.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Ranger",
+                    "entity": "Item",
+                    "name": "ranger",
+                    "path": "packs/ranger.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Rogue",
+                    "entity": "Item",
+                    "name": "rogue",
+                    "path": "packs/rogue.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Sorcerer",
+                    "entity": "Item",
+                    "name": "sorcerer",
+                    "path": "packs/sorcerer.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Wizard",
+                    "entity": "Item",
+                    "name": "wizard",
+                    "path": "packs/wizard.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Chaos Mage",
+                    "entity": "Item",
+                    "name": "chaosmage",
+                    "path": "packs/chaosmage.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Commander",
+                    "entity": "Item",
+                    "name": "commander",
+                    "path": "packs/commander.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Druid",
+                    "entity": "Item",
+                    "name": "druid",
+                    "path": "packs/druid.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Occultist",
+                    "entity": "Item",
+                    "name": "occultist",
+                    "path": "packs/occultist.db",
+                    "system": "archmage"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                }
+            ],
+            "url": "https://gitlab.com/asacolips-projects/foundry-mods/archmage",
+            "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/raw/master/system.json",
+            "download": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/archive/1.6.2/archmage-master.zip",
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + @attributes.level.value + (@abilities.dex.value / 100)",
+            "gridDistance": 1,
+            "gridUnits": "",
+            "primaryTokenAttribute": "attributes.hp",
+            "foundryUrl": "/packages/archmage/",
+            "lastUpdate": "3 minutes ago"
+        },
         {
             "name": "electricbastionland",
             "title": "Electric Bastionland",
@@ -26,7 +161,7 @@
             "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
             "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
             "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "42 minutes ago"
+            "lastUpdate": "57 minutes ago"
         },
         {
             "name": "ose",
@@ -77,7 +212,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v0.9.9.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "57 minutes ago"
+            "lastUpdate": "1 hour, 12 minutes ago"
         },
         {
             "name": "sandbox",
@@ -104,7 +239,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "13 hours, 49 minutes ago"
+            "lastUpdate": "14 hours, 4 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -445,7 +580,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "1 day, 17 hours ago"
+            "lastUpdate": "1 day, 18 hours ago"
         },
         {
             "name": "ModularFate",
@@ -482,7 +617,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 19 hours ago"
+            "lastUpdate": "1 day, 20 hours ago"
         },
         {
             "name": "svnsea2e",
@@ -589,7 +724,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "2 days, 11 hours ago"
+            "lastUpdate": "2 days, 12 hours ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -2139,50 +2274,6 @@
             "lastUpdate": "3 weeks ago"
         },
         {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "3 weeks, 3 days ago"
-        },
-        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2340,6 +2431,50 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
             "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "3 weeks, 3 days ago"
         },
         {
             "name": "pf2e",
