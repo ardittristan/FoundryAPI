@@ -1,6 +1,102 @@
 {
-    "updated": "Mon, 03 Aug 2020 19:35:33 GMT",
+    "updated": "Mon, 03 Aug 2020 19:50:29 GMT",
     "modules": [
+        {
+            "name": "ose-content",
+            "title": "Old School Essentials OGL Content",
+            "description": "Open Game Licensed content from Necrotic Gnome's Old School Essentials.",
+            "version": "0.1.3",
+            "systems": [
+                "ose"
+            ],
+            "author": "U~man",
+            "scripts": [],
+            "esmodules": [],
+            "styles": [],
+            "packs": [
+                {
+                    "name": "monsters",
+                    "label": "Monsters",
+                    "package": "ose-content",
+                    "path": "packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "package": "ose-content",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "package": "ose-content",
+                    "path": "packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes",
+                    "package": "ose-content",
+                    "path": "packs/classes.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "treasures",
+                    "label": "Treasure Tables",
+                    "package": "ose-content",
+                    "path": "packs/treasures.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "abilities",
+                    "label": "Abilities",
+                    "package": "ose-content",
+                    "path": "packs/abilities.db",
+                    "entity": "Item"
+                }
+            ],
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/raw/master/module.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/-/raw/master/package/ose-content-v0.1.3.zip",
+            "foundryUrl": "/packages/ose-content/",
+            "lastUpdate": "11 minutes ago"
+        },
+        {
+            "name": "npcgen",
+            "title": "Not Enough NPCs: A 5e NPC Generator",
+            "description": "Allows you to generate basic npc characters in foundry.",
+            "version": "0.0.12",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "npc-gen.js"
+            ],
+            "socket": true,
+            "url": "https://github.com/ardittristan/VTTNPCGen",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/module.json",
+            "download": "https://github.com/ardittristan/VTTNPCGen/releases/download/latest/nenpc.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "systems": [
+                "dnd5e"
+            ],
+            "styles": [
+                "css/npcgen.css",
+                "css/jsoneditor.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "foundryUrl": "/packages/npcgen/",
+            "lastUpdate": "11 minutes ago"
+        },
         {
             "name": "better-text-drawings",
             "title": "Better Text Drawings",
@@ -17,7 +113,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-better-text-drawings/master/module.json",
             "download": "https://github.com/ruipin/fvtt-better-text-drawings/archive/master.zip",
             "foundryUrl": "/packages/better-text-drawings/",
-            "lastUpdate": "2 hours, 35 minutes ago"
+            "lastUpdate": "2 hours, 50 minutes ago"
         },
         {
             "name": "externalactor",
@@ -51,7 +147,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.7.0",
             "foundryUrl": "/packages/externalactor/",
-            "lastUpdate": "5 hours, 20 minutes ago"
+            "lastUpdate": "5 hours, 35 minutes ago"
         },
         {
             "name": "BetterAmbientLoop",
@@ -70,7 +166,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-BetterAmbientLoop/master/module.json",
             "download": " https://github.com/BlitzKraig/fvtt-BetterAmbientLoop/releases/download/latest/betterambientloop-release.zip",
             "foundryUrl": "/packages/BetterAmbientLoop/",
-            "lastUpdate": "8 hours, 22 minutes ago"
+            "lastUpdate": "8 hours, 37 minutes ago"
         },
         {
             "name": "TinyTokens",
@@ -89,7 +185,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-TinyTokens/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-TinyTokens/releases/download/latest/tinytokens-release.zip",
             "foundryUrl": "/packages/TinyTokens/",
-            "lastUpdate": "8 hours, 37 minutes ago"
+            "lastUpdate": "8 hours, 52 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -109,7 +205,7 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/0.1.5/module.json",
             "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/0.1.5.zip",
             "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "10 hours, 3 minutes ago"
+            "lastUpdate": "10 hours, 18 minutes ago"
         },
         {
             "name": "itemacro",
@@ -140,7 +236,7 @@
             "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json",
             "download": "https://github.com/Kekilla0/Item-Macro/archive/v1.1.1.zip",
             "foundryUrl": "/packages/itemacro/",
-            "lastUpdate": "13 hours, 54 minutes ago"
+            "lastUpdate": "14 hours, 9 minutes ago"
         },
         {
             "name": "DancingLights",
@@ -168,7 +264,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-DancingLights/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-DancingLights/releases/download/latest/dancinglights-release.zip",
             "foundryUrl": "/packages/DancingLights/",
-            "lastUpdate": "22 hours, 2 minutes ago"
+            "lastUpdate": "22 hours, 17 minutes ago"
         },
         {
             "name": "vtta-didyouknow",
@@ -201,7 +297,7 @@
             "readme": "https://github.com/VTTAssets/vtta-didyouknow/blob/master/README.md",
             "changelog": "https://github.com/VTTAssets/vtta-didyouknow/releases",
             "foundryUrl": "/packages/vtta-didyouknow/",
-            "lastUpdate": "23 hours, 20 minutes ago"
+            "lastUpdate": "23 hours, 35 minutes ago"
         },
         {
             "name": "token-hud-wildcard",
@@ -354,33 +450,6 @@
             "lastUpdate": "2 days, 4 hours ago"
         },
         {
-            "name": "token-attacher",
-            "title": "Token Attacher",
-            "description": "Attach anything(except other tokens) to tokens, so that they move when the token moves and rotate/move when the token rotates. To be able to attach measure templates, lights, sounds and journals you need the select-tool-everywhere module, as of writing this there is no select tool in those controls.",
-            "version": "2.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "KayelGee - KayelGee#5241",
-            "scripts": [
-                "token-attacher.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "path": "languages/en.json"
-                }
-            ],
-            "socket": true,
-            "url": "https://github.com/KayelGee/token-attacher",
-            "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/master/module.json",
-            "download": "https://github.com/KayelGee/token-attacher/releases/download/v2.1.1/v2.1.1.zip",
-            "readme": "https://github.com/KayelGee/token-attacher/blob/v2.1.1/README.md",
-            "foundryUrl": "/packages/token-attacher/",
-            "lastUpdate": "2 days, 7 hours ago"
-        },
-        {
             "name": "token-action-hud",
             "title": "Token Action HUD",
             "author": "^ and stick#0520",
@@ -439,6 +508,33 @@
             "lastUpdate": "2 days, 5 hours ago"
         },
         {
+            "name": "token-attacher",
+            "title": "Token Attacher",
+            "description": "Attach anything(except other tokens) to tokens, so that they move when the token moves and rotate/move when the token rotates. To be able to attach measure templates, lights, sounds and journals you need the select-tool-everywhere module, as of writing this there is no select tool in those controls.",
+            "version": "2.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "KayelGee - KayelGee#5241",
+            "scripts": [
+                "token-attacher.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "path": "languages/en.json"
+                }
+            ],
+            "socket": true,
+            "url": "https://github.com/KayelGee/token-attacher",
+            "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/master/module.json",
+            "download": "https://github.com/KayelGee/token-attacher/releases/download/v2.1.1/v2.1.1.zip",
+            "readme": "https://github.com/KayelGee/token-attacher/blob/v2.1.1/README.md",
+            "foundryUrl": "/packages/token-attacher/",
+            "lastUpdate": "2 days, 7 hours ago"
+        },
+        {
             "name": "control-concealer",
             "title": "Control concealer",
             "description": "Adds two customizable tabs to the controls bar(on the left) and let's you hide tools(or complete layer controls) in each of those.Should you add or remove modules after you have made a selection this will try to adapt your previous selectiong to the added or deleted tools. This is for everyone that has a lot of modules that add their tools to the layer controls on the left side and also for everyone that might have a lot of tools they use while preparing games but a lot less or different while actually playing.",
@@ -466,70 +562,6 @@
             "readme": "https://github.com/KayelGee/control-concealer/blob/v1.0.0/README.md",
             "foundryUrl": "/packages/control-concealer/",
             "lastUpdate": "3 days ago"
-        },
-        {
-            "name": "ose-content",
-            "title": "Old School Essentials OGL Content",
-            "description": "Open Game Licensed content from Necrotic Gnome's Old School Essentials.",
-            "version": "0.1.2",
-            "systems": [
-                "ose"
-            ],
-            "author": "U~man",
-            "scripts": [],
-            "esmodules": [],
-            "styles": [],
-            "packs": [
-                {
-                    "name": "monsters",
-                    "label": "Monsters",
-                    "package": "ose-content",
-                    "path": "packs/monsters.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "package": "ose-content",
-                    "path": "packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "package": "ose-content",
-                    "path": "packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classes",
-                    "label": "Classes",
-                    "package": "ose-content",
-                    "path": "packs/classes.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "treasures",
-                    "label": "Treasure Tables",
-                    "package": "ose-content",
-                    "path": "packs/treasures.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "abilities",
-                    "label": "Abilities",
-                    "package": "ose-content",
-                    "path": "packs/abilities.db",
-                    "entity": "Item"
-                }
-            ],
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/raw/master/module.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/-/raw/master/package/ose-content-v0.1.2.zip",
-            "foundryUrl": "/packages/ose-content/",
-            "lastUpdate": "3 days, 7 hours ago"
         },
         {
             "name": "ec-maps-remake-by-lios",
@@ -640,7 +672,7 @@
             "manifest": "https://github.com/Kekilla0/TokenBar/raw/master/module.json",
             "download": "https://github.com/Kekilla0/TokenBar/archive/v0.3.2.zip",
             "foundryUrl": "/packages/TokenBar/",
-            "lastUpdate": "3 days, 23 hours ago"
+            "lastUpdate": "4 days ago"
         },
         {
             "name": "bettertemplates",
@@ -685,7 +717,7 @@
             "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json",
             "download": "https://github.com/jopeek/fvtt-dndbeyond-character-sheet/archive/master.zip",
             "foundryUrl": "/packages/dndbeyond-character-sheet/",
-            "lastUpdate": "4 days, 2 hours ago"
+            "lastUpdate": "4 days, 3 hours ago"
         },
         {
             "name": "betterrolls-swade",
@@ -716,7 +748,7 @@
             "manifest": "https://raw.githubusercontent.com/javierriveracastro/betteroll-swade/master/betterrolls-swade/module.json",
             "download": "https://github.com/javierriveracastro/betteroll-swade/raw/master/betterrolls-swade.zip",
             "foundryUrl": "/packages/betterrolls-swade/",
-            "lastUpdate": "4 days, 3 hours ago"
+            "lastUpdate": "4 days, 4 hours ago"
         },
         {
             "name": "inventory-plus",
@@ -740,7 +772,7 @@
             "minimumCoreVersion": "0.6.5",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/inventory-plus/",
-            "lastUpdate": "4 days, 4 hours ago"
+            "lastUpdate": "4 days, 5 hours ago"
         },
         {
             "name": "select-tool-everywhere",
@@ -881,7 +913,7 @@
             "manifest": "https://gitlab.com/tposney/minor-qol/raw/master/module.json",
             "download": "https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip",
             "foundryUrl": "/packages/minor-qol/",
-            "lastUpdate": "4 days, 16 hours ago"
+            "lastUpdate": "4 days, 17 hours ago"
         },
         {
             "name": "lmrtfy",
@@ -1006,24 +1038,6 @@
             "lastUpdate": "4 days, 22 hours ago"
         },
         {
-            "name": "token-vision-tweaks",
-            "title": "Token Vision Tweaks",
-            "description": "Provides some tweaks for Token Vision, to allow trading quality for performance, or vice-versa. Also provides a fix for a vision issue present in large open maps which may cause tokens to be able to see through distant walls, as well as a Fog-of-War memory leak.",
-            "version": "1.2.1",
-            "author": "Rui Pinheiro",
-            "scripts": [
-                "wrapper.js",
-                "main.js"
-            ],
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/ruipin/fvtt-token-vision-tweaks",
-            "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-token-vision-tweaks/master/module.json",
-            "download": "https://github.com/ruipin/fvtt-token-vision-tweaks/archive/master.zip",
-            "foundryUrl": "/packages/token-vision-tweaks/",
-            "lastUpdate": "4 days, 22 hours ago"
-        },
-        {
             "name": "token-animation-tools",
             "title": "Token Animation Tools",
             "description": "Provides macros and configuration options to control Token animations.",
@@ -1071,7 +1085,7 @@
             "minimumCoreVersion": "0.6.4",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/sfrpg-statblock-parser/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "condition-automation",
@@ -1119,6 +1133,24 @@
             "changelog": "https://github.com/schultzcole/FVTT-Wall-Height/blob/2.0.1/CHANGELOG.md",
             "foundryUrl": "/packages/wall-height/",
             "lastUpdate": "5 days, 17 hours ago"
+        },
+        {
+            "name": "token-vision-tweaks",
+            "title": "Token Vision Tweaks",
+            "description": "Provides some tweaks for Token Vision, to allow trading quality for performance, or vice-versa. Also provides a fix for a vision issue present in large open maps which may cause tokens to be able to see through distant walls, as well as a Fog-of-War memory leak.",
+            "version": "1.2.1",
+            "author": "Rui Pinheiro",
+            "scripts": [
+                "wrapper.js",
+                "main.js"
+            ],
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/ruipin/fvtt-token-vision-tweaks",
+            "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-token-vision-tweaks/master/module.json",
+            "download": "https://github.com/ruipin/fvtt-token-vision-tweaks/archive/master.zip",
+            "foundryUrl": "/packages/token-vision-tweaks/",
+            "lastUpdate": "4 days, 23 hours ago"
         },
         {
             "name": "quick-insert",
@@ -1170,6 +1202,39 @@
             "lastUpdate": "5 days, 22 hours ago"
         },
         {
+            "name": "one-journal",
+            "title": "OneJournal",
+            "description": "OneJournal provides a unified view for authoring journals",
+            "version": "1.2.9",
+            "author": "Sunspots",
+            "scripts": [],
+            "esmodules": [
+                "one-journal.js"
+            ],
+            "styles": [
+                "./one-journal.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/fvtt-modules-lab/one-journal",
+            "manifest": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/master/raw/module.json?job=build-module",
+            "download": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/v1.2.9/raw/one-journal-v1.2.9.zip?job=build-module",
+            "license": "MIT",
+            "readme": "https://gitlab.com/fvtt-modules-lab/one-journal",
+            "bugs": "https://gitlab.com/fvtt-modules-lab/one-journal/-/issues",
+            "changelog": "https://gitlab.com/fvtt-modules-lab/one-journal/-/blob/master/CHANGELOG.md",
+            "foundryUrl": "/packages/one-journal/",
+            "lastUpdate": "6 days, 1 hour ago"
+        },
+        {
             "name": "savaged-foundry",
             "title": "savaged-foundry",
             "description": "Module to import Savage World Adventure Edition characters created in the amazing savaged.us character generator into FloRad's excellent SWADE system for FoundryVTT.",
@@ -1207,37 +1272,25 @@
             "lastUpdate": "6 days, 21 hours ago"
         },
         {
-            "name": "one-journal",
-            "title": "OneJournal",
-            "description": "OneJournal provides a unified view for authoring journals",
-            "version": "1.2.9",
-            "author": "Sunspots",
-            "scripts": [],
-            "esmodules": [
-                "one-journal.js"
+            "name": "EasyTable",
+            "title": "EasyTable by Blitz",
+            "description": "Creates simple text-based rollable tables from CSV (or any-SV) data",
+            "version": "1.2.4",
+            "author": "Blitzkraig",
+            "scripts": [
+                "./easytable.js"
             ],
             "styles": [
-                "./one-journal.css"
+                "./styles.css"
             ],
             "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/fvtt-modules-lab/one-journal",
-            "manifest": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/master/raw/module.json?job=build-module",
-            "download": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/v1.2.9/raw/one-journal-v1.2.9.zip?job=build-module",
-            "license": "MIT",
-            "readme": "https://gitlab.com/fvtt-modules-lab/one-journal",
-            "bugs": "https://gitlab.com/fvtt-modules-lab/one-journal/-/issues",
-            "changelog": "https://gitlab.com/fvtt-modules-lab/one-journal/-/blob/master/CHANGELOG.md",
-            "foundryUrl": "/packages/one-journal/",
-            "lastUpdate": "6 days, 1 hour ago"
+            "minimumCoreVersion": "0.5.3",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/BlitzKraig/fvtt-EasyTable",
+            "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-EasyTable/master/module.json",
+            "download": "https://github.com/BlitzKraig/fvtt-EasyTable/releases/download/latest/easytable-release.zip",
+            "foundryUrl": "/packages/EasyTable/",
+            "lastUpdate": "6 days, 23 hours ago"
         },
         {
             "name": "colorsettings",
@@ -1259,27 +1312,6 @@
             ],
             "foundryUrl": "/packages/colorsettings/",
             "lastUpdate": "6 days, 21 hours ago"
-        },
-        {
-            "name": "EasyTable",
-            "title": "EasyTable by Blitz",
-            "description": "Creates simple text-based rollable tables from CSV (or any-SV) data",
-            "version": "1.2.4",
-            "author": "Blitzkraig",
-            "scripts": [
-                "./easytable.js"
-            ],
-            "styles": [
-                "./styles.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.5.3",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/BlitzKraig/fvtt-EasyTable",
-            "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-EasyTable/master/module.json",
-            "download": "https://github.com/BlitzKraig/fvtt-EasyTable/releases/download/latest/easytable-release.zip",
-            "foundryUrl": "/packages/EasyTable/",
-            "lastUpdate": "6 days, 22 hours ago"
         },
         {
             "name": "5e-training",
@@ -1314,38 +1346,6 @@
             "manifest": "https://raw.githubusercontent.com/crash1115/5e-training/master/module.json",
             "download": "https://github.com/crash1115/5e-training/releases/download/v0.4.2/5e-training.zip",
             "foundryUrl": "/packages/5e-training/",
-            "lastUpdate": "1 week ago"
-        },
-        {
-            "name": "npcgen",
-            "title": "Not Enough NPCs: A 5e NPC Generator",
-            "description": "Allows you to generate basic npc characters in foundry.",
-            "version": "0.0.11",
-            "author": "ardittristan#0001",
-            "esmodules": [
-                "npc-gen.js"
-            ],
-            "socket": true,
-            "url": "https://github.com/ardittristan/VTTNPCGen",
-            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTNPCGen/master/module.json",
-            "download": "https://github.com/ardittristan/VTTNPCGen/releases/download/latest/nenpc.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "systems": [
-                "dnd5e"
-            ],
-            "styles": [
-                "css/npcgen.css",
-                "css/jsoneditor.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "foundryUrl": "/packages/npcgen/",
             "lastUpdate": "1 week ago"
         },
         {
@@ -3168,7 +3168,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json",
             "download": "https://github.com/datdamnzotz/icons/releases/download/0.0.5/0.0.5.zip",
             "foundryUrl": "/packages/game-icons-net/",
-            "lastUpdate": "2 weeks, 3 days ago"
+            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "audio-folder",
@@ -3442,7 +3442,7 @@
             "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
             "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
             "foundryUrl": "/packages/special-dice-roller/",
-            "lastUpdate": "2 weeks, 5 days ago"
+            "lastUpdate": "2 weeks, 6 days ago"
         },
         {
             "name": "point-of-vision",
@@ -3703,36 +3703,6 @@
             "lastUpdate": "3 weeks, 2 days ago"
         },
         {
-            "name": "journal-sync",
-            "title": "Journal Sync",
-            "description": "This module allows you to sync your journal entries with markdown files to give you more flexibility in editing your notes.",
-            "author": "Sytone",
-            "version": "0.5.0",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "esmodules": [
-                "main.js"
-            ],
-            "scripts": [
-                "scripts/showdown.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "url": "https://github.com/sytone/foundry-vtt-journal-sync",
-            "manifest": "https://github.com/sytone/foundry-vtt-journal-sync/releases/download/latest/module.json",
-            "download": "https://github.com/sytone/foundry-vtt-journal-sync/releases/download/latest/journal-sync.zip",
-            "socket": true,
-            "foundryUrl": "/packages/foundry-vtt-journal-sync/",
-            "lastUpdate": "3 weeks, 2 days ago"
-        },
-        {
             "name": "dnd-ui",
             "title": "DnD5e Ui",
             "description": "Theme for DnD5e. <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
@@ -3776,6 +3746,36 @@
             "download": "https://gitlab.com/sasmira/dnd-ui/-/jobs/artifacts/v1.1.2/raw/dnd-ui.zip?job=build",
             "foundryUrl": "/packages/dnd-ui/",
             "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
+            "name": "journal-sync",
+            "title": "Journal Sync",
+            "description": "This module allows you to sync your journal entries with markdown files to give you more flexibility in editing your notes.",
+            "author": "Sytone",
+            "version": "0.5.0",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "esmodules": [
+                "main.js"
+            ],
+            "scripts": [
+                "scripts/showdown.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "url": "https://github.com/sytone/foundry-vtt-journal-sync",
+            "manifest": "https://github.com/sytone/foundry-vtt-journal-sync/releases/download/latest/module.json",
+            "download": "https://github.com/sytone/foundry-vtt-journal-sync/releases/download/latest/journal-sync.zip",
+            "socket": true,
+            "foundryUrl": "/packages/foundry-vtt-journal-sync/",
+            "lastUpdate": "3 weeks, 2 days ago"
         },
         {
             "name": "adventure-import-export",
@@ -4228,31 +4228,6 @@
             "lastUpdate": "3 weeks, 6 days ago"
         },
         {
-            "name": "personalmarkers",
-            "title": "Personal Markers",
-            "description": "Add personal markers that only you can see.",
-            "version": "1.0.2",
-            "author": "ardittristan#0001",
-            "esmodules": [
-                "marker.js"
-            ],
-            "socket": true,
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "url": "https://github.com/ardittristan/VttPersonalMarkers",
-            "manifest": "https://raw.githubusercontent.com/ardittristan/VttPersonalMarkers/master/module.json",
-            "download": "https://github.com/ardittristan/VttPersonalMarkers/releases/download/latest/personal-markers.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.4",
-            "foundryUrl": "/packages/personalmarkers/",
-            "lastUpdate": "3 weeks, 6 days ago"
-        },
-        {
             "name": "custom-css",
             "title": "Custom Css",
             "description": "Add custom css to your world",
@@ -4281,6 +4256,31 @@
             "download": "https://github.com/cswendrowski/FoundryVTT-Custom-CSS/releases/download/1.1.1/module.zip",
             "foundryUrl": "/packages/custom-css/",
             "lastUpdate": "3 weeks, 5 days ago"
+        },
+        {
+            "name": "personalmarkers",
+            "title": "Personal Markers",
+            "description": "Add personal markers that only you can see.",
+            "version": "1.0.2",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "marker.js"
+            ],
+            "socket": true,
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "url": "https://github.com/ardittristan/VttPersonalMarkers",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VttPersonalMarkers/master/module.json",
+            "download": "https://github.com/ardittristan/VttPersonalMarkers/releases/download/latest/personal-markers.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.4",
+            "foundryUrl": "/packages/personalmarkers/",
+            "lastUpdate": "3 weeks, 6 days ago"
         },
         {
             "name": "scifi-ui",
@@ -4918,7 +4918,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.4",
             "foundryUrl": "/packages/escape-window/",
-            "lastUpdate": "1 month ago"
+            "lastUpdate": "1��month ago"
         },
         {
             "name": "combat-utility-belt",
@@ -5051,6 +5051,29 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "cozy-player",
+            "title": "Cozy Player",
+            "description": "Some QoL tools for GM and Players. Skills shortcuts, tooltips and targeting. Made for DnD 5ed.",
+            "author": "Psyny",
+            "version": "1.3.1",
+            "minimumCoreVersion": "0.6.0",
+            "scripts": [
+                "./scripts/settings.js",
+                "./scripts/hotkeys.js",
+                "./scripts/main.js",
+                "./scripts/token-tooltip.js",
+                "./scripts/chat-integration.js"
+            ],
+            "styles": [
+                "./styles.css"
+            ],
+            "url": "https://github.com/psyny/FoundryVTT/tree/master/CozyPlayer",
+            "manifest": "https://raw.githubusercontent.com/psyny/FoundryVTT/master/CozyPlayer/cozy-player/module.json",
+            "download": "https://github.com/psyny/FoundryVTT/raw/master/CozyPlayer/cozy-player.zip",
+            "foundryUrl": "/packages/cozy-player/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "mageflame-expanded",
             "title": "Mageflame Expanded",
             "description": "A small set of additional features for https://gitlab.com/asacolips-projects/foundry-mods/archmage/tree/master",
@@ -5085,29 +5108,6 @@
             "manifest": "https://github.com/cswendrowski/FoundryVTT-Mageflame-Expanded/releases/download/latest/module.json",
             "download": "https://github.com/cswendrowski/FoundryVTT-Mageflame-Expanded/releases/download/latest/mageflame-expanded.zip",
             "foundryUrl": "/packages/mageflame-expanded/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "cozy-player",
-            "title": "Cozy Player",
-            "description": "Some QoL tools for GM and Players. Skills shortcuts, tooltips and targeting. Made for DnD 5ed.",
-            "author": "Psyny",
-            "version": "1.3.1",
-            "minimumCoreVersion": "0.6.0",
-            "scripts": [
-                "./scripts/settings.js",
-                "./scripts/hotkeys.js",
-                "./scripts/main.js",
-                "./scripts/token-tooltip.js",
-                "./scripts/chat-integration.js"
-            ],
-            "styles": [
-                "./styles.css"
-            ],
-            "url": "https://github.com/psyny/FoundryVTT/tree/master/CozyPlayer",
-            "manifest": "https://raw.githubusercontent.com/psyny/FoundryVTT/master/CozyPlayer/cozy-player/module.json",
-            "download": "https://github.com/psyny/FoundryVTT/raw/master/CozyPlayer/cozy-player.zip",
-            "foundryUrl": "/packages/cozy-player/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -7373,6 +7373,23 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "easy-target",
+            "title": "Easy Target",
+            "description": "Target tokens with alt+click.",
+            "version": "2.2",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.5.7",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "url": "https://bitbucket.org/Fyorl/easy-target",
+            "manifest": "https://bitbucket.org/Fyorl/easy-target/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/easy-target/get/2.2.zip",
+            "foundryUrl": "/packages/easy-target/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "spell-school-icons",
             "title": "5e Spell School Icons",
             "description": "Module that adds a new default icon to spells based off their school (requires DND5e)",
@@ -7408,23 +7425,6 @@
             "manifest": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/raw/master/spell-school-icons/module.json",
             "download": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/-/jobs/artifacts/0.9.1/raw/spell-school-icons.zip?job=build",
             "foundryUrl": "/packages/spell-school-icons/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "easy-target",
-            "title": "Easy Target",
-            "description": "Target tokens with alt+click.",
-            "version": "2.2",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.5.7",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "url": "https://bitbucket.org/Fyorl/easy-target",
-            "manifest": "https://bitbucket.org/Fyorl/easy-target/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/easy-target/get/2.2.zip",
-            "foundryUrl": "/packages/easy-target/",
             "lastUpdate": "2 months ago"
         },
         {
