@@ -1,6 +1,205 @@
 {
-    "updated": "Wed, 05 Aug 2020 05:20:45 GMT",
+    "updated": "Wed, 05 Aug 2020 05:35:43 GMT",
     "modules": [
+        {
+            "name": "pf1",
+            "title": "Pathfinder 1",
+            "description": "A comprehensive game system for running games of Pathfinder 1 in the Foundry VTT environment.",
+            "version": "0.73",
+            "author": "Furyspark",
+            "templateVersion": 2,
+            "scripts": [],
+            "esmodules": [
+                "pf1.js"
+            ],
+            "styles": [
+                "pf1.css"
+            ],
+            "packs": [
+                {
+                    "name": "classes",
+                    "label": "Classes",
+                    "system": "pf1",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "mythicpaths",
+                    "label": "Mythic Paths",
+                    "system": "pf1",
+                    "path": "./packs/mythic-paths.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "commonbuffs",
+                    "label": "Common Buffs",
+                    "system": "pf1",
+                    "path": "./packs/commonbuffs.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "pf1",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "pf1",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "pf1",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armors-and-shields",
+                    "label": "Armor and Shields",
+                    "system": "pf1",
+                    "path": "./packs/armors-and-shields.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons-and-ammo",
+                    "label": "Weapons and Ammo",
+                    "system": "pf1",
+                    "path": "./packs/weapons-and-ammo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "racialhd",
+                    "label": "Racial HD",
+                    "system": "pf1",
+                    "path": "./packs/racial-hd.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "pf1",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "class-abilities",
+                    "label": "Class Abilities",
+                    "system": "pf1",
+                    "path": "./packs/class-abilities.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monster-templates",
+                    "label": "Monster Templates",
+                    "system": "pf1",
+                    "path": "./packs/monster-templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "sample-macros",
+                    "label": "Sample Macros",
+                    "system": "pf1",
+                    "path": "./packs/sample-macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "roll-tables",
+                    "label": "Roll Tables",
+                    "system": "pf1",
+                    "path": "./packs/roll-tables.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "ultimate-equipment",
+                    "label": "Ultimate Equipment",
+                    "system": "pf1",
+                    "path": "./packs/ultimate-equipment.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "bestiary_1",
+                    "label": "Bestiary - Part 1",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_1.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_2",
+                    "label": "Bestiary - Part 2",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_2.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_3",
+                    "label": "Bestiary - Part 3",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_3.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_4",
+                    "label": "Bestiary - Part 4",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_4.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_5",
+                    "label": "Bestiary - Part 5",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_5.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "conditions",
+                    "label": "Conditions",
+                    "system": "pf1",
+                    "path": "./packs/conditions.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "it",
+                    "name": "Italian",
+                    "path": "lang/it.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.total + (@attributes.init.total / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1",
+            "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
+            "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73/foundryvtt-pathfinder1-v0.73.zip",
+            "foundryUrl": "/packages/pf1/",
+            "lastUpdate": "7 minutes ago"
+        },
         {
             "version": 0.32,
             "name": "cyberpunkred",
@@ -38,7 +237,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "7 hours, 6 minutes ago"
+            "lastUpdate": "7 hours, 21 minutes ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -72,7 +271,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "8 hours, 21 minutes ago"
+            "lastUpdate": "8 hours, 36 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -109,7 +308,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "14 hours, 23 minutes ago"
+            "lastUpdate": "14 hours, 38 minutes ago"
         },
         {
             "name": "sandbox",
@@ -136,7 +335,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "22 hours, 53 minutes ago"
+            "lastUpdate": "23 hours, 8 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -197,7 +396,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "1 day, 2 hours ago"
+            "lastUpdate": "1 day, 3 hours ago"
         },
         {
             "name": "archmage",
@@ -555,205 +754,6 @@
             "lastUpdate": "3 days, 2 hours ago"
         },
         {
-            "name": "pf1",
-            "title": "Pathfinder 1",
-            "description": "A comprehensive game system for running games of Pathfinder 1 in the Foundry VTT environment.",
-            "version": "0.72.1",
-            "author": "Furyspark",
-            "templateVersion": 2,
-            "scripts": [],
-            "esmodules": [
-                "pf1.js"
-            ],
-            "styles": [
-                "pf1.css"
-            ],
-            "packs": [
-                {
-                    "name": "classes",
-                    "label": "Classes",
-                    "system": "pf1",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "mythicpaths",
-                    "label": "Mythic Paths",
-                    "system": "pf1",
-                    "path": "./packs/mythic-paths.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "commonbuffs",
-                    "label": "Common Buffs",
-                    "system": "pf1",
-                    "path": "./packs/commonbuffs.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "pf1",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "feats",
-                    "label": "Feats",
-                    "system": "pf1",
-                    "path": "./packs/feats.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "pf1",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "armors-and-shields",
-                    "label": "Armor and Shields",
-                    "system": "pf1",
-                    "path": "./packs/armors-and-shields.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons-and-ammo",
-                    "label": "Weapons and Ammo",
-                    "system": "pf1",
-                    "path": "./packs/weapons-and-ammo.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "racialhd",
-                    "label": "Racial HD",
-                    "system": "pf1",
-                    "path": "./packs/racial-hd.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "races",
-                    "label": "Races",
-                    "system": "pf1",
-                    "path": "./packs/races.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "class-abilities",
-                    "label": "Class Abilities",
-                    "system": "pf1",
-                    "path": "./packs/class-abilities.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "monster-templates",
-                    "label": "Monster Templates",
-                    "system": "pf1",
-                    "path": "./packs/monster-templates.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "sample-macros",
-                    "label": "Sample Macros",
-                    "system": "pf1",
-                    "path": "./packs/sample-macros.db",
-                    "entity": "Macro"
-                },
-                {
-                    "name": "roll-tables",
-                    "label": "Roll Tables",
-                    "system": "pf1",
-                    "path": "./packs/roll-tables.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "ultimate-equipment",
-                    "label": "Ultimate Equipment",
-                    "system": "pf1",
-                    "path": "./packs/ultimate-equipment.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "bestiary_1",
-                    "label": "Bestiary - Part 1",
-                    "system": "pf1",
-                    "path": "./packs/bestiary_1.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "bestiary_2",
-                    "label": "Bestiary - Part 2",
-                    "system": "pf1",
-                    "path": "./packs/bestiary_2.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "bestiary_3",
-                    "label": "Bestiary - Part 3",
-                    "system": "pf1",
-                    "path": "./packs/bestiary_3.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "bestiary_4",
-                    "label": "Bestiary - Part 4",
-                    "system": "pf1",
-                    "path": "./packs/bestiary_4.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "bestiary_5",
-                    "label": "Bestiary - Part 5",
-                    "system": "pf1",
-                    "path": "./packs/bestiary_5.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "conditions",
-                    "label": "Conditions",
-                    "system": "pf1",
-                    "path": "./packs/conditions.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "it",
-                    "name": "Italian",
-                    "path": "lang/it.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.total + (@attributes.init.total / 100)",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": null,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1",
-            "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
-            "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.72.1/foundryvtt-pathfinder1-v0.72.1.zip",
-            "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "2 days, 21 hours ago"
-        },
-        {
             "name": "svnsea2e",
             "title": "7th Sea Second Edition (Unofficial)",
             "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
@@ -789,7 +789,7 @@
             "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "3 days, 7 hours ago"
+            "lastUpdate": "3 days, 8 hours ago"
         },
         {
             "name": "tormenta20",
@@ -1306,7 +1306,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "6 days, 12 hours ago"
+            "lastUpdate": "6 days, 13 hours ago"
         },
         {
             "name": "sfrpg",
@@ -2400,44 +2400,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "numenera",
-            "title": "Numenera",
-            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
-            "version": "0.15.1",
-            "author": "SolarBear",
-            "scripts": [
-                "lib/dragula/dragula.min.js"
-            ],
-            "esmodules": [
-                "numenera.js"
-            ],
-            "styles": [
-                "numenera.css",
-                "lib/dragula/dragula.min.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "compatibleCoreVersion": "0.6.4",
-            "minimumCoreVersion": "0.5.5",
-            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
-            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
-            "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "zork",
             "title": "Zork",
             "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
@@ -2480,6 +2442,44 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "3 weeks, 5 days ago"
+        },
+        {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.15.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.4",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "1 month ago"
         },
         {
             "name": "pf2e",
