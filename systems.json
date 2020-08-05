@@ -1,6 +1,111 @@
 {
-    "updated": "Wed, 05 Aug 2020 11:35:43 GMT",
+    "updated": "Wed, 05 Aug 2020 11:50:46 GMT",
     "modules": [
+        {
+            "name": "blades-in-the-dark",
+            "title": "Blades in the Dark",
+            "description": "Blades in the dark game system.",
+            "version": "1.0",
+            "minimumCoreVersion": "0.5.3",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "megastruktur",
+            "esmodules": [
+                "module/blades.js"
+            ],
+            "styles": [
+                "styles/blades.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ru",
+                    "name": "Russian",
+                    "path": "lang/ru.json"
+                }
+            ],
+            "url": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/",
+            "manifest": "https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/1.0/system.json",
+            "download": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/archive/1.0.zip",
+            "packs": [
+                {
+                    "name": "class",
+                    "label": "Classes",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "heritage",
+                    "label": "Heritages",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/heritages.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "vice",
+                    "label": "Vices",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/vices.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "background",
+                    "label": "Backgrounds",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/backgrounds.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "item",
+                    "label": "Items",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ability",
+                    "label": "Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/abilities.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_reputation",
+                    "label": "Crew Reputation",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_reputation.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_type",
+                    "label": "Crew Types",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_types.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_upgrade",
+                    "label": "Crew Upgrades",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_upgrades.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_ability",
+                    "label": "Crew Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_abilities.db",
+                    "entity": "Item"
+                }
+            ],
+            "foundryUrl": "/packages/blades-in-the-dark/",
+            "lastUpdate": "0 minutes ago"
+        },
         {
             "name": "sandbox",
             "title": "Sandbox System Builder",
@@ -26,7 +131,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "5 hours, 46 minutes ago"
+            "lastUpdate": "6 hours, 2 minutes ago"
         },
         {
             "name": "pf1",
@@ -225,7 +330,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73/foundryvtt-pathfinder1-v0.73.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "6 hours, 7 minutes ago"
+            "lastUpdate": "6 hours, 22 minutes ago"
         },
         {
             "version": 0.32,
@@ -264,7 +369,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "13 hours, 21 minutes ago"
+            "lastUpdate": "13 hours, 36 minutes ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -298,7 +403,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "14 hours, 36 minutes ago"
+            "lastUpdate": "14 hours, 51 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -335,7 +440,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "20 hours, 38 minutes ago"
+            "lastUpdate": "20 hours, 53 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -531,7 +636,7 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
-            "lastUpdate": "1 day, 14 hours ago"
+            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "electricbastionland",
@@ -609,7 +714,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v0.9.9.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 day, 15 hours ago"
+            "lastUpdate": "1 day, 16 hours ago"
         },
         {
             "name": "alienrpg",
@@ -751,7 +856,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "3 days, 8 hours ago"
+            "lastUpdate": "3 days, 9 hours ago"
         },
         {
             "name": "svnsea2e",
@@ -824,7 +929,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "4 days, 2 hours ago"
+            "lastUpdate": "4 days, 3 hours ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -924,106 +1029,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
             "lastUpdate": "5 days ago"
-        },
-        {
-            "name": "blades-in-the-dark",
-            "title": "Blades in the Dark",
-            "description": "Blades in the dark game system.",
-            "version": "0.7.4",
-            "minimumCoreVersion": "0.5.3",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "megastruktur",
-            "esmodules": [
-                "module/blades.js"
-            ],
-            "styles": [
-                "styles/blades.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "url": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/",
-            "manifest": "https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/0.7.4/system.json",
-            "download": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/archive/0.7.4.zip",
-            "packs": [
-                {
-                    "name": "class",
-                    "label": "Classes",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "heritage",
-                    "label": "Heritages",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/heritages.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "vice",
-                    "label": "Vices",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/vices.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "background",
-                    "label": "Backgrounds",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/backgrounds.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "item",
-                    "label": "Items",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ability",
-                    "label": "Abilities",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/abilities.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_reputation",
-                    "label": "Crew Reputation",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_reputation.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_type",
-                    "label": "Crew Types",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_types.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_upgrade",
-                    "label": "Crew Upgrades",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_upgrades.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "crew_ability",
-                    "label": "Crew Abilities",
-                    "system": "blades-in-the-dark",
-                    "path": "./packs/crew_abilities.db",
-                    "entity": "Item"
-                }
-            ],
-            "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "forbidden-lands",
@@ -1616,7 +1621,7 @@
             "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
-            "lastUpdate": "1 week, 1 day ago"
+            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "wfrp4e",
@@ -2167,37 +2172,6 @@
             "lastUpdate": "2 weeks, 1 day ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
             "name": "dcc",
             "title": "Dungeon Crawl Classics",
             "description": "Dungeon Crawl Classics from Goodman Games",
@@ -2247,6 +2221,37 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/dcc/",
             "lastUpdate": "2 weeks, 2 days ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "2 weeks, 5 days ago"
         },
         {
             "name": "shadowrun5e",
