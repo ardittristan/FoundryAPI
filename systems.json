@@ -1,6 +1,94 @@
 {
-    "updated": "Wed, 05 Aug 2020 19:05:47 GMT",
+    "updated": "Wed, 05 Aug 2020 19:20:45 GMT",
     "modules": [
+        {
+            "name": "ose",
+            "title": "Old-School Essentials",
+            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
+            "version": "1.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "U~man",
+            "esmodules": [
+                "ose.js"
+            ],
+            "styles": [
+                "ose.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
+            "foundryUrl": "/packages/ose/",
+            "lastUpdate": "5 minutes ago"
+        },
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.3.2",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "12 minutes ago"
+        },
         {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System 4th Edition - Unofficial",
@@ -34,7 +122,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "3 hours, 23 minutes ago"
+            "lastUpdate": "3 hours, 38 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -139,7 +227,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "5 hours, 35 minutes ago"
+            "lastUpdate": "5 hours, 50 minutes ago"
         },
         {
             "name": "sandbox",
@@ -166,7 +254,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "13 hours, 17 minutes ago"
+            "lastUpdate": "13 hours, 31 minutes ago"
         },
         {
             "name": "pf1",
@@ -365,7 +453,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73/foundryvtt-pathfinder1-v0.73.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "13 hours, 37 minutes ago"
+            "lastUpdate": "13 hours, 52 minutes ago"
         },
         {
             "version": 0.32,
@@ -404,7 +492,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "20 hours, 51 minutes ago"
+            "lastUpdate": "21 hours, 6 minutes ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -438,44 +526,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "22 hours, 6 minutes ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.3.1",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 4 hours ago"
+            "lastUpdate": "22 hours, 21 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -701,57 +752,6 @@
             "lastUpdate": "1 day, 23 hours ago"
         },
         {
-            "name": "ose",
-            "title": "Old-School Essentials",
-            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
-            "version": "0.9.9",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "U~man",
-            "esmodules": [
-                "ose.js"
-            ],
-            "styles": [
-                "ose.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v0.9.9.zip",
-            "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 day, 23 hours ago"
-        },
-        {
             "name": "alienrpg",
             "title": "Alien RPG",
             "description": "The Alien RPG system for FoundryVTT!",
@@ -817,7 +817,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "3 days, 6 hours ago"
+            "lastUpdate": "3 days, 7 hours ago"
         },
         {
             "name": "callofcthulhu",
@@ -1063,7 +1063,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "5 days, 7 hours ago"
+            "lastUpdate": "5 days, 8 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -1119,7 +1119,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "5 days, 19 hours ago"
+            "lastUpdate": "5 days, 20 hours ago"
         },
         {
             "name": "mothership",
@@ -1311,7 +1311,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.0/release0.2.0.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "6 days, 18 hours ago"
+            "lastUpdate": "6 days, 19 hours ago"
         },
         {
             "name": "sfrpg",
