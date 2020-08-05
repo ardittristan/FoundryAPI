@@ -1,6 +1,40 @@
 {
-    "updated": "Wed, 05 Aug 2020 18:50:47 GMT",
+    "updated": "Wed, 05 Aug 2020 19:05:47 GMT",
     "modules": [
+        {
+            "name": "externalactor",
+            "title": "External Actor Viewer",
+            "description": "Makes you able to see characters from unloaded worlds.",
+            "version": "1.0.2",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "actorviewer.js"
+            ],
+            "scripts": [
+                "modules/dnd5e.js"
+            ],
+            "systems": [
+                "dnd5e"
+            ],
+            "styles": [
+                "css/externalactor.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "url": "https://github.com/ardittristan/VTTExternalActorViewer",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTExternalActorViewer/master/module.json",
+            "download": "https://github.com/ardittristan/VTTExternalActorViewer/releases/latest/download/actorViewer.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/externalactor/",
+            "lastUpdate": "14 minutes ago"
+        },
         {
             "name": "token-action-hud",
             "title": "Token Action HUD",
@@ -57,7 +91,7 @@
             "version": "0.5.18",
             "download": "https://github.com/espositos/fvtt-tokenactionhud/releases/download/0.5.18/release_0.5.18.zip",
             "foundryUrl": "/packages/token-action-hud/",
-            "lastUpdate": "7 hours, 21 minutes ago"
+            "lastUpdate": "7 hours, 36 minutes ago"
         },
         {
             "name": "tokenmagic",
@@ -145,7 +179,7 @@
             "manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
             "download": "https://github.com/Feu-Secret/Tokenmagic/raw/master/Tokenmagic.zip",
             "foundryUrl": "/packages/tokenmagic/",
-            "lastUpdate": "7 hours, 54 minutes ago"
+            "lastUpdate": "8 hours, 9 minutes ago"
         },
         {
             "name": "turnAlert",
@@ -192,7 +226,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.3.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.3.0/CHANGELOG.md",
             "foundryUrl": "/packages/turnAlert/",
-            "lastUpdate": "14 hours, 10 minutes ago"
+            "lastUpdate": "14 hours, 25 minutes ago"
         },
         {
             "name": "jitsirtc",
@@ -212,7 +246,7 @@
                 "lib-jitsi-meet.min.js"
             ],
             "foundryUrl": "/packages/jitsirtc/",
-            "lastUpdate": "20 hours, 58 minutes ago"
+            "lastUpdate": "21 hours, 13 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -252,7 +286,7 @@
             "manifest": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/latest/module.json",
             "download": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/1.2.1/module.zip",
             "foundryUrl": "/packages/dragupload/",
-            "lastUpdate": "22 hours, 13 minutes ago"
+            "lastUpdate": "22 hours, 28 minutes ago"
         },
         {
             "name": "monsterblock",
@@ -287,7 +321,7 @@
             "url": "https://github.com/zeel01/MonsterBlocks",
             "download": "https://github.com/zeel01/MonsterBlocks/releases/download/v1.2.0/monsterblock.zip",
             "foundryUrl": "/packages/monsterblock/",
-            "lastUpdate": "1 day, 3 hours ago"
+            "lastUpdate": "1 day, 4 hours ago"
         },
         {
             "name": "sadness-chan",
@@ -415,40 +449,6 @@
             "lastUpdate": "1 day, 13 hours ago"
         },
         {
-            "name": "externalactor",
-            "title": "External Actor Viewer",
-            "description": "Makes you able to see characters from unloaded worlds.",
-            "version": "1.0.2",
-            "author": "ardittristan#0001",
-            "esmodules": [
-                "actorviewer.js"
-            ],
-            "scripts": [
-                "modules/dnd5e.js"
-            ],
-            "systems": [
-                "dnd5e"
-            ],
-            "styles": [
-                "css/externalactor.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "url": "https://github.com/ardittristan/VTTExternalActorViewer",
-            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTExternalActorViewer/master/module.json",
-            "download": "https://github.com/ardittristan/VTTExternalActorViewer/releases/latest/download/actorViewer.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "foundryUrl": "/packages/externalactor/",
-            "lastUpdate": "1 day, 18 hours ago"
-        },
-        {
             "name": "long-rest-hd-healing",
             "title": "Long Rest Hit Die Healing for D&D5e",
             "description": "Adds the \"Slow Natural Healing\" rules to the dnd5e system. Rather than healing to full hit points, actors now have the option to spend hit dice on a long rest.",
@@ -469,7 +469,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Long-Rest-HD-Healing-5e/blob/1.1.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Long-Rest-HD-Healing-5e/blob/1.1.0/CHANGELOG.md",
             "foundryUrl": "/packages/long-rest-hd-healing/",
-            "lastUpdate": "1 day, 18 hours ago"
+            "lastUpdate": "1 day, 19 hours ago"
         },
         {
             "name": "camera-view-settings",
@@ -607,7 +607,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-better-text-drawings/master/module.json",
             "download": "https://github.com/ruipin/fvtt-better-text-drawings/archive/master.zip",
             "foundryUrl": "/packages/better-text-drawings/",
-            "lastUpdate": "2 days, 1 hour ago"
+            "lastUpdate": "2 days, 2 hours ago"
         },
         {
             "name": "BetterAmbientLoop",
@@ -645,7 +645,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-TinyTokens/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-TinyTokens/releases/download/latest/tinytokens-release.zip",
             "foundryUrl": "/packages/TinyTokens/",
-            "lastUpdate": "2 days, 7 hours ago"
+            "lastUpdate": "2 days, 8 hours ago"
         },
         {
             "name": "itemacro",
@@ -805,7 +805,7 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "1.0.0",
             "foundryUrl": "/packages/lootsheetnpcpf1/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "searchanywhere",
@@ -1126,7 +1126,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/simplemobile/",
-            "lastUpdate": "6 days, 6 hours ago"
+            "lastUpdate": "6 days, 7 hours ago"
         },
         {
             "name": "cycle-token-stack",
@@ -1156,7 +1156,7 @@
             "readme": "https://github.com/aka-beer-buddy/fvtt-cycle-token-stack/raw/v0.5.1/README.md",
             "changelog": "https://github.com/aka-beer-buddy/fvtt-cycle-token-stack/raw/v0.5.1/changelog.md",
             "foundryUrl": "/packages/cycle-token-stack/",
-            "lastUpdate": "6 days, 9 hours ago"
+            "lastUpdate": "6 days, 10 hours ago"
         },
         {
             "name": "minor-qol",
@@ -1274,7 +1274,7 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "0.7.0",
             "foundryUrl": "/packages/lmrtfy/",
-            "lastUpdate": "6 days, 18 hours ago"
+            "lastUpdate": "6 days, 19 hours ago"
         },
         {
             "name": "skill-customization-5e",
@@ -1300,7 +1300,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Skill-Customization-5e/blob/2.1.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Skill-Customization-5e/blob/2.1.0/CHANGELOG.md",
             "foundryUrl": "/packages/skill-customization-5e/",
-            "lastUpdate": "6 days, 20 hours ago"
+            "lastUpdate": "6 days, 21 hours ago"
         },
         {
             "name": "LetterTokens",
@@ -1323,7 +1323,7 @@
             "manifest": "https://raw.githubusercontent.com/buttonpushertv/lettertokens/master/module.json",
             "download": "https://github.com/buttonpushertv/lettertokens/archive/1.0.2.zip",
             "foundryUrl": "/packages/LetterTokens/",
-            "lastUpdate": "6 days, 20 hours ago"
+            "lastUpdate": "6 days, 21 hours ago"
         },
         {
             "name": "navbar-tweaks",
@@ -1341,7 +1341,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-navbar-tweaks/master/module.json",
             "download": "https://github.com/ruipin/fvtt-navbar-tweaks/archive/master.zip",
             "foundryUrl": "/packages/navbar-tweaks/",
-            "lastUpdate": "6 days, 21 hours ago"
+            "lastUpdate": "6 days, 22 hours ago"
         },
         {
             "name": "token-vision-tweaks",
@@ -3498,6 +3498,27 @@
             "lastUpdate": "3 weeks ago"
         },
         {
+            "name": "special-dice-roller",
+            "title": "Special Dice Roller",
+            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
+            "version": "0.11.3",
+            "author": "Bernhard Posselt",
+            "scripts": [
+                "./dist/main.js"
+            ],
+            "styles": [
+                "./public/css/styles.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
+            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
+            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
+            "foundryUrl": "/packages/special-dice-roller/",
+            "lastUpdate": "3 weeks ago"
+        },
+        {
             "name": "point-of-vision",
             "title": "Point of Vision",
             "description": "Allows tweaking the point(s) of origin of vision on tokens",
@@ -3523,27 +3544,6 @@
             ],
             "foundryUrl": "/packages/point-of-vision/",
             "lastUpdate": "3 weeks, 1 day ago"
-        },
-        {
-            "name": "special-dice-roller",
-            "title": "Special Dice Roller",
-            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
-            "version": "0.11.3",
-            "author": "Bernhard Posselt",
-            "scripts": [
-                "./dist/main.js"
-            ],
-            "styles": [
-                "./public/css/styles.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
-            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
-            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
-            "foundryUrl": "/packages/special-dice-roller/",
-            "lastUpdate": "3 weeks ago"
         },
         {
             "name": "darker-vision-for-5e",
@@ -4263,6 +4263,25 @@
             "lastUpdate": "4 weeks ago"
         },
         {
+            "name": "popout",
+            "title": "PopOut!",
+            "description": "<p>Pop out Actor sheets and Journal entries into their own windows for easier viewing.</p><p>Does not work in the standalone FVTT Application.</p>",
+            "version": "0.8",
+            "author": "KaKaRoTo",
+            "scripts": [
+                "./popout.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "url": "https://github.com/kakaroto/fvtt-module-popout",
+            "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json",
+            "download": "https://github.com/kakaroto/fvtt-module-popout/archive/v0.8.zip",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/popout/",
+            "lastUpdate": "4 weeks, 1 day ago"
+        },
+        {
             "name": "custom-css",
             "title": "Custom Css",
             "description": "Add custom css to your world",
@@ -4291,25 +4310,6 @@
             "download": "https://github.com/cswendrowski/FoundryVTT-Custom-CSS/releases/download/1.1.1/module.zip",
             "foundryUrl": "/packages/custom-css/",
             "lastUpdate": "4 weeks ago"
-        },
-        {
-            "name": "popout",
-            "title": "PopOut!",
-            "description": "<p>Pop out Actor sheets and Journal entries into their own windows for easier viewing.</p><p>Does not work in the standalone FVTT Application.</p>",
-            "version": "0.8",
-            "author": "KaKaRoTo",
-            "scripts": [
-                "./popout.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "url": "https://github.com/kakaroto/fvtt-module-popout",
-            "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json",
-            "download": "https://github.com/kakaroto/fvtt-module-popout/archive/v0.8.zip",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "foundryUrl": "/packages/popout/",
-            "lastUpdate": "4 weeks, 1 day ago"
         },
         {
             "name": "personalmarkers",
@@ -5266,6 +5266,23 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
+            "name": "cursor-zoom",
+            "title": "Cursor Zoom",
+            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
+            "author": "shem",
+            "version": "1.0.0-compatible-with-0.6.5",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "scripts": [
+                "cursorzoom.js"
+            ],
+            "url": "https://github.com/itamarcu/CursorZoom",
+            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
+            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
+            "foundryUrl": "/packages/cursor-zoom/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "token-auras",
             "title": "Token Auras",
             "description": "Provide options for configuring token auras.",
@@ -5292,23 +5309,6 @@
                 }
             ],
             "foundryUrl": "/packages/token-auras/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "cursor-zoom",
-            "title": "Cursor Zoom",
-            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
-            "author": "shem",
-            "version": "1.0.0-compatible-with-0.6.5",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "scripts": [
-                "cursorzoom.js"
-            ],
-            "url": "https://github.com/itamarcu/CursorZoom",
-            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
-            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
-            "foundryUrl": "/packages/cursor-zoom/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
@@ -6947,6 +6947,26 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "mindmap",
+            "title": "M.I.N.D.M.A.P. - Moerills Indecision Negator, Decision Maker, And Planner",
+            "description": "Adds a new view to Journal Entries for creating mind map like graphs. In this view you can create a network graph for organizing your relations, flow charts, campaign structures, ideas or whatever you can imagine! Just drag the data from the sidebar to begin planning.",
+            "version": "0.5.1",
+            "author": "Moerill",
+            "scripts": [
+                "graph.js"
+            ],
+            "styles": [
+                "graphs.css"
+            ],
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/moerills-fvtt-modules/graphs",
+            "manifest": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/master/src/module.json",
+            "download": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/v0.5.1/package/mindmap-v0.5.1.zip",
+            "foundryUrl": "/packages/mindmap/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "layer-hotkeys",
             "title": "Layer Hotkeys",
             "description": "Adds customizable hotkeys for switching between layers and tools.",
@@ -6973,26 +6993,6 @@
             "manifest": "https://raw.githubusercontent.com/Moerill/Layer-Hotkeys/master/src/module.json",
             "download": "https://github.com/Moerill/Layer-Hotkeys/releases/download/v1.7.0/layer-hotkeys.zip",
             "foundryUrl": "/packages/layer-hotkeys/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "mindmap",
-            "title": "M.I.N.D.M.A.P. - Moerills Indecision Negator, Decision Maker, And Planner",
-            "description": "Adds a new view to Journal Entries for creating mind map like graphs. In this view you can create a network graph for organizing your relations, flow charts, campaign structures, ideas or whatever you can imagine! Just drag the data from the sidebar to begin planning.",
-            "version": "0.5.1",
-            "author": "Moerill",
-            "scripts": [
-                "graph.js"
-            ],
-            "styles": [
-                "graphs.css"
-            ],
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/moerills-fvtt-modules/graphs",
-            "manifest": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/master/src/module.json",
-            "download": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/v0.5.1/package/mindmap-v0.5.1.zip",
-            "foundryUrl": "/packages/mindmap/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -7102,36 +7102,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "bullseye",
-            "title": "Bullseye",
-            "description": "A module to assist with finding targets",
-            "author": "Victor Ling <victorling@ionshard.com>",
-            "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.0",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "scripts/anvil-menu.js"
-            ],
-            "esmodules": [
-                "src/index.js"
-            ],
-            "styles": [
-                "styles/bullseye.css"
-            ],
-            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
-            "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module",
-            "foundryUrl": "/packages/bullseye/",
-            "lastUpdate": "2 months ago"
-        },
-        {
             "name": "mountup",
             "title": "Mount Up!",
             "description": "Allows tokens to carry or be carried by other tokens. This is completely system agnostic, and fully customizable to fit right into your game.",
@@ -7186,6 +7156,36 @@
             ],
             "packs": [],
             "foundryUrl": "/packages/wfrp-tweaks/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "bullseye",
+            "title": "Bullseye",
+            "description": "A module to assist with finding targets",
+            "author": "Victor Ling <victorling@ionshard.com>",
+            "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.0",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "scripts/anvil-menu.js"
+            ],
+            "esmodules": [
+                "src/index.js"
+            ],
+            "styles": [
+                "styles/bullseye.css"
+            ],
+            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
+            "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module",
+            "foundryUrl": "/packages/bullseye/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -8182,6 +8182,23 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "notokenanim",
+            "title": "No Token Animations",
+            "description": "Provides an option to disable token movement animations.",
+            "version": "2.1",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "minimumCoreVersion": "0.4.4",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://bitbucket.org/Fyorl/notokenanim",
+            "manifest": "https://bitbucket.org/Fyorl/notokenanim/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/notokenanim/get/master.zip",
+            "foundryUrl": "/packages/notokenanim/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "scaleGrid",
             "title": "Grid Scale Menu",
             "description": "This should add some buttons to modify grids to the canvas. Updated for 0.6.0",
@@ -8200,23 +8217,6 @@
             "manifest": "https://raw.githubusercontent.com/UberV/scaleGrid/master/module.json",
             "download": "https://github.com/UberV/scaleGrid/archive/master.zip",
             "foundryUrl": "/packages/grid_scaler/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "notokenanim",
-            "title": "No Token Animations",
-            "description": "Provides an option to disable token movement animations.",
-            "version": "2.1",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "minimumCoreVersion": "0.4.4",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://bitbucket.org/Fyorl/notokenanim",
-            "manifest": "https://bitbucket.org/Fyorl/notokenanim/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/notokenanim/get/master.zip",
-            "foundryUrl": "/packages/notokenanim/",
             "lastUpdate": "2 months ago"
         },
         {
