@@ -1,6 +1,94 @@
 {
-    "updated": "Wed, 05 Aug 2020 10:50:43 GMT",
+    "updated": "Wed, 05 Aug 2020 11:05:43 GMT",
     "modules": [
+        {
+            "name": "tokenmagic",
+            "title": "Token Magic FX",
+            "description": "<p>Add graphic filters and animations on your tokens and tiles.</p>",
+            "version": "0.2.1",
+            "compatibleCoreVersion": "0.6.5",
+            "minimumCoreVersion": "0.6.0",
+            "author": "SecretFire",
+            "scripts": [
+                "libs/filters/pixi-filters.js"
+            ],
+            "esmodules": [
+                "module/tokenmagic.js",
+                "module/proto/PlaceableObjectProto.js",
+                "fx/Anime.js",
+                "fx/glsl/vertexshaders/customvertex2D.js",
+                "fx/glsl/fragmentshaders/removeshadow.js",
+                "fx/glsl/fragmentshaders/cosmicray.js",
+                "fx/glsl/fragmentshaders/fog.js",
+                "fx/glsl/fragmentshaders/electriciy.js",
+                "fx/glsl/fragmentshaders/smoke.js",
+                "fx/glsl/fragmentshaders/waves.js",
+                "fx/glsl/fragmentshaders/fire.js",
+                "fx/glsl/fragmentshaders/flood.js",
+                "fx/glsl/fragmentshaders/smoke.js",
+                "fx/glsl/fragmentshaders/forcefield.js",
+                "fx/glsl/fragmentshaders/mirrorimages.js",
+                "fx/glsl/fragmentshaders/xray.js",
+                "fx/glsl/fragmentshaders/magicglow.js",
+                "fx/filters/FilterBevel.js",
+                "fx/filters/FilterAdjustment.js",
+                "fx/filters/FilterAdvancedBloom.js",
+                "fx/filters/FilterDistortion.js",
+                "fx/filters/FilterGlow.js",
+                "fx/filters/FilterOldFilm.js",
+                "fx/filters/FilterDropShadow.js",
+                "fx/filters/FilterOutline.js",
+                "fx/filters/FilterTwist.js",
+                "fx/filters/FilterZoomBlur.js",
+                "fx/filters/FilterBlur.js",
+                "fx/filters/FilterBulgePinch.js",
+                "fx/filters/FilterRemoveShadow.js",
+                "fx/filters/FilterRays.js",
+                "fx/filters/FilterFog.js",
+                "fx/filters/FilterElectric.js",
+                "fx/filters/FilterShockWave.js",
+                "fx/filters/FilterFumes.js",
+                "fx/filters/FilterWaves.js",
+                "fx/filters/FilterFire.js",
+                "fx/filters/FilterFlood.js",
+                "fx/filters/FilterSmoke.js",
+                "fx/filters/FilterForceField.js",
+                "fx/filters/FilterMirrorImages.js",
+                "fx/filters/FilterXRays.js",
+                "fx/filters/FilterLiquid.js",
+                "fx/filters/FilterGleamingGlow.js",
+                "fx/filters/FilterPixelate.js",
+                "fx/filters/proto/FilterProto.js"
+            ],
+            "styles": [],
+            "packs": [
+                {
+                    "name": "tmMacros",
+                    "label": "TokenMagic Portfolio",
+                    "path": "packs/token-magic-portfolio.db",
+                    "entity": "Macro",
+                    "module": "tokenmagic"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "url": "https://github.com/Feu-Secret/Tokenmagic",
+            "manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
+            "download": "https://github.com/Feu-Secret/Tokenmagic/raw/master/Tokenmagic.zip",
+            "foundryUrl": "/packages/tokenmagic/",
+            "lastUpdate": "9 minutes ago"
+        },
         {
             "name": "turnAlert",
             "title": "Turn Alert",
@@ -46,7 +134,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.3.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Turn-Alert/blob/1.3.0/CHANGELOG.md",
             "foundryUrl": "/packages/turnAlert/",
-            "lastUpdate": "6 hours, 10 minutes ago"
+            "lastUpdate": "6 hours, 25 minutes ago"
         },
         {
             "name": "jitsirtc",
@@ -66,7 +154,7 @@
                 "lib-jitsi-meet.min.js"
             ],
             "foundryUrl": "/packages/jitsirtc/",
-            "lastUpdate": "12 hours, 58 minutes ago"
+            "lastUpdate": "13 hours, 13 minutes ago"
         },
         {
             "name": "compendium-folders",
@@ -86,7 +174,7 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/0.1.6/module.json",
             "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/0.1.6.zip",
             "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "17 hours, 37 minutes ago"
+            "lastUpdate": "17 hours, 52 minutes ago"
         },
         {
             "name": "dragupload",
@@ -106,7 +194,7 @@
             "manifest": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/latest/module.json",
             "download": "https://github.com/cswendrowski/FoundryVTT-Drag-Upload/releases/download/1.2.1/module.zip",
             "foundryUrl": "/packages/dragupload/",
-            "lastUpdate": "14 hours, 13 minutes ago"
+            "lastUpdate": "14 hours, 28 minutes ago"
         },
         {
             "name": "monsterblock",
@@ -141,7 +229,7 @@
             "url": "https://github.com/zeel01/MonsterBlocks",
             "download": "https://github.com/zeel01/MonsterBlocks/releases/download/v1.2.0/monsterblock.zip",
             "foundryUrl": "/packages/monsterblock/",
-            "lastUpdate": "19 hours, 56 minutes ago"
+            "lastUpdate": "20 hours, 11 minutes ago"
         },
         {
             "name": "sadness-chan",
@@ -162,7 +250,7 @@
             "download": "https://github.com/bmarian/sadness-chan/raw/f-0.7.x/package/sadness-chan-v1.1.1.zip",
             "changelog": "https://github.com/bmarian/sadness-chan/releases",
             "foundryUrl": "/packages/sadness-chan/",
-            "lastUpdate": "20 hours, 7 minutes ago"
+            "lastUpdate": "20 hours, 22 minutes ago"
         },
         {
             "name": "control-concealer",
@@ -191,7 +279,7 @@
             "download": "https://github.com/KayelGee/control-concealer/releases/download/v1.0.1/v1.0.1.zip",
             "readme": "https://github.com/KayelGee/control-concealer/blob/v1.0.1/README.md",
             "foundryUrl": "/packages/control-concealer/",
-            "lastUpdate": "23 hours, 22 minutes ago"
+            "lastUpdate": "23 hours, 37 minutes ago"
         },
         {
             "name": "SupersHomebrewPack",
@@ -300,7 +388,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.7.0",
             "foundryUrl": "/packages/externalactor/",
-            "lastUpdate": "1 day, 10 hours ago"
+            "lastUpdate": "1 day, 11 hours ago"
         },
         {
             "name": "long-rest-hd-healing",
@@ -323,7 +411,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Long-Rest-HD-Healing-5e/blob/1.1.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Long-Rest-HD-Healing-5e/blob/1.1.0/CHANGELOG.md",
             "foundryUrl": "/packages/long-rest-hd-healing/",
-            "lastUpdate": "1 day, 10 hours ago"
+            "lastUpdate": "1 day, 11 hours ago"
         },
         {
             "name": "camera-view-settings",
@@ -461,7 +549,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-better-text-drawings/master/module.json",
             "download": "https://github.com/ruipin/fvtt-better-text-drawings/archive/master.zip",
             "foundryUrl": "/packages/better-text-drawings/",
-            "lastUpdate": "1 day, 17 hours ago"
+            "lastUpdate": "1 day, 18 hours ago"
         },
         {
             "name": "BetterAmbientLoop",
@@ -499,7 +587,7 @@
             "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-TinyTokens/master/module.json",
             "download": "https://github.com/BlitzKraig/fvtt-TinyTokens/releases/download/latest/tinytokens-release.zip",
             "foundryUrl": "/packages/TinyTokens/",
-            "lastUpdate": "1 day, 23 hours ago"
+            "lastUpdate": "2 days ago"
         },
         {
             "name": "itemacro",
@@ -659,7 +747,7 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "1.0.0",
             "foundryUrl": "/packages/lootsheetnpcpf1/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "searchanywhere",
@@ -752,7 +840,7 @@
             "version": "0.5.18",
             "download": "https://github.com/espositos/fvtt-tokenactionhud/releases/download/0.5.18/release_0.5.18.zip",
             "foundryUrl": "/packages/token-action-hud/",
-            "lastUpdate": "3 days, 20 hours ago"
+            "lastUpdate": "3 days, 21 hours ago"
         },
         {
             "name": "token-attacher",
@@ -1038,7 +1126,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/simplemobile/",
-            "lastUpdate": "5 days, 22 hours ago"
+            "lastUpdate": "5 days, 23 hours ago"
         },
         {
             "name": "cycle-token-stack",
@@ -1068,7 +1156,7 @@
             "readme": "https://github.com/aka-beer-buddy/fvtt-cycle-token-stack/raw/v0.5.1/README.md",
             "changelog": "https://github.com/aka-beer-buddy/fvtt-cycle-token-stack/raw/v0.5.1/changelog.md",
             "foundryUrl": "/packages/cycle-token-stack/",
-            "lastUpdate": "6 days, 1 hour ago"
+            "lastUpdate": "6 days, 2 hours ago"
         },
         {
             "name": "minor-qol",
@@ -1186,7 +1274,7 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "0.7.0",
             "foundryUrl": "/packages/lmrtfy/",
-            "lastUpdate": "6 days, 10 hours ago"
+            "lastUpdate": "6 days, 11 hours ago"
         },
         {
             "name": "skill-customization-5e",
@@ -1212,7 +1300,7 @@
             "readme": "https://github.com/schultzcole/FVTT-Skill-Customization-5e/blob/2.1.0/README.md",
             "changelog": "https://github.com/schultzcole/FVTT-Skill-Customization-5e/blob/2.1.0/CHANGELOG.md",
             "foundryUrl": "/packages/skill-customization-5e/",
-            "lastUpdate": "6 days, 12 hours ago"
+            "lastUpdate": "6 days, 13 hours ago"
         },
         {
             "name": "LetterTokens",
@@ -1235,7 +1323,7 @@
             "manifest": "https://raw.githubusercontent.com/buttonpushertv/lettertokens/master/module.json",
             "download": "https://github.com/buttonpushertv/lettertokens/archive/1.0.2.zip",
             "foundryUrl": "/packages/LetterTokens/",
-            "lastUpdate": "6 days, 12 hours ago"
+            "lastUpdate": "6 days, 13 hours ago"
         },
         {
             "name": "navbar-tweaks",
@@ -1253,7 +1341,7 @@
             "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-navbar-tweaks/master/module.json",
             "download": "https://github.com/ruipin/fvtt-navbar-tweaks/archive/master.zip",
             "foundryUrl": "/packages/navbar-tweaks/",
-            "lastUpdate": "6 days, 13 hours ago"
+            "lastUpdate": "6 days, 14 hours ago"
         },
         {
             "name": "token-vision-tweaks",
@@ -1857,6 +1945,75 @@
             "lastUpdate": "1 week, 3 days ago"
         },
         {
+            "name": "itemcollection",
+            "title": "Item Containers",
+            "description": "Items that can hold other items - think backpack, sack or bag of holding",
+            "version": "1.3.15",
+            "author": "tposney",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ko",
+                    "name": "Korean",
+                    "path": "lang/ko.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": " 日本語",
+                    "path": "lang/ja.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "systems": [
+                "dnd5e"
+            ],
+            "scripts": [
+                "app/settings.js",
+                "lib/util.js"
+            ],
+            "esmodules": [
+                "lib/ItemCollection.js",
+                "lib/ItemSheet5eWithBags.js",
+                "lib/ItemSheetShop.js"
+            ],
+            "styles": [
+                "css/styles.css"
+            ],
+            "packs": [
+                {
+                    "name": "packs",
+                    "label": "Premade Bags",
+                    "system": "dnd5e",
+                    "path": "./packs/packs.db",
+                    "module": "world",
+                    "entity": "Item",
+                    "lang": [
+                        "en"
+                    ]
+                }
+            ],
+            "url": "https://gitlab.com/tposney/itemcollection/tree/master",
+            "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/module.json",
+            "download": "https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip",
+            "minimumCoreVersion": "0.5.4",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/itemcollection/",
+            "lastUpdate": "1 week, 4 days ago"
+        },
+        {
             "name": "dynamiceffects",
             "title": "Dynamic effects",
             "description": "replacement for dynamic items",
@@ -1938,162 +2095,6 @@
             "download": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/dynamiceffects-v0.5.92.zip",
             "foundryUrl": "/packages/dynamiceffects/",
             "lastUpdate": "1 week, 4 days ago"
-        },
-        {
-            "name": "itemcollection",
-            "title": "Item Containers",
-            "description": "Items that can hold other items - think backpack, sack or bag of holding",
-            "version": "1.3.15",
-            "author": "tposney",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ko",
-                    "name": "Korean",
-                    "path": "lang/ko.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": " 日本語",
-                    "path": "lang/ja.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                }
-            ],
-            "systems": [
-                "dnd5e"
-            ],
-            "scripts": [
-                "app/settings.js",
-                "lib/util.js"
-            ],
-            "esmodules": [
-                "lib/ItemCollection.js",
-                "lib/ItemSheet5eWithBags.js",
-                "lib/ItemSheetShop.js"
-            ],
-            "styles": [
-                "css/styles.css"
-            ],
-            "packs": [
-                {
-                    "name": "packs",
-                    "label": "Premade Bags",
-                    "system": "dnd5e",
-                    "path": "./packs/packs.db",
-                    "module": "world",
-                    "entity": "Item",
-                    "lang": [
-                        "en"
-                    ]
-                }
-            ],
-            "url": "https://gitlab.com/tposney/itemcollection/tree/master",
-            "manifest": "https://gitlab.com/tposney/itemcollection/raw/master/module.json",
-            "download": "https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip",
-            "minimumCoreVersion": "0.5.4",
-            "compatibleCoreVersion": "0.7.0",
-            "foundryUrl": "/packages/itemcollection/",
-            "lastUpdate": "1 week, 4 days ago"
-        },
-        {
-            "name": "tokenmagic",
-            "title": "Tokenmagic",
-            "description": "<p>Add graphic filters and animations on your tokens and tiles.</p>",
-            "version": "0.2.0",
-            "compatibleCoreVersion": "0.6.5",
-            "minimumCoreVersion": "0.6.0",
-            "author": "SecretFire",
-            "scripts": [
-                "libs/filters/pixi-filters.js"
-            ],
-            "esmodules": [
-                "module/tokenmagic.js",
-                "module/proto/PlaceableObjectProto.js",
-                "fx/Anime.js",
-                "fx/glsl/vertexshaders/customvertex2D.js",
-                "fx/glsl/fragmentshaders/removeshadow.js",
-                "fx/glsl/fragmentshaders/cosmicray.js",
-                "fx/glsl/fragmentshaders/fog.js",
-                "fx/glsl/fragmentshaders/electriciy.js",
-                "fx/glsl/fragmentshaders/smoke.js",
-                "fx/glsl/fragmentshaders/waves.js",
-                "fx/glsl/fragmentshaders/fire.js",
-                "fx/glsl/fragmentshaders/flood.js",
-                "fx/glsl/fragmentshaders/smoke.js",
-                "fx/glsl/fragmentshaders/forcefield.js",
-                "fx/glsl/fragmentshaders/mirrorimages.js",
-                "fx/glsl/fragmentshaders/xray.js",
-                "fx/glsl/fragmentshaders/magicglow.js",
-                "fx/filters/FilterBevel.js",
-                "fx/filters/FilterAdjustment.js",
-                "fx/filters/FilterAdvancedBloom.js",
-                "fx/filters/FilterDistortion.js",
-                "fx/filters/FilterGlow.js",
-                "fx/filters/FilterOldFilm.js",
-                "fx/filters/FilterDropShadow.js",
-                "fx/filters/FilterOutline.js",
-                "fx/filters/FilterTwist.js",
-                "fx/filters/FilterZoomBlur.js",
-                "fx/filters/FilterBlur.js",
-                "fx/filters/FilterBulgePinch.js",
-                "fx/filters/FilterRemoveShadow.js",
-                "fx/filters/FilterRays.js",
-                "fx/filters/FilterFog.js",
-                "fx/filters/FilterElectric.js",
-                "fx/filters/FilterShockWave.js",
-                "fx/filters/FilterFumes.js",
-                "fx/filters/FilterWaves.js",
-                "fx/filters/FilterFire.js",
-                "fx/filters/FilterFlood.js",
-                "fx/filters/FilterSmoke.js",
-                "fx/filters/FilterForceField.js",
-                "fx/filters/FilterMirrorImages.js",
-                "fx/filters/FilterXRays.js",
-                "fx/filters/FilterLiquid.js",
-                "fx/filters/FilterGleamingGlow.js",
-                "fx/filters/proto/FilterProto.js"
-            ],
-            "styles": [],
-            "packs": [
-                {
-                    "name": "tmMacros",
-                    "label": "TokenMagic Portfolio",
-                    "path": "packs/token-magic-portfolio.db",
-                    "entity": "Macro",
-                    "module": "tokenmagic"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "url": "https://github.com/Feu-Secret/Tokenmagic",
-            "manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
-            "download": "https://github.com/Feu-Secret/Tokenmagic/raw/master/Tokenmagic.zip",
-            "foundryUrl": "/packages/tokenmagic/",
-            "lastUpdate": "1 week, 5 days ago"
         },
         {
             "name": "token-info-icons",
@@ -3300,6 +3301,39 @@
             "lastUpdate": "2 weeks, 6 days ago"
         },
         {
+            "name": "macro-marker",
+            "title": "Macro Marker",
+            "description": "<p>Allows players and GMs to mark macros as active giving them a coloured border.</p><p>Markers can now also be toggled automatically based on any condition or script!</p><p>Check out the compendium for examples.</p>",
+            "author": "Stan Janssen",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "scripts": [
+                "macro-marker.js"
+            ],
+            "styles": [
+                "css/macro-border.css",
+                "css/macro-config.css"
+            ],
+            "manifest": "https://fvtt.janssen.io/macro-marker/stable/module.json",
+            "download": "https://fvtt.janssen.io/macro-marker/stable/macro-marker.zip",
+            "url": "https://github.com/janssen-io/foundry-macro-marker",
+            "bugs": "https://github.com/janssen-io/foundry-macro-marker/issues",
+            "languages": [],
+            "packs": [
+                {
+                    "label": "Macro Marker Examples",
+                    "entity": "Macro",
+                    "name": "macro-marker-examples",
+                    "path": "packs/macro-marker-examples.db",
+                    "module": "macro-marker"
+                }
+            ],
+            "socket": true,
+            "foundryUrl": "/packages/macro-marker/",
+            "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
             "name": "forien-unidentified-items",
             "title": "Forien's Unidentified Items",
             "description": "Provides system agnostic solution to handle unidentified items and their identification.",
@@ -3349,39 +3383,6 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-unidentified-items/",
-            "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
-            "name": "macro-marker",
-            "title": "Macro Marker",
-            "description": "<p>Allows players and GMs to mark macros as active giving them a coloured border.</p><p>Markers can now also be toggled automatically based on any condition or script!</p><p>Check out the compendium for examples.</p>",
-            "author": "Stan Janssen",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "scripts": [
-                "macro-marker.js"
-            ],
-            "styles": [
-                "css/macro-border.css",
-                "css/macro-config.css"
-            ],
-            "manifest": "https://fvtt.janssen.io/macro-marker/stable/module.json",
-            "download": "https://fvtt.janssen.io/macro-marker/stable/macro-marker.zip",
-            "url": "https://github.com/janssen-io/foundry-macro-marker",
-            "bugs": "https://github.com/janssen-io/foundry-macro-marker/issues",
-            "languages": [],
-            "packs": [
-                {
-                    "label": "Macro Marker Examples",
-                    "entity": "Macro",
-                    "name": "macro-marker-examples",
-                    "path": "packs/macro-marker-examples.db",
-                    "module": "macro-marker"
-                }
-            ],
-            "socket": true,
-            "foundryUrl": "/packages/macro-marker/",
             "lastUpdate": "2 weeks, 6 days ago"
         },
         {
@@ -5517,30 +5518,6 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
-            "name": "look-at-that",
-            "title": "Look At That",
-            "description": "Press 'P' to pull all players' views to where your mouse is pointed!",
-            "authors": [
-                {
-                    "name": "Will Saunders",
-                    "email": "willsaunders1014@gmail.com"
-                }
-            ],
-            "version": "0.0.1",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "scripts": [
-                "look-at-that.js"
-            ],
-            "socket": true,
-            "changelog": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/README.md",
-            "url": "https://github.com/wsaunders1014/LookAtThat",
-            "manifest": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/module.json",
-            "download": "https://github.com/wsaunders1014/LookAtThat/archive/master.zip",
-            "foundryUrl": "/packages/look-at-that/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
             "name": "obsidian",
             "title": "Obsidian Character Sheets",
             "description": "Dark theme character sheets.",
@@ -5594,6 +5571,30 @@
                 }
             ],
             "foundryUrl": "/packages/obsidian/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "look-at-that",
+            "title": "Look At That",
+            "description": "Press 'P' to pull all players' views to where your mouse is pointed!",
+            "authors": [
+                {
+                    "name": "Will Saunders",
+                    "email": "willsaunders1014@gmail.com"
+                }
+            ],
+            "version": "0.0.1",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "scripts": [
+                "look-at-that.js"
+            ],
+            "socket": true,
+            "changelog": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/README.md",
+            "url": "https://github.com/wsaunders1014/LookAtThat",
+            "manifest": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/module.json",
+            "download": "https://github.com/wsaunders1014/LookAtThat/archive/master.zip",
+            "foundryUrl": "/packages/look-at-that/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
@@ -7237,23 +7238,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "foundry-pin",
-            "title": "Pin",
-            "description": "Pin windows to be restored on refresh.",
-            "version": "2.4",
-            "minimumCoreVersion": "0.4.4",
-            "compatibleCoreVersion": "0.5.5",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "url": "https://bitbucket.org/Fyorl/foundry-pin",
-            "manifest": "https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/foundry-pin/get/master.zip",
-            "foundryUrl": "/packages/foundry-pin/",
-            "lastUpdate": "2 months ago"
-        },
-        {
             "name": "dice-calculator",
             "title": "Dice Tray",
             "description": "Adds a dice tray below chat, and turns the d20 near chat into a dice calculator.",
@@ -7274,6 +7258,23 @@
             "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json",
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/-/archive/0.5.10/foundry-vtt-dice-calculator-master.zip",
             "foundryUrl": "/packages/dice-calculator/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "foundry-pin",
+            "title": "Pin",
+            "description": "Pin windows to be restored on refresh.",
+            "version": "2.4",
+            "minimumCoreVersion": "0.4.4",
+            "compatibleCoreVersion": "0.5.5",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "url": "https://bitbucket.org/Fyorl/foundry-pin",
+            "manifest": "https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/foundry-pin/get/master.zip",
+            "foundryUrl": "/packages/foundry-pin/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -7327,27 +7328,6 @@
                 }
             ],
             "foundryUrl": "/packages/pin-cushion/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "squeaker",
-            "title": "Squeaker",
-            "description": "<p>Chat sounds configuration</p>",
-            "version": "1.2.5",
-            "author": "U~man",
-            "scripts": [],
-            "esmodules": [
-                "squeaker.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "languages": [],
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/archive/master/foundryvtt-squeaker-master.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.0",
-            "foundryUrl": "/packages/squeaker/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -7416,20 +7396,24 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "query",
-            "title": "Query",
-            "description": "A very basic module to implement roll queries (like Roll20's) into macros and chat. It does NOT work in any rolls processed from the character sheet.",
-            "version": "0.0.4",
-            "author": "Sky#9453",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.7",
-            "scripts": [
-                "query.js"
+            "name": "squeaker",
+            "title": "Squeaker",
+            "description": "<p>Chat sounds configuration</p>",
+            "version": "1.2.5",
+            "author": "U~man",
+            "scripts": [],
+            "esmodules": [
+                "squeaker.js"
             ],
-            "url": "https://github.com/Sky-Captain-13/foundry/tree/master/query",
-            "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/query/query/module.json",
-            "download": "https://github.com/Sky-Captain-13/foundry/raw/master/query/query.zip",
-            "foundryUrl": "/packages/query/",
+            "styles": [],
+            "packs": [],
+            "languages": [],
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/archive/master/foundryvtt-squeaker-master.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.0",
+            "foundryUrl": "/packages/squeaker/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -7447,6 +7431,23 @@
             "manifest": "https://bitbucket.org/Fyorl/easy-target/raw/master/module.json",
             "download": "https://bitbucket.org/Fyorl/easy-target/get/2.2.zip",
             "foundryUrl": "/packages/easy-target/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "query",
+            "title": "Query",
+            "description": "A very basic module to implement roll queries (like Roll20's) into macros and chat. It does NOT work in any rolls processed from the character sheet.",
+            "version": "0.0.4",
+            "author": "Sky#9453",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.7",
+            "scripts": [
+                "query.js"
+            ],
+            "url": "https://github.com/Sky-Captain-13/foundry/tree/master/query",
+            "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/query/query/module.json",
+            "download": "https://github.com/Sky-Captain-13/foundry/raw/master/query/query.zip",
+            "foundryUrl": "/packages/query/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -8237,6 +8238,23 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "speakerstats",
+            "title": "Speaker stats",
+            "description": "Speaker stats show talking times for users",
+            "author": "jvir",
+            "version": "0.3.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "scripts": [
+                "scripts/speakerstats.js"
+            ],
+            "url": "https://gitlab.com/jvir/foundryvtt-speakerstats",
+            "manifest": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json",
+            "download": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/archive/master/foundryvtt-speakerstats-master.zip",
+            "foundryUrl": "/packages/speakerstats/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "calendar-weather",
             "title": "Calendar/Weather",
             "description": "Adds a customizable calendar with events and weather.",
@@ -8304,20 +8322,21 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "speakerstats",
-            "title": "Speaker stats",
-            "description": "Speaker stats show talking times for users",
-            "author": "jvir",
-            "version": "0.3.2",
+            "name": "pathfinder1-style",
+            "title": "Pathfinder 1 - Dark-Style Addon",
+            "description": "Adds styling to the pathfinder 1 system",
+            "version": "1.2",
+            "author": "Handyfon#8390",
+            "styles": [
+                "css/darkpath.css"
+            ],
+            "socket": true,
+            "url": "https://github.com/Handyfon/pathfinder1-darkstyle",
+            "manifest": "https://raw.githubusercontent.com/Handyfon/pathfinder1-darkstyle/master/module.json",
+            "download": "https://github.com/Handyfon/pathfinder1-darkstyle/raw/master/pathfinder1-style.zip",
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.5.5",
-            "scripts": [
-                "scripts/speakerstats.js"
-            ],
-            "url": "https://gitlab.com/jvir/foundryvtt-speakerstats",
-            "manifest": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json",
-            "download": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/archive/master/foundryvtt-speakerstats-master.zip",
-            "foundryUrl": "/packages/speakerstats/",
+            "foundryUrl": "/packages/pathfinder1-darkstyle/",
             "lastUpdate": "2 months ago"
         },
         {
@@ -8335,24 +8354,6 @@
             "manifest": "https://bitbucket.org/Fyorl/sheet-macro/raw/master/module.json",
             "download": "https://bitbucket.org/Fyorl/sheet-macro/get/master.zip",
             "foundryUrl": "/packages/sheet-macro/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "pathfinder1-style",
-            "title": "Pathfinder 1 - Dark-Style Addon",
-            "description": "Adds styling to the pathfinder 1 system",
-            "version": "1.2",
-            "author": "Handyfon#8390",
-            "styles": [
-                "css/darkpath.css"
-            ],
-            "socket": true,
-            "url": "https://github.com/Handyfon/pathfinder1-darkstyle",
-            "manifest": "https://raw.githubusercontent.com/Handyfon/pathfinder1-darkstyle/master/module.json",
-            "download": "https://github.com/Handyfon/pathfinder1-darkstyle/raw/master/pathfinder1-style.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "foundryUrl": "/packages/pathfinder1-darkstyle/",
             "lastUpdate": "2 months ago"
         },
         {
