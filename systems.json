@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 06 Aug 2020 03:35:44 GMT",
+    "updated": "Thu, 06 Aug 2020 03:50:47 GMT",
     "modules": [
         {
             "name": "gurpsgen",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurpsgen-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurpsgen/",
-            "lastUpdate": "2 hours, 39 minutes ago"
+            "lastUpdate": "2 hours, 54 minutes ago"
         },
         {
             "name": "ose",
@@ -85,7 +85,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "8 hours, 20 minutes ago"
+            "lastUpdate": "8 hours, 35 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -122,7 +122,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "8 hours, 27 minutes ago"
+            "lastUpdate": "8 hours, 42 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -227,7 +227,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "14 hours, 5 minutes ago"
+            "lastUpdate": "14 hours, 20 minutes ago"
         },
         {
             "name": "sandbox",
@@ -254,7 +254,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "21 hours, 46 minutes ago"
+            "lastUpdate": "22 hours, 2 minutes ago"
         },
         {
             "name": "pf1",
@@ -453,7 +453,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73/foundryvtt-pathfinder1-v0.73.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "22 hours, 7 minutes ago"
+            "lastUpdate": "22 hours, 22 minutes ago"
         },
         {
             "version": 0.32,
@@ -722,7 +722,7 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
-            "lastUpdate": "2 days, 6 hours ago"
+            "lastUpdate": "2 days, 7 hours ago"
         },
         {
             "name": "electricbastionland",
@@ -891,7 +891,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "svnsea2e",
@@ -964,7 +964,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "4 days, 18 hours ago"
+            "lastUpdate": "4 days, 19 hours ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -2487,6 +2487,42 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2738,43 +2774,7 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 1 week ago"
+            "lastUpdate": "1 month, 1��week ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
