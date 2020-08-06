@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 06 Aug 2020 04:20:46 GMT",
+    "updated": "Thu, 06 Aug 2020 04:35:47 GMT",
     "modules": [
         {
             "name": "gurpsgen",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurpsgen-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurpsgen/",
-            "lastUpdate": "3 hours, 24 minutes ago"
+            "lastUpdate": "3 hours, 39 minutes ago"
         },
         {
             "name": "ose",
@@ -85,7 +85,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "9 hours, 5 minutes ago"
+            "lastUpdate": "9 hours, 20 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -122,7 +122,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "9 hours, 12 minutes ago"
+            "lastUpdate": "9 hours, 27 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -227,7 +227,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "14 hours, 50 minutes ago"
+            "lastUpdate": "15 hours, 5 minutes ago"
         },
         {
             "name": "sandbox",
@@ -254,7 +254,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "22 hours, 32 minutes ago"
+            "lastUpdate": "22 hours, 47 minutes ago"
         },
         {
             "name": "pf1",
@@ -453,7 +453,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73/foundryvtt-pathfinder1-v0.73.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "22 hours, 52 minutes ago"
+            "lastUpdate": "23 hours, 7 minutes ago"
         },
         {
             "version": 0.32,
@@ -587,7 +587,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "2 days, 1 hour ago"
+            "lastUpdate": "2 days, 2 hours ago"
         },
         {
             "name": "archmage",
@@ -929,7 +929,7 @@
             "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "4 days, 6 hours ago"
+            "lastUpdate": "4 days, 7 hours ago"
         },
         {
             "name": "tormenta20",
@@ -2169,7 +2169,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "2 weeks, 1 day ago"
+            "lastUpdate": "2 weeks, 2 days ago"
         },
         {
             "name": "dcc",
@@ -2405,6 +2405,44 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.15.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.4",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "zork",
             "title": "Zork",
             "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
@@ -2447,44 +2485,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "3 weeks, 6 days ago"
-        },
-        {
-            "name": "numenera",
-            "title": "Numenera",
-            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
-            "version": "0.15.1",
-            "author": "SolarBear",
-            "scripts": [
-                "lib/dragula/dragula.min.js"
-            ],
-            "esmodules": [
-                "numenera.js"
-            ],
-            "styles": [
-                "numenera.css",
-                "lib/dragula/dragula.min.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "compatibleCoreVersion": "0.6.4",
-            "minimumCoreVersion": "0.5.5",
-            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
-            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
-            "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "1 month ago"
         },
         {
             "name": "pf2e",
@@ -2738,7 +2738,7 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 1��week ago"
+            "lastUpdate": "1 month, 1 week ago"
         },
         {
             "name": "save-the-universe",
@@ -2869,6 +2869,50 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -2979,50 +3023,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/worldbuilding/",
             "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "1 month, 3 weeks ago"
         }
     ]
 }
