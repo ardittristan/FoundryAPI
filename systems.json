@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 06 Aug 2020 10:50:49 GMT",
+    "updated": "Thu, 06 Aug 2020 11:05:47 GMT",
     "modules": [
         {
             "name": "gurpsgen",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurpsgen-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurpsgen/",
-            "lastUpdate": "9 hours, 54 minutes ago"
+            "lastUpdate": "10 hours, 9 minutes ago"
         },
         {
             "name": "ose",
@@ -85,7 +85,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "15 hours, 35 minutes ago"
+            "lastUpdate": "15 hours, 50 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -122,7 +122,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "15 hours, 42 minutes ago"
+            "lastUpdate": "15 hours, 57 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -227,7 +227,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "21 hours, 20 minutes ago"
+            "lastUpdate": "21 hours, 35 minutes ago"
         },
         {
             "name": "sandbox",
@@ -526,7 +526,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
         },
         {
             "name": "kamigakari",
@@ -749,7 +749,7 @@
             "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
             "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
             "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "2 days, 14 hours ago"
+            "lastUpdate": "2 days, 15 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1153,7 +1153,7 @@
             "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
             "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
             "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "6 days, 18 hours ago"
+            "lastUpdate": "6 days, 19 hours ago"
         },
         {
             "name": "lancer",
@@ -2172,6 +2172,57 @@
             "lastUpdate": "2 weeks, 2 days ago"
         },
         {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.07,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "2 weeks, 3 days ago"
+        },
+        {
             "name": "fate",
             "title": "FATE",
             "description": "An implementation of FATE Core and Accelerated for Foundry",
@@ -2242,57 +2293,6 @@
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
             "lastUpdate": "3 weeks, 2 days ago"
-        },
-        {
-            "name": "dcc",
-            "title": "Dungeon Crawl Classics",
-            "description": "Dungeon Crawl Classics from Goodman Games",
-            "version": 0.07,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "Tim L. White",
-            "esmodules": [
-                "module/dcc.js"
-            ],
-            "styles": [
-                "styles/dcc.css"
-            ],
-            "packs": [
-                {
-                    "name": "criticalhits",
-                    "label": "Critical Hits",
-                    "system": "dcc",
-                    "path": "./packs/criticalhits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "fumbles",
-                    "label": "Fumbles",
-                    "system": "dcc",
-                    "path": "./packs/fumbles.db",
-                    "entity": "RollTable"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "luck",
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.value",
-            "url": "https://github.com/cyface/foundryvtt-dcc",
-            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
-            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "2 weeks, 3 days ago"
         },
         {
             "name": "icrpg",
@@ -2485,6 +2485,108 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.15.1/numenera-foundryvtt-0.15.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "age-of-sigmar-soulbound",
+            "title": "Age of Sigmar : Soulbound",
+            "description": "Perilous adventures in the mortal realms",
+            "version": 1.9,
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "styles": [
+                "styles/aos-soulbound.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
+            "socket": true,
+            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.9.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "intotheodd",
+            "title": "Into the Odd",
+            "description": "The Into the Odd system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "voidcase",
+            "esmodules": [
+                "module/intotheodd.js"
+            ],
+            "styles": [
+                "css/intotheodd.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "into-the-odd-macros",
+                    "label": "Macros for playing Into the Odd",
+                    "system": "intotheodd",
+                    "path": "./packs/into-the-odd-macros.db",
+                    "entity": "Macro"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
+            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/intotheodd/",
+            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -2739,108 +2841,6 @@
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
             "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "age-of-sigmar-soulbound",
-            "title": "Age of Sigmar : Soulbound",
-            "description": "Perilous adventures in the mortal realms",
-            "version": 1.9,
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "scripts/hooks.js"
-            ],
-            "styles": [
-                "styles/aos-soulbound.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
-            "socket": true,
-            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.9.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "intotheodd",
-            "title": "Into the Odd",
-            "description": "The Into the Odd system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "voidcase",
-            "esmodules": [
-                "module/intotheodd.js"
-            ],
-            "styles": [
-                "css/intotheodd.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "into-the-odd-macros",
-                    "label": "Macros for playing Into the Odd",
-                    "system": "intotheodd",
-                    "path": "./packs/into-the-odd-macros.db",
-                    "entity": "Macro"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
-            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/intotheodd/",
-            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "coc",
