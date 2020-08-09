@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 09 Aug 2020 13:21:11 GMT",
+    "updated": "Sun, 09 Aug 2020 13:36:09 GMT",
     "modules": [
         {
             "name": "pf1",
@@ -462,6 +462,38 @@
             "lastUpdate": "1 day, 18 hours ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.5.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [],
+            "esmodules": [
+                "system.js"
+            ],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "lang/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 day, 15 hours ago"
+        },
+        {
             "name": "tormenta20",
             "title": "Tormenta20",
             "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
@@ -495,38 +527,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
             "lastUpdate": "2 days, 9 hours ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.5.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [],
-            "esmodules": [
-                "system.js"
-            ],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "lang/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "gurps4e",
@@ -691,7 +691,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "2 days, 18 hours ago"
+            "lastUpdate": "2 days, 19 hours ago"
         },
         {
             "name": "ose",
@@ -847,7 +847,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "3 days, 23 hours ago"
+            "lastUpdate": "4 days ago"
         },
         {
             "version": 0.32,
@@ -2157,7 +2157,7 @@
             "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/raw/master/system.json",
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
-            "lastUpdate": "2 weeks, 3 days ago"
+            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "dnd5e",
@@ -2425,50 +2425,6 @@
             "lastUpdate": "3 weeks, 6 days ago"
         },
         {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2526,6 +2482,50 @@
             "download": "https://github.com/Perfectro/symbaroum-foundry-vtt/archive/v1.5.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/symbaroum/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
             "lastUpdate": "1 month ago"
         },
         {
