@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 09 Aug 2020 22:25:54 GMT",
+    "updated": "Sun, 09 Aug 2020 22:40:53 GMT",
     "modules": [
         {
             "name": "sandbox",
@@ -26,7 +26,63 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "5 hours, 6 minutes ago"
+            "lastUpdate": "5 hours, 21 minutes ago"
+        },
+        {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.3,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "1 day, 13 hours ago"
         },
         {
             "name": "pf1",
@@ -226,62 +282,6 @@
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.2/foundryvtt-pathfinder1-v0.73.2.zip",
             "foundryUrl": "/packages/pf1/",
             "lastUpdate": "1 day, 10 hours ago"
-        },
-        {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": 3.3,
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "1 day, 13 hours ago"
         },
         {
             "name": "kamigakari",
@@ -691,7 +691,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "3 days, 3 hours ago"
+            "lastUpdate": "3 days, 4 hours ago"
         },
         {
             "name": "ose",
@@ -847,7 +847,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "4 days, 8 hours ago"
+            "lastUpdate": "4 days, 9 hours ago"
         },
         {
             "version": 0.32,
@@ -921,33 +921,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
             "lastUpdate": "5 days, 1 hour ago"
-        },
-        {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "6 days, 2 hours ago"
         },
         {
             "name": "archmage",
@@ -1083,6 +1056,33 @@
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
             "lastUpdate": "6 days, 1 hour ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
+            "lastUpdate": "6 days, 2 hours ago"
         },
         {
             "name": "alienrpg",
@@ -2425,50 +2425,6 @@
             "lastUpdate": "3 weeks, 6 days ago"
         },
         {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2529,40 +2485,48 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
             "esmodules": [
-                "modules/stu.js"
+                "module/zork.js"
             ],
             "styles": [
-                "styles/stu.css"
+                "css/zork.css"
             ],
-            "packs": [
+            "packs": [],
+            "languages": [
                 {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
                 }
             ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 1 week ago"
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "1 month ago"
         },
         {
             "name": "pf2e",
@@ -2816,6 +2780,42 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
