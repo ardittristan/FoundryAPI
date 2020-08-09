@@ -86,10 +86,12 @@ async function getData() {
                     const manifestUrl = moduleHTML.getElementsByClassName("fas fa-download")[0].nextElementSibling.href.trim();
                     /** @type {{name:string,title:string,description:string,version:string,author:string,languages:[{lang:string,name:string,path:string}],minimumCoreVersion:string,compatibleCoreVersion:string,url:string,manifest:string,download:string,foundryUrl:string,lastUpdate:string}} */
                     let manifest = await JSON.parse(await getScript(manifestUrl));
-                    manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
+                    if (manifest.name) {
+                        manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
 
-                    // push to 
-                    moduleList.push(manifest);
+                        // push to 
+                        moduleList.push(manifest);
+                    }
                 } catch (e) {
                     log(e, 'error.log');
                 } finally {
@@ -115,10 +117,12 @@ async function getData() {
                     const manifestUrl = systemHTML.getElementsByClassName("fas fa-download")[0].nextElementSibling.href.trim();
                     /** @type {{name:string,title:string,description:string,version:string,author:string,languages:[{lang:string,name:string,path:string}],minimumCoreVersion:string,compatibleCoreVersion:string,url:string,manifest:string,download:string,foundryUrl:string,lastUpdate:string}} */
                     let manifest = await JSON.parse(await getScript(manifestUrl));
-                    manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
+                    if (manifest.name) {
+                        manifest = { ...manifest, ...{ "foundryUrl": foundryUrl, "lastUpdate": updateDate } };
 
-                    // push to 
-                    systemList.push(manifest);
+                        // push to 
+                        systemList.push(manifest);
+                    }
                 } catch (e) {
                     log(e, 'error.log');
                 } finally {
