@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 10 Aug 2020 14:11:11 GMT",
+    "updated": "Mon, 10 Aug 2020 14:25:59 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "12 minutes ago"
+            "lastUpdate": "27 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -110,7 +110,34 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "13 hours, 8 minutes ago"
+            "lastUpdate": "13 hours, 23 minutes ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "21 hours, 6 minutes ago"
         },
         {
             "name": "fatex",
@@ -142,34 +169,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 hour ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.3",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "20 hours, 51 minutes ago"
+            "lastUpdate": "1 hour, 15 minutes ago"
         },
         {
             "name": "pf1",
@@ -368,7 +368,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.2/foundryvtt-pathfinder1-v0.73.2.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "2 days, 1 hour ago"
+            "lastUpdate": "2 days, 2 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -424,7 +424,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "2 days, 4 hours ago"
+            "lastUpdate": "2 days, 5 hours ago"
         },
         {
             "name": "kamigakari",
@@ -563,7 +563,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "3 days, 9 hours ago"
+            "lastUpdate": "3 days, 10 hours ago"
         },
         {
             "name": "gurps4e",
@@ -742,7 +742,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "4 days, 18 hours ago"
+            "lastUpdate": "4 days, 19 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -886,7 +886,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "5 days, 15 hours ago"
+            "lastUpdate": "5 days, 16 hours ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -1846,82 +1846,6 @@
             "lastUpdate": "2 weeks, 1 day ago"
         },
         {
-            "name": "swade",
-            "title": "Savage Worlds Adventure Edition",
-            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
-            "version": "0.10.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "FloRad",
-            "templateVersion": 2,
-            "esmodules": [
-                "swade.js"
-            ],
-            "styles": [
-                "swade.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "swade",
-                    "path": "./packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "edges",
-                    "label": "Edges",
-                    "system": "swade",
-                    "path": "./packs/edges.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hindrances",
-                    "label": "Hindrances",
-                    "system": "swade",
-                    "path": "./packs/hindrances.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "action-cards",
-                    "label": "Action Cards",
-                    "system": "swade",
-                    "path": "./packs/action-cards.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "pl",
-                    "name": "Polski",
-                    "path": "lang/pl.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "url": "https://gitlab.com/florad-foundry/swade",
-            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
-            "foundryUrl": "/packages/swade/",
-            "lastUpdate": "2 weeks, 3 days ago"
-        },
-        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -2158,6 +2082,82 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "2 weeks, 5 days ago"
+        },
+        {
+            "name": "swade",
+            "title": "Savage Worlds Adventure Edition",
+            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
+            "version": "0.10.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "FloRad",
+            "templateVersion": 2,
+            "esmodules": [
+                "swade.js"
+            ],
+            "styles": [
+                "swade.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "swade",
+                    "path": "./packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "edges",
+                    "label": "Edges",
+                    "system": "swade",
+                    "path": "./packs/edges.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hindrances",
+                    "label": "Hindrances",
+                    "system": "swade",
+                    "path": "./packs/hindrances.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "action-cards",
+                    "label": "Action Cards",
+                    "system": "swade",
+                    "path": "./packs/action-cards.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pl",
+                    "name": "Polski",
+                    "path": "lang/pl.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "url": "https://gitlab.com/florad-foundry/swade",
+            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
+            "foundryUrl": "/packages/swade/",
+            "lastUpdate": "2 weeks, 3 days ago"
         },
         {
             "name": "dnd5e",
