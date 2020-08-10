@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 10 Aug 2020 19:26:06 GMT",
+    "updated": "Mon, 10 Aug 2020 19:41:06 GMT",
     "modules": [
         {
             "name": "ModularFate",
@@ -36,7 +36,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "51 minutes ago"
+            "lastUpdate": "1 hour, 6 minutes ago"
         },
         {
             "name": "demonlord",
@@ -110,7 +110,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "5 hours, 27 minutes ago"
+            "lastUpdate": "5 hours, 42 minutes ago"
         },
         {
             "name": "sandbox",
@@ -169,7 +169,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "6 hours, 15 minutes ago"
+            "lastUpdate": "6 hours, 30 minutes ago"
         },
         {
             "name": "pf1",
@@ -691,7 +691,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "ose",
@@ -847,7 +847,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "5 days, 5 hours ago"
+            "lastUpdate": "5 days, 6 hours ago"
         },
         {
             "version": 0.32,
@@ -921,33 +921,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
             "lastUpdate": "5 days, 22 hours ago"
-        },
-        {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "6 days, 23 hours ago"
         },
         {
             "name": "archmage",
@@ -1083,6 +1056,33 @@
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
             "lastUpdate": "6 days, 22 hours ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
+            "lastUpdate": "6 days, 23 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1846,82 +1846,6 @@
             "lastUpdate": "2 weeks, 1 day ago"
         },
         {
-            "name": "swade",
-            "title": "Savage Worlds Adventure Edition",
-            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
-            "version": "0.10.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "FloRad",
-            "templateVersion": 2,
-            "esmodules": [
-                "swade.js"
-            ],
-            "styles": [
-                "swade.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "swade",
-                    "path": "./packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "edges",
-                    "label": "Edges",
-                    "system": "swade",
-                    "path": "./packs/edges.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hindrances",
-                    "label": "Hindrances",
-                    "system": "swade",
-                    "path": "./packs/hindrances.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "action-cards",
-                    "label": "Action Cards",
-                    "system": "swade",
-                    "path": "./packs/action-cards.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "pl",
-                    "name": "Polski",
-                    "path": "lang/pl.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "url": "https://gitlab.com/florad-foundry/swade",
-            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
-            "foundryUrl": "/packages/swade/",
-            "lastUpdate": "2 weeks, 3 days ago"
-        },
-        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -2158,6 +2082,82 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "2 weeks, 5 days ago"
+        },
+        {
+            "name": "swade",
+            "title": "Savage Worlds Adventure Edition",
+            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
+            "version": "0.10.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "FloRad",
+            "templateVersion": 2,
+            "esmodules": [
+                "swade.js"
+            ],
+            "styles": [
+                "swade.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "swade",
+                    "path": "./packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "edges",
+                    "label": "Edges",
+                    "system": "swade",
+                    "path": "./packs/edges.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hindrances",
+                    "label": "Hindrances",
+                    "system": "swade",
+                    "path": "./packs/hindrances.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "action-cards",
+                    "label": "Action Cards",
+                    "system": "swade",
+                    "path": "./packs/action-cards.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pl",
+                    "name": "Polski",
+                    "path": "lang/pl.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "url": "https://gitlab.com/florad-foundry/swade",
+            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
+            "foundryUrl": "/packages/swade/",
+            "lastUpdate": "2 weeks, 3 days ago"
         },
         {
             "name": "dnd5e",
@@ -2529,6 +2529,42 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2780,42 +2816,6 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
