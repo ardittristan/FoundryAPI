@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 10 Aug 2020 12:56:01 GMT",
+    "updated": "Mon, 10 Aug 2020 13:11:05 GMT",
     "modules": [
         {
             "name": "ModularFate",
@@ -36,7 +36,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "11 hours, 53 minutes ago"
+            "lastUpdate": "12 hours, 8 minutes ago"
         },
         {
             "name": "sandbox",
@@ -63,63 +63,39 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "19 hours, 36 minutes ago"
+            "lastUpdate": "19 hours, 51 minutes ago"
         },
         {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": 3.3,
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.5.2",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
             ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
+            "esmodules": [],
+            "styles": [],
             "languages": [
                 {
                     "lang": "en",
                     "name": "English",
-                    "path": "lang/en.json"
+                    "path": "languages/en.json"
                 },
                 {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
                 }
             ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
             "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "2 days, 3 hours ago"
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "0 minutes ago"
         },
         {
             "name": "pf1",
@@ -321,6 +297,62 @@
             "lastUpdate": "2 days ago"
         },
         {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.3,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "2 days, 3 hours ago"
+        },
+        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -379,7 +411,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "2 days, 3 hours ago"
+            "lastUpdate": "2 days, 4 hours ago"
         },
         {
             "name": "demonlord",
@@ -497,38 +529,6 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "2 days, 18 hours ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.5.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [],
-            "esmodules": [
-                "system.js"
-            ],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "lang/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "2 days, 14 hours ago"
         },
         {
             "name": "tormenta20",
@@ -920,7 +920,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "5 days, 15 hours ago"
+            "lastUpdate": "5 days, 16 hours ago"
         },
         {
             "name": "archmage",
@@ -1922,98 +1922,6 @@
             "lastUpdate": "2 weeks, 3 days ago"
         },
         {
-            "name": "dnd5e",
-            "title": "DnD5e - Fifth Edition System",
-            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
-            "version": 0.94,
-            "author": "Atropos",
-            "scripts": [],
-            "esmodules": [
-                "dnd5e.js"
-            ],
-            "styles": [
-                "dnd5e.css"
-            ],
-            "packs": [
-                {
-                    "name": "heroes",
-                    "label": "Starter Heroes",
-                    "system": "dnd5e",
-                    "path": "./packs/heroes.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "monsters",
-                    "label": "Monsters (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsters.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tradegoods",
-                    "label": "Trade Goods (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/tradegoods.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classes",
-                    "label": "Classes (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classfeatures",
-                    "label": "Class Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classfeatures.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "monsterfeatures",
-                    "label": "Monster Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsterfeatures.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": null,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.2",
-            "url": "https://gitlab.com/foundrynet/dnd5e",
-            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
-            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
-            "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -2250,6 +2158,98 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "2 weeks, 4 days ago"
+        },
+        {
+            "name": "dnd5e",
+            "title": "DnD5e - Fifth Edition System",
+            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+            "version": 0.94,
+            "author": "Atropos",
+            "scripts": [],
+            "esmodules": [
+                "dnd5e.js"
+            ],
+            "styles": [
+                "dnd5e.css"
+            ],
+            "packs": [
+                {
+                    "name": "heroes",
+                    "label": "Starter Heroes",
+                    "system": "dnd5e",
+                    "path": "./packs/heroes.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "monsters",
+                    "label": "Monsters (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tradegoods",
+                    "label": "Trade Goods (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/tradegoods.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classfeatures",
+                    "label": "Class Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classfeatures.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monsterfeatures",
+                    "label": "Monster Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsterfeatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.2",
+            "url": "https://gitlab.com/foundrynet/dnd5e",
+            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
+            "foundryUrl": "/packages/dnd5e/",
+            "lastUpdate": "2 weeks, 6 days ago"
         },
         {
             "name": "dcc",
@@ -2529,42 +2529,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2816,6 +2780,42 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
