@@ -1,5 +1,5 @@
 {
-    "updated": "Tue, 11 Aug 2020 16:26:12 GMT",
+    "updated": "Tue, 11 Aug 2020 16:41:13 GMT",
     "modules": [
         {
             "name": "kamigakari",
@@ -60,7 +60,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "1 hour, 26 minutes ago"
+            "lastUpdate": "1 hour, 41 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -97,7 +97,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "21 hours, 51 minutes ago"
+            "lastUpdate": "22 hours, 6 minutes ago"
         },
         {
             "name": "demonlord",
@@ -691,7 +691,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "4 days, 21 hours ago"
+            "lastUpdate": "4 days, 22 hours ago"
         },
         {
             "name": "ose",
@@ -847,7 +847,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "6 days, 2 hours ago"
+            "lastUpdate": "6 days, 3 hours ago"
         },
         {
             "version": 0.32,
@@ -1364,6 +1364,40 @@
             "lastUpdate": "1 week, 4 days ago"
         },
         {
+            "name": "mothership",
+            "title": "Mothership RPG",
+            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Frank Carentz",
+            "esmodules": [
+                "mothership.js"
+            ],
+            "styles": [
+                "simple.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "primaryTokenAttribute": "resources.vigor",
+            "secondaryTokenAttribute": "resources.grip",
+            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
+            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
+            "foundryUrl": "/packages/mothership/",
+            "lastUpdate": "1 week, 5 days ago"
+        },
+        {
             "name": "lancer",
             "title": "LANCER",
             "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
@@ -1492,40 +1526,6 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
-            "lastUpdate": "1 week, 5 days ago"
-        },
-        {
-            "name": "mothership",
-            "title": "Mothership RPG",
-            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Frank Carentz",
-            "esmodules": [
-                "mothership.js"
-            ],
-            "styles": [
-                "simple.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "primaryTokenAttribute": "resources.vigor",
-            "secondaryTokenAttribute": "resources.grip",
-            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
-            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
-            "foundryUrl": "/packages/mothership/",
             "lastUpdate": "1 week, 5 days ago"
         },
         {
@@ -2160,6 +2160,57 @@
             "lastUpdate": "2 weeks, 6 days ago"
         },
         {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.07,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "3 weeks, 1 day ago"
+        },
+        {
             "name": "dnd5e",
             "title": "DnD5e - Fifth Edition System",
             "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
@@ -2250,57 +2301,6 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "3 weeks ago"
-        },
-        {
-            "name": "dcc",
-            "title": "Dungeon Crawl Classics",
-            "description": "Dungeon Crawl Classics from Goodman Games",
-            "version": 0.07,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "Tim L. White",
-            "esmodules": [
-                "module/dcc.js"
-            ],
-            "styles": [
-                "styles/dcc.css"
-            ],
-            "packs": [
-                {
-                    "name": "criticalhits",
-                    "label": "Critical Hits",
-                    "system": "dcc",
-                    "path": "./packs/criticalhits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "fumbles",
-                    "label": "Fumbles",
-                    "system": "dcc",
-                    "path": "./packs/fumbles.db",
-                    "entity": "RollTable"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "luck",
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.value",
-            "url": "https://github.com/cyface/foundryvtt-dcc",
-            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
-            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "3 weeks, 1 day ago"
         },
         {
             "name": "shadowrun5e",
