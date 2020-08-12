@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 12 Aug 2020 06:41:15 GMT",
+    "updated": "Wed, 12 Aug 2020 06:56:12 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "5 hours, 14 minutes ago"
+            "lastUpdate": "5 hours, 29 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -110,7 +110,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "8 hours, 36 minutes ago"
+            "lastUpdate": "8 hours, 51 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -171,7 +171,34 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "15 hours, 41 minutes ago"
+            "lastUpdate": "15 hours, 56 minutes ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "2 days, 13 hours ago"
         },
         {
             "name": "fatex",
@@ -204,89 +231,6 @@
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
             "lastUpdate": "1 day, 17 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.3",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "2 days, 13 hours ago"
-        },
-        {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": 3.3,
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "3 days, 21 hours ago"
         },
         {
             "name": "pf1",
@@ -488,6 +432,62 @@
             "lastUpdate": "3 days, 18 hours ago"
         },
         {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.3,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "3 days, 21 hours ago"
+        },
+        {
             "name": "numenera",
             "title": "Numenera",
             "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
@@ -528,7 +528,7 @@
             "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "4 days, 11 hours ago"
+            "lastUpdate": "4 days, 12 hours ago"
         },
         {
             "name": "tormenta20",
@@ -566,6 +566,33 @@
             "lastUpdate": "5 days, 2 hours ago"
         },
         {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.1",
+            "templateVersion": 7,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "5 days, 7 hours ago"
+        },
+        {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
             "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
@@ -598,33 +625,6 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "5 days, 5 hours ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.1",
-            "templateVersion": 7,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
-            "foundryUrl": "/packages/burningwheel/",
             "lastUpdate": "5 days, 6 hours ago"
         },
         {
@@ -692,6 +692,57 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
             "lastUpdate": "5 days, 12 hours ago"
+        },
+        {
+            "name": "ose",
+            "title": "Old-School Essentials",
+            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
+            "version": "1.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "U~man",
+            "esmodules": [
+                "ose.js"
+            ],
+            "styles": [
+                "ose.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
+            "foundryUrl": "/packages/ose/",
+            "lastUpdate": "6 days, 11 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -799,57 +850,6 @@
             "lastUpdate": "6 days, 17 hours ago"
         },
         {
-            "name": "ose",
-            "title": "Old-School Essentials",
-            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
-            "version": "1.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "U~man",
-            "esmodules": [
-                "ose.js"
-            ],
-            "styles": [
-                "ose.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
-            "foundryUrl": "/packages/ose/",
-            "lastUpdate": "6 days, 11 hours ago"
-        },
-        {
             "version": 0.32,
             "name": "cyberpunkred",
             "title": "Cyberpunk RED",
@@ -921,6 +921,33 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
             "lastUpdate": "1 week ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
+            "lastUpdate": "1 week, 1 day ago"
         },
         {
             "name": "archmage",
@@ -1055,33 +1082,6 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
-            "lastUpdate": "1 week, 1 day ago"
-        },
-        {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "1 week, 1 day ago"
         },
         {
