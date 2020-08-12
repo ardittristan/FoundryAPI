@@ -1,6 +1,97 @@
 {
-    "updated": "Wed, 12 Aug 2020 18:56:22 GMT",
+    "updated": "Wed, 12 Aug 2020 19:11:17 GMT",
     "modules": [
+        {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.7,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-br",
+                    "name": "Português Brasileiro",
+                    "path": "lang/pt-br.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "5 minutes ago"
+        },
+        {
+            "name": "age-of-sigmar-soulbound",
+            "title": "Age of Sigmar : Soulbound",
+            "description": "Perilous adventures in the mortal realms",
+            "version": 1.1,
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "styles": [
+                "styles/aos-soulbound.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
+            "socket": true,
+            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
+            "lastUpdate": "7 minutes ago"
+        },
         {
             "name": "demonlord",
             "title": "Shadow of the Demon Lord",
@@ -73,7 +164,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "7 hours, 46 minutes ago"
+            "lastUpdate": "8 hours, 1 minute ago"
         },
         {
             "name": "ModularFate",
@@ -110,7 +201,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "20 hours, 51 minutes ago"
+            "lastUpdate": "21 hours, 6 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -171,7 +262,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "1 day, 3 hours ago"
+            "lastUpdate": "1 day, 4 hours ago"
         },
         {
             "name": "sandbox",
@@ -199,6 +290,81 @@
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
             "lastUpdate": "3 days, 1 hour ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.5.4",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "2 days, 6 hours ago"
+        },
+        {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.16.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.5",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "5 days ago"
         },
         {
             "name": "pf1",
@@ -400,137 +566,6 @@
             "lastUpdate": "4 days, 6 hours ago"
         },
         {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": 3.3,
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "4 days, 9 hours ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.5.3",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "2 days, 5 hours ago"
-        },
-        {
-            "name": "numenera",
-            "title": "Numenera",
-            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
-            "version": "0.16.1",
-            "author": "SolarBear",
-            "scripts": [
-                "lib/dragula/dragula.min.js"
-            ],
-            "esmodules": [
-                "numenera.js"
-            ],
-            "styles": [
-                "numenera.css",
-                "lib/dragula/dragula.min.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                }
-            ],
-            "socket": true,
-            "compatibleCoreVersion": "0.6.5",
-            "minimumCoreVersion": "0.5.5",
-            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
-            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
-            "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "5 days ago"
-        },
-        {
             "name": "tormenta20",
             "title": "Tormenta20",
             "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
@@ -566,33 +601,6 @@
             "lastUpdate": "5 days, 14 hours ago"
         },
         {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.1",
-            "templateVersion": 7,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "5 days, 19 hours ago"
-        },
-        {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
             "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
@@ -626,6 +634,33 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
             "lastUpdate": "5 days, 18 hours ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.1",
+            "templateVersion": 7,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "5 days, 19 hours ago"
         },
         {
             "name": "vaesen",
@@ -2819,36 +2854,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "age-of-sigmar-soulbound",
-            "title": "Age of Sigmar : Soulbound",
-            "description": "Perilous adventures in the mortal realms",
-            "version": 1.9,
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "scripts/hooks.js"
-            ],
-            "styles": [
-                "styles/aos-soulbound.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
-            "socket": true,
-            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.9.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -2883,32 +2888,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/intotheodd/",
             "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "blue-rose",
