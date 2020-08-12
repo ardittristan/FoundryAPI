@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 12 Aug 2020 22:41:25 GMT",
+    "updated": "Wed, 12 Aug 2020 22:56:24 GMT",
     "modules": [
         {
             "name": "forbidden-lands",
@@ -60,7 +60,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "3 hours, 35 minutes ago"
+            "lastUpdate": "3 hours, 50 minutes ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -90,7 +90,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "3 hours, 37 minutes ago"
+            "lastUpdate": "3 hours, 52 minutes ago"
         },
         {
             "name": "demonlord",
@@ -164,7 +164,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "11 hours, 31 minutes ago"
+            "lastUpdate": "11 hours, 46 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -563,7 +563,7 @@
             "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "5 days, 3 hours ago"
+            "lastUpdate": "5 days, 4 hours ago"
         },
         {
             "name": "tormenta20",
@@ -601,6 +601,33 @@
             "lastUpdate": "5 days, 18 hours ago"
         },
         {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.1",
+            "templateVersion": 7,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "5 days, 23 hours ago"
+        },
+        {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
             "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
@@ -633,33 +660,6 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "5 days, 21 hours ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.1",
-            "templateVersion": 7,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
-            "foundryUrl": "/packages/burningwheel/",
             "lastUpdate": "5 days, 22 hours ago"
         },
         {
@@ -2460,6 +2460,50 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2520,48 +2564,40 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
             "esmodules": [
-                "module/zork.js"
+                "modules/stu.js"
             ],
             "styles": [
-                "css/zork.css"
+                "styles/stu.css"
             ],
-            "packs": [],
-            "languages": [
+            "packs": [
                 {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
                 }
             ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month ago"
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -2818,42 +2854,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -2914,6 +2914,50 @@
             "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
             "foundryUrl": "/packages/coc/",
             "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "2 months ago"
         },
         {
             "name": "ryuutama",
@@ -2997,50 +3041,6 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months ago"
         },
         {
