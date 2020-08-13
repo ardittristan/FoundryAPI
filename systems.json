@@ -1,6 +1,103 @@
 {
-    "updated": "Thu, 13 Aug 2020 17:26:26 GMT",
+    "updated": "Thu, 13 Aug 2020 17:41:23 GMT",
     "modules": [
+        {
+            "name": "alienrpg",
+            "title": "Alien RPG",
+            "description": "The Alien RPG system for FoundryVTT!",
+            "version": "1.0.9",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Paul Watson",
+            "esmodules": [
+                "module/alienrpg.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "css/alienrpg.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "tables_gm",
+                    "label": "Tables (GM)",
+                    "path": "packs/AlienRPG-tables_gm.db",
+                    "entity": "RollTable",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "mother_instructions",
+                    "label": "Mother Instructions",
+                    "path": "packs/AlienRPG-mother-instructions.db",
+                    "entity": "JournalEntry",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "alien",
+                    "label": "Alien",
+                    "path": "packs/AlienRPG-alien.db",
+                    "entity": "Macro",
+                    "module": "AlienRPG"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "swe",
+                    "name": "Svenska",
+                    "path": "lang/swe.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "stress",
+            "url": "https://github.com/pwatson100/alienrpg",
+            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
+            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/alienrpg/",
+            "lastUpdate": "11 minutes ago"
+        },
+        {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "9 hours, 52 minutes ago"
+        },
         {
             "name": "ModularFate",
             "title": "Modular Fate Core",
@@ -36,36 +133,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "18 hours, 24 minutes ago"
-        },
-        {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "9 hours, 37 minutes ago"
+            "lastUpdate": "18 hours, 39 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -126,7 +194,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "22 hours, 20 minutes ago"
+            "lastUpdate": "22 hours, 35 minutes ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -156,7 +224,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "22 hours, 22 minutes ago"
+            "lastUpdate": "22 hours, 37 minutes ago"
         },
         {
             "name": "demonlord",
@@ -292,33 +360,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
             "lastUpdate": "2 days, 2 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.3",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "4 days ago"
         },
         {
             "name": "pf1",
@@ -552,6 +593,33 @@
             "lastUpdate": "3 days, 4 hours ago"
         },
         {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "4 days ago"
+        },
+        {
             "name": "numenera",
             "title": "Numenera",
             "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
@@ -755,7 +823,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "6 days, 22 hours ago"
+            "lastUpdate": "6 days, 23 hours ago"
         },
         {
             "name": "ose",
@@ -1147,74 +1215,6 @@
             "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
             "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "1 week, 2 days ago"
-        },
-        {
-            "name": "alienrpg",
-            "title": "Alien RPG",
-            "description": "The Alien RPG system for FoundryVTT!",
-            "version": "1.0.9",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Paul Watson",
-            "esmodules": [
-                "module/alienrpg.js",
-                "pdfoundry-dist/bundle.js"
-            ],
-            "styles": [
-                "css/alienrpg.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "tables_gm",
-                    "label": "Tables (GM)",
-                    "path": "packs/AlienRPG-tables_gm.db",
-                    "entity": "RollTable",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "mother_instructions",
-                    "label": "Mother Instructions",
-                    "path": "packs/AlienRPG-mother-instructions.db",
-                    "entity": "JournalEntry",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "alien",
-                    "label": "Alien",
-                    "path": "packs/AlienRPG-alien.db",
-                    "entity": "Macro",
-                    "module": "AlienRPG"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "swe",
-                    "name": "Svenska",
-                    "path": "lang/swe.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "stress",
-            "url": "https://github.com/pwatson100/alienrpg",
-            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
-            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "1 week, 4 days ago"
         },
         {
             "name": "callofcthulhu",
@@ -2593,42 +2593,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2888,6 +2852,42 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
