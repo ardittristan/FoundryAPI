@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 13 Aug 2020 07:41:27 GMT",
+    "updated": "Thu, 13 Aug 2020 07:56:25 GMT",
     "modules": [
         {
             "name": "ModularFate",
@@ -36,7 +36,36 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "8 hours, 39 minutes ago"
+            "lastUpdate": "8 hours, 54 minutes ago"
+        },
+        {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "7 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -97,7 +126,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "12 hours, 35 minutes ago"
+            "lastUpdate": "12 hours, 50 minutes ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -127,7 +156,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "12 hours, 37 minutes ago"
+            "lastUpdate": "12 hours, 52 minutes ago"
         },
         {
             "name": "demonlord",
@@ -201,7 +230,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "20 hours, 31 minutes ago"
+            "lastUpdate": "20 hours, 46 minutes ago"
         },
         {
             "name": "kamigakari",
@@ -563,7 +592,42 @@
             "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "5 days, 12 hours ago"
+            "lastUpdate": "5 days, 13 hours ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.4.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "6 days, 7 hours ago"
         },
         {
             "name": "tormenta20",
@@ -601,41 +665,6 @@
             "lastUpdate": "6 days, 3 hours ago"
         },
         {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.4.2",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "6 days, 6 hours ago"
-        },
-        {
             "name": "burningwheel",
             "title": "The Burning Wheel",
             "description": "Community Foundry implementation of The Burning Wheel",
@@ -660,7 +689,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "6 days, 7 hours ago"
+            "lastUpdate": "6 days, 8 hours ago"
         },
         {
             "name": "vaesen",
@@ -1300,6 +1329,40 @@
             "lastUpdate": "1 week, 4 days ago"
         },
         {
+            "name": "mothership",
+            "title": "Mothership RPG",
+            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Frank Carentz",
+            "esmodules": [
+                "mothership.js"
+            ],
+            "styles": [
+                "simple.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "primaryTokenAttribute": "resources.vigor",
+            "secondaryTokenAttribute": "resources.grip",
+            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
+            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
+            "foundryUrl": "/packages/mothership/",
+            "lastUpdate": "1 week, 6 days ago"
+        },
+        {
             "name": "ratasenlasparedes",
             "title": "Ratas en las paredes",
             "description": "Ratas en las paredes para FoundryVTT!",
@@ -1397,40 +1460,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
             "lastUpdate": "1 week, 5 days ago"
-        },
-        {
-            "name": "mothership",
-            "title": "Mothership RPG",
-            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Frank Carentz",
-            "esmodules": [
-                "mothership.js"
-            ],
-            "styles": [
-                "simple.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "primaryTokenAttribute": "resources.vigor",
-            "secondaryTokenAttribute": "resources.grip",
-            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
-            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
-            "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "1 week, 6 days ago"
         },
         {
             "name": "lancer",
@@ -2564,6 +2593,42 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2815,42 +2880,6 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
