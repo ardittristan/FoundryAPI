@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 13 Aug 2020 09:56:17 GMT",
+    "updated": "Thu, 13 Aug 2020 10:11:24 GMT",
     "modules": [
         {
             "name": "ModularFate",
@@ -36,7 +36,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "10 hours, 54 minutes ago"
+            "lastUpdate": "11 hours, 9 minutes ago"
         },
         {
             "name": "risklegacy",
@@ -65,7 +65,7 @@
             "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
             "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
             "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "2 hours, 6 minutes ago"
+            "lastUpdate": "2 hours, 22 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -126,7 +126,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "14 hours, 50 minutes ago"
+            "lastUpdate": "15 hours, 5 minutes ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -156,7 +156,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "14 hours, 52 minutes ago"
+            "lastUpdate": "15 hours, 7 minutes ago"
         },
         {
             "name": "demonlord",
@@ -230,7 +230,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "22 hours, 46 minutes ago"
+            "lastUpdate": "23 hours, 1 minute ago"
         },
         {
             "name": "kamigakari",
@@ -291,7 +291,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "1 day, 18 hours ago"
+            "lastUpdate": "1 day, 19 hours ago"
         },
         {
             "name": "sandbox",
@@ -350,7 +350,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "2 days, 20 hours ago"
+            "lastUpdate": "2 days, 21 hours ago"
         },
         {
             "name": "pf1",
@@ -2953,6 +2953,50 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -3034,50 +3078,6 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months ago"
         },
         {
