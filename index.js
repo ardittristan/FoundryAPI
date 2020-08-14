@@ -136,23 +136,29 @@ async function getData() {
         await pause(1000);
     }
 
-    await setupModuleApi(moduleList);
+    if (moduleList[0] && systemList[0]) {
 
-    await setupSystemApi(systemList);
+        await setupModuleApi(moduleList);
 
-    await setupFetchDuration(fetchStart);
+        await setupSystemApi(systemList);
 
-    git.add(join(__dirname, "foundryApi"))
-        .addConfig('user.name', botUser)
-        .addConfig('user.email', botUserEmail)
-        .commit("automated update")
-        .push(remote, branch)
-        .pull()
-        .then(() => {
-            exec("git reflog expire && git repack -ad && git prune", { cwd: join(__dirname, "foundryApi") });
-        });
+        await setupFetchDuration(fetchStart);
 
-    log("fetched", "default.log");
+        git.add(join(__dirname, "foundryApi"))
+            .addConfig('user.name', botUser)
+            .addConfig('user.email', botUserEmail)
+            .commit("automated update")
+            .push(remote, branch)
+            .pull()
+            .then(() => {
+                exec("git reflog expire && git repack -ad && git prune", { cwd: join(__dirname, "foundryApi") });
+            });
+
+        log("fetched", "default.log");
+
+    } else {
+        log("not fetched", "default.log")
+    }
 
 };
 
