@@ -1,4 +1,3147 @@
 {
-    "updated": "Fri, 14 Aug 2020 14:23:39 GMT",
-    "modules": []
+    "updated": "Fri, 14 Aug 2020 14:41:30 GMT",
+    "modules": [
+        {
+            "name": "demonlord",
+            "title": "Shadow of the Demon Lord",
+            "description": "The Shadow of the Demonlord system for FoundryVTT",
+            "version": "1.1.2",
+            "author": "Bo Kehlet",
+            "minimumCoreVersion": "0.6",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/demonlord.js"
+            ],
+            "styles": [
+                "css/demonlord.css",
+                "css/demonlord2.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "demonlord",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "demonlord",
+                    "path": "packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ammunition",
+                    "label": "Ammunition",
+                    "system": "demonlord",
+                    "path": "packs/ammunition.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons creature",
+                    "label": "Weapons Creature",
+                    "system": "demonlord",
+                    "path": "packs/weapons-creatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Portuguese (Brazilian)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "characteristics.health",
+            "secondaryTokenAttribute": "",
+            "socket": true,
+            "url": "https://github.com/Xacus/demonlord",
+            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
+            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
+            "foundryUrl": "/packages/demonlord/",
+            "lastUpdate": "10 hours, 7 minutes ago"
+        },
+        {
+            "name": "yzecoriolis",
+            "title": "Year Zero Engine - Coriolis",
+            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
+            "version": 0.9,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Winks",
+            "esmodules": [
+                "module/yzecoriolis.js"
+            ],
+            "styles": [
+                "css/yzecoriolis.css",
+                "css/yzecoriolismce.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "",
+            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
+            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.9.zip",
+            "foundryUrl": "/packages/yzecoriolis/",
+            "lastUpdate": "14 hours, 1 minute ago"
+        },
+        {
+            "name": "alienrpg",
+            "title": "Alien RPG",
+            "description": "The Alien RPG system for FoundryVTT!",
+            "version": "1.0.9",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Paul Watson",
+            "esmodules": [
+                "module/alienrpg.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "css/alienrpg.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "tables_gm",
+                    "label": "Tables (GM)",
+                    "path": "packs/AlienRPG-tables_gm.db",
+                    "entity": "RollTable",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "mother_instructions",
+                    "label": "Mother Instructions",
+                    "path": "packs/AlienRPG-mother-instructions.db",
+                    "entity": "JournalEntry",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "alien",
+                    "label": "Alien",
+                    "path": "packs/AlienRPG-alien.db",
+                    "entity": "Macro",
+                    "module": "AlienRPG"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "swe",
+                    "name": "Svenska",
+                    "path": "lang/swe.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "stress",
+            "url": "https://github.com/pwatson100/alienrpg",
+            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
+            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/alienrpg/",
+            "lastUpdate": "21 hours, 11 minutes ago"
+        },
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.4.2",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "1 day, 15 hours ago"
+        },
+        {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 day, 6 hours ago"
+        },
+        {
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": 3.7,
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-br",
+                    "name": "Português Brasileiro",
+                    "path": "lang/pt-br.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "1 day, 19 hours ago"
+        },
+        {
+            "name": "age-of-sigmar-soulbound",
+            "title": "Age of Sigmar : Soulbound",
+            "description": "Perilous adventures in the mortal realms",
+            "version": 1.1,
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "styles": [
+                "styles/aos-soulbound.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
+            "socket": true,
+            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
+            "lastUpdate": "1 day, 19 hours ago"
+        },
+        {
+            "name": "kamigakari",
+            "title": "Kamigakari: God Hunter",
+            "description": "Urban fantasy action trpg, Kamigakari System",
+            "version": "0.2.1",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 3,
+            "author": "LTaeng",
+            "esmodules": [
+                "module/init.js"
+            ],
+            "styles": [
+                "styles/simple.css"
+            ],
+            "packs": [
+                {
+                    "name": "spirit",
+                    "label": "Spirit Macro",
+                    "system": "kamigakari",
+                    "path": "./packs/spirit.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "Basic-Talents",
+                    "label": "Basic Talents",
+                    "system": "kamigakari",
+                    "path": "./packs/basic-talents.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "Common-Talents",
+                    "label": "Common Talents",
+                    "system": "kamigakari",
+                    "path": "./packs/common-talents.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ko",
+                    "name": "Korean",
+                    "path": "lang/ko.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "Sq",
+            "primaryTokenAttribute": "hp",
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/ksx0330/FVTT-Kamigakari-System/",
+            "manifest": "https://raw.githubusercontent.com/ksx0330/FVTT-Kamigakari-System/master/system.json",
+            "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/kamigakari/",
+            "lastUpdate": "2 days, 23 hours ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "4 days, 21 hours ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.5.5",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "4 days, 1 hour ago"
+        },
+        {
+            "name": "pf1",
+            "title": "Pathfinder 1",
+            "description": "A comprehensive game system for running games of Pathfinder 1 in the Foundry VTT environment.",
+            "version": "0.73.2",
+            "author": "Furyspark",
+            "templateVersion": 2,
+            "scripts": [],
+            "esmodules": [
+                "pf1.js"
+            ],
+            "styles": [
+                "pf1.css"
+            ],
+            "packs": [
+                {
+                    "name": "classes",
+                    "label": "Classes",
+                    "system": "pf1",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "mythicpaths",
+                    "label": "Mythic Paths",
+                    "system": "pf1",
+                    "path": "./packs/mythic-paths.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "commonbuffs",
+                    "label": "Common Buffs",
+                    "system": "pf1",
+                    "path": "./packs/commonbuffs.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "pf1",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "pf1",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "pf1",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armors-and-shields",
+                    "label": "Armor and Shields",
+                    "system": "pf1",
+                    "path": "./packs/armors-and-shields.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons-and-ammo",
+                    "label": "Weapons and Ammo",
+                    "system": "pf1",
+                    "path": "./packs/weapons-and-ammo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "racialhd",
+                    "label": "Racial HD",
+                    "system": "pf1",
+                    "path": "./packs/racial-hd.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "pf1",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "class-abilities",
+                    "label": "Class Abilities",
+                    "system": "pf1",
+                    "path": "./packs/class-abilities.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monster-templates",
+                    "label": "Monster Templates",
+                    "system": "pf1",
+                    "path": "./packs/monster-templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "sample-macros",
+                    "label": "Sample Macros",
+                    "system": "pf1",
+                    "path": "./packs/sample-macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "roll-tables",
+                    "label": "Roll Tables",
+                    "system": "pf1",
+                    "path": "./packs/roll-tables.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "ultimate-equipment",
+                    "label": "Ultimate Equipment",
+                    "system": "pf1",
+                    "path": "./packs/ultimate-equipment.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "bestiary_1",
+                    "label": "Bestiary - Part 1",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_1.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_2",
+                    "label": "Bestiary - Part 2",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_2.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_3",
+                    "label": "Bestiary - Part 3",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_3.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_4",
+                    "label": "Bestiary - Part 4",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_4.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "bestiary_5",
+                    "label": "Bestiary - Part 5",
+                    "system": "pf1",
+                    "path": "./packs/bestiary_5.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "conditions",
+                    "label": "Conditions",
+                    "system": "pf1",
+                    "path": "./packs/conditions.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "it",
+                    "name": "Italian",
+                    "path": "lang/it.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.total + (@attributes.init.total / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1",
+            "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
+            "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.2/foundryvtt-pathfinder1-v0.73.2.zip",
+            "foundryUrl": "/packages/pf1/",
+            "lastUpdate": "6 days, 2 hours ago"
+        },
+        {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.16.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.5",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "6 days, 19 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.6",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "1 week ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.4.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "1 week ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.1",
+            "templateVersion": 7,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.1/release0.2.1.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "1 week ago"
+        },
+        {
+            "name": "vaesen",
+            "title": "Vaesen",
+            "description": "Nordic horror role-playing",
+            "version": 1.3,
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/player.css",
+                "style/tab/player-main.css",
+                "style/tab/player-combat.css",
+                "style/tab/player-talent.css",
+                "style/tab/player-gear.css",
+                "style/tab/player-note.css",
+                "style/npc.css",
+                "style/tab/npc-main.css",
+                "style/tab/npc-combat.css",
+                "style/tab/npc-talent.css",
+                "style/tab/npc-gear.css",
+                "style/tab/npc-note.css",
+                "style/critical-injury.css",
+                "style/vaesen.css",
+                "style/tab/vaesen-main.css",
+                "style/tab/vaesen-combat.css",
+                "style/tab/vaesen-gear.css",
+                "style/tab/vaesen-note.css",
+                "style/headquarter.css",
+                "style/tab/headquarter-history.css",
+                "style/tab/headquarter-upgrade.css",
+                "style/weapon.css",
+                "style/armor.css",
+                "style/talent.css",
+                "style/gear.css",
+                "style/magic.css",
+                "style/condition.css",
+                "style/attack.css",
+                "style/upgrade.css",
+                "style/dialog/roll.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/vaesen-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/vaesen-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/vaesen/",
+            "lastUpdate": "1 week ago"
+        },
+        {
+            "name": "ose",
+            "title": "Old-School Essentials",
+            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
+            "version": "1.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "U~man",
+            "esmodules": [
+                "ose.js"
+            ],
+            "styles": [
+                "ose.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
+            "foundryUrl": "/packages/ose/",
+            "lastUpdate": "1 week, 1 day ago"
+        },
+        {
+            "name": "blades-in-the-dark",
+            "title": "Blades in the Dark",
+            "description": "Blades in the dark game system.",
+            "version": "1.1",
+            "minimumCoreVersion": "0.5.3",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "megastruktur",
+            "esmodules": [
+                "module/blades.js"
+            ],
+            "styles": [
+                "styles/blades.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ru",
+                    "name": "Russian",
+                    "path": "lang/ru.json"
+                }
+            ],
+            "url": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/",
+            "manifest": "https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/1.1/system.json",
+            "download": "https://github.com/megastruktur/foundryvtt-blades-in-the-dark/archive/1.1.zip",
+            "packs": [
+                {
+                    "name": "class",
+                    "label": "Classes",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "heritage",
+                    "label": "Heritages",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/heritages.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "vice",
+                    "label": "Vices",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/vices.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "background",
+                    "label": "Backgrounds",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/backgrounds.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "item",
+                    "label": "Items",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ability",
+                    "label": "Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/abilities.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_reputation",
+                    "label": "Crew Reputation",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_reputation.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_type",
+                    "label": "Crew Types",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_types.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_upgrade",
+                    "label": "Crew Upgrades",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_upgrades.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "crew_ability",
+                    "label": "Crew Abilities",
+                    "system": "blades-in-the-dark",
+                    "path": "./packs/crew_abilities.db",
+                    "entity": "Item"
+                }
+            ],
+            "foundryUrl": "/packages/blades-in-the-dark/",
+            "lastUpdate": "1 week, 2 days ago"
+        },
+        {
+            "version": 0.32,
+            "name": "cyberpunkred",
+            "title": "Cyberpunk RED",
+            "description": "An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. (Based on the boilerplate system by asacolips)",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Gerdofal",
+            "esmodules": [
+                "module/cyberpunkred.js"
+            ],
+            "styles": [
+                "css/cyberpunkred.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "zh",
+                    "name": "Simplifed Chinese",
+                    "path": "lang/zh.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "combatstats.healthpool",
+            "secondaryTokenAttribute": "combatstats.luckpool",
+            "url": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md",
+            "manifest": "https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json",
+            "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
+            "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
+            "foundryUrl": "/packages/cyberpunkred/",
+            "lastUpdate": "1 week, 2 days ago"
+        },
+        {
+            "name": "FVTT-Dishonored",
+            "title": "Dishonored Roleplaying Game Unofficial",
+            "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.6.4",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "KaitoR95",
+            "esmodules": [
+                "module/dishonored.js"
+            ],
+            "styles": [
+                "styles/dishonored.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "stress",
+            "secondaryTokenAttribute": "void",
+            "url": "https://github.com/CurtR95/FVTT-Dishonored",
+            "manifest": "https://raw.githubusercontent.com/CurtR95/FVTT-Dishonored/master/system.json",
+            "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/FVTT-Dishonored/",
+            "lastUpdate": "1 week, 2 days ago"
+        },
+        {
+            "name": "archmage",
+            "title": "Toolkit13 Character Sheet",
+            "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
+            "version": "1.6.2",
+            "author": "Matt Smith",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/archmage.js"
+            ],
+            "scripts": [
+                "scripts/lib/parse-md.js",
+                "scripts/migrate/archmage-updates.js"
+            ],
+            "styles": [
+                "css/archmage.css"
+            ],
+            "packs": [
+                {
+                    "label": "Races",
+                    "entity": "Item",
+                    "name": "races",
+                    "path": "packs/races.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Barbarian",
+                    "entity": "Item",
+                    "name": "barbarian",
+                    "path": "packs/barbarian.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Bard",
+                    "entity": "Item",
+                    "name": "bard",
+                    "path": "packs/bard.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Cleric",
+                    "entity": "Item",
+                    "name": "cleric",
+                    "path": "packs/cleric.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Fighter",
+                    "entity": "Item",
+                    "name": "fighter",
+                    "path": "packs/fighter.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Paladin",
+                    "entity": "Item",
+                    "name": "paladin",
+                    "path": "packs/paladin.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Ranger",
+                    "entity": "Item",
+                    "name": "ranger",
+                    "path": "packs/ranger.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Rogue",
+                    "entity": "Item",
+                    "name": "rogue",
+                    "path": "packs/rogue.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Sorcerer",
+                    "entity": "Item",
+                    "name": "sorcerer",
+                    "path": "packs/sorcerer.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Wizard",
+                    "entity": "Item",
+                    "name": "wizard",
+                    "path": "packs/wizard.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Chaos Mage",
+                    "entity": "Item",
+                    "name": "chaosmage",
+                    "path": "packs/chaosmage.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Commander",
+                    "entity": "Item",
+                    "name": "commander",
+                    "path": "packs/commander.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Druid",
+                    "entity": "Item",
+                    "name": "druid",
+                    "path": "packs/druid.db",
+                    "system": "archmage"
+                },
+                {
+                    "label": "Occultist",
+                    "entity": "Item",
+                    "name": "occultist",
+                    "path": "packs/occultist.db",
+                    "system": "archmage"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                }
+            ],
+            "url": "https://gitlab.com/asacolips-projects/foundry-mods/archmage",
+            "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/raw/master/system.json",
+            "download": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/archive/1.6.2/archmage-master.zip",
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + @attributes.level.value + (@abilities.dex.value / 100)",
+            "gridDistance": 1,
+            "gridUnits": "",
+            "primaryTokenAttribute": "attributes.hp",
+            "foundryUrl": "/packages/archmage/",
+            "lastUpdate": "1 week, 3 days ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
+            "lastUpdate": "1 week, 3 days ago"
+        },
+        {
+            "name": "callofcthulhu",
+            "title": "CallofCthulhu(7thEd.)",
+            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+            "version": "1.1.0",
+            "author": "ただいま",
+            "minimumCoreVersion": "0.7.0",
+            "compatibleCoreVersion": "0.7.0",
+            "esmodules": [
+                "module/callofcthulhu.js",
+                "module/dicebot.js"
+            ],
+            "styles": [
+                "callofcthulhu.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "character",
+                    "label": "character",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/character.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "journalentry",
+                    "label": "journalentry",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/journalentry.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "template",
+                    "label": "template",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/template.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/tadaimatrpg/callofcthulhu",
+            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
+            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
+            "foundryUrl": "/packages/callofcthulhu/",
+            "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "svnsea2e",
+            "title": "7th Sea Second Edition (Unofficial)",
+            "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
+            "version": 0.8,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "psychoph",
+            "esmodules": [
+                "module/svnsea2e.js"
+            ],
+            "styles": [
+                "css/svnsea2e.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "wounds",
+            "secondaryTokenAttribute": "dwounds",
+            "url": "https://github.com/Detailing-the-Realm/svnsea2e/",
+            "manifest": "https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json",
+            "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/svnsea2e/",
+            "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "ratasenlasparedes",
+            "title": "Ratas en las paredes",
+            "description": "Ratas en las paredes para FoundryVTT!",
+            "version": "0.6.1",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "jvir",
+            "esmodules": [
+                "module/ratasenlasparedes.js"
+            ],
+            "styles": [
+                "css/ratasenlasparedes.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armas",
+                    "label": "Armas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/armas.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ayudas",
+                    "label": "Ayudas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/ayudas.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "equipo",
+                    "label": "Equipo",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/equipo.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "profesiones",
+                    "label": "Profesiones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/profesiones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "reputaciones",
+                    "label": "Reputaciones",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/reputaciones.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hechizos",
+                    "label": "Hechizos",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/hechizos.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tablas",
+                    "label": "Tablas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/tablas.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "antagonistas",
+                    "label": "Antagonistas",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/antagonistas.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "horrores-tras-los-muros-de-la-cordura",
+                    "label": "Horrores tras los muros de la cordura",
+                    "system": "ratasenlasparedes",
+                    "path": "./packs/horrores-tras-los-muros-de-la-cordura.db",
+                    "entity": "Actor"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 2,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "pv",
+            "secondaryTokenAttribute": "pc",
+            "url": "https://gitlab.com/jvir/foundry-ratasenlasparedes/",
+            "manifest": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/raw/master/system.json",
+            "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/ratasenlasparedes/",
+            "lastUpdate": "2 weeks ago"
+        },
+        {
+            "name": "mothership",
+            "title": "Mothership RPG",
+            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Frank Carentz",
+            "esmodules": [
+                "mothership.js"
+            ],
+            "styles": [
+                "simple.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "primaryTokenAttribute": "resources.vigor",
+            "secondaryTokenAttribute": "resources.grip",
+            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
+            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
+            "foundryUrl": "/packages/mothership/",
+            "lastUpdate": "2 weeks ago"
+        },
+        {
+            "name": "lancer",
+            "title": "LANCER",
+            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
+            "version": "0.1.2",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "Eranziel",
+            "scripts": [],
+            "esmodules": [
+                "lancer.js"
+            ],
+            "styles": [
+                "lancer.css",
+                "fonts/compcon/glyphs.css",
+                "fonts/mdi/css/materialdesignicons.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "talents",
+                    "label": "Talents",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/talents.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "core_bonuses",
+                    "label": "Core Bonuses",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/core_bonuses.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_armor",
+                    "label": "Pilot Armor",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_weapons",
+                    "label": "Pilot Weapons",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_gear",
+                    "label": "Pilot Gear",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_gear.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "frames",
+                    "label": "Frames",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/frames.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "systems",
+                    "label": "Systems",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/systems.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_classes",
+                    "label": "NPC Classes",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_templates",
+                    "label": "NPC Templates",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_features",
+                    "label": "NPC Features",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_features.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [],
+            "socket": true,
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "mech.hp",
+            "secondaryTokenAttribute": "mech.heat",
+            "url": "https://github.com/Eranziel/foundryvtt-lancer",
+            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
+            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.2/package/lancer-v0.1.2.zip",
+            "license": "GNU GPLv3",
+            "readme": "",
+            "bugs": "",
+            "changelog": "",
+            "foundryUrl": "/packages/lancer/",
+            "lastUpdate": "2 weeks, 1 day ago"
+        },
+        {
+            "name": "sfrpg",
+            "title": "Starfinder",
+            "description": "A game system for running Starfinder in the Foundry VTT environment.",
+            "version": "0.3.5",
+            "author": "wildj79",
+            "templateVersion": 2,
+            "schema": 0.003,
+            "scripts": [
+                "lib/popperjs/core/popper.min.js",
+                "lib/tippy/tippy.min.js"
+            ],
+            "esmodules": [
+                "sfrpg.js"
+            ],
+            "styles": [
+                "styles/tippy.css",
+                "sfrpg.css"
+            ],
+            "packs": [
+                {
+                    "name": "equipment",
+                    "label": "Equipment",
+                    "system": "sfrpg",
+                    "path": "./packs/equipment.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "sfrpg",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "sfrpg",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "sfrpg",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "label": "Classes",
+                    "entity": "Item",
+                    "name": "classes",
+                    "path": "./packs/classes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Themes",
+                    "entity": "Item",
+                    "name": "themes",
+                    "path": "./packs/themes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Starship Weapons",
+                    "entity": "Item",
+                    "name": "starship-weapons",
+                    "path": "./packs/starship-weapons.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "SFRPG Rules",
+                    "entity": "JournalEntry",
+                    "name": "rules",
+                    "path": "./packs/rules.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Tables",
+                    "entity": "RollTable",
+                    "name": "tables",
+                    "path": "./packs/tables.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Conditions",
+                    "entity": "JournalEntry",
+                    "name": "conditions",
+                    "path": "./packs/conditions.db",
+                    "system": "sfrpg"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": "attributes.sp",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/wildj79/foundryvtt-starfinder",
+            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
+            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
+            "foundryUrl": "/packages/sfrpg/",
+            "lastUpdate": "2 weeks, 2 days ago"
+        },
+        {
+            "name": "knave",
+            "title": "KNAVE",
+            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
+            "version": "1.4.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Rabid Baboon",
+            "esmodules": [
+                "module/knave.js"
+            ],
+            "styles": [
+                "css/knave.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "knave",
+                    "path": "./packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "clothing",
+                    "label": "Cothing",
+                    "system": "knave",
+                    "path": "./packs/clothing.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "food",
+                    "label": "Food",
+                    "system": "knave",
+                    "path": "./packs/food.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "knave",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "light",
+                    "label": "Light",
+                    "system": "knave",
+                    "path": "./packs/light.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "macros",
+                    "label": "Macros",
+                    "system": "knave",
+                    "path": "./packs/macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "other",
+                    "label": "Other",
+                    "system": "knave",
+                    "path": "./packs/other.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "rules",
+                    "label": "Rules",
+                    "system": "knave",
+                    "path": "./packs/rules.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "knave",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "starting-gear",
+                    "label": "Starting Gear",
+                    "system": "knave",
+                    "path": "./packs/starting-gear.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "traits",
+                    "label": "Traits",
+                    "system": "knave",
+                    "path": "./packs/traits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "knave",
+                    "path": "./packs/weapons.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/jrommann/knave",
+            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
+            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/knave/",
+            "lastUpdate": "2 weeks, 4 days ago"
+        },
+        {
+            "name": "wfrp4e",
+            "title": "Warhammer Fantasy Roleplay 4th Edition",
+            "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
+            "version": "2.1.0",
+            "author": "CatoThe1stElder, Moo Man",
+            "scripts": [
+                "./scripts/config-wfrp4e.js",
+                "./scripts/dice-wfrp4e.js",
+                "./scripts/tables-wfrp4e.js",
+                "./scripts/utility-wfrp4e.js",
+                "./scripts/market-wfrp4e.js",
+                "./scripts/opposed-wfrp4e.js",
+                "./scripts/char-gen.js",
+                "./scripts/name-gen.js",
+                "./scripts/migrations.js",
+                "./scripts/wfrp-browser.js",
+                "./scripts/audio-wfrp4e.js",
+                "./scripts/bug-report.js",
+                "./scripts/actor/actor-wfrp4e.js",
+                "./scripts/actor/sheet/actor-sheet.js",
+                "./scripts/actor/sheet/character-sheet.js",
+                "./scripts/actor/sheet/creature-sheet.js",
+                "./scripts/actor/sheet/npc-sheet.js",
+                "./scripts/item/item-sheet.js",
+                "./scripts/item/item-wfrp4e.js",
+                "./scripts/hooks/canvasReady.js",
+                "./scripts/hooks/canvasInit.js",
+                "./scripts/hooks/chatMessage.js",
+                "./scripts/hooks/createOwnedItem.js",
+                "./scripts/hooks/preCreateActor.js",
+                "./scripts/hooks/preCreateOwnedItem.js",
+                "./scripts/hooks/renderTokenHUD.js",
+                "./scripts/hooks/deleteCombat.js",
+                "./scripts/hooks/getActorDirectoryEntryContext.js",
+                "./scripts/hooks/getCombatTrackerEntryContext.js",
+                "./scripts/hooks/getChatLogEntryContext.js",
+                "./scripts/hooks/getSceneControlButtons.js",
+                "./scripts/hooks/init.js",
+                "./scripts/hooks/ready.js",
+                "./scripts/hooks/renderChatLog.js",
+                "./scripts/hooks/renderChatMessage.js",
+                "./scripts/hooks/renderSidebarTab.js",
+                "./scripts/hooks/renderJournalSheet.js",
+                "./scripts/hooks/updateCombat.js",
+                "./scripts/hooks/createChatMessage.js",
+                "./scripts/hooks/hotbarDrop.js",
+                "./libs/pixi-filters.js",
+                "./pixi/aoe.js"
+            ],
+            "styles": [
+                "./css/wfrp4e.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
+            "gridDistance": 2,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "status.wounds",
+            "secondaryTokenAttribute": "status.advantage",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/system.json",
+            "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
+            "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
+            "foundryUrl": "/packages/wfrp4e/",
+            "lastUpdate": "2 weeks, 5 days ago"
+        },
+        {
+            "name": "swade",
+            "title": "Savage Worlds Adventure Edition",
+            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
+            "version": "0.10.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "FloRad",
+            "templateVersion": 2,
+            "esmodules": [
+                "swade.js"
+            ],
+            "styles": [
+                "swade.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "swade",
+                    "path": "./packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "edges",
+                    "label": "Edges",
+                    "system": "swade",
+                    "path": "./packs/edges.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hindrances",
+                    "label": "Hindrances",
+                    "system": "swade",
+                    "path": "./packs/hindrances.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "action-cards",
+                    "label": "Action Cards",
+                    "system": "swade",
+                    "path": "./packs/action-cards.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pl",
+                    "name": "Polski",
+                    "path": "lang/pl.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "url": "https://gitlab.com/florad-foundry/swade",
+            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.10.2/package/swade-v0.10.2.zip",
+            "foundryUrl": "/packages/swade/",
+            "lastUpdate": "3 weeks ago"
+        },
+        {
+            "name": "dungeonworld",
+            "title": "Dungeon World",
+            "description": "The Dungeon World system for FoundryVTT!",
+            "version": "0.4.3",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Asacolips, Vasid",
+            "esmodules": [
+                "module/dungeonworld.js"
+            ],
+            "styles": [
+                "styles/lib/tagify.css",
+                "styles/dist/dungeonworld.css"
+            ],
+            "scripts": [
+                "scripts/lib/tagify.min.js"
+            ],
+            "packs": [
+                {
+                    "name": "classes",
+                    "label": "Classes",
+                    "system": "dungeonworld",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "basic-moves",
+                    "label": "Basic Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/basic-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-barbarian-moves",
+                    "label": "The Barbarian Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-barbarian-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-bard-moves",
+                    "label": "The Bard Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-bard-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-cleric-moves",
+                    "label": "The Cleric Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-cleric-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-cleric-spells",
+                    "label": "The Cleric Spells",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-cleric-spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-druid-moves",
+                    "label": "The Druid Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-druid-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-fighter-moves",
+                    "label": "The Fighter Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-fighter-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-immolator-moves",
+                    "label": "The Immolator Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-immolator-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-paladin-moves",
+                    "label": "The Paladin Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-paladin-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-ranger-moves",
+                    "label": "The Ranger Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-ranger-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-thief-moves",
+                    "label": "The Thief Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-thief-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-wizard-moves",
+                    "label": "The Wizard Moves",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-wizard-moves.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-wizard-spells",
+                    "label": "The Wizard Spells",
+                    "system": "dungeonworld",
+                    "path": "./packs/the-wizard-spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tags",
+                    "label": "Tags",
+                    "system": "dungeonworld",
+                    "path": "./packs/tags.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-armor",
+                    "label": "Equipment (Armor)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-class",
+                    "label": "Equipment (Class)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-class.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-gear",
+                    "label": "Equipment (Gear)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-gear.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-magic",
+                    "label": "Equipment (Magic)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-magic.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-poisons",
+                    "label": "Equipment (Poisons)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-poisons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-weapons",
+                    "label": "Equipment (Weapons)",
+                    "system": "dungeonworld",
+                    "path": "./packs/equipment-weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "label": "Rollable Tables",
+                    "entity": "RollTable",
+                    "name": "rollable-tables",
+                    "path": "packs/rollable-tables.db",
+                    "system": "dungeonworld",
+                    "package": "world",
+                    "absPath": "./packs/rollable-tables.db"
+                },
+                {
+                    "label": "GM Moves/Principals",
+                    "entity": "JournalEntry",
+                    "name": "gm-movesprincipals",
+                    "path": "packs/gm-movesprincipals.db",
+                    "system": "dungeonworld",
+                    "package": "world",
+                    "absPath": "./packs/gm-movesprincipals.db"
+                },
+                {
+                    "label": "Charts",
+                    "entity": "JournalEntry",
+                    "name": "charts",
+                    "path": "packs/charts.db",
+                    "system": "dungeonworld",
+                    "package": "world",
+                    "absPath": "./packs/charts.db"
+                },
+                {
+                    "label": "Monsters",
+                    "entity": "Actor",
+                    "name": "monsters",
+                    "path": "packs/monsters.db",
+                    "system": "dungeonworld",
+                    "package": "world",
+                    "absPath": "./packs/monsters.db"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "initiative": "1d20",
+            "socket": true,
+            "url": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld",
+            "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/raw/master/system.json",
+            "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
+            "foundryUrl": "/packages/dungeonworld/",
+            "lastUpdate": "3 weeks, 2 days ago"
+        },
+        {
+            "name": "dnd5e",
+            "title": "DnD5e - Fifth Edition System",
+            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+            "version": 0.94,
+            "author": "Atropos",
+            "scripts": [],
+            "esmodules": [
+                "dnd5e.js"
+            ],
+            "styles": [
+                "dnd5e.css"
+            ],
+            "packs": [
+                {
+                    "name": "heroes",
+                    "label": "Starter Heroes",
+                    "system": "dnd5e",
+                    "path": "./packs/heroes.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "monsters",
+                    "label": "Monsters (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tradegoods",
+                    "label": "Trade Goods (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/tradegoods.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classfeatures",
+                    "label": "Class Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classfeatures.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monsterfeatures",
+                    "label": "Monster Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsterfeatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value + (@abilities.dex.value / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.2",
+            "url": "https://gitlab.com/foundrynet/dnd5e",
+            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.4/dnd5e-release-0.9.4.zip",
+            "foundryUrl": "/packages/dnd5e/",
+            "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.08,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "3 weeks, 4 days ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "4 weeks, 1 day ago"
+        },
+        {
+            "name": "shadowrun5e",
+            "title": "Shadowrun 5th Edition",
+            "description": "Shadowrun 5th Edition game",
+            "version": "0.6.8",
+            "templateVersion": "1.4",
+            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+            "esmodules": [
+                "dist/bundle.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "dist/bundle.css"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.1",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "dist/locale/en/config.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "dist/locale/de/config.json"
+                }
+            ],
+            "packs": [],
+            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+            "primaryTokenAttribute": "track.physical",
+            "secondaryTokenAttribute": "track.stun",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
+            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
+            "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "icrpg",
+            "title": "Index Card RPG",
+            "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
+            "version": "1.0.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "TomCosaert",
+            "esmodules": [
+                "module/icrpg.js"
+            ],
+            "styles": [
+                "css/icrpg.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "nl",
+                    "name": "Nederlands",
+                    "path": "lang/nl.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/TomCosaert/FoundryVTT-ICRPG/",
+            "manifest": "https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json",
+            "download": "https://github.com/TomCosaert/FoundryVTT-ICRPG/archive/master.zip",
+            "license": "LICENSE",
+            "foundryUrl": "/packages/icrpg/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "symbaroum",
+            "title": "Symbaroum",
+            "description": "Twilight falls. Davokar darkens.",
+            "version": 1.5,
+            "minimumCoreVersion": "0.6.1",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character/bio.css",
+                "style/character/character.css",
+                "style/character/combat.css",
+                "style/character/gear.css",
+                "style/ability.css",
+                "style/armor.css",
+                "style/artifact.css",
+                "style/gear.css",
+                "style/weapon.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsche",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Española",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/symbaroum-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/symbaroum-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/symbaroum-foundry-vtt/archive/v1.5.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/symbaroum/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "pf2e",
+            "title": "Pathfinder 2nd Edition",
+            "description": "A community contributed game system for Pathfinder Second Edition.",
+            "version": "1.9.7",
+            "schema": 0.586,
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.7.0",
+            "author": "hooking, Trey",
+            "esmodules": [
+                "main.bundle.js"
+            ],
+            "scripts": [
+                "./lib/tooltipster.bundle.min.js"
+            ],
+            "styles": [
+                "./styles/pf2e.css"
+            ],
+            "packs": [
+                {
+                    "name": "spells-srd",
+                    "label": "Spells (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats-srd",
+                    "label": "Feats (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "equipment-srd",
+                    "label": "Equipment (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "./packs/equipment.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "conditionspf2e",
+                    "label": "Conditions (PF2e)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/conditionspf2e.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "conditionitems",
+                    "label": "Conditions (PF2e)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/conditionitems.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "actionspf2e",
+                    "label": "Actions (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/actions.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "archetypes",
+                    "label": "Archetypes",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/archetypes.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "pathfinder-bestiary",
+                    "label": "Pathfinder Bestiary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/pathfinder-bestiary.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "pathfinder-bestiary-2",
+                    "label": "Pathfinder Bestiary 2",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/pathfinder-bestiary-2.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "hazards",
+                    "label": "Hazards",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/hazards.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "age-of-ashes-bestiary",
+                    "label": "Age of Ashes Bestiary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/age-of-ashes-bestiary.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "extinction-curse-bestiary",
+                    "label": "Extinction Curse Bestiary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/extinction-curse-bestiary.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "fall-of-plaguestone-bestiary",
+                    "label": "Fall of Plaguestone Bestiary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/fall-of-plaguestone.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "iconics",
+                    "label": "Iconics Pregenerated Characters",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/iconics.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "npc-gallery",
+                    "label": "NPC Gallery",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/npc-gallery.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "ancestryfeatures",
+                    "label": "Ancestry Features (SRD)",
+                    "path": "packs/ancestryfeatures.db",
+                    "entity": "Item",
+                    "module": "pf2e",
+                    "system": "pf2e"
+                },
+                {
+                    "name": "classfeatures",
+                    "label": "Class Features (SRD)",
+                    "path": "packs/classfeatures.db",
+                    "entity": "Item",
+                    "module": "pf2e",
+                    "system": "pf2e"
+                },
+                {
+                    "name": "rollable-tables",
+                    "label": "Rollable Tables",
+                    "path": "packs/rollable-tables.db",
+                    "entity": "RollTable",
+                    "system": "pf2e",
+                    "module": "pf2e"
+                },
+                {
+                    "name": "backgrounds",
+                    "label": "Backgrounds (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/backgrounds.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "deities",
+                    "label": "Deities",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/deities.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "gmg-srd",
+                    "label": "Game Mastery Guide (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/gmg-srd.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (SRD)",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/classes.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "criticaldeck",
+                    "label": "Critical Hit/Fumble Deck",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/criticaldeck.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "pf2e-macros",
+                    "label": "PF2e Macros",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/pf2e-macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "bestiary-ability-glossary-srd",
+                    "label": "Bestiary Ability Glossary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/bestiary-ability-glossary-srd.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pathfinder-society-boons",
+                    "label": "Pathfinder Society Boons",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/pathfinder-society-boons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "the-slithering-bestiary",
+                    "label": "The Slithering Bestiary",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/the-slithering-bestiary.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "boons-and-curses",
+                    "label": "Deity Boons and Curses",
+                    "system": "pf2e",
+                    "module": "pf2e",
+                    "path": "packs/boons-and-curses.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "templateVersion": 2,
+            "initiative": "1d20 + @attributes.perception.value + (@abilities.wis.value / 100)",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "url": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e",
+            "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
+            "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
+            "foundryUrl": "/packages/pf2e/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "intotheodd",
+            "title": "Into the Odd",
+            "description": "The Into the Odd system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "voidcase",
+            "esmodules": [
+                "module/intotheodd.js"
+            ],
+            "styles": [
+                "css/intotheodd.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "into-the-odd-macros",
+                    "label": "Macros for playing Into the Odd",
+                    "system": "intotheodd",
+                    "path": "./packs/into-the-odd-macros.db",
+                    "entity": "Macro"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
+            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/intotheodd/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "ryuutama",
+            "title": "Ryuutama",
+            "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
+            "version": "0.6.0",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.2",
+            "templateVersion": 2,
+            "author": "Reaver01",
+            "esmodules": [
+                "module/ryuutama.js"
+            ],
+            "styles": [
+                "css/ryuutama.css"
+            ],
+            "packs": [
+                {
+                    "name": "monsters",
+                    "label": "Monsters (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "class-features",
+                    "label": "Class Features (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/class-features.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "enchantments",
+                    "label": "Enchantments (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/enchantments.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "containers",
+                    "label": "Containers (Ryuutama)",
+                    "system": "ryuutama",
+                    "path": "./packs/containers.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "hp",
+            "secondaryTokenAttribute": "mp",
+            "url": "https://github.com/Reaver01/ryuutama/",
+            "manifest": "https://raw.githubusercontent.com/reaver01/ryuutama/master/system.json",
+            "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "worldbuilding",
+            "title": "Simple World-Building",
+            "description": "A minimalist game system with very simple Actor and Item models to support free-form system agnostic gameplay.",
+            "version": 0.36,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.5.7",
+            "templateVersion": 2,
+            "author": "Atropos",
+            "esmodules": [
+                "module/simple.js"
+            ],
+            "styles": [
+                "styles/simple.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/foundrynet/worldbuilding/",
+            "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
+            "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-036/worldbuilding-release-036.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/worldbuilding/",
+            "lastUpdate": "2 months, 1 week ago"
+        }
+    ]
 }
