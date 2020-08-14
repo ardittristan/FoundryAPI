@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 14 Aug 2020 02:56:31 GMT",
+    "updated": "Fri, 14 Aug 2020 03:11:28 GMT",
     "modules": [
         {
             "name": "yzecoriolis",
@@ -34,7 +34,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.9.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "2 hours, 16 minutes ago"
+            "lastUpdate": "2 hours, 31 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -102,7 +102,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "9 hours, 26 minutes ago"
+            "lastUpdate": "9 hours, 41 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -139,7 +139,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 3 hours ago"
+            "lastUpdate": "1 day, 4 hours ago"
         },
         {
             "name": "risklegacy",
@@ -168,7 +168,7 @@
             "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
             "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
             "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "19 hours, 7 minutes ago"
+            "lastUpdate": "19 hours, 22 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -229,7 +229,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "1 day, 7 hours ago"
+            "lastUpdate": "1 day, 8 hours ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -259,7 +259,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "1 day, 7 hours ago"
+            "lastUpdate": "1 day, 8 hours ago"
         },
         {
             "name": "demonlord",
@@ -333,7 +333,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 15 hours ago"
+            "lastUpdate": "1 day, 16 hours ago"
         },
         {
             "name": "kamigakari",
@@ -394,7 +394,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "2 days, 11 hours ago"
+            "lastUpdate": "2 days, 12 hours ago"
         },
         {
             "name": "sandbox",
@@ -652,7 +652,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "3 days, 13 hours ago"
+            "lastUpdate": "3 days, 14 hours ago"
         },
         {
             "name": "numenera",
@@ -1497,6 +1497,137 @@
             "lastUpdate": "2 weeks ago"
         },
         {
+            "name": "lancer",
+            "title": "LANCER",
+            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
+            "version": "0.1.2",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "Eranziel",
+            "scripts": [],
+            "esmodules": [
+                "lancer.js"
+            ],
+            "styles": [
+                "lancer.css",
+                "fonts/compcon/glyphs.css",
+                "fonts/mdi/css/materialdesignicons.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "talents",
+                    "label": "Talents",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/talents.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "core_bonuses",
+                    "label": "Core Bonuses",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/core_bonuses.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_armor",
+                    "label": "Pilot Armor",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_weapons",
+                    "label": "Pilot Weapons",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "pilot_gear",
+                    "label": "Pilot Gear",
+                    "system": "lancer",
+                    "module": "lancer",
+                    "path": "packs/pilot_gear.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "frames",
+                    "label": "Frames",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/frames.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "systems",
+                    "label": "Systems",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/systems.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_classes",
+                    "label": "NPC Classes",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_templates",
+                    "label": "NPC Templates",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_templates.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "npc_features",
+                    "label": "NPC Features",
+                    "system": "lancer",
+                    "package": "world",
+                    "path": "packs/npc_features.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [],
+            "socket": true,
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "mech.hp",
+            "secondaryTokenAttribute": "mech.heat",
+            "url": "https://github.com/Eranziel/foundryvtt-lancer",
+            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
+            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.2/package/lancer-v0.1.2.zip",
+            "license": "GNU GPLv3",
+            "readme": "",
+            "bugs": "",
+            "changelog": "",
+            "foundryUrl": "/packages/lancer/",
+            "lastUpdate": "2 weeks, 1 day ago"
+        },
+        {
             "name": "sfrpg",
             "title": "Starfinder",
             "description": "A game system for running Starfinder in the Foundry VTT environment.",
@@ -1736,137 +1867,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
             "lastUpdate": "2 weeks, 3 days ago"
-        },
-        {
-            "name": "lancer",
-            "title": "LANCER",
-            "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
-            "version": "0.1.2",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "Eranziel",
-            "scripts": [],
-            "esmodules": [
-                "lancer.js"
-            ],
-            "styles": [
-                "lancer.css",
-                "fonts/compcon/glyphs.css",
-                "fonts/mdi/css/materialdesignicons.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "talents",
-                    "label": "Talents",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/talents.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "core_bonuses",
-                    "label": "Core Bonuses",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/core_bonuses.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_armor",
-                    "label": "Pilot Armor",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_weapons",
-                    "label": "Pilot Weapons",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "pilot_gear",
-                    "label": "Pilot Gear",
-                    "system": "lancer",
-                    "module": "lancer",
-                    "path": "packs/pilot_gear.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "frames",
-                    "label": "Frames",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/frames.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "systems",
-                    "label": "Systems",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/systems.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_classes",
-                    "label": "NPC Classes",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_templates",
-                    "label": "NPC Templates",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_templates.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "npc_features",
-                    "label": "NPC Features",
-                    "system": "lancer",
-                    "package": "world",
-                    "path": "packs/npc_features.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [],
-            "socket": true,
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "mech.hp",
-            "secondaryTokenAttribute": "mech.heat",
-            "url": "https://github.com/Eranziel/foundryvtt-lancer",
-            "manifest": "https://raw.githubusercontent.com/Eranziel/foundryvtt-lancer/master/src/system.json",
-            "download": "https://github.com/Eranziel/foundryvtt-lancer/raw/v0.1.2/package/lancer-v0.1.2.zip",
-            "license": "GNU GPLv3",
-            "readme": "",
-            "bugs": "",
-            "changelog": "",
-            "foundryUrl": "/packages/lancer/",
-            "lastUpdate": "2 weeks, 1 day ago"
         },
         {
             "name": "wfrp4e",
@@ -2988,50 +2988,6 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months ago"
-        },
-        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -3113,6 +3069,50 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months ago"
         },
         {
