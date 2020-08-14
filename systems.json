@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 14 Aug 2020 08:56:26 GMT",
+    "updated": "Fri, 14 Aug 2020 09:11:29 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "4 hours, 22 minutes ago"
+            "lastUpdate": "4 hours, 37 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -108,7 +108,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.9.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "8 hours, 15 minutes ago"
+            "lastUpdate": "8 hours, 30 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -176,7 +176,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "15 hours, 26 minutes ago"
+            "lastUpdate": "15 hours, 41 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -213,36 +213,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 9 hours ago"
-        },
-        {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "1 day, 1 hour ago"
+            "lastUpdate": "1 day, 10 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -303,7 +274,36 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.7.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
+        },
+        {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 day, 1 hour ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -333,7 +333,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "1 day, 13 hours ago"
+            "lastUpdate": "1 day, 14 hours ago"
         },
         {
             "name": "kamigakari",
@@ -394,7 +394,34 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "2 days, 17 hours ago"
+            "lastUpdate": "2 days, 18 hours ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.3",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "4 days, 15 hours ago"
         },
         {
             "name": "pf1",
@@ -596,33 +623,6 @@
             "lastUpdate": "5 days, 20 hours ago"
         },
         {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.3",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "4 days, 15 hours ago"
-        },
-        {
             "name": "fatex",
             "title": "Fate Extended (FateX)",
             "description": "An extended implementation of Fate and its derivative systems",
@@ -652,7 +652,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "3 days, 19 hours ago"
+            "lastUpdate": "3 days, 20 hours ago"
         },
         {
             "name": "numenera",
@@ -2524,6 +2524,50 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2582,50 +2626,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/symbaroum/",
             "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month ago"
         },
         {
             "name": "pf2e",
