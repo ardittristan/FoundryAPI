@@ -1,5 +1,5 @@
 {
-    "updated": "Sat, 15 Aug 2020 22:09:54 GMT",
+    "updated": "Sat, 15 Aug 2020 22:24:56 GMT",
     "modules": [
         {
             "name": "pf1",
@@ -198,7 +198,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "5 hours, 1 minute ago"
+            "lastUpdate": "5 hours, 16 minutes ago"
         },
         {
             "name": "sandbox",
@@ -225,7 +225,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "14 hours, 57 minutes ago"
+            "lastUpdate": "15 hours, 12 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -260,7 +260,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "18 hours, 21 minutes ago"
+            "lastUpdate": "18 hours, 36 minutes ago"
         },
         {
             "name": "dnd5e",
@@ -358,7 +358,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "21 hours ago"
+            "lastUpdate": "21 hours, 15 minutes ago"
         },
         {
             "name": "burningwheel",
@@ -545,6 +545,80 @@
             "lastUpdate": "1 day, 1 hour ago"
         },
         {
+            "name": "demonlord",
+            "title": "Shadow of the Demon Lord",
+            "description": "The Shadow of the Demonlord system for FoundryVTT",
+            "version": "1.1.2",
+            "author": "Bo Kehlet",
+            "minimumCoreVersion": "0.6",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/demonlord.js"
+            ],
+            "styles": [
+                "css/demonlord.css",
+                "css/demonlord2.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "demonlord",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "demonlord",
+                    "path": "packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ammunition",
+                    "label": "Ammunition",
+                    "system": "demonlord",
+                    "path": "packs/ammunition.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons creature",
+                    "label": "Weapons Creature",
+                    "system": "demonlord",
+                    "path": "packs/weapons-creatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Portuguese (Brazilian)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "characteristics.health",
+            "secondaryTokenAttribute": "",
+            "socket": true,
+            "url": "https://github.com/Xacus/demonlord",
+            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
+            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
+            "foundryUrl": "/packages/demonlord/",
+            "lastUpdate": "1 day, 17 hours ago"
+        },
+        {
             "name": "swade",
             "title": "Savage Worlds Adventure Edition",
             "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
@@ -619,80 +693,6 @@
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.1/package/swade-v0.11.1.zip",
             "foundryUrl": "/packages/swade/",
             "lastUpdate": "1 day, 5 hours ago"
-        },
-        {
-            "name": "demonlord",
-            "title": "Shadow of the Demon Lord",
-            "description": "The Shadow of the Demonlord system for FoundryVTT",
-            "version": "1.1.2",
-            "author": "Bo Kehlet",
-            "minimumCoreVersion": "0.6",
-            "compatibleCoreVersion": "0.6.4",
-            "esmodules": [
-                "module/demonlord.js"
-            ],
-            "styles": [
-                "css/demonlord.css",
-                "css/demonlord2.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "demonlord",
-                    "path": "packs/weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "demonlord",
-                    "path": "packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ammunition",
-                    "label": "Ammunition",
-                    "system": "demonlord",
-                    "path": "packs/ammunition.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons creature",
-                    "label": "Weapons Creature",
-                    "system": "demonlord",
-                    "path": "packs/weapons-creatures.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Portuguese (Brazilian)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "characteristics.health",
-            "secondaryTokenAttribute": "",
-            "socket": true,
-            "url": "https://github.com/Xacus/demonlord",
-            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
-            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
-            "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 17 hours ago"
         },
         {
             "name": "alienrpg",
@@ -997,42 +997,7 @@
             "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
             "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
             "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "5 days, 8 hours ago"
-        },
-        {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.4.2",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "1 week, 1 day ago"
+            "lastUpdate": "5 days, 9 hours ago"
         },
         {
             "name": "ose",
@@ -1084,6 +1049,41 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 3 days ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.4.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "1 week, 1 day ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1227,7 +1227,7 @@
             "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
-            "lastUpdate": "1 week, 3 days ago"
+            "lastUpdate": "1 week, 4 days ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -2631,7 +2631,43 @@
             "initiative": "",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month ago"
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -2893,42 +2929,6 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
