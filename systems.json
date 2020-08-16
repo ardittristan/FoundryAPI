@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 16 Aug 2020 06:24:56 GMT",
+    "updated": "Sun, 16 Aug 2020 06:39:55 GMT",
     "modules": [
         {
             "name": "pf1",
@@ -198,7 +198,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "13 hours, 16 minutes ago"
+            "lastUpdate": "13 hours, 31 minutes ago"
         },
         {
             "name": "sandbox",
@@ -225,7 +225,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "23 hours, 12 minutes ago"
+            "lastUpdate": "23 hours, 27 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -545,6 +545,80 @@
             "lastUpdate": "1 day, 9 hours ago"
         },
         {
+            "name": "demonlord",
+            "title": "Shadow of the Demon Lord",
+            "description": "The Shadow of the Demonlord system for FoundryVTT",
+            "version": "1.1.2",
+            "author": "Bo Kehlet",
+            "minimumCoreVersion": "0.6",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/demonlord.js"
+            ],
+            "styles": [
+                "css/demonlord.css",
+                "css/demonlord2.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "demonlord",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "demonlord",
+                    "path": "packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ammunition",
+                    "label": "Ammunition",
+                    "system": "demonlord",
+                    "path": "packs/ammunition.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons creature",
+                    "label": "Weapons Creature",
+                    "system": "demonlord",
+                    "path": "packs/weapons-creatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Portuguese (Brazilian)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "characteristics.health",
+            "secondaryTokenAttribute": "",
+            "socket": true,
+            "url": "https://github.com/Xacus/demonlord",
+            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
+            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
+            "foundryUrl": "/packages/demonlord/",
+            "lastUpdate": "2 days, 2 hours ago"
+        },
+        {
             "name": "swade",
             "title": "Savage Worlds Adventure Edition",
             "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
@@ -621,80 +695,6 @@
             "lastUpdate": "1 day, 13 hours ago"
         },
         {
-            "name": "demonlord",
-            "title": "Shadow of the Demon Lord",
-            "description": "The Shadow of the Demonlord system for FoundryVTT",
-            "version": "1.1.2",
-            "author": "Bo Kehlet",
-            "minimumCoreVersion": "0.6",
-            "compatibleCoreVersion": "0.6.4",
-            "esmodules": [
-                "module/demonlord.js"
-            ],
-            "styles": [
-                "css/demonlord.css",
-                "css/demonlord2.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "demonlord",
-                    "path": "packs/weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "demonlord",
-                    "path": "packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ammunition",
-                    "label": "Ammunition",
-                    "system": "demonlord",
-                    "path": "packs/ammunition.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons creature",
-                    "label": "Weapons Creature",
-                    "system": "demonlord",
-                    "path": "packs/weapons-creatures.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Portuguese (Brazilian)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "characteristics.health",
-            "secondaryTokenAttribute": "",
-            "socket": true,
-            "url": "https://github.com/Xacus/demonlord",
-            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
-            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
-            "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "2 days, 1 hour ago"
-        },
-        {
             "name": "alienrpg",
             "title": "Alien RPG",
             "description": "The Alien RPG system for FoundryVTT!",
@@ -760,7 +760,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "2 days, 12 hours ago"
+            "lastUpdate": "2 days, 13 hours ago"
         },
         {
             "name": "ModularFate",
