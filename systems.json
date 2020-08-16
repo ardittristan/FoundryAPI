@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 16 Aug 2020 19:09:56 GMT",
+    "updated": "Sun, 16 Aug 2020 19:25:07 GMT",
     "modules": [
         {
             "name": "swade",
@@ -75,7 +75,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "5 hours, 41 minutes ago"
+            "lastUpdate": "5 hours, 56 minutes ago"
         },
         {
             "name": "sandbox",
@@ -102,7 +102,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "11 hours, 10 minutes ago"
+            "lastUpdate": "11 hours, 25 minutes ago"
         },
         {
             "name": "pf1",
@@ -763,35 +763,6 @@
             "lastUpdate": "3 days, 1 hour ago"
         },
         {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "3 days, 11 hours ago"
-        },
-        {
             "name": "ModularFate",
             "title": "Modular Fate Core",
             "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
@@ -827,6 +798,35 @@
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
             "lastUpdate": "3 days, 20 hours ago"
+        },
+        {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "3 days, 11 hours ago"
         },
         {
             "name": "kamigakari",
@@ -933,6 +933,38 @@
             "lastUpdate": "1 week, 2 days ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "6 days, 6 hours ago"
+        },
+        {
             "name": "tormenta20",
             "title": "Tormenta20",
             "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
@@ -966,38 +998,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
             "lastUpdate": "1 week, 2 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "6 days, 5 hours ago"
         },
         {
             "name": "gurps4e",
@@ -1083,7 +1083,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 week, 3 days ago"
+            "lastUpdate": "1 week, 4 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -2634,6 +2634,42 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2893,42 +2929,6 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
