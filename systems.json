@@ -1,5 +1,5 @@
 {
-    "updated": "Sun, 16 Aug 2020 02:54:52 GMT",
+    "updated": "Sun, 16 Aug 2020 03:09:54 GMT",
     "modules": [
         {
             "name": "pf1",
@@ -198,7 +198,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "9 hours, 46 minutes ago"
+            "lastUpdate": "10 hours, 1 minute ago"
         },
         {
             "name": "sandbox",
@@ -225,7 +225,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "19 hours, 42 minutes ago"
+            "lastUpdate": "19 hours, 57 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -260,7 +260,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "23 hours, 6 minutes ago"
+            "lastUpdate": "23 hours, 21 minutes ago"
         },
         {
             "name": "dnd5e",
@@ -358,34 +358,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "1 day, 1 hour ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "1 day, 4 hours ago"
+            "lastUpdate": "1 day, 2 hours ago"
         },
         {
             "name": "vaesen",
@@ -451,6 +424,33 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.4.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
+            "lastUpdate": "1 day, 6 hours ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
             "lastUpdate": "1 day, 5 hours ago"
         },
         {
@@ -512,7 +512,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "1 day, 5 hours ago"
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -542,81 +542,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "1 day, 5 hours ago"
-        },
-        {
-            "name": "demonlord",
-            "title": "Shadow of the Demon Lord",
-            "description": "The Shadow of the Demonlord system for FoundryVTT",
-            "version": "1.1.2",
-            "author": "Bo Kehlet",
-            "minimumCoreVersion": "0.6",
-            "compatibleCoreVersion": "0.6.4",
-            "esmodules": [
-                "module/demonlord.js"
-            ],
-            "styles": [
-                "css/demonlord.css",
-                "css/demonlord2.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "demonlord",
-                    "path": "packs/weapons.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "demonlord",
-                    "path": "packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "ammunition",
-                    "label": "Ammunition",
-                    "system": "demonlord",
-                    "path": "packs/ammunition.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "weapons creature",
-                    "label": "Weapons Creature",
-                    "system": "demonlord",
-                    "path": "packs/weapons-creatures.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Portuguese (Brazilian)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "characteristics.health",
-            "secondaryTokenAttribute": "",
-            "socket": true,
-            "url": "https://github.com/Xacus/demonlord",
-            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
-            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
-            "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 22 hours ago"
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "swade",
@@ -693,6 +619,80 @@
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.1/package/swade-v0.11.1.zip",
             "foundryUrl": "/packages/swade/",
             "lastUpdate": "1 day, 10 hours ago"
+        },
+        {
+            "name": "demonlord",
+            "title": "Shadow of the Demon Lord",
+            "description": "The Shadow of the Demonlord system for FoundryVTT",
+            "version": "1.1.2",
+            "author": "Bo Kehlet",
+            "minimumCoreVersion": "0.6",
+            "compatibleCoreVersion": "0.6.4",
+            "esmodules": [
+                "module/demonlord.js"
+            ],
+            "styles": [
+                "css/demonlord.css",
+                "css/demonlord2.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "demonlord",
+                    "path": "packs/weapons.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "demonlord",
+                    "path": "packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "ammunition",
+                    "label": "Ammunition",
+                    "system": "demonlord",
+                    "path": "packs/ammunition.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "weapons creature",
+                    "label": "Weapons Creature",
+                    "system": "demonlord",
+                    "path": "packs/weapons-creatures.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Portuguese (Brazilian)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "characteristics.health",
+            "secondaryTokenAttribute": "",
+            "socket": true,
+            "url": "https://github.com/Xacus/demonlord",
+            "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
+            "download": "https://github.com/Xacus/demonlord/archive/master.zip",
+            "foundryUrl": "/packages/demonlord/",
+            "lastUpdate": "1 day, 22 hours ago"
         },
         {
             "name": "alienrpg",
@@ -797,7 +797,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "3 days, 3 hours ago"
+            "lastUpdate": "3 days, 4 hours ago"
         },
         {
             "name": "risklegacy",
@@ -887,7 +887,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "4 days, 11 hours ago"
+            "lastUpdate": "4 days, 12 hours ago"
         },
         {
             "name": "numenera",
