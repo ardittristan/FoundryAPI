@@ -1,6 +1,41 @@
 {
-    "updated": "Mon, 17 Aug 2020 10:25:07 GMT",
+    "updated": "Mon, 17 Aug 2020 10:40:13 GMT",
     "modules": [
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.7",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "8 hours, 51 minutes ago"
+        },
         {
             "name": "ModularFate",
             "title": "Modular Fate Core",
@@ -37,42 +72,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "10 hours, 48 minutes ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.7",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "8 hours, 36 minutes ago"
+            "lastUpdate": "11 hours, 3 minutes ago"
         },
         {
             "name": "CoC7",
@@ -149,7 +149,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.6.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "12 hours, 21 minutes ago"
+            "lastUpdate": "12 hours, 36 minutes ago"
         },
         {
             "name": "demonlord",
@@ -223,7 +223,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "13 hours, 49 minutes ago"
+            "lastUpdate": "14 hours, 4 minutes ago"
         },
         {
             "name": "swade",
@@ -299,7 +299,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "20 hours, 56 minutes ago"
+            "lastUpdate": "21 hours, 11 minutes ago"
         },
         {
             "name": "pf1",
@@ -883,7 +883,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "kamigakari",
@@ -1853,125 +1853,6 @@
             "lastUpdate": "2 weeks, 4 days ago"
         },
         {
-            "name": "knave",
-            "title": "KNAVE",
-            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
-            "version": "1.4.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Rabid Baboon",
-            "esmodules": [
-                "module/knave.js"
-            ],
-            "styles": [
-                "css/knave.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "knave",
-                    "path": "./packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "clothing",
-                    "label": "Cothing",
-                    "system": "knave",
-                    "path": "./packs/clothing.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "food",
-                    "label": "Food",
-                    "system": "knave",
-                    "path": "./packs/food.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "knave",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "light",
-                    "label": "Light",
-                    "system": "knave",
-                    "path": "./packs/light.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "macros",
-                    "label": "Macros",
-                    "system": "knave",
-                    "path": "./packs/macros.db",
-                    "entity": "Macro"
-                },
-                {
-                    "name": "other",
-                    "label": "Other",
-                    "system": "knave",
-                    "path": "./packs/other.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "rules",
-                    "label": "Rules",
-                    "system": "knave",
-                    "path": "./packs/rules.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "knave",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "starting-gear",
-                    "label": "Starting Gear",
-                    "system": "knave",
-                    "path": "./packs/starting-gear.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "traits",
-                    "label": "Traits",
-                    "system": "knave",
-                    "path": "./packs/traits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "knave",
-                    "path": "./packs/weapons.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/jrommann/knave",
-            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
-            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/knave/",
-            "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
             "name": "sfrpg",
             "title": "Starfinder",
             "description": "A game system for running Starfinder in the Foundry VTT environment.",
@@ -2092,6 +1973,125 @@
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
             "foundryUrl": "/packages/sfrpg/",
             "lastUpdate": "2 weeks, 5 days ago"
+        },
+        {
+            "name": "knave",
+            "title": "KNAVE",
+            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
+            "version": "1.4.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Rabid Baboon",
+            "esmodules": [
+                "module/knave.js"
+            ],
+            "styles": [
+                "css/knave.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "knave",
+                    "path": "./packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "clothing",
+                    "label": "Cothing",
+                    "system": "knave",
+                    "path": "./packs/clothing.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "food",
+                    "label": "Food",
+                    "system": "knave",
+                    "path": "./packs/food.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "knave",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "light",
+                    "label": "Light",
+                    "system": "knave",
+                    "path": "./packs/light.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "macros",
+                    "label": "Macros",
+                    "system": "knave",
+                    "path": "./packs/macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "other",
+                    "label": "Other",
+                    "system": "knave",
+                    "path": "./packs/other.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "rules",
+                    "label": "Rules",
+                    "system": "knave",
+                    "path": "./packs/rules.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "knave",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "starting-gear",
+                    "label": "Starting Gear",
+                    "system": "knave",
+                    "path": "./packs/starting-gear.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "traits",
+                    "label": "Traits",
+                    "system": "knave",
+                    "path": "./packs/traits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "knave",
+                    "path": "./packs/weapons.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/jrommann/knave",
+            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
+            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/knave/",
+            "lastUpdate": "2 weeks, 6 days ago"
         },
         {
             "name": "wfrp4e",
@@ -3019,32 +3019,6 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "1 month, 4 weeks ago"
-        },
-        {
             "name": "blue-rose",
             "title": "Blue Rose",
             "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
@@ -3087,6 +3061,32 @@
             "changelog": "",
             "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
+        },
+        {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "1 month, 4 weeks ago"
         },
         {
             "name": "ryuutama",
