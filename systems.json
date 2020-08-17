@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 17 Aug 2020 19:10:07 GMT",
+    "updated": "Mon, 17 Aug 2020 19:25:10 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -46,7 +46,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "46 minutes ago"
+            "lastUpdate": "1 hour, 1 minute ago"
         },
         {
             "name": "CoC7",
@@ -123,7 +123,42 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "5 hours, 45 minutes ago"
+            "lastUpdate": "6 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.7",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "17 hours, 36 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -161,42 +196,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "19 hours, 33 minutes ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.7",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "17 hours, 21 minutes ago"
+            "lastUpdate": "19 hours, 48 minutes ago"
         },
         {
             "name": "demonlord",
@@ -270,7 +270,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "22 hours, 34 minutes ago"
+            "lastUpdate": "22 hours, 49 minutes ago"
         },
         {
             "name": "swade",
@@ -1066,6 +1066,38 @@
             "lastUpdate": "1 week, 3 days ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week ago"
+        },
+        {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
             "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
@@ -1099,38 +1131,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
             "lastUpdate": "1 week, 3 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week ago"
         },
         {
             "name": "ose",
@@ -1181,7 +1181,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 week, 4 days ago"
+            "lastUpdate": "1 week, 5 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1362,6 +1362,33 @@
             "lastUpdate": "1 week, 5 days ago"
         },
         {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
+            "lastUpdate": "1 week, 6 days ago"
+        },
+        {
             "name": "archmage",
             "title": "Toolkit13 Character Sheet",
             "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
@@ -1494,33 +1521,6 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
-            "lastUpdate": "1 week, 6 days ago"
-        },
-        {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "1 week, 6 days ago"
         },
         {
@@ -1769,128 +1769,6 @@
             "lastUpdate": "2 weeks, 4 days ago"
         },
         {
-            "name": "sfrpg",
-            "title": "Starfinder",
-            "description": "A game system for running Starfinder in the Foundry VTT environment.",
-            "version": "0.3.5",
-            "author": "wildj79",
-            "templateVersion": 2,
-            "schema": 0.003,
-            "scripts": [
-                "lib/popperjs/core/popper.min.js",
-                "lib/tippy/tippy.min.js"
-            ],
-            "esmodules": [
-                "sfrpg.js"
-            ],
-            "styles": [
-                "styles/tippy.css",
-                "sfrpg.css"
-            ],
-            "packs": [
-                {
-                    "name": "equipment",
-                    "label": "Equipment",
-                    "system": "sfrpg",
-                    "path": "./packs/equipment.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "feats",
-                    "label": "Feats",
-                    "system": "sfrpg",
-                    "path": "./packs/feats.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "sfrpg",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "races",
-                    "label": "Races",
-                    "system": "sfrpg",
-                    "path": "./packs/races.db",
-                    "entity": "Item"
-                },
-                {
-                    "label": "Classes",
-                    "entity": "Item",
-                    "name": "classes",
-                    "path": "./packs/classes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Themes",
-                    "entity": "Item",
-                    "name": "themes",
-                    "path": "./packs/themes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Starship Weapons",
-                    "entity": "Item",
-                    "name": "starship-weapons",
-                    "path": "./packs/starship-weapons.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "SFRPG Rules",
-                    "entity": "JournalEntry",
-                    "name": "rules",
-                    "path": "./packs/rules.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Tables",
-                    "entity": "RollTable",
-                    "name": "tables",
-                    "path": "./packs/tables.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Conditions",
-                    "entity": "JournalEntry",
-                    "name": "conditions",
-                    "path": "./packs/conditions.db",
-                    "system": "sfrpg"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": "attributes.sp",
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/wildj79/foundryvtt-starfinder",
-            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
-            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
-            "foundryUrl": "/packages/sfrpg/",
-            "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
             "name": "lancer",
             "title": "LANCER",
             "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
@@ -2020,6 +1898,128 @@
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
             "lastUpdate": "2 weeks, 4 days ago"
+        },
+        {
+            "name": "sfrpg",
+            "title": "Starfinder",
+            "description": "A game system for running Starfinder in the Foundry VTT environment.",
+            "version": "0.3.5",
+            "author": "wildj79",
+            "templateVersion": 2,
+            "schema": 0.003,
+            "scripts": [
+                "lib/popperjs/core/popper.min.js",
+                "lib/tippy/tippy.min.js"
+            ],
+            "esmodules": [
+                "sfrpg.js"
+            ],
+            "styles": [
+                "styles/tippy.css",
+                "sfrpg.css"
+            ],
+            "packs": [
+                {
+                    "name": "equipment",
+                    "label": "Equipment",
+                    "system": "sfrpg",
+                    "path": "./packs/equipment.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "sfrpg",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "sfrpg",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "sfrpg",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "label": "Classes",
+                    "entity": "Item",
+                    "name": "classes",
+                    "path": "./packs/classes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Themes",
+                    "entity": "Item",
+                    "name": "themes",
+                    "path": "./packs/themes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Starship Weapons",
+                    "entity": "Item",
+                    "name": "starship-weapons",
+                    "path": "./packs/starship-weapons.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "SFRPG Rules",
+                    "entity": "JournalEntry",
+                    "name": "rules",
+                    "path": "./packs/rules.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Tables",
+                    "entity": "RollTable",
+                    "name": "tables",
+                    "path": "./packs/tables.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Conditions",
+                    "entity": "JournalEntry",
+                    "name": "conditions",
+                    "path": "./packs/conditions.db",
+                    "system": "sfrpg"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": "attributes.sp",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/wildj79/foundryvtt-starfinder",
+            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
+            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
+            "foundryUrl": "/packages/sfrpg/",
+            "lastUpdate": "2 weeks, 5 days ago"
         },
         {
             "name": "knave",
