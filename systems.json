@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 17 Aug 2020 21:40:11 GMT",
+    "updated": "Mon, 17 Aug 2020 21:55:11 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -46,7 +46,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "3 hours, 16 minutes ago"
+            "lastUpdate": "3 hours, 31 minutes ago"
         },
         {
             "name": "CoC7",
@@ -123,7 +123,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "8 hours, 15 minutes ago"
+            "lastUpdate": "8 hours, 30 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -158,7 +158,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "19 hours, 51 minutes ago"
+            "lastUpdate": "20 hours, 6 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -196,7 +196,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "22 hours, 3 minutes ago"
+            "lastUpdate": "22 hours, 18 minutes ago"
         },
         {
             "name": "demonlord",
@@ -347,6 +347,41 @@
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
             "lastUpdate": "1 day, 8 hours ago"
+        },
+        {
+            "name": "yzecoriolis",
+            "title": "Year Zero Engine - Coriolis",
+            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
+            "version": 0.91,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Winks",
+            "esmodules": [
+                "module/yzecoriolis.js"
+            ],
+            "styles": [
+                "css/yzecoriolis.css",
+                "css/yzecoriolismce.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "",
+            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
+            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
+            "foundryUrl": "/packages/yzecoriolis/",
+            "lastUpdate": "2 days, 18 hours ago"
         },
         {
             "name": "pf1",
@@ -546,41 +581,6 @@
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
             "lastUpdate": "2 days, 4 hours ago"
-        },
-        {
-            "name": "yzecoriolis",
-            "title": "Year Zero Engine - Coriolis",
-            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
-            "version": 0.91,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Winks",
-            "esmodules": [
-                "module/yzecoriolis.js"
-            ],
-            "styles": [
-                "css/yzecoriolis.css",
-                "css/yzecoriolismce.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "",
-            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
-            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
-            "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "2 days, 17 hours ago"
         },
         {
             "name": "dnd5e",
@@ -1020,7 +1020,7 @@
             "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
             "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
             "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "4 days, 13 hours ago"
+            "lastUpdate": "4 days, 14 hours ago"
         },
         {
             "name": "numenera",
@@ -2732,6 +2732,42 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
             "name": "pf2e",
             "title": "Pathfinder 2nd Edition",
             "description": "A community contributed game system for Pathfinder Second Edition.",
@@ -2994,42 +3030,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -3090,6 +3090,50 @@
             "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
             "foundryUrl": "/packages/coc/",
             "lastUpdate": "1 month, 4 weeks ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "2 months, 1 week ago"
         },
         {
             "name": "ryuutama",
@@ -3173,50 +3217,6 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
-            "lastUpdate": "2 months, 1 week ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
         },
         {
