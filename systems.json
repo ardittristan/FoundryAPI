@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 17 Aug 2020 07:10:05 GMT",
+    "updated": "Mon, 17 Aug 2020 07:25:02 GMT",
     "modules": [
         {
             "name": "tormenta20",
@@ -34,7 +34,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "5 hours, 21 minutes ago"
+            "lastUpdate": "5 hours, 36 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -72,7 +72,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "7 hours, 33 minutes ago"
+            "lastUpdate": "7 hours, 48 minutes ago"
         },
         {
             "name": "CoC7",
@@ -149,7 +149,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.6.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "9 hours, 6 minutes ago"
+            "lastUpdate": "9 hours, 21 minutes ago"
         },
         {
             "name": "demonlord",
@@ -223,7 +223,83 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "10 hours, 34 minutes ago"
+            "lastUpdate": "10 hours, 49 minutes ago"
+        },
+        {
+            "name": "swade",
+            "title": "Savage Worlds Adventure Edition",
+            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
+            "version": "0.11.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "author": "FloRad",
+            "templateVersion": 2,
+            "esmodules": [
+                "swade.js"
+            ],
+            "styles": [
+                "swade.css"
+            ],
+            "packs": [
+                {
+                    "name": "skills",
+                    "label": "Skills",
+                    "system": "swade",
+                    "path": "./packs/skills.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "edges",
+                    "label": "Edges",
+                    "system": "swade",
+                    "path": "./packs/edges.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "hindrances",
+                    "label": "Hindrances",
+                    "system": "swade",
+                    "path": "./packs/hindrances.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "action-cards",
+                    "label": "Action Cards",
+                    "system": "swade",
+                    "path": "./packs/action-cards.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pl",
+                    "name": "Polski",
+                    "path": "lang/pl.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "url": "https://gitlab.com/florad-foundry/swade",
+            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
+            "foundryUrl": "/packages/swade/",
+            "lastUpdate": "17 hours, 56 minutes ago"
         },
         {
             "name": "pf1",
@@ -423,82 +499,6 @@
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
             "lastUpdate": "1 day, 14 hours ago"
-        },
-        {
-            "name": "swade",
-            "title": "Savage Worlds Adventure Edition",
-            "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
-            "version": "0.11.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "author": "FloRad",
-            "templateVersion": 2,
-            "esmodules": [
-                "swade.js"
-            ],
-            "styles": [
-                "swade.css"
-            ],
-            "packs": [
-                {
-                    "name": "skills",
-                    "label": "Skills",
-                    "system": "swade",
-                    "path": "./packs/skills.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "edges",
-                    "label": "Edges",
-                    "system": "swade",
-                    "path": "./packs/edges.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "hindrances",
-                    "label": "Hindrances",
-                    "system": "swade",
-                    "path": "./packs/hindrances.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "action-cards",
-                    "label": "Action Cards",
-                    "system": "swade",
-                    "path": "./packs/action-cards.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "pl",
-                    "name": "Polski",
-                    "path": "lang/pl.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "url": "https://gitlab.com/florad-foundry/swade",
-            "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
-            "foundryUrl": "/packages/swade/",
-            "lastUpdate": "17 hours, 41 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -1054,6 +1054,38 @@
             "lastUpdate": "1 week, 3 days ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "6 days, 18 hours ago"
+        },
+        {
             "name": "ose",
             "title": "Old-School Essentials",
             "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
@@ -1103,38 +1135,6 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 4 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1853,6 +1853,125 @@
             "lastUpdate": "2 weeks, 4 days ago"
         },
         {
+            "name": "knave",
+            "title": "KNAVE",
+            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
+            "version": "1.4.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Rabid Baboon",
+            "esmodules": [
+                "module/knave.js"
+            ],
+            "styles": [
+                "css/knave.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "knave",
+                    "path": "./packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "clothing",
+                    "label": "Cothing",
+                    "system": "knave",
+                    "path": "./packs/clothing.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "food",
+                    "label": "Food",
+                    "system": "knave",
+                    "path": "./packs/food.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "knave",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "light",
+                    "label": "Light",
+                    "system": "knave",
+                    "path": "./packs/light.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "macros",
+                    "label": "Macros",
+                    "system": "knave",
+                    "path": "./packs/macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "other",
+                    "label": "Other",
+                    "system": "knave",
+                    "path": "./packs/other.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "rules",
+                    "label": "Rules",
+                    "system": "knave",
+                    "path": "./packs/rules.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "knave",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "starting-gear",
+                    "label": "Starting Gear",
+                    "system": "knave",
+                    "path": "./packs/starting-gear.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "traits",
+                    "label": "Traits",
+                    "system": "knave",
+                    "path": "./packs/traits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "knave",
+                    "path": "./packs/weapons.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/jrommann/knave",
+            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
+            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/knave/",
+            "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
             "name": "sfrpg",
             "title": "Starfinder",
             "description": "A game system for running Starfinder in the Foundry VTT environment.",
@@ -1973,125 +2092,6 @@
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
             "foundryUrl": "/packages/sfrpg/",
             "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
-            "name": "knave",
-            "title": "KNAVE",
-            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
-            "version": "1.4.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Rabid Baboon",
-            "esmodules": [
-                "module/knave.js"
-            ],
-            "styles": [
-                "css/knave.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "knave",
-                    "path": "./packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "clothing",
-                    "label": "Cothing",
-                    "system": "knave",
-                    "path": "./packs/clothing.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "food",
-                    "label": "Food",
-                    "system": "knave",
-                    "path": "./packs/food.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "knave",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "light",
-                    "label": "Light",
-                    "system": "knave",
-                    "path": "./packs/light.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "macros",
-                    "label": "Macros",
-                    "system": "knave",
-                    "path": "./packs/macros.db",
-                    "entity": "Macro"
-                },
-                {
-                    "name": "other",
-                    "label": "Other",
-                    "system": "knave",
-                    "path": "./packs/other.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "rules",
-                    "label": "Rules",
-                    "system": "knave",
-                    "path": "./packs/rules.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "knave",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "starting-gear",
-                    "label": "Starting Gear",
-                    "system": "knave",
-                    "path": "./packs/starting-gear.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "traits",
-                    "label": "Traits",
-                    "system": "knave",
-                    "path": "./packs/traits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "knave",
-                    "path": "./packs/weapons.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/jrommann/knave",
-            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
-            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/knave/",
-            "lastUpdate": "2 weeks, 6 days ago"
         },
         {
             "name": "wfrp4e",
@@ -2459,37 +2459,6 @@
             "lastUpdate": "4 weeks ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2528,6 +2497,37 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -2683,6 +2683,42 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -2944,42 +2980,6 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
