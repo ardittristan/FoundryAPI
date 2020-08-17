@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 17 Aug 2020 22:25:04 GMT",
+    "updated": "Mon, 17 Aug 2020 22:40:09 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -46,7 +46,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "4 hours, 1 minute ago"
+            "lastUpdate": "4 hours, 16 minutes ago"
         },
         {
             "name": "CoC7",
@@ -123,7 +123,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "9 hours ago"
+            "lastUpdate": "9 hours, 15 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -158,7 +158,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "20 hours, 36 minutes ago"
+            "lastUpdate": "20 hours, 51 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -196,7 +196,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "22 hours, 48 minutes ago"
+            "lastUpdate": "23 hours, 3 minutes ago"
         },
         {
             "name": "demonlord",
@@ -270,7 +270,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 1 hour ago"
+            "lastUpdate": "1 day, 2 hours ago"
         },
         {
             "name": "swade",
@@ -346,7 +346,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "1 day, 8 hours ago"
+            "lastUpdate": "1 day, 9 hours ago"
         },
         {
             "name": "pf1",
@@ -583,6 +583,104 @@
             "lastUpdate": "2 days, 18 hours ago"
         },
         {
+            "name": "dnd5e",
+            "title": "DnD5e - Fifth Edition System",
+            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+            "version": 0.95,
+            "author": "Atropos",
+            "scripts": [],
+            "esmodules": [
+                "dnd5e.js"
+            ],
+            "styles": [
+                "dnd5e.css"
+            ],
+            "packs": [
+                {
+                    "name": "heroes",
+                    "label": "Starter Heroes",
+                    "system": "dnd5e",
+                    "path": "./packs/heroes.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "monsters",
+                    "label": "Monsters (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsters.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "tradegoods",
+                    "label": "Trade Goods (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/tradegoods.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classes",
+                    "label": "Classes (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classes.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "classfeatures",
+                    "label": "Class Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/classfeatures.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "monsterfeatures",
+                    "label": "Monster Features (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/monsterfeatures.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "rules",
+                    "label": "Rules (SRD)",
+                    "system": "dnd5e",
+                    "path": "./packs/rules.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": null,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.2",
+            "url": "https://gitlab.com/foundrynet/dnd5e",
+            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
+            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
+            "foundryUrl": "/packages/dnd5e/",
+            "lastUpdate": "2 days, 21 hours ago"
+        },
+        {
             "name": "burningwheel",
             "title": "The Burning Wheel",
             "description": "Community Foundry implementation of The Burning Wheel",
@@ -737,104 +835,6 @@
             "lastUpdate": "3 days, 1 hour ago"
         },
         {
-            "name": "dnd5e",
-            "title": "DnD5e - Fifth Edition System",
-            "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
-            "version": 0.95,
-            "author": "Atropos",
-            "scripts": [],
-            "esmodules": [
-                "dnd5e.js"
-            ],
-            "styles": [
-                "dnd5e.css"
-            ],
-            "packs": [
-                {
-                    "name": "heroes",
-                    "label": "Starter Heroes",
-                    "system": "dnd5e",
-                    "path": "./packs/heroes.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "monsters",
-                    "label": "Monsters (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsters.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "tradegoods",
-                    "label": "Trade Goods (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/tradegoods.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classes",
-                    "label": "Classes (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classes.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "classfeatures",
-                    "label": "Class Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/classfeatures.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "monsterfeatures",
-                    "label": "Monster Features (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/monsterfeatures.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "rules",
-                    "label": "Rules (SRD)",
-                    "system": "dnd5e",
-                    "path": "./packs/rules.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": null,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.2",
-            "url": "https://gitlab.com/foundrynet/dnd5e",
-            "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
-            "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
-            "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "2 days, 21 hours ago"
-        },
-        {
             "name": "age-of-sigmar-soulbound",
             "title": "Age of Sigmar : Soulbound",
             "description": "Perilous adventures in the mortal realms",
@@ -930,7 +930,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "4 days, 4 hours ago"
+            "lastUpdate": "4 days, 5 hours ago"
         },
         {
             "name": "kamigakari",
@@ -1066,41 +1066,6 @@
             "lastUpdate": "1 week, 3 days ago"
         },
         {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.4.2",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "1 week, 3 days ago"
-        },
-        {
             "name": "fatex",
             "title": "Fate Extended (FateX)",
             "description": "An extended implementation of Fate and its derivative systems",
@@ -1182,6 +1147,41 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.4.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "1 week, 3 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1362,33 +1362,6 @@
             "lastUpdate": "1 week, 6 days ago"
         },
         {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "2 weeks ago"
-        },
-        {
             "name": "archmage",
             "title": "Toolkit13 Character Sheet",
             "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
@@ -1521,6 +1494,33 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
+            "lastUpdate": "2 weeks ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "2 weeks ago"
         },
         {
@@ -2217,129 +2217,6 @@
             "lastUpdate": "3 weeks, 2 days ago"
         },
         {
-            "name": "dcc",
-            "title": "Dungeon Crawl Classics",
-            "description": "Dungeon Crawl Classics from Goodman Games",
-            "version": 0.09,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 2,
-            "author": "Tim L. White",
-            "esmodules": [
-                "module/dcc.js"
-            ],
-            "styles": [
-                "styles/dcc.css"
-            ],
-            "packs": [
-                {
-                    "name": "criticalhits",
-                    "label": "Critical Hits",
-                    "system": "dcc",
-                    "path": "./packs/criticalhits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "fumbles",
-                    "label": "Fumbles",
-                    "system": "dcc",
-                    "path": "./packs/fumbles.db",
-                    "entity": "RollTable"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "luck",
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.value",
-            "url": "https://github.com/cyface/foundryvtt-dcc",
-            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
-            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "4 weeks, 1 day ago"
-        },
-        {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "shadowrun5e",
-            "title": "Shadowrun 5th Edition",
-            "description": "Shadowrun 5th Edition game",
-            "version": "0.6.8",
-            "templateVersion": "1.4",
-            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
-            "esmodules": [
-                "dist/bundle.js",
-                "pdfoundry-dist/bundle.js"
-            ],
-            "styles": [
-                "dist/bundle.css"
-            ],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.1",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "dist/locale/en/config.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "dist/locale/de/config.json"
-                }
-            ],
-            "packs": [],
-            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
-            "primaryTokenAttribute": "track.physical",
-            "secondaryTokenAttribute": "track.stun",
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
-            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
-            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
-            "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -2576,6 +2453,129 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "3 weeks, 5 days ago"
+        },
+        {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.09,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "4 weeks, 1 day ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "shadowrun5e",
+            "title": "Shadowrun 5th Edition",
+            "description": "Shadowrun 5th Edition game",
+            "version": "0.6.8",
+            "templateVersion": "1.4",
+            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+            "esmodules": [
+                "dist/bundle.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "dist/bundle.css"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.1",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "dist/locale/en/config.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "dist/locale/de/config.json"
+                }
+            ],
+            "packs": [],
+            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+            "primaryTokenAttribute": "track.physical",
+            "secondaryTokenAttribute": "track.stun",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
+            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
+            "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
         },
         {
             "name": "icrpg",
@@ -3066,6 +3066,32 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "1 month, 4 weeks ago"
+        },
+        {
             "name": "blue-rose",
             "title": "Blue Rose",
             "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
@@ -3192,32 +3218,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
             "lastUpdate": "2 months, 1 week ago"
-        },
-        {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "1 month, 4 weeks ago"
         },
         {
             "name": "worldbuilding",
