@@ -1,6 +1,53 @@
 {
-    "updated": "Mon, 17 Aug 2020 18:10:07 GMT",
+    "updated": "Mon, 17 Aug 2020 18:25:12 GMT",
     "modules": [
+        {
+            "name": "l5r",
+            "title": "Legend of the Five Rings (5E)",
+            "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
+            "version": "0.2.1",
+            "author": "L4D15",
+            "authors": [
+                {
+                    "name": "L4D15#2706",
+                    "email": "thedragonladis@gmail.com",
+                    "url": "https://github.com/L4D15"
+                }
+            ],
+            "scripts": [],
+            "esmodules": [
+                "l5r.js"
+            ],
+            "styles": [
+                "l5r.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español (España)",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/L4D15/foundry-vtt-l5r",
+            "manifest": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/src/system.json",
+            "download": "https://github.com/L4D15/foundry-vtt-l5r/archive/master.zip",
+            "license": "",
+            "readme": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/README.md",
+            "bugs": "",
+            "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
+            "foundryUrl": "/packages/l5r/",
+            "lastUpdate": "1 minute ago"
+        },
         {
             "name": "CoC7",
             "title": "The Call of Cthulhu 7th edition",
@@ -76,7 +123,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "4 hours, 45 minutes ago"
+            "lastUpdate": "5 hours ago"
         },
         {
             "name": "tormenta20",
@@ -111,7 +158,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "16 hours, 21 minutes ago"
+            "lastUpdate": "16 hours, 36 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -149,7 +196,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "18 hours, 33 minutes ago"
+            "lastUpdate": "18 hours, 48 minutes ago"
         },
         {
             "name": "demonlord",
@@ -223,7 +270,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "21 hours, 34 minutes ago"
+            "lastUpdate": "21 hours, 49 minutes ago"
         },
         {
             "name": "swade",
@@ -1019,6 +1066,38 @@
             "lastUpdate": "1 week, 2 days ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week ago"
+        },
+        {
             "name": "gurps4e",
             "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
             "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
@@ -1052,38 +1131,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
             "lastUpdate": "1 week, 3 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week ago"
         },
         {
             "name": "ose",
@@ -2459,37 +2506,6 @@
             "lastUpdate": "4 weeks, 1 day ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2528,6 +2544,37 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -3019,6 +3066,32 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "1 month, 4 weeks ago"
+        },
+        {
             "name": "blue-rose",
             "title": "Blue Rose",
             "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
@@ -3061,32 +3134,6 @@
             "changelog": "",
             "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
-        },
-        {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "1 month, 4 weeks ago"
         },
         {
             "name": "ryuutama",
