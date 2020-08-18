@@ -1,50 +1,6 @@
 {
-    "updated": "Tue, 18 Aug 2020 21:10:17 GMT",
+    "updated": "Tue, 18 Aug 2020 21:25:14 GMT",
     "modules": [
-        {
-            "name": "dragon-age",
-            "title": "Dragon AGE",
-            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
-            "version": "0.2.2.4",
-            "author": "Markus Raab",
-            "scripts": [],
-            "esmodules": [
-                "dragon-age.js"
-            ],
-            "styles": [
-                "dragon-age.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "dragon-age",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "dragon-age",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/markusraab78/dragon-age",
-            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
-            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
-            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
-            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
-            "bugs": "",
-            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
-            "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "15 minutes ago"
-        },
         {
             "name": "l5r",
             "title": "Legend of the Five Rings (5E)",
@@ -91,7 +47,51 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "12 hours, 42 minutes ago"
+            "lastUpdate": "12 hours, 57 minutes ago"
+        },
+        {
+            "name": "dragon-age",
+            "title": "Dragon AGE",
+            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
+            "version": "0.2.2.4",
+            "author": "Markus Raab",
+            "scripts": [],
+            "esmodules": [
+                "dragon-age.js"
+            ],
+            "styles": [
+                "dragon-age.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "dragon-age",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "dragon-age",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/markusraab78/dragon-age",
+            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
+            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
+            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
+            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
+            "bugs": "",
+            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
+            "foundryUrl": "/packages/dragon-age/",
+            "lastUpdate": "30 minutes ago"
         },
         {
             "name": "CoC7",
@@ -168,7 +168,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "1 day, 7 hours ago"
+            "lastUpdate": "1 day, 8 hours ago"
         },
         {
             "name": "sandbox",
@@ -195,7 +195,42 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "13 hours, 3 minutes ago"
+            "lastUpdate": "13 hours, 18 minutes ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.7",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "1 day, 19 hours ago"
         },
         {
             "name": "ModularFate",
@@ -234,41 +269,6 @@
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
             "lastUpdate": "1 day, 21 hours ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.7",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day, 19 hours ago"
         },
         {
             "name": "demonlord",
@@ -1205,6 +1205,57 @@
             "lastUpdate": "1 week, 4 days ago"
         },
         {
+            "name": "ose",
+            "title": "Old-School Essentials",
+            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
+            "version": "1.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "U~man",
+            "esmodules": [
+                "ose.js"
+            ],
+            "styles": [
+                "ose.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (FRANCE)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
+            "foundryUrl": "/packages/ose/",
+            "lastUpdate": "1 week, 6 days ago"
+        },
+        {
             "name": "blades-in-the-dark",
             "title": "Blades in the Dark",
             "description": "Blades in the dark game system.",
@@ -1307,57 +1358,6 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "1 week, 6 days ago"
-        },
-        {
-            "name": "ose",
-            "title": "Old-School Essentials",
-            "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
-            "version": "1.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "U~man",
-            "esmodules": [
-                "ose.js"
-            ],
-            "styles": [
-                "ose.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (FRANCE)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
-            "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 6 days ago"
         },
         {
@@ -1705,7 +1705,7 @@
             "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "2 weeks, 2 days ago"
+            "lastUpdate": "2 weeks, 3 days ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -2578,37 +2578,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2647,6 +2616,37 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -2802,42 +2802,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -3102,6 +3066,42 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -3162,50 +3162,6 @@
             "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
             "foundryUrl": "/packages/coc/",
             "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months, 1 week ago"
         },
         {
             "name": "ryuutama",
@@ -3289,6 +3245,50 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months, 1 week ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
         },
         {
