@@ -1,5 +1,5 @@
 {
-    "updated": "Tue, 18 Aug 2020 04:10:07 GMT",
+    "updated": "Tue, 18 Aug 2020 04:25:08 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -46,7 +46,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "9 hours, 46 minutes ago"
+            "lastUpdate": "10 hours, 1 minute ago"
         },
         {
             "name": "CoC7",
@@ -123,7 +123,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "14 hours, 45 minutes ago"
+            "lastUpdate": "15 hours ago"
         },
         {
             "name": "tormenta20",
@@ -2217,6 +2217,129 @@
             "lastUpdate": "3 weeks, 2 days ago"
         },
         {
+            "name": "dcc",
+            "title": "Dungeon Crawl Classics",
+            "description": "Dungeon Crawl Classics from Goodman Games",
+            "version": 0.09,
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 2,
+            "author": "Tim L. White",
+            "esmodules": [
+                "module/dcc.js"
+            ],
+            "styles": [
+                "styles/dcc.css"
+            ],
+            "packs": [
+                {
+                    "name": "criticalhits",
+                    "label": "Critical Hits",
+                    "system": "dcc",
+                    "path": "./packs/criticalhits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "fumbles",
+                    "label": "Fumbles",
+                    "system": "dcc",
+                    "path": "./packs/fumbles.db",
+                    "entity": "RollTable"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "luck",
+            "socket": true,
+            "initiative": "1d20 + @attributes.init.value",
+            "url": "https://github.com/cyface/foundryvtt-dcc",
+            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
+            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/dcc/",
+            "lastUpdate": "4 weeks, 1 day ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "shadowrun5e",
+            "title": "Shadowrun 5th Edition",
+            "description": "Shadowrun 5th Edition game",
+            "version": "0.6.8",
+            "templateVersion": "1.4",
+            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+            "esmodules": [
+                "dist/bundle.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "dist/bundle.css"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.1",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "dist/locale/en/config.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "dist/locale/de/config.json"
+                }
+            ],
+            "packs": [],
+            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+            "primaryTokenAttribute": "track.physical",
+            "secondaryTokenAttribute": "track.stun",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
+            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
+            "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "dungeonworld",
             "title": "Dungeon World",
             "description": "The Dungeon World system for FoundryVTT!",
@@ -2453,129 +2576,6 @@
             "download": "https://gitlab.com/asacolips-projects/foundry-mods/dungeonworld/-/archive/0.4.3/dungeonworld-master.zip",
             "foundryUrl": "/packages/dungeonworld/",
             "lastUpdate": "3 weeks, 5 days ago"
-        },
-        {
-            "name": "dcc",
-            "title": "Dungeon Crawl Classics",
-            "description": "Dungeon Crawl Classics from Goodman Games",
-            "version": 0.09,
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 2,
-            "author": "Tim L. White",
-            "esmodules": [
-                "module/dcc.js"
-            ],
-            "styles": [
-                "styles/dcc.css"
-            ],
-            "packs": [
-                {
-                    "name": "criticalhits",
-                    "label": "Critical Hits",
-                    "system": "dcc",
-                    "path": "./packs/criticalhits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "fumbles",
-                    "label": "Fumbles",
-                    "system": "dcc",
-                    "path": "./packs/fumbles.db",
-                    "entity": "RollTable"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "luck",
-            "socket": true,
-            "initiative": "1d20 + @attributes.init.value",
-            "url": "https://github.com/cyface/foundryvtt-dcc",
-            "manifest": "https://github.com/cyface/foundryvtt-dcc/raw/master/system.json",
-            "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.7.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "4 weeks, 1 day ago"
-        },
-        {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "shadowrun5e",
-            "title": "Shadowrun 5th Edition",
-            "description": "Shadowrun 5th Edition game",
-            "version": "0.6.8",
-            "templateVersion": "1.4",
-            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
-            "esmodules": [
-                "dist/bundle.js",
-                "pdfoundry-dist/bundle.js"
-            ],
-            "styles": [
-                "dist/bundle.css"
-            ],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.1",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "dist/locale/en/config.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "dist/locale/de/config.json"
-                }
-            ],
-            "packs": [],
-            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
-            "primaryTokenAttribute": "track.physical",
-            "secondaryTokenAttribute": "track.stun",
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
-            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
-            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
-            "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "1 month ago"
         },
         {
             "name": "icrpg",
