@@ -1,5 +1,5 @@
 {
-    "updated": "Tue, 18 Aug 2020 18:10:10 GMT",
+    "updated": "Tue, 18 Aug 2020 18:25:09 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -47,7 +47,34 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "9 hours, 42 minutes ago"
+            "lastUpdate": "9 hours, 57 minutes ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "10 hours, 17 minutes ago"
         },
         {
             "name": "CoC7",
@@ -124,34 +151,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "1 day, 4 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.6",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "10 hours, 3 minutes ago"
+            "lastUpdate": "1 day, 5 hours ago"
         },
         {
             "name": "ModularFate",
@@ -611,33 +611,6 @@
             "lastUpdate": "3 days, 14 hours ago"
         },
         {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "3 days, 20 hours ago"
-        },
-        {
             "name": "dnd5e",
             "title": "DnD5e - Fifth Edition System",
             "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
@@ -734,6 +707,33 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "3 days, 17 hours ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "3 days, 20 hours ago"
         },
         {
             "name": "vaesen",
@@ -1928,6 +1928,125 @@
             "lastUpdate": "2 weeks, 5 days ago"
         },
         {
+            "name": "knave",
+            "title": "KNAVE",
+            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
+            "version": "1.4.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Rabid Baboon",
+            "esmodules": [
+                "module/knave.js"
+            ],
+            "styles": [
+                "css/knave.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "armor",
+                    "label": "Armor",
+                    "system": "knave",
+                    "path": "./packs/armor.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "clothing",
+                    "label": "Cothing",
+                    "system": "knave",
+                    "path": "./packs/clothing.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "food",
+                    "label": "Food",
+                    "system": "knave",
+                    "path": "./packs/food.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "knave",
+                    "path": "./packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "light",
+                    "label": "Light",
+                    "system": "knave",
+                    "path": "./packs/light.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "macros",
+                    "label": "Macros",
+                    "system": "knave",
+                    "path": "./packs/macros.db",
+                    "entity": "Macro"
+                },
+                {
+                    "name": "other",
+                    "label": "Other",
+                    "system": "knave",
+                    "path": "./packs/other.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "rules",
+                    "label": "Rules",
+                    "system": "knave",
+                    "path": "./packs/rules.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "knave",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "starting-gear",
+                    "label": "Starting Gear",
+                    "system": "knave",
+                    "path": "./packs/starting-gear.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "traits",
+                    "label": "Traits",
+                    "system": "knave",
+                    "path": "./packs/traits.db",
+                    "entity": "RollTable"
+                },
+                {
+                    "name": "weapons",
+                    "label": "Weapons",
+                    "system": "knave",
+                    "path": "./packs/weapons.db",
+                    "entity": "Item"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/jrommann/knave",
+            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
+            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/knave/",
+            "lastUpdate": "3 weeks, 1 day ago"
+        },
+        {
             "name": "sfrpg",
             "title": "Starfinder",
             "description": "A game system for running Starfinder in the Foundry VTT environment.",
@@ -2048,125 +2167,6 @@
             "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
             "foundryUrl": "/packages/sfrpg/",
             "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
-            "name": "knave",
-            "title": "KNAVE",
-            "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
-            "version": "1.4.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Rabid Baboon",
-            "esmodules": [
-                "module/knave.js"
-            ],
-            "styles": [
-                "css/knave.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "armor",
-                    "label": "Armor",
-                    "system": "knave",
-                    "path": "./packs/armor.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "clothing",
-                    "label": "Cothing",
-                    "system": "knave",
-                    "path": "./packs/clothing.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "food",
-                    "label": "Food",
-                    "system": "knave",
-                    "path": "./packs/food.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "knave",
-                    "path": "./packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "light",
-                    "label": "Light",
-                    "system": "knave",
-                    "path": "./packs/light.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "macros",
-                    "label": "Macros",
-                    "system": "knave",
-                    "path": "./packs/macros.db",
-                    "entity": "Macro"
-                },
-                {
-                    "name": "other",
-                    "label": "Other",
-                    "system": "knave",
-                    "path": "./packs/other.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "rules",
-                    "label": "Rules",
-                    "system": "knave",
-                    "path": "./packs/rules.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "knave",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "starting-gear",
-                    "label": "Starting Gear",
-                    "system": "knave",
-                    "path": "./packs/starting-gear.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "traits",
-                    "label": "Traits",
-                    "system": "knave",
-                    "path": "./packs/traits.db",
-                    "entity": "RollTable"
-                },
-                {
-                    "name": "weapons",
-                    "label": "Weapons",
-                    "system": "knave",
-                    "path": "./packs/weapons.db",
-                    "entity": "Item"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/jrommann/knave",
-            "manifest": "https://raw.githubusercontent.com/jrommann/knave/master/system.json",
-            "download": "https://github.com/jrommann/knave/archive/1.4.0.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/knave/",
-            "lastUpdate": "3 weeks, 1 day ago"
         },
         {
             "name": "wfrp4e",
@@ -2534,6 +2534,37 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2572,37 +2603,6 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 month ago"
         },
         {
