@@ -1,11 +1,12 @@
 {
-    "updated": "Tue, 18 Aug 2020 08:25:09 GMT",
+    "updated": "Tue, 18 Aug 2020 08:40:10 GMT",
     "modules": [
         {
             "name": "l5r",
             "title": "Legend of the Five Rings (5E)",
             "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
-            "version": "0.2.1",
+            "version": "0.2.2",
+            "templateVersion": 2,
             "author": "L4D15",
             "authors": [
                 {
@@ -46,7 +47,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "14 hours, 1 minute ago"
+            "lastUpdate": "12 minutes ago"
         },
         {
             "name": "sandbox",
@@ -73,7 +74,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "18 minutes ago"
+            "lastUpdate": "32 minutes ago"
         },
         {
             "name": "CoC7",
@@ -150,7 +151,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "19 hours ago"
+            "lastUpdate": "19 hours, 15 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -223,7 +224,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 8 hours ago"
+            "lastUpdate": "1 day, 9 hours ago"
         },
         {
             "name": "demonlord",
@@ -297,7 +298,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 day, 11 hours ago"
+            "lastUpdate": "1 day, 12 hours ago"
         },
         {
             "name": "swade",
@@ -373,7 +374,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "1 day, 18 hours ago"
+            "lastUpdate": "1 day, 19 hours ago"
         },
         {
             "name": "pf1",
@@ -957,7 +958,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "4 days, 14 hours ago"
+            "lastUpdate": "4 days, 15 hours ago"
         },
         {
             "name": "kamigakari",
@@ -1762,6 +1763,40 @@
             "lastUpdate": "2 weeks, 3 days ago"
         },
         {
+            "name": "mothership",
+            "title": "Mothership RPG",
+            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Frank Carentz",
+            "esmodules": [
+                "mothership.js"
+            ],
+            "styles": [
+                "simple.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "primaryTokenAttribute": "resources.vigor",
+            "secondaryTokenAttribute": "resources.grip",
+            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
+            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
+            "foundryUrl": "/packages/mothership/",
+            "lastUpdate": "2 weeks, 4 days ago"
+        },
+        {
             "name": "lancer",
             "title": "LANCER",
             "description": "A Foundry VTT game system for <a href=\"https://massif-press.itch.io/corebook-pdf\">Lancer</a> by <a href=\"https://massif-press.itch.io/\">Massif Press</a>, a mud-and-lasers tactical mech RPG.",
@@ -1891,40 +1926,6 @@
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
             "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
-            "name": "mothership",
-            "title": "Mothership RPG",
-            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Frank Carentz",
-            "esmodules": [
-                "mothership.js"
-            ],
-            "styles": [
-                "simple.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "primaryTokenAttribute": "resources.vigor",
-            "secondaryTokenAttribute": "resources.grip",
-            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
-            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
-            "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "sfrpg",
