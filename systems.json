@@ -1,6 +1,33 @@
 {
-    "updated": "Tue, 18 Aug 2020 07:55:07 GMT",
+    "updated": "Tue, 18 Aug 2020 08:10:07 GMT",
     "modules": [
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "2 minutes ago"
+        },
         {
             "name": "l5r",
             "title": "Legend of the Five Rings (5E)",
@@ -46,7 +73,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "13 hours, 31 minutes ago"
+            "lastUpdate": "13 hours, 46 minutes ago"
         },
         {
             "name": "CoC7",
@@ -123,42 +150,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "18 hours, 30 minutes ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.7",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day, 6 hours ago"
+            "lastUpdate": "18 hours, 45 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -197,6 +189,41 @@
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
             "lastUpdate": "1 day, 8 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.7",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "demonlord",
@@ -545,7 +572,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "2 days, 14 hours ago"
+            "lastUpdate": "2 days, 15 hours ago"
         },
         {
             "name": "yzecoriolis",
@@ -678,7 +705,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "3 days, 6 hours ago"
+            "lastUpdate": "3 days, 7 hours ago"
         },
         {
             "name": "burningwheel",
@@ -705,7 +732,7 @@
             "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
             "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
             "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "3 days, 9 hours ago"
+            "lastUpdate": "3 days, 10 hours ago"
         },
         {
             "name": "vaesen",
@@ -771,7 +798,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.4.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "3 days, 10 hours ago"
+            "lastUpdate": "3 days, 11 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -832,7 +859,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "3 days, 10 hours ago"
+            "lastUpdate": "3 days, 11 hours ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -862,7 +889,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "3 days, 10 hours ago"
+            "lastUpdate": "3 days, 11 hours ago"
         },
         {
             "name": "alienrpg",
@@ -991,7 +1018,7 @@
             "download": "https://github.com/ksx0330/FVTT-Kamigakari-System/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
-            "lastUpdate": "6 days, 16 hours ago"
+            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "risklegacy",
@@ -3092,50 +3119,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months, 1 week ago"
-        },
-        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -3246,6 +3229,50 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/worldbuilding/",
             "lastUpdate": "2 months, 2 weeks ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
+            "lastUpdate": "2 months, 1 week ago"
         }
     ]
 }
