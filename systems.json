@@ -1,5 +1,5 @@
 {
-    "updated": "Tue, 18 Aug 2020 07:10:03 GMT",
+    "updated": "Tue, 18 Aug 2020 07:25:06 GMT",
     "modules": [
         {
             "name": "l5r",
@@ -46,7 +46,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "12 hours, 46 minutes ago"
+            "lastUpdate": "13 hours, 1 minute ago"
         },
         {
             "name": "CoC7",
@@ -123,7 +123,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "17 hours, 44 minutes ago"
+            "lastUpdate": "17 hours, 59 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -933,6 +933,35 @@
             "lastUpdate": "4 days, 13 hours ago"
         },
         {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "4 days, 23 hours ago"
+        },
+        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -992,35 +1021,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
             "lastUpdate": "6 days, 16 hours ago"
-        },
-        {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "4 days, 23 hours ago"
         },
         {
             "name": "numenera",
@@ -1389,80 +1389,6 @@
             "lastUpdate": "2 weeks ago"
         },
         {
-            "name": "callofcthulhu",
-            "title": "CallofCthulhu(7thEd.)",
-            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-            "version": "1.1.0",
-            "author": "ただいま",
-            "minimumCoreVersion": "0.7.0",
-            "compatibleCoreVersion": "0.7.0",
-            "esmodules": [
-                "module/callofcthulhu.js",
-                "module/dicebot.js"
-            ],
-            "styles": [
-                "callofcthulhu.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "character",
-                    "label": "character",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/character.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "journalentry",
-                    "label": "journalentry",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/journalentry.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "template",
-                    "label": "template",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/template.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/tadaimatrpg/callofcthulhu",
-            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
-            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
-            "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "2 weeks, 2 days ago"
-        },
-        {
             "name": "archmage",
             "title": "Toolkit13 Character Sheet",
             "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
@@ -1598,6 +1524,80 @@
             "lastUpdate": "2 weeks ago"
         },
         {
+            "name": "callofcthulhu",
+            "title": "CallofCthulhu(7thEd.)",
+            "description": "The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+            "version": "1.1.0",
+            "author": "ただいま",
+            "minimumCoreVersion": "0.7.0",
+            "compatibleCoreVersion": "0.7.0",
+            "esmodules": [
+                "module/callofcthulhu.js",
+                "module/dicebot.js"
+            ],
+            "styles": [
+                "callofcthulhu.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "character",
+                    "label": "character",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/character.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "journalentry",
+                    "label": "journalentry",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/journalentry.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "template",
+                    "label": "template",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/template.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/tadaimatrpg/callofcthulhu",
+            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
+            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
+            "foundryUrl": "/packages/callofcthulhu/",
+            "lastUpdate": "2 weeks, 2 days ago"
+        },
+        {
             "name": "svnsea2e",
             "title": "7th Sea Second Edition (Unofficial)",
             "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
@@ -1634,6 +1634,40 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/svnsea2e/",
             "lastUpdate": "2 weeks, 2 days ago"
+        },
+        {
+            "name": "mothership",
+            "title": "Mothership RPG",
+            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Frank Carentz",
+            "esmodules": [
+                "mothership.js"
+            ],
+            "styles": [
+                "simple.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 1,
+            "gridUnits": "in",
+            "primaryTokenAttribute": "resources.vigor",
+            "secondaryTokenAttribute": "resources.grip",
+            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
+            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
+            "foundryUrl": "/packages/mothership/",
+            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -1864,40 +1898,6 @@
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
             "lastUpdate": "2 weeks, 5 days ago"
-        },
-        {
-            "name": "mothership",
-            "title": "Mothership RPG",
-            "description": "A gamesystem for running Mothership  RPG games in FoundryVTT.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Frank Carentz",
-            "esmodules": [
-                "mothership.js"
-            ],
-            "styles": [
-                "simple.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 1,
-            "gridUnits": "in",
-            "primaryTokenAttribute": "resources.vigor",
-            "secondaryTokenAttribute": "resources.grip",
-            "url": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg",
-            "manifest": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/fcarentz/foundryvtt-mothership-rpg/-/raw/v0.1.1/package/mothership-v0.1.1.zip",
-            "foundryUrl": "/packages/mothership/",
-            "lastUpdate": "2 weeks, 4 days ago"
         },
         {
             "name": "sfrpg",
