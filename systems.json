@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 19 Aug 2020 08:55:14 GMT",
+    "updated": "Wed, 19 Aug 2020 09:10:16 GMT",
     "modules": [
         {
             "name": "tormenta20",
@@ -34,7 +34,51 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "8 hours, 38 minutes ago"
+            "lastUpdate": "8 hours, 53 minutes ago"
+        },
+        {
+            "name": "dragon-age",
+            "title": "Dragon AGE",
+            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
+            "version": "0.2.2.4",
+            "author": "Markus Raab",
+            "scripts": [],
+            "esmodules": [
+                "dragon-age.js"
+            ],
+            "styles": [
+                "dragon-age.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "dragon-age",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "dragon-age",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/markusraab78/dragon-age",
+            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
+            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
+            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
+            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
+            "bugs": "",
+            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
+            "foundryUrl": "/packages/dragon-age/",
+            "lastUpdate": "12 hours, 15 minutes ago"
         },
         {
             "name": "l5r",
@@ -85,50 +129,6 @@
             "lastUpdate": "1 day ago"
         },
         {
-            "name": "dragon-age",
-            "title": "Dragon AGE",
-            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
-            "version": "0.2.2.4",
-            "author": "Markus Raab",
-            "scripts": [],
-            "esmodules": [
-                "dragon-age.js"
-            ],
-            "styles": [
-                "dragon-age.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "dragon-age",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "dragon-age",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/markusraab78/dragon-age",
-            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
-            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
-            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
-            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
-            "bugs": "",
-            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
-            "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "12 hours ago"
-        },
-        {
             "name": "sandbox",
             "title": "Sandbox System Builder",
             "description": "Custom system builder to build character sheets and rulesets for any game.",
@@ -153,7 +153,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "1 day ago"
+            "lastUpdate": "1 day, 1 hour ago"
         },
         {
             "name": "CoC7",
@@ -617,7 +617,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.4/foundryvtt-pathfinder1-v0.73.4.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "3 days, 15 hours ago"
+            "lastUpdate": "3 days, 16 hours ago"
         },
         {
             "name": "yzecoriolis",
@@ -653,6 +653,33 @@
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
             "foundryUrl": "/packages/yzecoriolis/",
             "lastUpdate": "4 days, 5 hours ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "4 days, 11 hours ago"
         },
         {
             "name": "dnd5e",
@@ -750,34 +777,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "4 days, 7 hours ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "4 days, 10 hours ago"
+            "lastUpdate": "4 days, 8 hours ago"
         },
         {
             "name": "vaesen",
@@ -843,7 +843,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.4.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "4 days, 11 hours ago"
+            "lastUpdate": "4 days, 12 hours ago"
         },
         {
             "name": "forbidden-lands",
@@ -904,7 +904,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "4 days, 11 hours ago"
+            "lastUpdate": "4 days, 12 hours ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -934,7 +934,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "4 days, 11 hours ago"
+            "lastUpdate": "4 days, 12 hours ago"
         },
         {
             "name": "alienrpg",
@@ -1173,38 +1173,6 @@
             "lastUpdate": "1 week, 5 days ago"
         },
         {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 1 day ago"
-        },
-        {
             "name": "ose",
             "title": "Old-School Essentials",
             "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
@@ -1254,6 +1222,38 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 6 days ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 1 day ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1434,33 +1434,6 @@
             "lastUpdate": "2 weeks ago"
         },
         {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
-            ],
-            "styles": [
-                "css/electricbastionland.css"
-            ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "2 weeks, 1 day ago"
-        },
-        {
             "name": "archmage",
             "title": "Toolkit13 Character Sheet",
             "description": "Run campaigns in OGL games that use icons, backgrounds, and one unique thing.",
@@ -1593,6 +1566,33 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
+            "lastUpdate": "2 weeks, 1 day ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "2 weeks, 1 day ago"
         },
         {
