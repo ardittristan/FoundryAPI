@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 19 Aug 2020 15:10:14 GMT",
+    "updated": "Wed, 19 Aug 2020 15:25:15 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "1 hour, 4 minutes ago"
+            "lastUpdate": "1 hour, 19 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -116,7 +116,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "1 hour, 38 minutes ago"
+            "lastUpdate": "1 hour, 53 minutes ago"
         },
         {
             "name": "pf1",
@@ -315,7 +315,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.5/foundryvtt-pathfinder1-v0.73.5.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "3 hours, 14 minutes ago"
+            "lastUpdate": "3 hours, 29 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -389,7 +389,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "4 hours, 12 minutes ago"
+            "lastUpdate": "4 hours, 27 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -456,7 +456,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "5 hours, 11 minutes ago"
+            "lastUpdate": "5 hours, 26 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -491,7 +491,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "14 hours, 53 minutes ago"
+            "lastUpdate": "15 hours, 8 minutes ago"
         },
         {
             "name": "dragon-age",
@@ -535,7 +535,55 @@
             "bugs": "",
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "18 hours, 15 minutes ago"
+            "lastUpdate": "18 hours, 30 minutes ago"
+        },
+        {
+            "name": "l5r",
+            "title": "Legend of the Five Rings (5E)",
+            "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
+            "version": "0.2.2",
+            "templateVersion": 2,
+            "author": "L4D15",
+            "authors": [
+                {
+                    "name": "L4D15#2706",
+                    "email": "thedragonladis@gmail.com",
+                    "url": "https://github.com/L4D15"
+                }
+            ],
+            "scripts": [],
+            "esmodules": [
+                "l5r.js"
+            ],
+            "styles": [
+                "l5r.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español (España)",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/L4D15/foundry-vtt-l5r",
+            "manifest": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/src/system.json",
+            "download": "https://github.com/L4D15/foundry-vtt-l5r/archive/master.zip",
+            "license": "",
+            "readme": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/README.md",
+            "bugs": "",
+            "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
+            "foundryUrl": "/packages/l5r/",
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "sandbox",
@@ -639,7 +687,45 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "2 days, 1 hour ago"
+            "lastUpdate": "2 days, 2 hours ago"
+        },
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.5.0",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css",
+                "mfate-sheet.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.1",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "2 days, 15 hours ago"
         },
         {
             "name": "swade",
@@ -718,90 +804,39 @@
             "lastUpdate": "3 days, 1 hour ago"
         },
         {
-            "name": "l5r",
-            "title": "Legend of the Five Rings (5E)",
-            "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
-            "version": "0.2.2",
+            "name": "yzecoriolis",
+            "title": "Year Zero Engine - Coriolis",
+            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
+            "version": 0.91,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
             "templateVersion": 2,
-            "author": "L4D15",
-            "authors": [
-                {
-                    "name": "L4D15#2706",
-                    "email": "thedragonladis@gmail.com",
-                    "url": "https://github.com/L4D15"
-                }
-            ],
-            "scripts": [],
+            "author": "Winks",
             "esmodules": [
-                "l5r.js"
+                "module/yzecoriolis.js"
             ],
             "styles": [
-                "l5r.css"
+                "css/yzecoriolis.css",
+                "css/yzecoriolismce.css"
             ],
+            "scripts": [],
             "packs": [],
             "languages": [
                 {
                     "lang": "en",
                     "name": "English",
                     "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Español (España)",
-                    "path": "lang/es.json"
                 }
             ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/L4D15/foundry-vtt-l5r",
-            "manifest": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/src/system.json",
-            "download": "https://github.com/L4D15/foundry-vtt-l5r/archive/master.zip",
-            "license": "",
-            "readme": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/README.md",
-            "bugs": "",
-            "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
-            "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "1 day, 6 hours ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.5.0",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css",
-                "mfate-sheet.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.1",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "2 days, 15 hours ago"
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "",
+            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
+            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
+            "foundryUrl": "/packages/yzecoriolis/",
+            "lastUpdate": "4 days, 11 hours ago"
         },
         {
             "name": "dnd5e",
@@ -900,41 +935,6 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "4 days, 14 hours ago"
-        },
-        {
-            "name": "yzecoriolis",
-            "title": "Year Zero Engine - Coriolis",
-            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
-            "version": 0.91,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Winks",
-            "esmodules": [
-                "module/yzecoriolis.js"
-            ],
-            "styles": [
-                "css/yzecoriolis.css",
-                "css/yzecoriolismce.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "",
-            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
-            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
-            "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "4 days, 11 hours ago"
         },
         {
             "name": "burningwheel",
@@ -1677,6 +1677,44 @@
             "lastUpdate": "2 weeks, 1 day ago"
         },
         {
+            "name": "svnsea2e",
+            "title": "7th Sea Second Edition (Unofficial)",
+            "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
+            "version": 0.8,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "psychoph",
+            "esmodules": [
+                "module/svnsea2e.js"
+            ],
+            "styles": [
+                "css/svnsea2e.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "wounds",
+            "secondaryTokenAttribute": "dwounds",
+            "url": "https://github.com/Detailing-the-Realm/svnsea2e/",
+            "manifest": "https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json",
+            "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/svnsea2e/",
+            "lastUpdate": "2 weeks, 3 days ago"
+        },
+        {
             "name": "ratasenlasparedes",
             "title": "Ratas en las paredes",
             "description": "Ratas en las paredes para FoundryVTT!",
@@ -1939,44 +1977,6 @@
             "changelog": "",
             "foundryUrl": "/packages/lancer/",
             "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
-            "name": "svnsea2e",
-            "title": "7th Sea Second Edition (Unofficial)",
-            "description": "The 7th Sea Second Edition (Unofficial) system for FoundryVTT!",
-            "version": 0.8,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "psychoph",
-            "esmodules": [
-                "module/svnsea2e.js"
-            ],
-            "styles": [
-                "css/svnsea2e.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "wounds",
-            "secondaryTokenAttribute": "dwounds",
-            "url": "https://github.com/Detailing-the-Realm/svnsea2e/",
-            "manifest": "https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json",
-            "download": "https://github.com/Detailing-the-Realm/svnsea2e/archive/0.8.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/svnsea2e/",
-            "lastUpdate": "2 weeks, 3 days ago"
         },
         {
             "name": "sfrpg",
@@ -3171,50 +3171,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months, 1 week ago"
-        },
-        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -3296,6 +3252,50 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months, 1 week ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
         },
         {
