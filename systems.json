@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 19 Aug 2020 14:25:11 GMT",
+    "updated": "Wed, 19 Aug 2020 14:41:01 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "19 minutes ago"
+            "lastUpdate": "35 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -116,7 +116,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "53 minutes ago"
+            "lastUpdate": "1 hour, 9 minutes ago"
         },
         {
             "name": "pf1",
@@ -315,7 +315,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.5/foundryvtt-pathfinder1-v0.73.5.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "2 hours, 29 minutes ago"
+            "lastUpdate": "2 hours, 45 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -389,7 +389,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "3 hours, 27 minutes ago"
+            "lastUpdate": "3 hours, 43 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -456,7 +456,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "4 hours, 26 minutes ago"
+            "lastUpdate": "4 hours, 42 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -491,7 +491,51 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "14 hours, 8 minutes ago"
+            "lastUpdate": "14 hours, 24 minutes ago"
+        },
+        {
+            "name": "dragon-age",
+            "title": "Dragon AGE",
+            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
+            "version": "0.2.2.4",
+            "author": "Markus Raab",
+            "scripts": [],
+            "esmodules": [
+                "dragon-age.js"
+            ],
+            "styles": [
+                "dragon-age.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "dragon-age",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "dragon-age",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/markusraab78/dragon-age",
+            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
+            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
+            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
+            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
+            "bugs": "",
+            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
+            "foundryUrl": "/packages/dragon-age/",
+            "lastUpdate": "17 hours, 46 minutes ago"
         },
         {
             "name": "l5r",
@@ -539,51 +583,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "1 day, 5 hours ago"
-        },
-        {
-            "name": "dragon-age",
-            "title": "Dragon AGE",
-            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
-            "version": "0.2.2.4",
-            "author": "Markus Raab",
-            "scripts": [],
-            "esmodules": [
-                "dragon-age.js"
-            ],
-            "styles": [
-                "dragon-age.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "dragon-age",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "dragon-age",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/markusraab78/dragon-age",
-            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
-            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
-            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
-            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
-            "bugs": "",
-            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
-            "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "17 hours, 30 minutes ago"
+            "lastUpdate": "1 day, 6 hours ago"
         },
         {
             "name": "sandbox",
@@ -690,6 +690,44 @@
             "lastUpdate": "2 days, 1 hour ago"
         },
         {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.5.0",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css",
+                "mfate-sheet.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.1",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "2 days, 15 hours ago"
+        },
+        {
             "name": "swade",
             "title": "Savage Worlds Adventure Edition",
             "description": "A comprehensive gamesystem for running Savage Worlds Adventure Edition games",
@@ -763,7 +801,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "3 days ago"
+            "lastUpdate": "3 days, 1 hour ago"
         },
         {
             "name": "yzecoriolis",
@@ -799,44 +837,6 @@
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
             "foundryUrl": "/packages/yzecoriolis/",
             "lastUpdate": "4 days, 10 hours ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.5.0",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css",
-                "mfate-sheet.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.1",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "2 days, 14 hours ago"
         },
         {
             "name": "dnd5e",
@@ -1091,6 +1091,36 @@
             "lastUpdate": "4 days, 17 hours ago"
         },
         {
+            "name": "age-of-sigmar-soulbound",
+            "title": "Age of Sigmar : Soulbound",
+            "description": "Perilous adventures in the mortal realms",
+            "version": "1.11.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "styles": [
+                "styles/aos-soulbound.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
+            "socket": true,
+            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
+            "lastUpdate": "4 days, 17 hours ago"
+        },
+        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -1181,36 +1211,6 @@
             "lastUpdate": "6 days, 6 hours ago"
         },
         {
-            "name": "age-of-sigmar-soulbound",
-            "title": "Age of Sigmar : Soulbound",
-            "description": "Perilous adventures in the mortal realms",
-            "version": "1.11.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "scripts/hooks.js"
-            ],
-            "styles": [
-                "styles/aos-soulbound.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
-            "socket": true,
-            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "4 days, 17 hours ago"
-        },
-        {
             "name": "numenera",
             "title": "Numenera",
             "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
@@ -1252,38 +1252,6 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "1 week, 4 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "ose",
@@ -1335,6 +1303,77 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 6 days ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 2 days ago"
+        },
+        {
+            "version": 0.32,
+            "name": "cyberpunkred",
+            "title": "Cyberpunk RED",
+            "description": "An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. (Based on the boilerplate system by asacolips)",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "Gerdofal",
+            "esmodules": [
+                "module/cyberpunkred.js"
+            ],
+            "styles": [
+                "css/cyberpunkred.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "zh",
+                    "name": "Simplifed Chinese",
+                    "path": "lang/zh.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "combatstats.healthpool",
+            "secondaryTokenAttribute": "combatstats.luckpool",
+            "url": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md",
+            "manifest": "https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json",
+            "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
+            "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
+            "foundryUrl": "/packages/cyberpunkred/",
+            "lastUpdate": "2 weeks ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1439,45 +1478,6 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "2 weeks ago"
-        },
-        {
-            "version": 0.32,
-            "name": "cyberpunkred",
-            "title": "Cyberpunk RED",
-            "description": "An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. (Based on the boilerplate system by asacolips)",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "Gerdofal",
-            "esmodules": [
-                "module/cyberpunkred.js"
-            ],
-            "styles": [
-                "css/cyberpunkred.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "zh",
-                    "name": "Simplifed Chinese",
-                    "path": "lang/zh.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "combatstats.healthpool",
-            "secondaryTokenAttribute": "combatstats.luckpool",
-            "url": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md",
-            "manifest": "https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json",
-            "download": "https://github.com/Gerdofal/foundryvtt-cyberpunkred/archive/stable_release.zip",
-            "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
-            "foundryUrl": "/packages/cyberpunkred/",
             "lastUpdate": "2 weeks ago"
         },
         {
@@ -2616,47 +2616,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "shadowrun5e",
-            "title": "Shadowrun 5th Edition",
-            "description": "Shadowrun 5th Edition game",
-            "version": "0.6.8",
-            "templateVersion": "1.4",
-            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
-            "esmodules": [
-                "dist/bundle.js",
-                "pdfoundry-dist/bundle.js"
-            ],
-            "styles": [
-                "dist/bundle.css"
-            ],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.1",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "dist/locale/en/config.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "dist/locale/de/config.json"
-                }
-            ],
-            "packs": [],
-            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
-            "primaryTokenAttribute": "track.physical",
-            "secondaryTokenAttribute": "track.stun",
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
-            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
-            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
-            "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "icrpg",
             "title": "Index Card RPG",
             "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
@@ -2705,6 +2664,47 @@
             "license": "LICENSE",
             "foundryUrl": "/packages/icrpg/",
             "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "shadowrun5e",
+            "title": "Shadowrun 5th Edition",
+            "description": "Shadowrun 5th Edition game",
+            "version": "0.6.8",
+            "templateVersion": "1.4",
+            "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+            "esmodules": [
+                "dist/bundle.js",
+                "pdfoundry-dist/bundle.js"
+            ],
+            "styles": [
+                "dist/bundle.css"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.1",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "dist/locale/en/config.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "dist/locale/de/config.json"
+                }
+            ],
+            "packs": [],
+            "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+            "primaryTokenAttribute": "track.physical",
+            "secondaryTokenAttribute": "track.stun",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+            "url": "https://github.com/smilligan93/SR5-FoundryVTT",
+            "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
+            "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month ago"
         },
         {
             "name": "symbaroum",
@@ -3073,42 +3073,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "intotheodd",
-            "title": "Into the Odd",
-            "description": "The Into the Odd system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "voidcase",
-            "esmodules": [
-                "module/intotheodd.js"
-            ],
-            "styles": [
-                "css/intotheodd.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "into-the-odd-macros",
-                    "label": "Macros for playing Into the Odd",
-                    "system": "intotheodd",
-                    "path": "./packs/into-the-odd-macros.db",
-                    "entity": "Macro"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
-            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/intotheodd/",
-            "lastUpdate": "1 month, 3 weeks ago"
-        },
-        {
             "name": "save-the-universe",
             "title": "Save the Universe",
             "description": "Save the Universe RPG.",
@@ -3143,6 +3107,42 @@
             "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
             "foundryUrl": "/packages/save-the-universe/",
             "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "intotheodd",
+            "title": "Into the Odd",
+            "description": "The Into the Odd system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "voidcase",
+            "esmodules": [
+                "module/intotheodd.js"
+            ],
+            "styles": [
+                "css/intotheodd.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "into-the-odd-macros",
+                    "label": "Macros for playing Into the Odd",
+                    "system": "intotheodd",
+                    "path": "./packs/into-the-odd-macros.db",
+                    "entity": "Macro"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
+            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/intotheodd/",
+            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "coc",
