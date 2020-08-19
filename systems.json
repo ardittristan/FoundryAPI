@@ -1,5 +1,5 @@
 {
-    "updated": "Wed, 19 Aug 2020 16:40:16 GMT",
+    "updated": "Wed, 19 Aug 2020 16:55:14 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -73,7 +73,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "2 hours, 34 minutes ago"
+            "lastUpdate": "2 hours, 49 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -116,7 +116,81 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "3 hours, 8 minutes ago"
+            "lastUpdate": "3 hours, 23 minutes ago"
+        },
+        {
+            "name": "callofcthulhu",
+            "title": "CallofCthulhu(7thEd.)",
+            "description": "For Asia.The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
+            "version": "1.2.0",
+            "author": "ただいま",
+            "minimumCoreVersion": "0.7.0",
+            "compatibleCoreVersion": "0.7.0",
+            "esmodules": [
+                "module/callofcthulhu.js",
+                "module/dicebot.js"
+            ],
+            "styles": [
+                "callofcthulhu.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "character",
+                    "label": "character",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/character.db",
+                    "entity": "Actor"
+                },
+                {
+                    "name": "items",
+                    "label": "Items",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/items.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "journalentry",
+                    "label": "journalentry",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/journalentry.db",
+                    "entity": "JournalEntry"
+                },
+                {
+                    "name": "template",
+                    "label": "template",
+                    "system": "callofcthulhu",
+                    "module": "callofcthulhu",
+                    "path": "packs/template.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/tadaimatrpg/callofcthulhu",
+            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
+            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
+            "foundryUrl": "/packages/callofcthulhu/",
+            "lastUpdate": "5 hours, 57 minutes ago"
         },
         {
             "name": "pf1",
@@ -315,81 +389,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.5/foundryvtt-pathfinder1-v0.73.5.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "4 hours, 44 minutes ago"
-        },
-        {
-            "name": "callofcthulhu",
-            "title": "CallofCthulhu(7thEd.)",
-            "description": "For Asia.The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
-            "version": "1.2.0",
-            "author": "ただいま",
-            "minimumCoreVersion": "0.7.0",
-            "compatibleCoreVersion": "0.7.0",
-            "esmodules": [
-                "module/callofcthulhu.js",
-                "module/dicebot.js"
-            ],
-            "styles": [
-                "callofcthulhu.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "character",
-                    "label": "character",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/character.db",
-                    "entity": "Actor"
-                },
-                {
-                    "name": "items",
-                    "label": "Items",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/items.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "journalentry",
-                    "label": "journalentry",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/journalentry.db",
-                    "entity": "JournalEntry"
-                },
-                {
-                    "name": "template",
-                    "label": "template",
-                    "system": "callofcthulhu",
-                    "module": "callofcthulhu",
-                    "path": "packs/template.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/tadaimatrpg/callofcthulhu",
-            "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
-            "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
-            "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "5 hours, 42 minutes ago"
+            "lastUpdate": "4 hours, 59 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -456,7 +456,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "6 hours, 41 minutes ago"
+            "lastUpdate": "6 hours, 56 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -491,7 +491,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "16 hours, 23 minutes ago"
+            "lastUpdate": "16 hours, 38 minutes ago"
         },
         {
             "name": "dragon-age",
@@ -535,7 +535,7 @@
             "bugs": "",
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "19 hours, 45 minutes ago"
+            "lastUpdate": "20 hours ago"
         },
         {
             "name": "l5r",
@@ -836,7 +836,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.91.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "4 days, 12 hours ago"
+            "lastUpdate": "4 days, 13 hours ago"
         },
         {
             "name": "dnd5e",
@@ -1121,6 +1121,35 @@
             "lastUpdate": "4 days, 19 hours ago"
         },
         {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "6 days, 9 hours ago"
+        },
+        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -1182,35 +1211,6 @@
             "lastUpdate": "1 week, 1 day ago"
         },
         {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "6 days, 8 hours ago"
-        },
-        {
             "name": "numenera",
             "title": "Numenera",
             "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
@@ -1252,38 +1252,6 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "1 week, 4 days ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "ose",
@@ -1335,6 +1303,38 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "1 week, 6 days ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -3171,50 +3171,6 @@
             "lastUpdate": "2 months ago"
         },
         {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months, 1 week ago"
-        },
-        {
             "name": "ryuutama",
             "title": "Ryuutama",
             "description": "The Ryuutama system, developed from the Simple World-Building by Atropos.",
@@ -3296,6 +3252,50 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months, 1 week ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
         },
         {
