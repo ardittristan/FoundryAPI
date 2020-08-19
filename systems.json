@@ -1,6 +1,44 @@
 {
-    "updated": "Wed, 19 Aug 2020 20:55:23 GMT",
+    "updated": "Wed, 19 Aug 2020 21:10:23 GMT",
     "modules": [
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.6.0",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css",
+                "mfate-sheet.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.1",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "1 minute ago"
+        },
         {
             "name": "swade",
             "title": "Savage Worlds Adventure Edition",
@@ -75,7 +113,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "11 minutes ago"
+            "lastUpdate": "26 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -142,7 +180,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "3 hours, 55 minutes ago"
+            "lastUpdate": "4 hours, 10 minutes ago"
         },
         {
             "name": "demonlord",
@@ -216,7 +254,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "6 hours, 49 minutes ago"
+            "lastUpdate": "7 hours, 4 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -259,7 +297,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "7 hours, 23 minutes ago"
+            "lastUpdate": "7 hours, 38 minutes ago"
         },
         {
             "name": "pf1",
@@ -458,7 +496,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.5/foundryvtt-pathfinder1-v0.73.5.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "8 hours, 59 minutes ago"
+            "lastUpdate": "9 hours, 14 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -532,7 +570,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "9 hours, 57 minutes ago"
+            "lastUpdate": "10 hours, 12 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -567,7 +605,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "20 hours, 38 minutes ago"
+            "lastUpdate": "20 hours, 53 minutes ago"
         },
         {
             "name": "dragon-age",
@@ -686,45 +724,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "1 day, 12 hours ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.5.0",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css",
-                "mfate-sheet.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.1",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "2 days, 21 hours ago"
+            "lastUpdate": "1 day, 13 hours ago"
         },
         {
             "name": "CoC7",
@@ -839,6 +839,33 @@
             "lastUpdate": "4 days, 17 hours ago"
         },
         {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "4 days, 23 hours ago"
+        },
+        {
             "name": "dnd5e",
             "title": "DnD5e - Fifth Edition System",
             "description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
@@ -934,34 +961,7 @@
             "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json",
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
-            "lastUpdate": "4 days, 19 hours ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "4 days, 22 hours ago"
+            "lastUpdate": "4 days, 20 hours ago"
         },
         {
             "name": "vaesen",
@@ -1027,7 +1027,7 @@
             "download": "https://github.com/Perfectro/vaesen-foundry-vtt/archive/v1.4.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/vaesen/",
-            "lastUpdate": "4 days, 23 hours ago"
+            "lastUpdate": "5 days ago"
         },
         {
             "name": "forbidden-lands",
@@ -1088,7 +1088,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "4 days, 23 hours ago"
+            "lastUpdate": "5 days ago"
         },
         {
             "name": "age-of-sigmar-soulbound",
@@ -1118,7 +1118,7 @@
             "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "4 days, 23 hours ago"
+            "lastUpdate": "5 days ago"
         },
         {
             "name": "kamigakari",
@@ -1512,7 +1512,7 @@
             "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "2 weeks ago"
+            "lastUpdate": "2 weeks, 1 day ago"
         },
         {
             "name": "archmage",
@@ -2657,66 +2657,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "symbaroum",
-            "title": "Symbaroum",
-            "description": "Twilight falls. Davokar darkens.",
-            "version": 1.5,
-            "minimumCoreVersion": "0.6.1",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character/bio.css",
-                "style/character/character.css",
-                "style/character/combat.css",
-                "style/character/gear.css",
-                "style/ability.css",
-                "style/armor.css",
-                "style/artifact.css",
-                "style/gear.css",
-                "style/weapon.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsche",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Española",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/symbaroum-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/symbaroum-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/symbaroum-foundry-vtt/archive/v1.5.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/symbaroum/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "icrpg",
             "title": "Index Card RPG",
             "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
@@ -2809,6 +2749,66 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/zork/",
             "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "symbaroum",
+            "title": "Symbaroum",
+            "description": "Twilight falls. Davokar darkens.",
+            "version": 1.5,
+            "minimumCoreVersion": "0.6.1",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
+            ],
+            "styles": [
+                "style/common.css",
+                "style/character/bio.css",
+                "style/character/character.css",
+                "style/character/combat.css",
+                "style/character/gear.css",
+                "style/ability.css",
+                "style/armor.css",
+                "style/artifact.css",
+                "style/gear.css",
+                "style/weapon.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsche",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Española",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/symbaroum-foundry-vtt",
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/Perfectro/symbaroum-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/symbaroum-foundry-vtt/archive/v1.5.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/symbaroum/",
+            "lastUpdate": "1 month, 2 weeks ago"
         },
         {
             "name": "pf2e",
@@ -3070,7 +3070,7 @@
             "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/system.json?job=build",
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
-            "lastUpdate": "1 month, 2 weeks ago"
+            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "save-the-universe",
