@@ -1,6 +1,73 @@
 {
-    "updated": "Wed, 19 Aug 2020 19:25:20 GMT",
+    "updated": "Wed, 19 Aug 2020 19:40:21 GMT",
     "modules": [
+        {
+            "name": "alienrpg",
+            "title": "Alien RPG",
+            "description": "The Alien RPG system for Foundry VTT!",
+            "version": "1.1.1",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Paul Watson",
+            "esmodules": [
+                "module/alienrpg.js"
+            ],
+            "styles": [
+                "css/alienrpg.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "tables_gm",
+                    "label": "Tables (GM)",
+                    "path": "packs/AlienRPG-tables_gm.db",
+                    "entity": "RollTable",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "mother_instructions",
+                    "label": "Mother Instructions",
+                    "path": "packs/AlienRPG-mother-instructions.db",
+                    "entity": "JournalEntry",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "alien",
+                    "label": "Alien",
+                    "path": "packs/AlienRPG-alien.db",
+                    "entity": "Macro",
+                    "module": "AlienRPG"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "swe",
+                    "name": "Svenska",
+                    "path": "lang/swe.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "stress",
+            "url": "https://github.com/pwatson100/alienrpg",
+            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
+            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/alienrpg/",
+            "lastUpdate": "2 hours, 40 minutes ago"
+        },
         {
             "name": "demonlord",
             "title": "Shadow of the Demon Lord",
@@ -73,74 +140,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "5 hours, 19 minutes ago"
-        },
-        {
-            "name": "alienrpg",
-            "title": "Alien RPG",
-            "description": "The Alien RPG system for Foundry VTT!",
-            "version": "1.1.1",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Paul Watson",
-            "esmodules": [
-                "module/alienrpg.js"
-            ],
-            "styles": [
-                "css/alienrpg.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "tables_gm",
-                    "label": "Tables (GM)",
-                    "path": "packs/AlienRPG-tables_gm.db",
-                    "entity": "RollTable",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "mother_instructions",
-                    "label": "Mother Instructions",
-                    "path": "packs/AlienRPG-mother-instructions.db",
-                    "entity": "JournalEntry",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "alien",
-                    "label": "Alien",
-                    "path": "packs/AlienRPG-alien.db",
-                    "entity": "Macro",
-                    "module": "AlienRPG"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "swe",
-                    "name": "Svenska",
-                    "path": "lang/swe.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "stress",
-            "url": "https://github.com/pwatson100/alienrpg",
-            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
-            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "2 hours, 25 minutes ago"
+            "lastUpdate": "5 hours, 34 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -183,7 +183,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "5 hours, 53 minutes ago"
+            "lastUpdate": "6 hours, 8 minutes ago"
         },
         {
             "name": "pf1",
@@ -382,7 +382,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.5/foundryvtt-pathfinder1-v0.73.5.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "7 hours, 29 minutes ago"
+            "lastUpdate": "7 hours, 44 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -456,7 +456,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "8 hours, 27 minutes ago"
+            "lastUpdate": "8 hours, 42 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -491,7 +491,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "19 hours, 8 minutes ago"
+            "lastUpdate": "19 hours, 23 minutes ago"
         },
         {
             "name": "dragon-age",
@@ -535,7 +535,7 @@
             "bugs": "",
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "22 hours, 30 minutes ago"
+            "lastUpdate": "22 hours, 45 minutes ago"
         },
         {
             "name": "l5r",
@@ -583,33 +583,6 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "1 day, 10 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.6",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
             "lastUpdate": "1 day, 11 hours ago"
         },
         {
@@ -725,7 +698,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "2 days, 19 hours ago"
+            "lastUpdate": "2 days, 20 hours ago"
         },
         {
             "name": "swade",
@@ -801,7 +774,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.2/package/swade-v0.11.2.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "3 days, 5 hours ago"
+            "lastUpdate": "3 days, 6 hours ago"
         },
         {
             "name": "yzecoriolis",
@@ -1254,6 +1227,65 @@
             "lastUpdate": "1 week, 5 days ago"
         },
         {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "1 day, 11 hours ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 2 days ago"
+        },
+        {
             "name": "ose",
             "title": "Old-School Essentials",
             "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
@@ -1303,38 +1335,6 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "2 weeks ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -2707,6 +2707,50 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
+            "name": "zork",
+            "title": "Zork",
+            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
+            "version": "2.0.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "templateVersion": 2,
+            "author": "Cody Swendrowski",
+            "esmodules": [
+                "module/zork.js"
+            ],
+            "styles": [
+                "css/zork.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "lib/js-dos-api.js",
+                "lib/dosbox.js",
+                "lib/wdosbox.js",
+                "lib/wdosbox.wasm.js",
+                "lib/wdosbox-emterp.js",
+                "lib/wdosbox-emterp.wasm.js",
+                "lib/js-dos.js"
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "",
+            "secondaryTokenAttribute": "",
+            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
+            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
+            "initiative": "",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/zork/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "symbaroum",
             "title": "Symbaroum",
             "description": "Twilight falls. Davokar darkens.",
@@ -2765,86 +2809,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/symbaroum/",
             "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
-            "name": "zork",
-            "title": "Zork",
-            "description": "A Foundry wrapper of the Public Domain Zork 1 (https://github.com/devshane/zork). Powered by the Andy Hattemer's API: https://andyhattemer.com/zork-web-api-with-spaces.html",
-            "version": "2.0.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "templateVersion": 2,
-            "author": "Cody Swendrowski",
-            "esmodules": [
-                "module/zork.js"
-            ],
-            "styles": [
-                "css/zork.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "lib/js-dos-api.js",
-                "lib/dosbox.js",
-                "lib/wdosbox.js",
-                "lib/wdosbox.wasm.js",
-                "lib/wdosbox-emterp.js",
-                "lib/wdosbox-emterp.wasm.js",
-                "lib/js-dos.js"
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "",
-            "secondaryTokenAttribute": "",
-            "url": "https://github.com/cswendrowski/foundryvtt-zork-system",
-            "manifest": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/latest/system.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Zork-System/releases/download/2.0.0/system.zip",
-            "initiative": "",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/zork/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "pf2e",
@@ -3107,6 +3071,42 @@
             "download": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release/raw/pf2e.zip?job=build",
             "foundryUrl": "/packages/pf2e/",
             "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "intotheodd",
