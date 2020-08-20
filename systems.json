@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 20 Aug 2020 00:10:26 GMT",
+    "updated": "Thu, 20 Aug 2020 00:25:24 GMT",
     "modules": [
         {
             "name": "pf1",
@@ -198,7 +198,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.6/foundryvtt-pathfinder1-v0.73.6.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "1 hour, 47 minutes ago"
+            "lastUpdate": "2 hours, 2 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -236,7 +236,74 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
+        },
+        {
+            "name": "alienrpg",
+            "title": "Alien RPG",
+            "description": "The Alien RPG system for Foundry VTT!",
+            "version": "1.1.1",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Paul Watson",
+            "esmodules": [
+                "module/alienrpg.js"
+            ],
+            "styles": [
+                "css/alienrpg.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "tables_gm",
+                    "label": "Tables (GM)",
+                    "path": "packs/AlienRPG-tables_gm.db",
+                    "entity": "RollTable",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "mother_instructions",
+                    "label": "Mother Instructions",
+                    "path": "packs/AlienRPG-mother-instructions.db",
+                    "entity": "JournalEntry",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "alien",
+                    "label": "Alien",
+                    "path": "packs/AlienRPG-alien.db",
+                    "entity": "Macro",
+                    "module": "AlienRPG"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "swe",
+                    "name": "Svenska",
+                    "path": "lang/swe.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "stress",
+            "url": "https://github.com/pwatson100/alienrpg",
+            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
+            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/alienrpg/",
+            "lastUpdate": "7 hours, 25 minutes ago"
         },
         {
             "name": "swade",
@@ -312,74 +379,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "3 hours, 26 minutes ago"
-        },
-        {
-            "name": "alienrpg",
-            "title": "Alien RPG",
-            "description": "The Alien RPG system for Foundry VTT!",
-            "version": "1.1.1",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Paul Watson",
-            "esmodules": [
-                "module/alienrpg.js"
-            ],
-            "styles": [
-                "css/alienrpg.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "tables_gm",
-                    "label": "Tables (GM)",
-                    "path": "packs/AlienRPG-tables_gm.db",
-                    "entity": "RollTable",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "mother_instructions",
-                    "label": "Mother Instructions",
-                    "path": "packs/AlienRPG-mother-instructions.db",
-                    "entity": "JournalEntry",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "alien",
-                    "label": "Alien",
-                    "path": "packs/AlienRPG-alien.db",
-                    "entity": "Macro",
-                    "module": "AlienRPG"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "swe",
-                    "name": "Svenska",
-                    "path": "lang/swe.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "stress",
-            "url": "https://github.com/pwatson100/alienrpg",
-            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
-            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "7 hours, 10 minutes ago"
+            "lastUpdate": "3 hours, 41 minutes ago"
         },
         {
             "name": "demonlord",
@@ -453,7 +453,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "10 hours, 4 minutes ago"
+            "lastUpdate": "10 hours, 19 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -496,7 +496,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "10 hours, 38 minutes ago"
+            "lastUpdate": "10 hours, 53 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -570,7 +570,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "13 hours, 12 minutes ago"
+            "lastUpdate": "13 hours, 27 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -605,7 +605,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "23 hours, 53 minutes ago"
+            "lastUpdate": "1 day ago"
         },
         {
             "name": "dragon-age",
@@ -801,7 +801,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "2 days, 10 hours ago"
+            "lastUpdate": "2 days, 11 hours ago"
         },
         {
             "name": "yzecoriolis",
