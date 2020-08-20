@@ -1,6 +1,46 @@
 {
-    "updated": "Thu, 20 Aug 2020 13:10:27 GMT",
+    "updated": "Thu, 20 Aug 2020 13:25:27 GMT",
     "modules": [
+        {
+            "name": "yzecoriolis",
+            "title": "Year Zero Engine - Coriolis",
+            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
+            "version": 0.92,
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Winks",
+            "esmodules": [
+                "module/yzecoriolis.js"
+            ],
+            "styles": [
+                "css/yzecoriolis.css",
+                "css/yzecoriolismce.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "",
+            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
+            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
+            "foundryUrl": "/packages/yzecoriolis/",
+            "lastUpdate": "9 hours, 13 minutes ago"
+        },
         {
             "name": "pf1",
             "title": "Pathfinder 1",
@@ -198,7 +238,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.6/foundryvtt-pathfinder1-v0.73.6.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "14 hours, 47 minutes ago"
+            "lastUpdate": "15 hours, 2 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -236,7 +276,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "16 hours, 1 minute ago"
+            "lastUpdate": "16 hours, 16 minutes ago"
         },
         {
             "name": "swade",
@@ -312,47 +352,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "16 hours, 26 minutes ago"
-        },
-        {
-            "name": "yzecoriolis",
-            "title": "Year Zero Engine - Coriolis",
-            "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
-            "version": 0.92,
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Winks",
-            "esmodules": [
-                "module/yzecoriolis.js"
-            ],
-            "styles": [
-                "css/yzecoriolis.css",
-                "css/yzecoriolismce.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "",
-            "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
-            "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
-            "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "8 hours, 58 minutes ago"
+            "lastUpdate": "16 hours, 41 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -419,7 +419,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "20 hours, 10 minutes ago"
+            "lastUpdate": "20 hours, 25 minutes ago"
         },
         {
             "name": "demonlord",
@@ -493,50 +493,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "23 hours, 4 minutes ago"
-        },
-        {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.5",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js",
-                "./module/utility-gurps4e.js",
-                "./module/migrations.js",
-                "./module/hooks/preCreateActor.js",
-                "./module/hooks/init.js",
-                "./module/hooks/ready.js",
-                "./module/hooks/renderChatMessage.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "packs": [],
-            "scripts": [
-                "./scripts/config-gurps4e.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "23 hours, 38 minutes ago"
+            "lastUpdate": "23 hours, 19 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -613,6 +570,49 @@
             "lastUpdate": "1 day, 2 hours ago"
         },
         {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.5",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js",
+                "./module/utility-gurps4e.js",
+                "./module/migrations.js",
+                "./module/hooks/preCreateActor.js",
+                "./module/hooks/init.js",
+                "./module/hooks/ready.js",
+                "./module/hooks/renderChatMessage.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "packs": [],
+            "scripts": [
+                "./scripts/config-gurps4e.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "23 hours, 53 minutes ago"
+        },
+        {
             "name": "tormenta20",
             "title": "Tormenta20",
             "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
@@ -645,7 +645,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day, 12 hours ago"
+            "lastUpdate": "1 day, 13 hours ago"
         },
         {
             "name": "dragon-age",
@@ -690,6 +690,54 @@
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
             "lastUpdate": "1 day, 16 hours ago"
+        },
+        {
+            "name": "l5r",
+            "title": "Legend of the Five Rings (5E)",
+            "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
+            "version": "0.2.2",
+            "templateVersion": 2,
+            "author": "L4D15",
+            "authors": [
+                {
+                    "name": "L4D15#2706",
+                    "email": "thedragonladis@gmail.com",
+                    "url": "https://github.com/L4D15"
+                }
+            ],
+            "scripts": [],
+            "esmodules": [
+                "l5r.js"
+            ],
+            "styles": [
+                "l5r.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español (España)",
+                    "path": "lang/es.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/L4D15/foundry-vtt-l5r",
+            "manifest": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/src/system.json",
+            "download": "https://github.com/L4D15/foundry-vtt-l5r/archive/master.zip",
+            "license": "",
+            "readme": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/README.md",
+            "bugs": "",
+            "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
+            "foundryUrl": "/packages/l5r/",
+            "lastUpdate": "2 days, 4 hours ago"
         },
         {
             "name": "sandbox",
@@ -793,7 +841,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "2 days, 23 hours ago"
+            "lastUpdate": "3 days ago"
         },
         {
             "name": "dnd5e",
@@ -921,54 +969,6 @@
             "lastUpdate": "5 days, 15 hours ago"
         },
         {
-            "name": "l5r",
-            "title": "Legend of the Five Rings (5E)",
-            "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
-            "version": "0.2.2",
-            "templateVersion": 2,
-            "author": "L4D15",
-            "authors": [
-                {
-                    "name": "L4D15#2706",
-                    "email": "thedragonladis@gmail.com",
-                    "url": "https://github.com/L4D15"
-                }
-            ],
-            "scripts": [],
-            "esmodules": [
-                "l5r.js"
-            ],
-            "styles": [
-                "l5r.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Español (España)",
-                    "path": "lang/es.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/L4D15/foundry-vtt-l5r",
-            "manifest": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/src/system.json",
-            "download": "https://github.com/L4D15/foundry-vtt-l5r/archive/master.zip",
-            "license": "",
-            "readme": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/README.md",
-            "bugs": "",
-            "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
-            "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "2 days, 4 hours ago"
-        },
-        {
             "name": "vaesen",
             "title": "Vaesen",
             "description": "Nordic horror role-playing",
@@ -1035,67 +1035,6 @@
             "lastUpdate": "5 days, 16 hours ago"
         },
         {
-            "name": "forbidden-lands",
-            "title": "Forbidden Lands",
-            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
-            "version": "3.8.0",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Perfectro",
-            "scripts": [],
-            "esmodules": [
-                "script/hooks.js"
-            ],
-            "styles": [
-                "style/common.css",
-                "style/character.css",
-                "style/monster.css",
-                "style/stronghold.css",
-                "style/item.css",
-                "style/dialog.css",
-                "style/tab/main.css",
-                "style/tab/combat.css",
-                "style/tab/monster-combat.css",
-                "style/tab/monster-gear.css",
-                "style/tab/stronghold-gear.css",
-                "style/tab/stronghold-building.css",
-                "style/tab/stronghold-hireling.css",
-                "style/tab/talent.css",
-                "style/tab/gear.css",
-                "style/tab/bio.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-br",
-                    "name": "Português Brasileiro",
-                    "path": "lang/pt-br.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
-            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "5 days, 16 hours ago"
-        },
-        {
             "name": "age-of-sigmar-soulbound",
             "title": "Age of Sigmar : Soulbound",
             "description": "Perilous adventures in the mortal realms",
@@ -1124,78 +1063,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/age-of-sigmar-soulbound/",
             "lastUpdate": "5 days, 16 hours ago"
-        },
-        {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "1 week ago"
-        },
-        {
-            "name": "numenera",
-            "title": "Numenera",
-            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
-            "version": "0.16.1",
-            "author": "SolarBear",
-            "scripts": [
-                "lib/dragula/dragula.min.js"
-            ],
-            "esmodules": [
-                "numenera.js"
-            ],
-            "styles": [
-                "numenera.css",
-                "lib/dragula/dragula.min.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                }
-            ],
-            "socket": true,
-            "compatibleCoreVersion": "0.6.5",
-            "minimumCoreVersion": "0.5.5",
-            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
-            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
-            "foundryUrl": "/packages/numenera/",
-            "lastUpdate": "1 week, 5 days ago"
         },
         {
             "name": "kamigakari",
@@ -1259,6 +1126,35 @@
             "lastUpdate": "1 week, 1 day ago"
         },
         {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 week ago"
+        },
+        {
             "name": "ose",
             "title": "Old-School Essentials",
             "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
@@ -1310,36 +1206,65 @@
             "lastUpdate": "2 weeks ago"
         },
         {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
+            "name": "forbidden-lands",
+            "title": "Forbidden Lands",
+            "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
+            "version": "3.8.0",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "script/hooks.js"
             ],
-            "esmodules": [],
-            "styles": [],
+            "styles": [
+                "style/common.css",
+                "style/character.css",
+                "style/monster.css",
+                "style/stronghold.css",
+                "style/item.css",
+                "style/dialog.css",
+                "style/tab/main.css",
+                "style/tab/combat.css",
+                "style/tab/monster-combat.css",
+                "style/tab/monster-gear.css",
+                "style/tab/stronghold-gear.css",
+                "style/tab/stronghold-building.css",
+                "style/tab/stronghold-hireling.css",
+                "style/tab/talent.css",
+                "style/tab/gear.css",
+                "style/tab/bio.css"
+            ],
+            "packs": [],
             "languages": [
                 {
                     "lang": "en",
                     "name": "English",
-                    "path": "languages/en.json"
+                    "path": "lang/en.json"
                 },
                 {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-br",
+                    "name": "Português Brasileiro",
+                    "path": "lang/pt-br.json"
                 }
             ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/forbidden-lands-foundry-vtt",
             "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 3 days ago"
+            "manifest": "https://raw.githubusercontent.com/Perfectro/forbidden-lands-foundry-vtt/master/system.json",
+            "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.8.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/forbidden-lands/",
+            "lastUpdate": "5 days, 16 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -1447,6 +1372,38 @@
             "lastUpdate": "2 weeks ago"
         },
         {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 3 days ago"
+        },
+        {
             "version": 0.32,
             "name": "cyberpunkred",
             "title": "Cyberpunk RED",
@@ -1484,6 +1441,49 @@
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
             "lastUpdate": "2 weeks, 1 day ago"
+        },
+        {
+            "name": "numenera",
+            "title": "Numenera",
+            "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
+            "version": "0.16.1",
+            "author": "SolarBear",
+            "scripts": [
+                "lib/dragula/dragula.min.js"
+            ],
+            "esmodules": [
+                "numenera.js"
+            ],
+            "styles": [
+                "numenera.css",
+                "lib/dragula/dragula.min.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "socket": true,
+            "compatibleCoreVersion": "0.6.5",
+            "minimumCoreVersion": "0.5.5",
+            "url": "https://github.com/SolarBear/Numenera-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/SolarBear/Numenera-FoundryVTT/master/system.json",
+            "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
+            "foundryUrl": "/packages/numenera/",
+            "lastUpdate": "1 week, 5 days ago"
         },
         {
             "name": "FVTT-Dishonored",
@@ -1984,128 +1984,6 @@
             "lastUpdate": "3 weeks ago"
         },
         {
-            "name": "sfrpg",
-            "title": "Starfinder",
-            "description": "A game system for running Starfinder in the Foundry VTT environment.",
-            "version": "0.3.5",
-            "author": "wildj79",
-            "templateVersion": 2,
-            "schema": 0.003,
-            "scripts": [
-                "lib/popperjs/core/popper.min.js",
-                "lib/tippy/tippy.min.js"
-            ],
-            "esmodules": [
-                "sfrpg.js"
-            ],
-            "styles": [
-                "styles/tippy.css",
-                "sfrpg.css"
-            ],
-            "packs": [
-                {
-                    "name": "equipment",
-                    "label": "Equipment",
-                    "system": "sfrpg",
-                    "path": "./packs/equipment.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "feats",
-                    "label": "Feats",
-                    "system": "sfrpg",
-                    "path": "./packs/feats.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "spells",
-                    "label": "Spells",
-                    "system": "sfrpg",
-                    "path": "./packs/spells.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "races",
-                    "label": "Races",
-                    "system": "sfrpg",
-                    "path": "./packs/races.db",
-                    "entity": "Item"
-                },
-                {
-                    "label": "Classes",
-                    "entity": "Item",
-                    "name": "classes",
-                    "path": "./packs/classes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Themes",
-                    "entity": "Item",
-                    "name": "themes",
-                    "path": "./packs/themes.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Starship Weapons",
-                    "entity": "Item",
-                    "name": "starship-weapons",
-                    "path": "./packs/starship-weapons.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "SFRPG Rules",
-                    "entity": "JournalEntry",
-                    "name": "rules",
-                    "path": "./packs/rules.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Tables",
-                    "entity": "RollTable",
-                    "name": "tables",
-                    "path": "./packs/tables.db",
-                    "system": "sfrpg"
-                },
-                {
-                    "label": "Conditions",
-                    "entity": "JournalEntry",
-                    "name": "conditions",
-                    "path": "./packs/conditions.db",
-                    "system": "sfrpg"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "socket": true,
-            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "attributes.hp",
-            "secondaryTokenAttribute": "attributes.sp",
-            "minimumCoreVersion": "0.5.6",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/wildj79/foundryvtt-starfinder",
-            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
-            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
-            "foundryUrl": "/packages/sfrpg/",
-            "lastUpdate": "3 weeks, 1 day ago"
-        },
-        {
             "name": "knave",
             "title": "KNAVE",
             "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
@@ -2223,82 +2101,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
             "lastUpdate": "3 weeks, 3 days ago"
-        },
-        {
-            "name": "wfrp4e",
-            "title": "Warhammer Fantasy Roleplay 4th Edition",
-            "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
-            "version": "2.1.0",
-            "author": "CatoThe1stElder, Moo Man",
-            "scripts": [
-                "./scripts/config-wfrp4e.js",
-                "./scripts/dice-wfrp4e.js",
-                "./scripts/tables-wfrp4e.js",
-                "./scripts/utility-wfrp4e.js",
-                "./scripts/market-wfrp4e.js",
-                "./scripts/opposed-wfrp4e.js",
-                "./scripts/char-gen.js",
-                "./scripts/name-gen.js",
-                "./scripts/migrations.js",
-                "./scripts/wfrp-browser.js",
-                "./scripts/audio-wfrp4e.js",
-                "./scripts/bug-report.js",
-                "./scripts/actor/actor-wfrp4e.js",
-                "./scripts/actor/sheet/actor-sheet.js",
-                "./scripts/actor/sheet/character-sheet.js",
-                "./scripts/actor/sheet/creature-sheet.js",
-                "./scripts/actor/sheet/npc-sheet.js",
-                "./scripts/item/item-sheet.js",
-                "./scripts/item/item-wfrp4e.js",
-                "./scripts/hooks/canvasReady.js",
-                "./scripts/hooks/canvasInit.js",
-                "./scripts/hooks/chatMessage.js",
-                "./scripts/hooks/createOwnedItem.js",
-                "./scripts/hooks/preCreateActor.js",
-                "./scripts/hooks/preCreateOwnedItem.js",
-                "./scripts/hooks/renderTokenHUD.js",
-                "./scripts/hooks/deleteCombat.js",
-                "./scripts/hooks/getActorDirectoryEntryContext.js",
-                "./scripts/hooks/getCombatTrackerEntryContext.js",
-                "./scripts/hooks/getChatLogEntryContext.js",
-                "./scripts/hooks/getSceneControlButtons.js",
-                "./scripts/hooks/init.js",
-                "./scripts/hooks/ready.js",
-                "./scripts/hooks/renderChatLog.js",
-                "./scripts/hooks/renderChatMessage.js",
-                "./scripts/hooks/renderSidebarTab.js",
-                "./scripts/hooks/renderJournalSheet.js",
-                "./scripts/hooks/updateCombat.js",
-                "./scripts/hooks/createChatMessage.js",
-                "./scripts/hooks/hotbarDrop.js",
-                "./libs/pixi-filters.js",
-                "./pixi/aoe.js"
-            ],
-            "styles": [
-                "./css/wfrp4e.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
-            "gridDistance": 2,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "status.wounds",
-            "secondaryTokenAttribute": "status.advantage",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/system.json",
-            "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
-            "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
-            "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "3 weeks, 4 days ago"
         },
         {
             "name": "dungeonworld",
@@ -2539,6 +2341,285 @@
             "lastUpdate": "4 weeks ago"
         },
         {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "sfrpg",
+            "title": "Starfinder",
+            "description": "A game system for running Starfinder in the Foundry VTT environment.",
+            "version": "0.3.5",
+            "author": "wildj79",
+            "templateVersion": 2,
+            "schema": 0.003,
+            "scripts": [
+                "lib/popperjs/core/popper.min.js",
+                "lib/tippy/tippy.min.js"
+            ],
+            "esmodules": [
+                "sfrpg.js"
+            ],
+            "styles": [
+                "styles/tippy.css",
+                "sfrpg.css"
+            ],
+            "packs": [
+                {
+                    "name": "equipment",
+                    "label": "Equipment",
+                    "system": "sfrpg",
+                    "path": "./packs/equipment.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "feats",
+                    "label": "Feats",
+                    "system": "sfrpg",
+                    "path": "./packs/feats.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "spells",
+                    "label": "Spells",
+                    "system": "sfrpg",
+                    "path": "./packs/spells.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "races",
+                    "label": "Races",
+                    "system": "sfrpg",
+                    "path": "./packs/races.db",
+                    "entity": "Item"
+                },
+                {
+                    "label": "Classes",
+                    "entity": "Item",
+                    "name": "classes",
+                    "path": "./packs/classes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Themes",
+                    "entity": "Item",
+                    "name": "themes",
+                    "path": "./packs/themes.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Starship Weapons",
+                    "entity": "Item",
+                    "name": "starship-weapons",
+                    "path": "./packs/starship-weapons.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "SFRPG Rules",
+                    "entity": "JournalEntry",
+                    "name": "rules",
+                    "path": "./packs/rules.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Tables",
+                    "entity": "RollTable",
+                    "name": "tables",
+                    "path": "./packs/tables.db",
+                    "system": "sfrpg"
+                },
+                {
+                    "label": "Conditions",
+                    "entity": "JournalEntry",
+                    "name": "conditions",
+                    "path": "./packs/conditions.db",
+                    "system": "sfrpg"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "socket": true,
+            "initiative": "1d20 + @abilities.dex.mod + @attributes.init.value",
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "attributes.hp",
+            "secondaryTokenAttribute": "attributes.sp",
+            "minimumCoreVersion": "0.5.6",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/wildj79/foundryvtt-starfinder",
+            "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
+            "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.3.5/sfrpg-v0.3.5.zip",
+            "foundryUrl": "/packages/sfrpg/",
+            "lastUpdate": "3 weeks, 1 day ago"
+        },
+        {
+            "name": "wfrp4e",
+            "title": "Warhammer Fantasy Roleplay 4th Edition",
+            "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
+            "version": "2.1.0",
+            "author": "CatoThe1stElder, Moo Man",
+            "scripts": [
+                "./scripts/config-wfrp4e.js",
+                "./scripts/dice-wfrp4e.js",
+                "./scripts/tables-wfrp4e.js",
+                "./scripts/utility-wfrp4e.js",
+                "./scripts/market-wfrp4e.js",
+                "./scripts/opposed-wfrp4e.js",
+                "./scripts/char-gen.js",
+                "./scripts/name-gen.js",
+                "./scripts/migrations.js",
+                "./scripts/wfrp-browser.js",
+                "./scripts/audio-wfrp4e.js",
+                "./scripts/bug-report.js",
+                "./scripts/actor/actor-wfrp4e.js",
+                "./scripts/actor/sheet/actor-sheet.js",
+                "./scripts/actor/sheet/character-sheet.js",
+                "./scripts/actor/sheet/creature-sheet.js",
+                "./scripts/actor/sheet/npc-sheet.js",
+                "./scripts/item/item-sheet.js",
+                "./scripts/item/item-wfrp4e.js",
+                "./scripts/hooks/canvasReady.js",
+                "./scripts/hooks/canvasInit.js",
+                "./scripts/hooks/chatMessage.js",
+                "./scripts/hooks/createOwnedItem.js",
+                "./scripts/hooks/preCreateActor.js",
+                "./scripts/hooks/preCreateOwnedItem.js",
+                "./scripts/hooks/renderTokenHUD.js",
+                "./scripts/hooks/deleteCombat.js",
+                "./scripts/hooks/getActorDirectoryEntryContext.js",
+                "./scripts/hooks/getCombatTrackerEntryContext.js",
+                "./scripts/hooks/getChatLogEntryContext.js",
+                "./scripts/hooks/getSceneControlButtons.js",
+                "./scripts/hooks/init.js",
+                "./scripts/hooks/ready.js",
+                "./scripts/hooks/renderChatLog.js",
+                "./scripts/hooks/renderChatMessage.js",
+                "./scripts/hooks/renderSidebarTab.js",
+                "./scripts/hooks/renderJournalSheet.js",
+                "./scripts/hooks/updateCombat.js",
+                "./scripts/hooks/createChatMessage.js",
+                "./scripts/hooks/hotbarDrop.js",
+                "./libs/pixi-filters.js",
+                "./pixi/aoe.js"
+            ],
+            "styles": [
+                "./css/wfrp4e.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
+            "gridDistance": 2,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "status.wounds",
+            "secondaryTokenAttribute": "status.advantage",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/system.json",
+            "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
+            "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
+            "foundryUrl": "/packages/wfrp4e/",
+            "lastUpdate": "3 weeks, 4 days ago"
+        },
+        {
+            "name": "icrpg",
+            "title": "Index Card RPG",
+            "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
+            "version": "1.0.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "TomCosaert",
+            "esmodules": [
+                "module/icrpg.js"
+            ],
+            "styles": [
+                "css/icrpg.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Español",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "nl",
+                    "name": "Nederlands",
+                    "path": "lang/nl.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/TomCosaert/FoundryVTT-ICRPG/",
+            "manifest": "https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json",
+            "download": "https://github.com/TomCosaert/FoundryVTT-ICRPG/archive/master.zip",
+            "license": "LICENSE",
+            "foundryUrl": "/packages/icrpg/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "dcc",
             "title": "Dungeon Crawl Classics",
             "description": "Dungeon Crawl Classics from Goodman Games",
@@ -2590,37 +2671,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2659,56 +2709,6 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.8.zip",
             "foundryUrl": "/packages/shadowrun5e/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "icrpg",
-            "title": "Index Card RPG",
-            "description": "Index Card RPG (ICRPG) system for Foundry VTT.",
-            "version": "1.0.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "TomCosaert",
-            "esmodules": [
-                "module/icrpg.js"
-            ],
-            "styles": [
-                "css/icrpg.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Español",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "nl",
-                    "name": "Nederlands",
-                    "path": "lang/nl.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/TomCosaert/FoundryVTT-ICRPG/",
-            "manifest": "https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json",
-            "download": "https://github.com/TomCosaert/FoundryVTT-ICRPG/archive/master.zip",
-            "license": "LICENSE",
-            "foundryUrl": "/packages/icrpg/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
@@ -3114,6 +3114,32 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -3148,76 +3174,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/intotheodd/",
             "lastUpdate": "1 month, 4 weeks ago"
-        },
-        {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "blue-rose",
-            "title": "Blue Rose",
-            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
-            "version": "0.2.0",
-            "author": "studio315b",
-            "scripts": [],
-            "esmodules": [
-                "blue-rose.js"
-            ],
-            "styles": [
-                "blue-rose.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "blue-rose",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "blue-rose",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.5.0",
-            "url": "https://gitlab.com/studio315b/blue-rose",
-            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
-            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
-            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
-            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
-            "changelog": "",
-            "foundryUrl": "/packages/blue-rose/",
-            "lastUpdate": "2 months, 1 week ago"
         },
         {
             "name": "ryuutama",
@@ -3301,6 +3257,50 @@
             "download": "https://github.com/reaver01/ryuutama/archive/master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
+            "lastUpdate": "2 months, 1 week ago"
+        },
+        {
+            "name": "blue-rose",
+            "title": "Blue Rose",
+            "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
+            "version": "0.2.0",
+            "author": "studio315b",
+            "scripts": [],
+            "esmodules": [
+                "blue-rose.js"
+            ],
+            "styles": [
+                "blue-rose.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "blue-rose",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "blue-rose",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.5.0",
+            "url": "https://gitlab.com/studio315b/blue-rose",
+            "manifest": "https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/studio315b/blue-rose/-/raw/v0.2.0/package/blue-rose-v0.2.0.zip",
+            "license": "https://gitlab.com/studio315b/blue-rose/-/blob/master/license.adoc",
+            "readme": "https://gitlab.com/studio315b/blue-rose/-/blob/master/readme.adoc",
+            "bugs": "https://gitlab.com/studio315b/blue-rose/-/issues",
+            "changelog": "",
+            "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
         },
         {
