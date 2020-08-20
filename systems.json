@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 20 Aug 2020 07:40:23 GMT",
+    "updated": "Thu, 20 Aug 2020 07:55:29 GMT",
     "modules": [
         {
             "name": "yzecoriolis",
@@ -39,7 +39,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "3 hours, 28 minutes ago"
+            "lastUpdate": "3 hours, 43 minutes ago"
         },
         {
             "name": "pf1",
@@ -238,7 +238,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.6/foundryvtt-pathfinder1-v0.73.6.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "9 hours, 17 minutes ago"
+            "lastUpdate": "9 hours, 32 minutes ago"
         },
         {
             "name": "ModularFate",
@@ -276,7 +276,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "10 hours, 31 minutes ago"
+            "lastUpdate": "10 hours, 46 minutes ago"
         },
         {
             "name": "swade",
@@ -352,7 +352,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "10 hours, 56 minutes ago"
+            "lastUpdate": "11 hours, 11 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -419,7 +419,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "14 hours, 40 minutes ago"
+            "lastUpdate": "14 hours, 55 minutes ago"
         },
         {
             "name": "demonlord",
@@ -493,7 +493,50 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "17 hours, 34 minutes ago"
+            "lastUpdate": "17 hours, 49 minutes ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.5",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js",
+                "./module/utility-gurps4e.js",
+                "./module/migrations.js",
+                "./module/hooks/preCreateActor.js",
+                "./module/hooks/init.js",
+                "./module/hooks/ready.js",
+                "./module/hooks/renderChatMessage.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "packs": [],
+            "scripts": [
+                "./scripts/config-gurps4e.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "18 hours, 23 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -567,50 +610,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "20 hours, 42 minutes ago"
-        },
-        {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.5",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js",
-                "./module/utility-gurps4e.js",
-                "./module/migrations.js",
-                "./module/hooks/preCreateActor.js",
-                "./module/hooks/init.js",
-                "./module/hooks/ready.js",
-                "./module/hooks/renderChatMessage.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "packs": [],
-            "scripts": [
-                "./scripts/config-gurps4e.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "18 hours, 8 minutes ago"
+            "lastUpdate": "20 hours, 57 minutes ago"
         },
         {
             "name": "tormenta20",
@@ -689,7 +689,7 @@
             "bugs": "",
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "1 day, 10 hours ago"
+            "lastUpdate": "1 day, 11 hours ago"
         },
         {
             "name": "l5r",
@@ -737,33 +737,6 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "1 day, 23 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.6",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
             "lastUpdate": "1 day, 23 hours ago"
         },
         {
@@ -844,31 +817,31 @@
             "lastUpdate": "2 days, 18 hours ago"
         },
         {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 1,
+            "author": "Seregras",
             "esmodules": [
-                "module/burningwheel.js"
+                "module/sandbox.js"
             ],
-            "scripts": [],
             "styles": [
-                "styles/burningwheel.css"
+                "styles/sandbox.css"
             ],
             "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
+            "languages": [],
+            "gridDistance": 5,
             "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "5 days, 9 hours ago"
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
+            "lastUpdate": "1 day, 23 hours ago"
         },
         {
             "name": "dnd5e",
@@ -967,6 +940,33 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "5 days, 6 hours ago"
+        },
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "5 days, 9 hours ago"
         },
         {
             "name": "vaesen",
@@ -1213,7 +1213,7 @@
             "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
             "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
             "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "6 days, 23 hours ago"
+            "lastUpdate": "1 week ago"
         },
         {
             "name": "numenera",
@@ -3114,6 +3114,42 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "intotheodd",
+            "title": "Into the Odd",
+            "description": "The Into the Odd system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "voidcase",
+            "esmodules": [
+                "module/intotheodd.js"
+            ],
+            "styles": [
+                "css/intotheodd.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "into-the-odd-macros",
+                    "label": "Macros for playing Into the Odd",
+                    "system": "intotheodd",
+                    "path": "./packs/into-the-odd-macros.db",
+                    "entity": "Macro"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
+            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
+            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/intotheodd/",
+            "lastUpdate": "1 month, 4 weeks ago"
+        },
+        {
             "name": "coc",
             "title": "Chroniques Oubliées Comptemporain",
             "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
@@ -3266,42 +3302,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ryuutama/",
             "lastUpdate": "2 months, 1 week ago"
-        },
-        {
-            "name": "intotheodd",
-            "title": "Into the Odd",
-            "description": "The Into the Odd system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "voidcase",
-            "esmodules": [
-                "module/intotheodd.js"
-            ],
-            "styles": [
-                "css/intotheodd.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "into-the-odd-macros",
-                    "label": "Macros for playing Into the Odd",
-                    "system": "intotheodd",
-                    "path": "./packs/into-the-odd-macros.db",
-                    "entity": "Macro"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "url": "https://github.com/voidcase/IntoTheOdd-FoundryVTT",
-            "manifest": "https://raw.githubusercontent.com/voidcase/IntoTheOdd-FoundryVTT/master/system.json",
-            "download": "https://github.com/voidcase/IntoTheOdd-FoundryVTT/archive/v1.0.3.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/intotheodd/",
-            "lastUpdate": "1 month, 4 weeks ago"
         },
         {
             "name": "worldbuilding",
