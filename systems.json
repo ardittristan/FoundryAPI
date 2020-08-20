@@ -1,5 +1,5 @@
 {
-    "updated": "Thu, 20 Aug 2020 12:10:23 GMT",
+    "updated": "Thu, 20 Aug 2020 12:25:26 GMT",
     "modules": [
         {
             "name": "yzecoriolis",
@@ -39,7 +39,45 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "7 hours, 58 minutes ago"
+            "lastUpdate": "8 hours, 13 minutes ago"
+        },
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.6.0",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css",
+                "mfate-sheet.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.1",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "15 hours, 16 minutes ago"
         },
         {
             "name": "pf1",
@@ -238,45 +276,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.6/foundryvtt-pathfinder1-v0.73.6.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "13 hours, 47 minutes ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.6.0",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css",
-                "mfate-sheet.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.1",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "15 hours, 1 minute ago"
+            "lastUpdate": "14 hours, 2 minutes ago"
         },
         {
             "name": "swade",
@@ -352,74 +352,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "15 hours, 26 minutes ago"
-        },
-        {
-            "name": "alienrpg",
-            "title": "Alien RPG",
-            "description": "The Alien RPG system for Foundry VTT!",
-            "version": "1.1.1",
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "author": "Paul Watson",
-            "esmodules": [
-                "module/alienrpg.js"
-            ],
-            "styles": [
-                "css/alienrpg.css"
-            ],
-            "scripts": [],
-            "packs": [
-                {
-                    "name": "tables_gm",
-                    "label": "Tables (GM)",
-                    "path": "packs/AlienRPG-tables_gm.db",
-                    "entity": "RollTable",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "mother_instructions",
-                    "label": "Mother Instructions",
-                    "path": "packs/AlienRPG-mother-instructions.db",
-                    "entity": "JournalEntry",
-                    "module": "AlienRPG"
-                },
-                {
-                    "name": "alien",
-                    "label": "Alien",
-                    "path": "packs/AlienRPG-alien.db",
-                    "entity": "Macro",
-                    "module": "AlienRPG"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "swe",
-                    "name": "Svenska",
-                    "path": "lang/swe.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "stress",
-            "url": "https://github.com/pwatson100/alienrpg",
-            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
-            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "19 hours, 10 minutes ago"
+            "lastUpdate": "15 hours, 41 minutes ago"
         },
         {
             "name": "demonlord",
@@ -493,7 +426,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "22 hours, 4 minutes ago"
+            "lastUpdate": "22 hours, 19 minutes ago"
         },
         {
             "name": "gurps4e",
@@ -536,7 +469,74 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "22 hours, 38 minutes ago"
+            "lastUpdate": "22 hours, 53 minutes ago"
+        },
+        {
+            "name": "alienrpg",
+            "title": "Alien RPG",
+            "description": "The Alien RPG system for Foundry VTT!",
+            "version": "1.1.1",
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Paul Watson",
+            "esmodules": [
+                "module/alienrpg.js"
+            ],
+            "styles": [
+                "css/alienrpg.css"
+            ],
+            "scripts": [],
+            "packs": [
+                {
+                    "name": "tables_gm",
+                    "label": "Tables (GM)",
+                    "path": "packs/AlienRPG-tables_gm.db",
+                    "entity": "RollTable",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "mother_instructions",
+                    "label": "Mother Instructions",
+                    "path": "packs/AlienRPG-mother-instructions.db",
+                    "entity": "JournalEntry",
+                    "module": "AlienRPG"
+                },
+                {
+                    "name": "alien",
+                    "label": "Alien",
+                    "path": "packs/AlienRPG-alien.db",
+                    "entity": "Macro",
+                    "module": "AlienRPG"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "swe",
+                    "name": "Svenska",
+                    "path": "lang/swe.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "stress",
+            "url": "https://github.com/pwatson100/alienrpg",
+            "manifest": "https://raw.githubusercontent.com/pwatson100/alienrpg/master/system.json",
+            "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/alienrpg/",
+            "lastUpdate": "19 hours, 25 minutes ago"
         },
         {
             "name": "callofcthulhu",
@@ -645,7 +645,51 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "1 day, 11 hours ago"
+            "lastUpdate": "1 day, 12 hours ago"
+        },
+        {
+            "name": "dragon-age",
+            "title": "Dragon AGE",
+            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
+            "version": "0.2.2.4",
+            "author": "Markus Raab",
+            "scripts": [],
+            "esmodules": [
+                "dragon-age.js"
+            ],
+            "styles": [
+                "dragon-age.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "dragon-age",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "dragon-age",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/markusraab78/dragon-age",
+            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
+            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
+            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
+            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
+            "bugs": "",
+            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
+            "foundryUrl": "/packages/dragon-age/",
+            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "l5r",
@@ -694,50 +738,6 @@
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
             "lastUpdate": "2 days, 3 hours ago"
-        },
-        {
-            "name": "dragon-age",
-            "title": "Dragon AGE",
-            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
-            "version": "0.2.2.4",
-            "author": "Markus Raab",
-            "scripts": [],
-            "esmodules": [
-                "dragon-age.js"
-            ],
-            "styles": [
-                "dragon-age.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "dragon-age",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "dragon-age",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/markusraab78/dragon-age",
-            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
-            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
-            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
-            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
-            "bugs": "",
-            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
-            "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "1 day, 15 hours ago"
         },
         {
             "name": "sandbox",
@@ -841,34 +841,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.7.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "2 days, 22 hours ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "5 days, 14 hours ago"
+            "lastUpdate": "2 days, 23 hours ago"
         },
         {
             "name": "dnd5e",
@@ -969,6 +942,33 @@
             "lastUpdate": "5 days, 11 hours ago"
         },
         {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.2.2",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "5 days, 14 hours ago"
+        },
+        {
             "name": "vaesen",
             "title": "Vaesen",
             "description": "Nordic horror role-playing",
@@ -1035,6 +1035,36 @@
             "lastUpdate": "5 days, 15 hours ago"
         },
         {
+            "name": "age-of-sigmar-soulbound",
+            "title": "Age of Sigmar : Soulbound",
+            "description": "Perilous adventures in the mortal realms",
+            "version": "1.11.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "author": "Perfectro",
+            "scripts": [],
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "styles": [
+                "styles/aos-soulbound.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": null,
+            "secondaryTokenAttribute": null,
+            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
+            "socket": true,
+            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
+            "lastUpdate": "5 days, 15 hours ago"
+        },
+        {
             "name": "forbidden-lands",
             "title": "Forbidden Lands",
             "description": "There is something beyond the mountains, beyond the howls beyond the mist, there is something behind the veils, behind hearts cold as stone.",
@@ -1096,34 +1126,33 @@
             "lastUpdate": "5 days, 15 hours ago"
         },
         {
-            "name": "age-of-sigmar-soulbound",
-            "title": "Age of Sigmar : Soulbound",
-            "description": "Perilous adventures in the mortal realms",
-            "version": "1.11.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.5",
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
             "templateVersion": 2,
-            "author": "Perfectro",
+            "author": "spacemandev",
             "scripts": [],
             "esmodules": [
-                "scripts/hooks.js"
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
             ],
             "styles": [
-                "styles/aos-soulbound.css"
+                "styles/risk.css",
+                "styles/diceroll.css"
             ],
             "packs": [],
             "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": null,
-            "secondaryTokenAttribute": null,
-            "url": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT",
-            "socket": true,
-            "manifest": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/Perfectro/Age-of-Sigmar-Soulbound-FoundryVTT/archive/v1.11.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/age-of-sigmar-soulbound/",
-            "lastUpdate": "5 days, 15 hours ago"
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 week ago"
         },
         {
             "name": "kamigakari",
@@ -1187,35 +1216,6 @@
             "lastUpdate": "1 week, 1 day ago"
         },
         {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "1 week ago"
-        },
-        {
             "name": "numenera",
             "title": "Numenera",
             "description": "Simple support for Numenera and The Strange for the Fountry Virtual TableTop.",
@@ -1257,6 +1257,38 @@
             "download": "https://github.com/SolarBear/Numenera-FoundryVTT/releases/download/0.16.1/numenera-foundryvtt-0.16.1.zip",
             "foundryUrl": "/packages/numenera/",
             "lastUpdate": "1 week, 5 days ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "ose",
@@ -1308,38 +1340,6 @@
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.0.zip",
             "foundryUrl": "/packages/ose/",
             "lastUpdate": "2 weeks ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 2 days ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -2106,82 +2106,6 @@
             "lastUpdate": "3 weeks, 1 day ago"
         },
         {
-            "name": "wfrp4e",
-            "title": "Warhammer Fantasy Roleplay 4th Edition",
-            "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
-            "version": "2.1.0",
-            "author": "CatoThe1stElder, Moo Man",
-            "scripts": [
-                "./scripts/config-wfrp4e.js",
-                "./scripts/dice-wfrp4e.js",
-                "./scripts/tables-wfrp4e.js",
-                "./scripts/utility-wfrp4e.js",
-                "./scripts/market-wfrp4e.js",
-                "./scripts/opposed-wfrp4e.js",
-                "./scripts/char-gen.js",
-                "./scripts/name-gen.js",
-                "./scripts/migrations.js",
-                "./scripts/wfrp-browser.js",
-                "./scripts/audio-wfrp4e.js",
-                "./scripts/bug-report.js",
-                "./scripts/actor/actor-wfrp4e.js",
-                "./scripts/actor/sheet/actor-sheet.js",
-                "./scripts/actor/sheet/character-sheet.js",
-                "./scripts/actor/sheet/creature-sheet.js",
-                "./scripts/actor/sheet/npc-sheet.js",
-                "./scripts/item/item-sheet.js",
-                "./scripts/item/item-wfrp4e.js",
-                "./scripts/hooks/canvasReady.js",
-                "./scripts/hooks/canvasInit.js",
-                "./scripts/hooks/chatMessage.js",
-                "./scripts/hooks/createOwnedItem.js",
-                "./scripts/hooks/preCreateActor.js",
-                "./scripts/hooks/preCreateOwnedItem.js",
-                "./scripts/hooks/renderTokenHUD.js",
-                "./scripts/hooks/deleteCombat.js",
-                "./scripts/hooks/getActorDirectoryEntryContext.js",
-                "./scripts/hooks/getCombatTrackerEntryContext.js",
-                "./scripts/hooks/getChatLogEntryContext.js",
-                "./scripts/hooks/getSceneControlButtons.js",
-                "./scripts/hooks/init.js",
-                "./scripts/hooks/ready.js",
-                "./scripts/hooks/renderChatLog.js",
-                "./scripts/hooks/renderChatMessage.js",
-                "./scripts/hooks/renderSidebarTab.js",
-                "./scripts/hooks/renderJournalSheet.js",
-                "./scripts/hooks/updateCombat.js",
-                "./scripts/hooks/createChatMessage.js",
-                "./scripts/hooks/hotbarDrop.js",
-                "./libs/pixi-filters.js",
-                "./pixi/aoe.js"
-            ],
-            "styles": [
-                "./css/wfrp4e.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
-            "gridDistance": 2,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "status.wounds",
-            "secondaryTokenAttribute": "status.advantage",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 2,
-            "socket": true,
-            "manifest": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/system.json",
-            "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
-            "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
-            "foundryUrl": "/packages/wfrp4e/",
-            "lastUpdate": "3 weeks, 4 days ago"
-        },
-        {
             "name": "knave",
             "title": "KNAVE",
             "description": "KNAVE is a rules toolkit created by Ben Milton for running old school fantasy RPGs without classes.",
@@ -2299,6 +2223,82 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/knave/",
             "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
+            "name": "wfrp4e",
+            "title": "Warhammer Fantasy Roleplay 4th Edition",
+            "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
+            "version": "2.1.0",
+            "author": "CatoThe1stElder, Moo Man",
+            "scripts": [
+                "./scripts/config-wfrp4e.js",
+                "./scripts/dice-wfrp4e.js",
+                "./scripts/tables-wfrp4e.js",
+                "./scripts/utility-wfrp4e.js",
+                "./scripts/market-wfrp4e.js",
+                "./scripts/opposed-wfrp4e.js",
+                "./scripts/char-gen.js",
+                "./scripts/name-gen.js",
+                "./scripts/migrations.js",
+                "./scripts/wfrp-browser.js",
+                "./scripts/audio-wfrp4e.js",
+                "./scripts/bug-report.js",
+                "./scripts/actor/actor-wfrp4e.js",
+                "./scripts/actor/sheet/actor-sheet.js",
+                "./scripts/actor/sheet/character-sheet.js",
+                "./scripts/actor/sheet/creature-sheet.js",
+                "./scripts/actor/sheet/npc-sheet.js",
+                "./scripts/item/item-sheet.js",
+                "./scripts/item/item-wfrp4e.js",
+                "./scripts/hooks/canvasReady.js",
+                "./scripts/hooks/canvasInit.js",
+                "./scripts/hooks/chatMessage.js",
+                "./scripts/hooks/createOwnedItem.js",
+                "./scripts/hooks/preCreateActor.js",
+                "./scripts/hooks/preCreateOwnedItem.js",
+                "./scripts/hooks/renderTokenHUD.js",
+                "./scripts/hooks/deleteCombat.js",
+                "./scripts/hooks/getActorDirectoryEntryContext.js",
+                "./scripts/hooks/getCombatTrackerEntryContext.js",
+                "./scripts/hooks/getChatLogEntryContext.js",
+                "./scripts/hooks/getSceneControlButtons.js",
+                "./scripts/hooks/init.js",
+                "./scripts/hooks/ready.js",
+                "./scripts/hooks/renderChatLog.js",
+                "./scripts/hooks/renderChatMessage.js",
+                "./scripts/hooks/renderSidebarTab.js",
+                "./scripts/hooks/renderJournalSheet.js",
+                "./scripts/hooks/updateCombat.js",
+                "./scripts/hooks/createChatMessage.js",
+                "./scripts/hooks/hotbarDrop.js",
+                "./libs/pixi-filters.js",
+                "./pixi/aoe.js"
+            ],
+            "styles": [
+                "./css/wfrp4e.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
+            "gridDistance": 2,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "status.wounds",
+            "secondaryTokenAttribute": "status.advantage",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 2,
+            "socket": true,
+            "manifest": "https://raw.githubusercontent.com/moo-man/WFRP4e-FoundryVTT/master/system.json",
+            "download": "https://github.com/moo-man/WFRP4e-FoundryVTT/archive/2.1.0.zip",
+            "url": "https://github.com/moo-man/WFRP4e-FoundryVTT",
+            "foundryUrl": "/packages/wfrp4e/",
+            "lastUpdate": "3 weeks, 4 days ago"
         },
         {
             "name": "dungeonworld",
@@ -3078,6 +3078,42 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "save-the-universe",
+            "title": "Save the Universe",
+            "description": "Save the Universe RPG.",
+            "version": "0.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "author": "Don Bisdorf",
+            "scripts": [],
+            "esmodules": [
+                "modules/stu.js"
+            ],
+            "styles": [
+                "styles/stu.css"
+            ],
+            "packs": [
+                {
+                    "name": "role",
+                    "label": "Roles",
+                    "system": "save-the-universe",
+                    "path": "./packs/roles.db",
+                    "entity": "Item"
+                },
+                {
+                    "name": "galactic-information",
+                    "label": "Galactic Information",
+                    "system": "save-the-universe",
+                    "path": "./packs/galactic-information.db",
+                    "entity": "JournalEntry"
+                }
+            ],
+            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
+            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/save-the-universe/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
             "name": "intotheodd",
             "title": "Into the Odd",
             "description": "The Into the Odd system for FoundryVTT!",
@@ -3138,42 +3174,6 @@
             "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
             "foundryUrl": "/packages/coc/",
             "lastUpdate": "2 months ago"
-        },
-        {
-            "name": "save-the-universe",
-            "title": "Save the Universe",
-            "description": "Save the Universe RPG.",
-            "version": "0.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "author": "Don Bisdorf",
-            "scripts": [],
-            "esmodules": [
-                "modules/stu.js"
-            ],
-            "styles": [
-                "styles/stu.css"
-            ],
-            "packs": [
-                {
-                    "name": "role",
-                    "label": "Roles",
-                    "system": "save-the-universe",
-                    "path": "./packs/roles.db",
-                    "entity": "Item"
-                },
-                {
-                    "name": "galactic-information",
-                    "label": "Galactic Information",
-                    "system": "save-the-universe",
-                    "path": "./packs/galactic-information.db",
-                    "entity": "JournalEntry"
-                }
-            ],
-            "manifest": "https://raw.githubusercontent.com/dbisdorf/stu-foundry/master/system.json",
-            "download": "https://github.com/dbisdorf/stu-foundry/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/save-the-universe/",
-            "lastUpdate": "1 month, 3 weeks ago"
         },
         {
             "name": "blue-rose",
