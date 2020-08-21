@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 21 Aug 2020 16:40:30 GMT",
+    "updated": "Fri, 21 Aug 2020 16:55:35 GMT",
     "modules": [
         {
             "name": "ose",
@@ -50,7 +50,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.2.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "52 minutes ago"
+            "lastUpdate": "1 hour, 7 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -117,7 +117,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "2 hours ago"
+            "lastUpdate": "2 hours, 15 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -222,7 +222,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "6 hours, 51 minutes ago"
+            "lastUpdate": "7 hours, 6 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -321,7 +321,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "10 hours, 21 minutes ago"
+            "lastUpdate": "10 hours, 36 minutes ago"
         },
         {
             "name": "CoC7",
@@ -399,7 +399,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.8.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "15 hours, 50 minutes ago"
+            "lastUpdate": "16 hours, 5 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -752,7 +752,7 @@
             "manifest": "https://gitlab.com/florad-foundry/swade/-/raw/master/src/system.json",
             "download": "https://gitlab.com/florad-foundry/swade/-/raw/v0.11.3/package/swade-v0.11.3.zip",
             "foundryUrl": "/packages/swade/",
-            "lastUpdate": "1 day, 19 hours ago"
+            "lastUpdate": "1 day, 20 hours ago"
         },
         {
             "name": "demonlord",
@@ -829,49 +829,6 @@
             "lastUpdate": "2 days, 2 hours ago"
         },
         {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.5",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js",
-                "./module/utility-gurps4e.js",
-                "./module/migrations.js",
-                "./module/hooks/preCreateActor.js",
-                "./module/hooks/init.js",
-                "./module/hooks/ready.js",
-                "./module/hooks/renderChatMessage.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "packs": [],
-            "scripts": [
-                "./scripts/config-gurps4e.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "2 days, 3 hours ago"
-        },
-        {
             "name": "callofcthulhu",
             "title": "CallofCthulhu(7thEd.)",
             "description": "For Asia.The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
@@ -946,22 +903,30 @@
             "lastUpdate": "2 days, 5 hours ago"
         },
         {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.71",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.5",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
             "esmodules": [
-                "module/tormenta20.js"
+                "./gurps4e.js",
+                "./module/utility-gurps4e.js",
+                "./module/migrations.js",
+                "./module/hooks/preCreateActor.js",
+                "./module/hooks/init.js",
+                "./module/hooks/ready.js",
+                "./module/hooks/renderChatMessage.js"
             ],
             "styles": [
-                "css/tormenta20.css"
+                "./gurps4e.css"
             ],
-            "scripts": [],
             "packs": [],
+            "scripts": [
+                "./scripts/config-gurps4e.js"
+            ],
             "languages": [
                 {
                     "lang": "en",
@@ -969,16 +934,16 @@
                     "path": "lang/en.json"
                 }
             ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "2 days, 16 hours ago"
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "2 days, 3 hours ago"
         },
         {
             "name": "dragon-age",
@@ -1022,7 +987,42 @@
             "bugs": "",
             "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
             "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "2 days, 19 hours ago"
+            "lastUpdate": "2 days, 20 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.71",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "2 days, 16 hours ago"
         },
         {
             "name": "l5r",
@@ -1070,6 +1070,33 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
+            "lastUpdate": "3 days, 8 hours ago"
+        },
+        {
+            "name": "sandbox",
+            "title": "Sandbox System Builder",
+            "description": "Custom system builder to build character sheets and rulesets for any game.",
+            "version": "0.2.6",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.1",
+            "templateVersion": 1,
+            "author": "Seregras",
+            "esmodules": [
+                "module/sandbox.js"
+            ],
+            "styles": [
+                "styles/sandbox.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
+            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
+            "foundryUrl": "/packages/sandbox/",
             "lastUpdate": "3 days, 8 hours ago"
         },
         {
@@ -1169,33 +1196,6 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "6 days, 15 hours ago"
-        },
-        {
-            "name": "sandbox",
-            "title": "Sandbox System Builder",
-            "description": "Custom system builder to build character sheets and rulesets for any game.",
-            "version": "0.2.6",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.1",
-            "templateVersion": 1,
-            "author": "Seregras",
-            "esmodules": [
-                "module/sandbox.js"
-            ],
-            "styles": [
-                "styles/sandbox.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
-            "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
-            "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
-            "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "3 days, 8 hours ago"
         },
         {
             "name": "burningwheel",
@@ -1382,6 +1382,35 @@
             "lastUpdate": "6 days, 19 hours ago"
         },
         {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 week, 1 day ago"
+        },
+        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -1441,35 +1470,6 @@
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/kamigakari/",
             "lastUpdate": "1 week, 3 days ago"
-        },
-        {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "1 week, 1 day ago"
         },
         {
             "name": "numenera",
@@ -1554,38 +1554,6 @@
             "lastUpdate": "2 weeks, 2 days ago"
         },
         {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "1 week, 4 days ago"
-        },
-        {
             "name": "FVTT-Dishonored",
             "title": "Dishonored Roleplaying Game Unofficial",
             "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
@@ -1620,31 +1588,36 @@
             "lastUpdate": "2 weeks, 2 days ago"
         },
         {
-            "name": "electricbastionland",
-            "title": "Electric Bastionland",
-            "description": "The Electric Bastionland system for FoundryVTT!",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 2,
-            "author": "mvdleden",
-            "esmodules": [
-                "module/electricbastionland.js"
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
             ],
-            "styles": [
-                "css/electricbastionland.css"
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
             ],
-            "scripts": [],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "hp",
-            "license": "LICENSE.txt",
-            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
-            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
-            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
-            "foundryUrl": "/packages/electricbastionland/",
-            "lastUpdate": "2 weeks, 3 days ago"
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "1 week, 4 days ago"
         },
         {
             "name": "archmage",
@@ -1779,6 +1752,33 @@
             "gridUnits": "",
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
+            "lastUpdate": "2 weeks, 3 days ago"
+        },
+        {
+            "name": "electricbastionland",
+            "title": "Electric Bastionland",
+            "description": "The Electric Bastionland system for FoundryVTT!",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 2,
+            "author": "mvdleden",
+            "esmodules": [
+                "module/electricbastionland.js"
+            ],
+            "styles": [
+                "css/electricbastionland.css"
+            ],
+            "scripts": [],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "hp",
+            "license": "LICENSE.txt",
+            "manifest": "https://raw.githubusercontent.com/mvdleden/electric-bastionland-FoundryVTT/master/system.json",
+            "download": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/archive/1.0.2.zip",
+            "url": "https://github.com/mvdleden/electric-bastionland-FoundryVTT/",
+            "foundryUrl": "/packages/electricbastionland/",
             "lastUpdate": "2 weeks, 3 days ago"
         },
         {
