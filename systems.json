@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 21 Aug 2020 21:25:29 GMT",
+    "updated": "Fri, 21 Aug 2020 21:40:29 GMT",
     "modules": [
         {
             "name": "ose",
@@ -50,7 +50,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.2.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "5 hours, 37 minutes ago"
+            "lastUpdate": "5 hours, 52 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -117,7 +117,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "6 hours, 45 minutes ago"
+            "lastUpdate": "7 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -222,7 +222,85 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "11 hours, 36 minutes ago"
+            "lastUpdate": "11 hours, 51 minutes ago"
+        },
+        {
+            "name": "CoC7",
+            "title": "The Call of Cthulhu 7th edition",
+            "description": "The Call of Cthulhu 7th edition simple game system",
+            "version": "0.2.8",
+            "author": "HavelockV",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.6.5",
+            "esmodules": [
+                "module/coc7.js",
+                "pdfoundry-dist/bundle.js",
+                "module/dicebot.js"
+            ],
+            "templateVersion": 1,
+            "styles": [
+                "styles/coc7.css"
+            ],
+            "packs": [
+                {
+                    "label": "Skills",
+                    "entity": "Item",
+                    "name": "skills",
+                    "path": "./packs/skills.db",
+                    "system": "CoC7"
+                },
+                {
+                    "label": "Weapons",
+                    "entity": "Item",
+                    "name": "weapons",
+                    "path": "./packs/weapons.db",
+                    "system": "CoC7"
+                },
+                {
+                    "label": "Examples",
+                    "entity": "Actor",
+                    "name": "examples",
+                    "path": "./packs/examples.db",
+                    "system": "CoC7"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/HavlockV/CoC7-FoundryVTT/",
+            "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.8.zip",
+            "foundryUrl": "/packages/CoC7/",
+            "lastUpdate": "20 hours, 49 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -321,85 +399,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "15 hours, 6 minutes ago"
-        },
-        {
-            "name": "CoC7",
-            "title": "The Call of Cthulhu 7th edition",
-            "description": "The Call of Cthulhu 7th edition simple game system",
-            "version": "0.2.8",
-            "author": "HavelockV",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.6.5",
-            "esmodules": [
-                "module/coc7.js",
-                "pdfoundry-dist/bundle.js",
-                "module/dicebot.js"
-            ],
-            "templateVersion": 1,
-            "styles": [
-                "styles/coc7.css"
-            ],
-            "packs": [
-                {
-                    "label": "Skills",
-                    "entity": "Item",
-                    "name": "skills",
-                    "path": "./packs/skills.db",
-                    "system": "CoC7"
-                },
-                {
-                    "label": "Weapons",
-                    "entity": "Item",
-                    "name": "weapons",
-                    "path": "./packs/weapons.db",
-                    "system": "CoC7"
-                },
-                {
-                    "label": "Examples",
-                    "entity": "Actor",
-                    "name": "examples",
-                    "path": "./packs/examples.db",
-                    "system": "CoC7"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/HavlockV/CoC7-FoundryVTT/",
-            "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.8.zip",
-            "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "20 hours, 34 minutes ago"
+            "lastUpdate": "15 hours, 21 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -869,42 +869,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "2 days, 7 hours ago"
-        },
-        {
-            "name": "tormenta20",
-            "title": "Tormenta20",
-            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
-            "version": "0.9.71",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "Vizael",
-            "esmodules": [
-                "module/tormenta20.js"
-            ],
-            "styles": [
-                "css/tormenta20.css"
-            ],
-            "scripts": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "attributes.pv",
-            "secondaryTokenAttribute": "attributes.pm",
-            "url": "https://gitlab.com/vizael/Tormenta20",
-            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
-            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "2 days, 21 hours ago"
+            "lastUpdate": "2 days, 8 hours ago"
         },
         {
             "name": "callofcthulhu",
@@ -979,6 +944,41 @@
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
             "lastUpdate": "2 days, 10 hours ago"
+        },
+        {
+            "name": "tormenta20",
+            "title": "Tormenta20",
+            "description": "Sistema NÃO OFICIAL de Tormenta20 para FoundryVTT!",
+            "version": "0.9.71",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "Vizael",
+            "esmodules": [
+                "module/tormenta20.js"
+            ],
+            "styles": [
+                "css/tormenta20.css"
+            ],
+            "scripts": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "attributes.pv",
+            "secondaryTokenAttribute": "attributes.pm",
+            "url": "https://gitlab.com/vizael/Tormenta20",
+            "manifest": "https://gitlab.com/vizael/Tormenta20/-/raw/master/system.json",
+            "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/tormenta20/",
+            "lastUpdate": "2 days, 21 hours ago"
         },
         {
             "name": "dragon-age",
@@ -1070,7 +1070,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "3 days, 12 hours ago"
+            "lastUpdate": "3 days, 13 hours ago"
         },
         {
             "name": "sandbox",
@@ -3151,6 +3151,32 @@
             "lastUpdate": "2 months ago"
         },
         {
+            "name": "coc",
+            "title": "Chroniques Oubliées Comptemporain",
+            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
+            "version": "0.0.2",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.3",
+            "templateVersion": 1,
+            "author": "Rwanoux",
+            "esmodules": [
+                "modules/coc.js"
+            ],
+            "styles": [
+                "styles/coc.css"
+            ],
+            "packs": [],
+            "initiative": "1d20",
+            "gridDistance": 1.5,
+            "gridUnits": "m",
+            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
+            "url": "https://gitlab.com/lemaire.erw/coc/",
+            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
+            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
+            "foundryUrl": "/packages/coc/",
+            "lastUpdate": "2 months ago"
+        },
+        {
             "name": "blue-rose",
             "title": "Blue Rose",
             "description": "A basic system for Blue Rose, possibly extensible to Fantasy AGE in general",
@@ -3193,32 +3219,6 @@
             "changelog": "",
             "foundryUrl": "/packages/blue-rose/",
             "lastUpdate": "2 months, 1 week ago"
-        },
-        {
-            "name": "coc",
-            "title": "Chroniques Oubliées Comptemporain",
-            "description": "systeme de jeu pour Chroniques Oubliées Comptemporain",
-            "version": "0.0.2",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.3",
-            "templateVersion": 1,
-            "author": "Rwanoux",
-            "esmodules": [
-                "modules/coc.js"
-            ],
-            "styles": [
-                "styles/coc.css"
-            ],
-            "packs": [],
-            "initiative": "1d20",
-            "gridDistance": 1.5,
-            "gridUnits": "m",
-            "primaryTokenAttribute": "vitalité.pointDeVie.valeur",
-            "url": "https://gitlab.com/lemaire.erw/coc/",
-            "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
-            "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
-            "foundryUrl": "/packages/coc/",
-            "lastUpdate": "2 months ago"
         },
         {
             "name": "ryuutama",
