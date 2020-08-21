@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 21 Aug 2020 17:25:34 GMT",
+    "updated": "Fri, 21 Aug 2020 17:40:29 GMT",
     "modules": [
         {
             "name": "ose",
@@ -50,7 +50,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.2.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "1 hour, 37 minutes ago"
+            "lastUpdate": "1 hour, 52 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -117,7 +117,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "2 hours, 45 minutes ago"
+            "lastUpdate": "3 hours ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -222,7 +222,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "7 hours, 36 minutes ago"
+            "lastUpdate": "7 hours, 51 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -321,7 +321,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "11 hours, 6 minutes ago"
+            "lastUpdate": "11 hours, 21 minutes ago"
         },
         {
             "name": "CoC7",
@@ -399,7 +399,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.8.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "16 hours, 35 minutes ago"
+            "lastUpdate": "16 hours, 49 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -869,7 +869,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "2 days, 3 hours ago"
+            "lastUpdate": "2 days, 4 hours ago"
         },
         {
             "name": "callofcthulhu",
@@ -981,50 +981,6 @@
             "lastUpdate": "2 days, 17 hours ago"
         },
         {
-            "name": "dragon-age",
-            "title": "Dragon AGE",
-            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
-            "version": "0.2.2.4",
-            "author": "Markus Raab",
-            "scripts": [],
-            "esmodules": [
-                "dragon-age.js"
-            ],
-            "styles": [
-                "dragon-age.css"
-            ],
-            "packs": [
-                {
-                    "entity": "Item",
-                    "name": "focuses",
-                    "label": "Focuses",
-                    "system": "dragon-age",
-                    "path": "./packs/focuses.db"
-                },
-                {
-                    "entity": "Item",
-                    "name": "items",
-                    "label": "Items",
-                    "system": "dragon-age",
-                    "path": "./packs/items.db"
-                }
-            ],
-            "languages": [],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/markusraab78/dragon-age",
-            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
-            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
-            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
-            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
-            "bugs": "",
-            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
-            "foundryUrl": "/packages/dragon-age/",
-            "lastUpdate": "2 days, 20 hours ago"
-        },
-        {
             "name": "l5r",
             "title": "Legend of the Five Rings (5E)",
             "description": "System for FFG's Legend of the Five Rings (5E). This is an early alpha version, some features are still missing.",
@@ -1070,7 +1026,51 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "3 days, 8 hours ago"
+            "lastUpdate": "3 days, 9 hours ago"
+        },
+        {
+            "name": "dragon-age",
+            "title": "Dragon AGE",
+            "description": "A basic game system for Dragon AGE RPG, base is the Blue Rose 0.2.2 game system for foundryVTT from studio315b aka Andrew Nichols",
+            "version": "0.2.2.4",
+            "author": "Markus Raab",
+            "scripts": [],
+            "esmodules": [
+                "dragon-age.js"
+            ],
+            "styles": [
+                "dragon-age.css"
+            ],
+            "packs": [
+                {
+                    "entity": "Item",
+                    "name": "focuses",
+                    "label": "Focuses",
+                    "system": "dragon-age",
+                    "path": "./packs/focuses.db"
+                },
+                {
+                    "entity": "Item",
+                    "name": "items",
+                    "label": "Items",
+                    "system": "dragon-age",
+                    "path": "./packs/items.db"
+                }
+            ],
+            "languages": [],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/markusraab78/dragon-age",
+            "manifest": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/system.json",
+            "download": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/dragon-age-master.zip",
+            "license": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/LICENSE",
+            "readme": "https://gitlab.com/markusraab78/dragon-age/-/raw/blob/README.md",
+            "bugs": "",
+            "changelog": "https://gitlab.com/markusraab78/dragon-age/-/raw/master/CHANGELOG",
+            "foundryUrl": "/packages/dragon-age/",
+            "lastUpdate": "2 days, 20 hours ago"
         },
         {
             "name": "sandbox",
