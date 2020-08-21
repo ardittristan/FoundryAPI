@@ -1,5 +1,5 @@
 {
-    "updated": "Fri, 21 Aug 2020 19:10:30 GMT",
+    "updated": "Fri, 21 Aug 2020 19:25:25 GMT",
     "modules": [
         {
             "name": "ose",
@@ -50,7 +50,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/raw/master/src/system.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/package/ose-v1.0.2.zip",
             "foundryUrl": "/packages/ose/",
-            "lastUpdate": "3 hours, 22 minutes ago"
+            "lastUpdate": "3 hours, 37 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -117,7 +117,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "4 hours, 30 minutes ago"
+            "lastUpdate": "4 hours, 45 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -222,7 +222,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "9 hours, 21 minutes ago"
+            "lastUpdate": "9 hours, 36 minutes ago"
         },
         {
             "name": "ratasenlasparedes",
@@ -321,7 +321,7 @@
             "download": "https://gitlab.com/jvir/foundry-ratasenlasparedes/-/archive/master/foundry-ratasenlasparedes-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/ratasenlasparedes/",
-            "lastUpdate": "12 hours, 51 minutes ago"
+            "lastUpdate": "13 hours, 6 minutes ago"
         },
         {
             "name": "CoC7",
@@ -399,7 +399,7 @@
             "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
             "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.2.8.zip",
             "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "18 hours, 19 minutes ago"
+            "lastUpdate": "18 hours, 34 minutes ago"
         },
         {
             "name": "yzecoriolis",
@@ -439,7 +439,45 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "1 day, 14 hours ago"
+            "lastUpdate": "1 day, 15 hours ago"
+        },
+        {
+            "name": "ModularFate",
+            "title": "Modular Fate Core",
+            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
+            "version": "1.6.0",
+            "author": "Richard Bellingham",
+            "esmodules": [
+                "ModularFate.js"
+            ],
+            "scripts": [
+                "./scripts/ModularFateConstants.js",
+                "./scripts/ManageSkills.js",
+                "./scripts/ManageAspects.js",
+                "./scripts/ManageTracks.js",
+                "./scripts/EditPlayerSkills.js",
+                "./scripts/EditPlayerTracks.js",
+                "./scripts/EditPlayerStunts.js",
+                "./scripts/FateUtilities.js",
+                "./scripts/EditPlayerAspects.js",
+                "./scripts/ModifiedRollDialog.js",
+                "./scripts/ShowCharacter.js"
+            ],
+            "styles": [
+                "ModularFate.css",
+                "mfate-sheet.css"
+            ],
+            "packs": [],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.1",
+            "url": "https://github.com/Sk1mble/modularFate",
+            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
+            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
+            "socket": true,
+            "foundryUrl": "/packages/ModularFate/",
+            "lastUpdate": "1 day, 22 hours ago"
         },
         {
             "name": "pf1",
@@ -638,45 +676,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.6/foundryvtt-pathfinder1-v0.73.6.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "1 day, 20 hours ago"
-        },
-        {
-            "name": "ModularFate",
-            "title": "Modular Fate Core",
-            "description": "A new implementation of Fate Core designed in a modular way to support skills, extras, approaches, conditions, standard stress, and 1-point stress.",
-            "version": "1.6.0",
-            "author": "Richard Bellingham",
-            "esmodules": [
-                "ModularFate.js"
-            ],
-            "scripts": [
-                "./scripts/ModularFateConstants.js",
-                "./scripts/ManageSkills.js",
-                "./scripts/ManageAspects.js",
-                "./scripts/ManageTracks.js",
-                "./scripts/EditPlayerSkills.js",
-                "./scripts/EditPlayerTracks.js",
-                "./scripts/EditPlayerStunts.js",
-                "./scripts/FateUtilities.js",
-                "./scripts/EditPlayerAspects.js",
-                "./scripts/ModifiedRollDialog.js",
-                "./scripts/ShowCharacter.js"
-            ],
-            "styles": [
-                "ModularFate.css",
-                "mfate-sheet.css"
-            ],
-            "packs": [],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.1",
-            "url": "https://github.com/Sk1mble/modularFate",
-            "manifest": "https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json",
-            "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
-            "socket": true,
-            "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "1 day, 22 hours ago"
+            "lastUpdate": "1 day, 21 hours ago"
         },
         {
             "name": "swade",
@@ -978,7 +978,7 @@
             "download": "https://gitlab.com/vizael/Tormenta20/-/archive/master/Tormenta20-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/tormenta20/",
-            "lastUpdate": "2 days, 18 hours ago"
+            "lastUpdate": "2 days, 19 hours ago"
         },
         {
             "name": "dragon-age",
