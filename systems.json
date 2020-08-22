@@ -1,6 +1,111 @@
 {
-    "updated": "Sat, 22 Aug 2020 22:55:41 GMT",
+    "updated": "Sat, 22 Aug 2020 23:10:47 GMT",
     "modules": [
+        {
+            "name": "burningwheel",
+            "title": "The Burning Wheel",
+            "description": "Community Foundry implementation of The Burning Wheel",
+            "version": "0.3.0",
+            "templateVersion": 8,
+            "author": "Stas Tserkovny",
+            "esmodules": [
+                "module/burningwheel.js"
+            ],
+            "scripts": [],
+            "styles": [
+                "styles/burningwheel.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "socket": false,
+            "initiative": "1d20",
+            "gridDistance": 10,
+            "gridUnits": "ft",
+            "url": "https://github.com/StasTserk/foundry-burningwheel",
+            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
+            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.3.0/release0.3.0.zip",
+            "foundryUrl": "/packages/burningwheel/",
+            "lastUpdate": "1 minute ago"
+        },
+        {
+            "name": "CoC7",
+            "title": "The Call of Cthulhu 7th edition",
+            "description": "The Call of Cthulhu 7th edition simple game system",
+            "version": "0.3.0",
+            "author": "HavelockV",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.6.5",
+            "esmodules": [
+                "module/coc7.js",
+                "pdfoundry-dist/bundle.js",
+                "module/dicebot.js"
+            ],
+            "templateVersion": 1,
+            "styles": [
+                "styles/coc7.css"
+            ],
+            "packs": [
+                {
+                    "label": "Skills",
+                    "entity": "Item",
+                    "name": "skills",
+                    "path": "./packs/skills.db",
+                    "system": "CoC7"
+                },
+                {
+                    "label": "Weapons",
+                    "entity": "Item",
+                    "name": "weapons",
+                    "path": "./packs/weapons.db",
+                    "system": "CoC7"
+                },
+                {
+                    "label": "Examples",
+                    "entity": "Actor",
+                    "name": "examples",
+                    "path": "./packs/examples.db",
+                    "system": "CoC7"
+                }
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "Français",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "es",
+                    "name": "Spanish",
+                    "path": "lang/es.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": "日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "socket": true,
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "health",
+            "secondaryTokenAttribute": "power",
+            "url": "https://github.com/HavlockV/CoC7-FoundryVTT/",
+            "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
+            "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.3.0.zip",
+            "foundryUrl": "/packages/CoC7/",
+            "lastUpdate": "12 minutes ago"
+        },
         {
             "name": "pf1",
             "title": "Pathfinder 1",
@@ -198,7 +303,7 @@
             "manifest": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/raw/master/system.json",
             "download": "https://gitlab.com/Furyspark/foundryvtt-pathfinder1/-/archive/v0.73.7/foundryvtt-pathfinder1-v0.73.7.zip",
             "foundryUrl": "/packages/pf1/",
-            "lastUpdate": "1 hour, 39 minutes ago"
+            "lastUpdate": "1 hour, 54 minutes ago"
         },
         {
             "name": "dcc",
@@ -249,7 +354,7 @@
             "download": "https://github.com/cyface/foundryvtt-dcc/archive/v0.0.9.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/dcc/",
-            "lastUpdate": "5 hours, 7 minutes ago"
+            "lastUpdate": "5 hours, 22 minutes ago"
         },
         {
             "name": "forbidden-lands",
@@ -310,7 +415,7 @@
             "download": "https://github.com/Perfectro/forbidden-lands-foundry-vtt/archive/v3.10.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/forbidden-lands/",
-            "lastUpdate": "7 hours, 46 minutes ago"
+            "lastUpdate": "8 hours, 1 minute ago"
         },
         {
             "name": "ModularFate",
@@ -348,7 +453,7 @@
             "download": "https://github.com/Sk1mble/modularFate/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/ModularFate/",
-            "lastUpdate": "13 hours, 6 minutes ago"
+            "lastUpdate": "13 hours, 21 minutes ago"
         },
         {
             "name": "sandbox",
@@ -375,7 +480,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "14 hours, 8 minutes ago"
+            "lastUpdate": "14 hours, 23 minutes ago"
         },
         {
             "name": "demonlord",
@@ -449,7 +554,7 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "15 hours, 27 minutes ago"
+            "lastUpdate": "15 hours, 42 minutes ago"
         },
         {
             "name": "ose",
@@ -774,84 +879,6 @@
             "lastUpdate": "1 day, 16 hours ago"
         },
         {
-            "name": "CoC7",
-            "title": "The Call of Cthulhu 7th edition",
-            "description": "The Call of Cthulhu 7th edition simple game system",
-            "version": "0.3.0",
-            "author": "HavelockV",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.6.5",
-            "esmodules": [
-                "module/coc7.js",
-                "pdfoundry-dist/bundle.js",
-                "module/dicebot.js"
-            ],
-            "templateVersion": 1,
-            "styles": [
-                "styles/coc7.css"
-            ],
-            "packs": [
-                {
-                    "label": "Skills",
-                    "entity": "Item",
-                    "name": "skills",
-                    "path": "./packs/skills.db",
-                    "system": "CoC7"
-                },
-                {
-                    "label": "Weapons",
-                    "entity": "Item",
-                    "name": "weapons",
-                    "path": "./packs/weapons.db",
-                    "system": "CoC7"
-                },
-                {
-                    "label": "Examples",
-                    "entity": "Actor",
-                    "name": "examples",
-                    "path": "./packs/examples.db",
-                    "system": "CoC7"
-                }
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "Français",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "es",
-                    "name": "Spanish",
-                    "path": "lang/es.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": "日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "socket": true,
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "health",
-            "secondaryTokenAttribute": "power",
-            "url": "https://github.com/HavlockV/CoC7-FoundryVTT/",
-            "manifest": "https://github.com/HavlockV/CoC7-FoundryVTT/raw/master/system.json",
-            "download": "https://github.com/HavlockV/CoC7-FoundryVTT/archive/0.3.0.zip",
-            "foundryUrl": "/packages/CoC7/",
-            "lastUpdate": "1 day, 22 hours ago"
-        },
-        {
             "name": "yzecoriolis",
             "title": "Year Zero Engine - Coriolis",
             "description": "The Year Zero Engine - Coriolis System for Foundry VTT.",
@@ -890,6 +917,50 @@
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.92.zip",
             "foundryUrl": "/packages/yzecoriolis/",
             "lastUpdate": "2 days, 18 hours ago"
+        },
+        {
+            "name": "gurps4e",
+            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
+            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
+            "version": "2.5",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "templateVersion": 2,
+            "author": "James Huddleston",
+            "esmodules": [
+                "./gurps4e.js",
+                "./module/utility-gurps4e.js",
+                "./module/migrations.js",
+                "./module/gurps-foundry-roll-lib.js",
+                "./module/hooks/preCreateActor.js",
+                "./module/hooks/init.js",
+                "./module/hooks/ready.js",
+                "./module/hooks/renderChatMessage.js"
+            ],
+            "styles": [
+                "./gurps4e.css"
+            ],
+            "packs": [],
+            "scripts": [
+                "./scripts/config-gurps4e.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "yd",
+            "primaryTokenAttribute": "secondaryAttributes.hp",
+            "secondaryTokenAttribute": "secondaryAttributes.fp",
+            "url": "https://gitlab.com/jbhuddleston/gurps4e",
+            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
+            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/gurps4e/",
+            "lastUpdate": "3 days, 9 hours ago"
         },
         {
             "name": "swade",
@@ -968,50 +1039,6 @@
             "lastUpdate": "3 days, 2 hours ago"
         },
         {
-            "name": "gurps4e",
-            "title": "Generic Universal RolePlaying System (any) Edition - Unofficial",
-            "description": "A Generic Universal RolePlaying System (any) Edition system for FoundryVTT!",
-            "version": "2.5",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "templateVersion": 2,
-            "author": "James Huddleston",
-            "esmodules": [
-                "./gurps4e.js",
-                "./module/utility-gurps4e.js",
-                "./module/migrations.js",
-                "./module/gurps-foundry-roll-lib.js",
-                "./module/hooks/preCreateActor.js",
-                "./module/hooks/init.js",
-                "./module/hooks/ready.js",
-                "./module/hooks/renderChatMessage.js"
-            ],
-            "styles": [
-                "./gurps4e.css"
-            ],
-            "packs": [],
-            "scripts": [
-                "./scripts/config-gurps4e.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "yd",
-            "primaryTokenAttribute": "secondaryAttributes.hp",
-            "secondaryTokenAttribute": "secondaryAttributes.fp",
-            "url": "https://gitlab.com/jbhuddleston/gurps4e",
-            "manifest": "https://gitlab.com/jbhuddleston/gurps4e/-/raw/master/system.json",
-            "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "3 days, 9 hours ago"
-        },
-        {
             "name": "callofcthulhu",
             "title": "CallofCthulhu(7thEd.)",
             "description": "For Asia.The game system I created to play CallofCthulhu (7thEd.) on FoundryVTT!",
@@ -1083,7 +1110,7 @@
             "manifest": "https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json",
             "download": "https://github.com/tadaimatrpg/callofcthulhu/archive/master.zip",
             "foundryUrl": "/packages/callofcthulhu/",
-            "lastUpdate": "3 days, 11 hours ago"
+            "lastUpdate": "3 days, 12 hours ago"
         },
         {
             "name": "tormenta20",
@@ -1309,33 +1336,6 @@
             "download": "https://gitlab.com/foundrynet/dnd5e/-/archive/release-0.9.5/dnd5e-release-0.9.5.zip",
             "foundryUrl": "/packages/dnd5e/",
             "lastUpdate": "1 week ago"
-        },
-        {
-            "name": "burningwheel",
-            "title": "The Burning Wheel",
-            "description": "Community Foundry implementation of The Burning Wheel",
-            "version": "0.2.2",
-            "templateVersion": 8,
-            "author": "Stas Tserkovny",
-            "esmodules": [
-                "module/burningwheel.js"
-            ],
-            "scripts": [],
-            "styles": [
-                "styles/burningwheel.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "socket": false,
-            "initiative": "1d20",
-            "gridDistance": 10,
-            "gridUnits": "ft",
-            "url": "https://github.com/StasTserk/foundry-burningwheel",
-            "manifest": "https://raw.githubusercontent.com/StasTserk/foundry-burningwheel/master/system.json",
-            "download": "https://github.com/StasTserk/foundry-burningwheel/releases/download/0.2.2/release0.2.2.zip",
-            "foundryUrl": "/packages/burningwheel/",
-            "lastUpdate": "1 week, 1 day ago"
         },
         {
             "name": "vaesen",
@@ -2592,37 +2592,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "fate",
-            "title": "FATE",
-            "description": "An implementation of FATE Core and Accelerated for Foundry",
-            "version": "0.3.1",
-            "author": "Nick van Oosten (NickEast#1131)",
-            "scripts": [],
-            "esmodules": [
-                "fate.js"
-            ],
-            "styles": [
-                "fate.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 1,
-            "gridUnits": "",
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/foundry-projects/fate",
-            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
-            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
-            "foundryUrl": "/packages/fate/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
             "name": "shadowrun5e",
             "title": "Shadowrun 5th Edition",
             "description": "Shadowrun 5th Edition game",
@@ -2661,6 +2630,37 @@
             "url": "https://github.com/smilligan93/SR5-FoundryVTT",
             "download": "https://github.com/smilligan93/SR5-FoundryVTT/archive/v0.6.9.zip",
             "foundryUrl": "/packages/shadowrun5e/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "fate",
+            "title": "FATE",
+            "description": "An implementation of FATE Core and Accelerated for Foundry",
+            "version": "0.3.1",
+            "author": "Nick van Oosten (NickEast#1131)",
+            "scripts": [],
+            "esmodules": [
+                "fate.js"
+            ],
+            "styles": [
+                "fate.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 1,
+            "gridUnits": "",
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/foundry-projects/fate",
+            "manifest": "https://gitlab.com/foundry-projects/fate/-/raw/master/src/system.json",
+            "download": "https://gitlab.com/foundry-projects/fate/-/raw/v0.3.1/package/fate-v0.3.1.zip",
+            "foundryUrl": "/packages/fate/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
