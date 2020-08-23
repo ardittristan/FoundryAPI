@@ -1,25 +1,32 @@
 {
-    "updated": "Sun, 23 Aug 2020 21:10:48 GMT",
+    "updated": "Sun, 23 Aug 2020 21:25:48 GMT",
     "modules": [
         {
-            "name": "compendium-folders",
-            "title": "Compendium Folders",
-            "description": "Collapsable folders for compendiums",
-            "author": "Erceron",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
+            "name": "whisper-dialog",
+            "title": "Whisper Dialog",
+            "description": "Sends dialog to specificed connected user.",
+            "author": [
+                "kekilla#7036"
+            ],
+            "version": "0.1.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.6",
             "esmodules": [
-                "./compendium-folders.js"
+                "scripts/hooks.js"
             ],
-            "styles": [
-                "./styles.css"
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
             ],
-            "url": "https://github.com/earlSt1/vtt-compendium-folders",
-            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-            "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/1.0.3.zip",
-            "foundryUrl": "/packages/compendium-folders/",
-            "lastUpdate": "1 hour, 21 minutes ago"
+            "socket": true,
+            "url": "https://github.com/Kekilla0/whisper-dialog",
+            "manifest": "https://github.com/Kekilla0/whisper-dialog/raw/master/module.json",
+            "download": "https://github.com/Kekilla0/whisper-dialog/archive/v0.1.2.zip",
+            "foundryUrl": "/packages/whipser-dialog/",
+            "lastUpdate": "13 minutes ago"
         },
         {
             "name": "sfrpg-statblock-parser",
@@ -42,7 +49,27 @@
             "minimumCoreVersion": "0.6.4",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/sfrpg-statblock-parser/",
-            "lastUpdate": "41 minutes ago"
+            "lastUpdate": "56 minutes ago"
+        },
+        {
+            "name": "compendium-folders",
+            "title": "Compendium Folders",
+            "description": "Collapsable folders for compendiums",
+            "author": "Erceron",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "esmodules": [
+                "./compendium-folders.js"
+            ],
+            "styles": [
+                "./styles.css"
+            ],
+            "url": "https://github.com/earlSt1/vtt-compendium-folders",
+            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
+            "download": "https://github.com/earlSt1/vtt-compendium-folders/archive/1.0.3.zip",
+            "foundryUrl": "/packages/compendium-folders/",
+            "lastUpdate": "1 hour, 36 minutes ago"
         },
         {
             "name": "adventure-import-export",
@@ -80,7 +107,7 @@
             "download": "https://github.com/cstadther/adventure-import-export/archive/0.4.8.zip",
             "license": "LICENSE",
             "foundryUrl": "/packages/adventure-import-export/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "forien-quest-log",
@@ -161,7 +188,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-quest-log/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "macro-folders",
@@ -181,7 +208,7 @@
             "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/master/module.json",
             "download": "https://github.com/earlSt1/vtt-macro-folders/archive/1.0.3.zip",
             "foundryUrl": "/packages/macro-folders/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "midi-qol",
@@ -247,7 +274,7 @@
             "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/midi-qol/raw/master/package/midi-qol-v0.2.3.zip",
             "foundryUrl": "/packages/midi-qol/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "ShowDragDistance",
@@ -277,7 +304,7 @@
             "manifest": "https://raw.githubusercontent.com/wsaunders1014/ShowDragDistance/1.1.3/module.json",
             "download": "https://github.com/wsaunders1014/showdragdistance/archive/1.1.3.zip",
             "foundryUrl": "/packages/ShowDragDistance/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "trigger-happy",
@@ -311,7 +338,7 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "0.7.0",
             "foundryUrl": "/packages/trigger-happy/",
-            "lastUpdate": "3 hours, 1 minute ago"
+            "lastUpdate": "3 hours, 16 minutes ago"
         },
         {
             "name": "quick-insert",
@@ -340,7 +367,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/quick-insert/",
-            "lastUpdate": "21 hours, 36 minutes ago"
+            "lastUpdate": "21 hours, 51 minutes ago"
         },
         {
             "name": "hide-gm-rolls",
@@ -366,7 +393,7 @@
             "manifest": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/raw/master/module.json",
             "download": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/releases/download/v0.1.3/hide-gm-rolls-v0.1.3.zip",
             "foundryUrl": "/packages/hide-gm-rolls/",
-            "lastUpdate": "21 hours, 46 minutes ago"
+            "lastUpdate": "22 hours, 1 minute ago"
         },
         {
             "name": "SupersHomebrewPack",
@@ -441,7 +468,7 @@
                 }
             ],
             "foundryUrl": "/packages/SupersHomebrewPack/",
-            "lastUpdate": "23 hours, 14 minutes ago"
+            "lastUpdate": "23 hours, 29 minutes ago"
         },
         {
             "name": "cardsupport",
@@ -509,7 +536,7 @@
             "manifest": "https://raw.githubusercontent.com/javierriveracastro/betteroll-swade/master/betterrolls-swade/module.json",
             "download": "https://github.com/javierriveracastro/betteroll-swade/raw/master/betterrolls-swade.zip",
             "foundryUrl": "/packages/betterrolls-swade/",
-            "lastUpdate": "1 day, 4 hours ago"
+            "lastUpdate": "1 day, 5 hours ago"
         },
         {
             "name": "workshop-party-unit-frames",
@@ -1122,6 +1149,48 @@
             "lastUpdate": "3 days ago"
         },
         {
+            "name": "pathfinder-ui",
+            "title": "Pathfinder Ui",
+            "description": "Theme for Pathfinder 1e/2e. <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
+            "version": "2.1.3",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "1.0.0",
+            "author": "Sasmira",
+            "esmodules": [
+                "scripts/dicefinder.js"
+            ],
+            "styles": [
+                "css/pathfinderui.css",
+                "css/cursor.css"
+            ],
+            "scripts": [
+                "scripts/pathfinder-chat-color.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French (French)",
+                    "path": "lang/fr.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "packs": [],
+            "url": "https://gitlab.com/sasmira/pathfinder-ui",
+            "manifest": "https://gitlab.com/sasmira/pathfinder-ui/-/raw/master/module/module.json",
+            "download": "https://gitlab.com/sasmira/pathfinder-ui/-/jobs/artifacts/v2.1.3/raw/pathfinder-ui.zip?job=build",
+            "foundryUrl": "/packages/pathfinder-ui/",
+            "lastUpdate": "3 days, 1 hour ago"
+        },
+        {
             "name": "dnd-ui",
             "title": "DnD5e Ui",
             "description": "Theme for DnD5e. <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
@@ -1164,48 +1233,6 @@
             "manifest": "https://gitlab.com/sasmira/dnd-ui/-/raw/master/module/module.json",
             "download": "https://gitlab.com/sasmira/dnd-ui/-/jobs/artifacts/v1.1.3/raw/dnd-ui.zip?job=build",
             "foundryUrl": "/packages/dnd-ui/",
-            "lastUpdate": "3 days, 1 hour ago"
-        },
-        {
-            "name": "pathfinder-ui",
-            "title": "Pathfinder Ui",
-            "description": "Theme for Pathfinder 1e/2e. <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
-            "version": "2.1.3",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "1.0.0",
-            "author": "Sasmira",
-            "esmodules": [
-                "scripts/dicefinder.js"
-            ],
-            "styles": [
-                "css/pathfinderui.css",
-                "css/cursor.css"
-            ],
-            "scripts": [
-                "scripts/pathfinder-chat-color.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French (French)",
-                    "path": "lang/fr.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                }
-            ],
-            "packs": [],
-            "url": "https://gitlab.com/sasmira/pathfinder-ui",
-            "manifest": "https://gitlab.com/sasmira/pathfinder-ui/-/raw/master/module/module.json",
-            "download": "https://gitlab.com/sasmira/pathfinder-ui/-/jobs/artifacts/v2.1.3/raw/pathfinder-ui.zip?job=build",
-            "foundryUrl": "/packages/pathfinder-ui/",
             "lastUpdate": "3 days, 1 hour ago"
         },
         {
@@ -1257,7 +1284,7 @@
             "download": "https://github.com/Djphoenix719/PDFoundry/releases/download/v0.6.6/pdfoundry-v0.6.6.zip",
             "url": "https://github.com/Djphoenix719/PDFoundry",
             "foundryUrl": "/packages/pdfoundry/",
-            "lastUpdate": "3 days, 19 hours ago"
+            "lastUpdate": "3 days, 20 hours ago"
         },
         {
             "name": "custom-journal",
@@ -1306,7 +1333,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-4/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-3",
@@ -1328,7 +1355,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-3/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-2",
@@ -1350,7 +1377,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-2/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-1",
@@ -1372,7 +1399,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-1/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "dndAudioBundle-HammerHome",
@@ -1394,7 +1421,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/releases/download//v1.0/v1.0.zip",
             "foundryUrl": "/packages/dndAudioBundle-HammerHome/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "game-icons-net",
@@ -1408,7 +1435,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json",
             "download": "https://github.com/datdamnzotz/icons/releases/download/0.0.5/0.0.5.zip",
             "foundryUrl": "/packages/game-icons-net/",
-            "lastUpdate": "4 days ago"
+            "lastUpdate": "4 days, 1 hour ago"
         },
         {
             "name": "forbidden-lands-party-sheet",
@@ -1455,33 +1482,6 @@
             "download": "https://github.com/maxstar/forbidden-lands-party-sheet/archive/1.0.2.zip",
             "foundryUrl": "/packages/forbidden-lands-party-sheet/",
             "lastUpdate": "4 days, 13 hours ago"
-        },
-        {
-            "name": "whisper-dialog",
-            "title": "Whisper Dialog",
-            "description": "Sends dialog to specificed connected user.",
-            "author": [
-                "kekilla#7036"
-            ],
-            "version": "0.1.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.6",
-            "esmodules": [
-                "scripts/hooks.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "url": "https://github.com/Kekilla0/whisper-dialog",
-            "manifest": "https://github.com/Kekilla0/whisper-dialog/raw/master/module.json",
-            "download": "https://github.com/Kekilla0/whisper-dialog/archive/v0.1.2.zip",
-            "foundryUrl": "/packages/whipser-dialog/",
-            "lastUpdate": "4 days, 22 hours ago"
         },
         {
             "name": "cycle-token-stack",
@@ -1650,7 +1650,7 @@
             "manifest": "https://gitlab.com/tposney/mergewalls/raw/master/module.json",
             "download": "https://gitlab.com/tposney/mergewalls/raw/master/mergewalls.zip",
             "foundryUrl": "/packages/mergewalls/",
-            "lastUpdate": "5 days, 16 hours ago"
+            "lastUpdate": "5 days, 17 hours ago"
         },
         {
             "name": "about-time",
@@ -1706,7 +1706,7 @@
             "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.50.zip",
             "foundryUrl": "/packages/about-time/",
-            "lastUpdate": "5 days, 16 hours ago"
+            "lastUpdate": "5 days, 17 hours ago"
         },
         {
             "name": "dynamiceffects",
@@ -1789,7 +1789,7 @@
             "manifest": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/dynamiceffects-v0.5.97.zip",
             "foundryUrl": "/packages/dynamiceffects/",
-            "lastUpdate": "5 days, 16 hours ago"
+            "lastUpdate": "5 days, 17 hours ago"
         },
         {
             "name": "minor-qol",
@@ -1852,7 +1852,7 @@
             "manifest": "https://gitlab.com/tposney/minor-qol/raw/master/module.json",
             "download": "https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip",
             "foundryUrl": "/packages/minor-qol/",
-            "lastUpdate": "5 days, 16 hours ago"
+            "lastUpdate": "5 days, 17 hours ago"
         },
         {
             "name": "about-face",
@@ -1930,7 +1930,7 @@
             "manifest": "https://raw.githubusercontent.com/bekriebel/fvtt-module-webrtc_tweaks/master/module.json",
             "download": "https://github.com/bekriebel/fvtt-module-webrtc_tweaks/archive/v0.4.1.zip",
             "foundryUrl": "/packages/webrtc-tweaks/",
-            "lastUpdate": "5 days, 21 hours ago"
+            "lastUpdate": "5 days, 22 hours ago"
         },
         {
             "name": "dndbeyond-character-sheet",
@@ -1953,7 +1953,7 @@
             "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json",
             "download": "https://github.com/jopeek/fvtt-dndbeyond-character-sheet/archive/master.zip",
             "foundryUrl": "/packages/dndbeyond-character-sheet/",
-            "lastUpdate": "6 days, 1 hour ago"
+            "lastUpdate": "6 days, 2 hours ago"
         },
         {
             "name": "tokenmagic",
@@ -3563,6 +3563,31 @@
             "lastUpdate": "3 weeks, 1 day ago"
         },
         {
+            "name": "TokenBar",
+            "title": "Token Bar",
+            "description": "Creates Bar to Control a tokens actions.",
+            "author": [
+                "kekilla#7036",
+                "^ and stick#0520"
+            ],
+            "version": "v0.3.2",
+            "minimumCoreVersion": "0.6.0",
+            "esmodules": [
+                "scripts/main.js"
+            ],
+            "styles": [
+                "styles/tokenbar.css"
+            ],
+            "systems": [
+                "dnd5e"
+            ],
+            "url": "https://github.com/Kekilla0/TokenBar",
+            "manifest": "https://github.com/Kekilla0/TokenBar/raw/master/module.json",
+            "download": "https://github.com/Kekilla0/TokenBar/archive/v0.3.2.zip",
+            "foundryUrl": "/packages/TokenBar/",
+            "lastUpdate": "3 weeks, 3 days ago"
+        },
+        {
             "name": "ec-maps-remake-by-lios",
             "title": "Extinction Curse maps remake by Lios",
             "description": "<p>Collection of remade from scratch maps for Pathfinder2e Extinction Curse Adventure Path.</p>",
@@ -3589,31 +3614,6 @@
             "download": "https://gitlab.com/Ustin/ec-maps-remake/-/archive/master/ec-maps-remake-master.zip",
             "foundryUrl": "/packages/ec-maps-remake-by-lios/",
             "lastUpdate": "3 weeks, 2 days ago"
-        },
-        {
-            "name": "TokenBar",
-            "title": "Token Bar",
-            "description": "Creates Bar to Control a tokens actions.",
-            "author": [
-                "kekilla#7036",
-                "^ and stick#0520"
-            ],
-            "version": "v0.3.2",
-            "minimumCoreVersion": "0.6.0",
-            "esmodules": [
-                "scripts/main.js"
-            ],
-            "styles": [
-                "styles/tokenbar.css"
-            ],
-            "systems": [
-                "dnd5e"
-            ],
-            "url": "https://github.com/Kekilla0/TokenBar",
-            "manifest": "https://github.com/Kekilla0/TokenBar/raw/master/module.json",
-            "download": "https://github.com/Kekilla0/TokenBar/archive/v0.3.2.zip",
-            "foundryUrl": "/packages/TokenBar/",
-            "lastUpdate": "3 weeks, 3 days ago"
         },
         {
             "name": "bettertemplates",
@@ -4224,6 +4224,32 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "hidden-initiative",
+            "version": "0.2.1",
+            "title": "Hidden Initiative",
+            "description": "Enables hiding initiative values and dice rolls from players in the combat tracker",
+            "author": "Steven Fuqua",
+            "license": "MIT",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/sfuqua/fvtt-hidden-intiative",
+            "manifest": "https://raw.githubusercontent.com/sfuqua/fvtt-hidden-initiative/master/module.json",
+            "download": "https://github.com/sfuqua/fvtt-hidden-initiative/releases/download/0.2.1/fvtt-hidden-initiative-module.zip",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "strings/en.json"
+                }
+            ],
+            "scripts": [],
+            "esmodules": [
+                "main.js"
+            ],
+            "foundryUrl": "/packages/hidden-initiative/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "dice-so-nice",
             "title": "Dice So Nice!",
             "description": "Adds the ability to show a nice 3D dice simulation when a roll is made.",
@@ -4278,32 +4304,6 @@
             "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json",
             "download": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/jobs/artifacts/2.0.4/raw/dice-so-nice.zip?job=build",
             "foundryUrl": "/packages/dice-so-nice/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "hidden-initiative",
-            "version": "0.2.1",
-            "title": "Hidden Initiative",
-            "description": "Enables hiding initiative values and dice rolls from players in the combat tracker",
-            "author": "Steven Fuqua",
-            "license": "MIT",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/sfuqua/fvtt-hidden-intiative",
-            "manifest": "https://raw.githubusercontent.com/sfuqua/fvtt-hidden-initiative/master/module.json",
-            "download": "https://github.com/sfuqua/fvtt-hidden-initiative/releases/download/0.2.1/fvtt-hidden-initiative-module.zip",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "strings/en.json"
-                }
-            ],
-            "scripts": [],
-            "esmodules": [
-                "main.js"
-            ],
-            "foundryUrl": "/packages/hidden-initiative/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -5100,6 +5100,27 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
+            "name": "special-dice-roller",
+            "title": "Special Dice Roller",
+            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
+            "version": "0.11.3",
+            "author": "Bernhard Posselt",
+            "scripts": [
+                "./dist/main.js"
+            ],
+            "styles": [
+                "./public/css/styles.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
+            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
+            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
+            "foundryUrl": "/packages/special-dice-roller/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
             "name": "pdftofoundry",
             "title": "PDF to Foundry Importer",
             "description": "",
@@ -5121,27 +5142,6 @@
             "manifest": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/static_module/module.json?job=build",
             "download": "https://gitlab.com/fryguy1013/pdftofoundry/-/jobs/artifacts/release/raw/pdftofoundry.zip?job=build",
             "foundryUrl": "/packages/pdftofoundry/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
-            "name": "special-dice-roller",
-            "title": "Special Dice Roller",
-            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
-            "version": "0.11.3",
-            "author": "Bernhard Posselt",
-            "scripts": [
-                "./dist/main.js"
-            ],
-            "styles": [
-                "./public/css/styles.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
-            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
-            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
-            "foundryUrl": "/packages/special-dice-roller/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
@@ -5531,6 +5531,25 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
+            "name": "popout",
+            "title": "PopOut!",
+            "description": "<p>Pop out Actor sheets and Journal entries into their own windows for easier viewing.</p><p>Does not work in the standalone FVTT Application.</p>",
+            "version": "0.8",
+            "author": "KaKaRoTo",
+            "scripts": [
+                "./popout.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "url": "https://github.com/kakaroto/fvtt-module-popout",
+            "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json",
+            "download": "https://github.com/kakaroto/fvtt-module-popout/archive/v0.8.zip",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/popout/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
             "name": "betterrolls5e",
             "title": "Better Rolls for 5e",
             "description": "This module adds special roll functionality for the D&D 5e system, allowing \"dual rolls\" for d20 rolls, buttons that support full output to chat, and customization for said outputs.",
@@ -5593,25 +5612,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "popout",
-            "title": "PopOut!",
-            "description": "<p>Pop out Actor sheets and Journal entries into their own windows for easier viewing.</p><p>Does not work in the standalone FVTT Application.</p>",
-            "version": "0.8",
-            "author": "KaKaRoTo",
-            "scripts": [
-                "./popout.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "url": "https://github.com/kakaroto/fvtt-module-popout",
-            "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json",
-            "download": "https://github.com/kakaroto/fvtt-module-popout/archive/v0.8.zip",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "foundryUrl": "/packages/popout/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "personalmarkers",
             "title": "Personal Markers",
             "description": "Add personal markers that only you can see.",
@@ -5659,24 +5659,6 @@
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
-            "name": "combat-template-cleanup",
-            "title": "Combat Template Cleanup",
-            "description": "Provides advanced options for template cleanup during combat.",
-            "author": [
-                "kekilla#7036"
-            ],
-            "version": "0.1.0",
-            "minimumCoreVersion": "0.6.0",
-            "esmodules": [
-                "scripts/hooks.js"
-            ],
-            "url": "https://github.com/Kekilla0/combat-template-cleanup",
-            "manifest": "https://github.com/Kekilla0/combat-template-cleanup/raw/master/module.json",
-            "download": "https://github.com/Kekilla0/combat-template-cleanup/archive/v0.1.1.zip",
-            "foundryUrl": "/packages/combat-template-cleanup/",
-            "lastUpdate": "1 month, 2 weeks ago"
-        },
-        {
             "name": "mess",
             "title": "Mess - Moerills enhancing super-suit(e)",
             "description": "This module is a mix of QoL changes, enhancements for my game and stuff i play around with. For a complete feature list check the URL down below.",
@@ -5720,6 +5702,24 @@
             "url": "https://github.com/Moerill/mess",
             "download": "https://github.com/Moerill/mess/releases/download/v0.11.2/mess.zip",
             "foundryUrl": "/packages/mess/",
+            "lastUpdate": "1 month, 2 weeks ago"
+        },
+        {
+            "name": "combat-template-cleanup",
+            "title": "Combat Template Cleanup",
+            "description": "Provides advanced options for template cleanup during combat.",
+            "author": [
+                "kekilla#7036"
+            ],
+            "version": "0.1.0",
+            "minimumCoreVersion": "0.6.0",
+            "esmodules": [
+                "scripts/hooks.js"
+            ],
+            "url": "https://github.com/Kekilla0/combat-template-cleanup",
+            "manifest": "https://github.com/Kekilla0/combat-template-cleanup/raw/master/module.json",
+            "download": "https://github.com/Kekilla0/combat-template-cleanup/archive/v0.1.1.zip",
+            "foundryUrl": "/packages/combat-template-cleanup/",
             "lastUpdate": "1 month, 2 weeks ago"
         },
         {
@@ -6267,6 +6267,23 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
+            "name": "cursor-zoom",
+            "title": "Cursor Zoom",
+            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
+            "author": "shem",
+            "version": "1.0.0-compatible-with-0.6.5",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "scripts": [
+                "cursorzoom.js"
+            ],
+            "url": "https://github.com/itamarcu/CursorZoom",
+            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
+            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
+            "foundryUrl": "/packages/cursor-zoom/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
             "name": "token-auras",
             "title": "Token Auras",
             "description": "Provide options for configuring token auras.",
@@ -6293,23 +6310,6 @@
                 }
             ],
             "foundryUrl": "/packages/token-auras/",
-            "lastUpdate": "1 month, 3 weeks ago"
-        },
-        {
-            "name": "cursor-zoom",
-            "title": "Cursor Zoom",
-            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
-            "author": "shem",
-            "version": "1.0.0-compatible-with-0.6.5",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "scripts": [
-                "cursorzoom.js"
-            ],
-            "url": "https://github.com/itamarcu/CursorZoom",
-            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
-            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
-            "foundryUrl": "/packages/cursor-zoom/",
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
@@ -7987,6 +7987,23 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
+            "name": "foundry-pin",
+            "title": "Pin",
+            "description": "Pin windows to be restored on refresh.",
+            "version": "2.4",
+            "minimumCoreVersion": "0.4.4",
+            "compatibleCoreVersion": "0.5.5",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "url": "https://bitbucket.org/Fyorl/foundry-pin",
+            "manifest": "https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/foundry-pin/get/master.zip",
+            "foundryUrl": "/packages/foundry-pin/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
             "name": "combatready",
             "title": "Combat Ready!",
             "description": "'<b><i>My Combat Tracker is Ready</i></b>' Combat ready indicator to remind players of their turn, as well as time taken. ",
@@ -8049,23 +8066,6 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "0.6.0",
             "foundryUrl": "/packages/combatready/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "foundry-pin",
-            "title": "Pin",
-            "description": "Pin windows to be restored on refresh.",
-            "version": "2.4",
-            "minimumCoreVersion": "0.4.4",
-            "compatibleCoreVersion": "0.5.5",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "url": "https://bitbucket.org/Fyorl/foundry-pin",
-            "manifest": "https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/foundry-pin/get/master.zip",
-            "foundryUrl": "/packages/foundry-pin/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -8397,6 +8397,26 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
+            "name": "max-crit",
+            "title": "Max Crit",
+            "description": "Crit dice deal max damage",
+            "version": "0.1.5",
+            "author": "Shawn Milligan",
+            "esmodules": [
+                "max-crit.js"
+            ],
+            "compatibleCoreVersion": "0.6.0",
+            "minimumCoreVersion": "0.6.0",
+            "systems": [
+                "dnd5e"
+            ],
+            "manifest": "https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json",
+            "download": "https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip",
+            "url": "https://github.com/smilligan93/max-crit-foundry-dnd5e",
+            "foundryUrl": "/packages/max-crit/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
             "name": "item-delete-check",
             "title": "Item Delete Check",
             "description": "Add delete confirmation dialog to various sheets",
@@ -8424,26 +8444,6 @@
             "manifest": "https://gitlab.com/tposney/item-delete-check/raw/master/module.json",
             "download": "https://gitlab.com/tposney/item-delete-check/raw/master/item-delete-check.zip",
             "foundryUrl": "/packages/item-delete-check/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "max-crit",
-            "title": "Max Crit",
-            "description": "Crit dice deal max damage",
-            "version": "0.1.5",
-            "author": "Shawn Milligan",
-            "esmodules": [
-                "max-crit.js"
-            ],
-            "compatibleCoreVersion": "0.6.0",
-            "minimumCoreVersion": "0.6.0",
-            "systems": [
-                "dnd5e"
-            ],
-            "manifest": "https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json",
-            "download": "https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip",
-            "url": "https://github.com/smilligan93/max-crit-foundry-dnd5e",
-            "foundryUrl": "/packages/max-crit/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -8632,23 +8632,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "sheet-macro",
-            "title": "Actor Sheet Macro",
-            "description": "Drag actors to the macro bar to create a macro that opens their sheet.",
-            "version": "1.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "url": "https://bitbucket.org/Fyorl/sheet-macro",
-            "manifest": "https://bitbucket.org/Fyorl/sheet-macro/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/sheet-macro/get/master.zip",
-            "foundryUrl": "/packages/sheet-macro/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "vtta-iconizer",
             "title": "Virtual Tabletop Assets - Iconizer",
             "description": "Sets item's icons automatically based on a prepulated and/or user-defined dictionary",
@@ -8681,6 +8664,23 @@
             "readme": "https://github.com/VTTAssets/vtta-iconizer/blob/master/readme.md",
             "changelog": "https://github.com/VTTAssets/vtta-iconizer/releases",
             "foundryUrl": "/packages/vtta-iconizer/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "sheet-macro",
+            "title": "Actor Sheet Macro",
+            "description": "Drag actors to the macro bar to create a macro that opens their sheet.",
+            "version": "1.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "url": "https://bitbucket.org/Fyorl/sheet-macro",
+            "manifest": "https://bitbucket.org/Fyorl/sheet-macro/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/sheet-macro/get/master.zip",
+            "foundryUrl": "/packages/sheet-macro/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
