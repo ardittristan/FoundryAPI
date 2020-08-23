@@ -1,6 +1,35 @@
 {
-    "updated": "Sun, 23 Aug 2020 13:10:46 GMT",
+    "updated": "Sun, 23 Aug 2020 13:25:41 GMT",
     "modules": [
+        {
+            "name": "quick-insert",
+            "title": "Quick Insert - Find and insert entities you need",
+            "description": "Quickly insert the items, characters and other entities wherever you are",
+            "version": "2.0.0",
+            "author": "Sunspots",
+            "scripts": [
+                "lib/settings-extender/settings-extender.js"
+            ],
+            "esmodules": [
+                "quick-insert.js"
+            ],
+            "styles": [
+                "./quick-insert.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://gitlab.com/fvtt-modules-lab/quick-insert",
+            "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module",
+            "download": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/v2.0.0/raw/quick-insert-v2.0.0.zip?job=build-module",
+            "license": "MIT",
+            "readme": "https://gitlab.com/fvtt-modules-lab/quick-insert",
+            "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
+            "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
+            "foundryUrl": "/packages/quick-insert/",
+            "lastUpdate": "13 hours, 51 minutes ago"
+        },
         {
             "name": "hide-gm-rolls",
             "title": "Hide GM Rolls",
@@ -25,7 +54,7 @@
             "manifest": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/raw/master/module.json",
             "download": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/releases/download/v0.1.3/hide-gm-rolls-v0.1.3.zip",
             "foundryUrl": "/packages/hide-gm-rolls/",
-            "lastUpdate": "13 hours, 46 minutes ago"
+            "lastUpdate": "14 hours, 1 minute ago"
         },
         {
             "name": "SupersHomebrewPack",
@@ -100,36 +129,7 @@
                 }
             ],
             "foundryUrl": "/packages/SupersHomebrewPack/",
-            "lastUpdate": "15 hours, 13 minutes ago"
-        },
-        {
-            "name": "quick-insert",
-            "title": "Quick Insert - Find and insert entities you need",
-            "description": "Quickly insert the items, characters and other entities wherever you are",
-            "version": "2.0.0",
-            "author": "Sunspots",
-            "scripts": [
-                "lib/settings-extender/settings-extender.js"
-            ],
-            "esmodules": [
-                "quick-insert.js"
-            ],
-            "styles": [
-                "./quick-insert.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://gitlab.com/fvtt-modules-lab/quick-insert",
-            "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module",
-            "download": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/v2.0.0/raw/quick-insert-v2.0.0.zip?job=build-module",
-            "license": "MIT",
-            "readme": "https://gitlab.com/fvtt-modules-lab/quick-insert",
-            "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
-            "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
-            "foundryUrl": "/packages/quick-insert/",
-            "lastUpdate": "13 hours, 36 minutes ago"
+            "lastUpdate": "15 hours, 28 minutes ago"
         },
         {
             "name": "sfrpg-statblock-parser",
@@ -152,44 +152,7 @@
             "minimumCoreVersion": "0.6.4",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/sfrpg-statblock-parser/",
-            "lastUpdate": "16 hours, 11 minutes ago"
-        },
-        {
-            "name": "cardsupport",
-            "title": "Card Support (Unofficial)",
-            "description": "Unofficial deck support for foundry that allows you to have cards and player hands and the like.",
-            "author": "Spacemandev, Norc",
-            "version": "1.2.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-card-support",
-            "manifest": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.json",
-            "download": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.zip",
-            "esmodules": [
-                "./scripts/decksupport.js",
-                "./scripts/tileHud.js",
-                "./scripts/tokenHUD.js",
-                "./scripts/drop.js",
-                "./scripts/socketListener.js",
-                "./lib/js-yaml.js",
-                "./lib/jszip.js",
-                "./cardhotbar/index.js"
-            ],
-            "styles": [
-                "./styles/sdf.css",
-                "./cardhotbar/css/card-hotbar.css",
-                "./styles/css/cardsupport.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "foundryUrl": "/packages/cardsupport/",
-            "lastUpdate": "16 hours, 39 minutes ago"
+            "lastUpdate": "16 hours, 26 minutes ago"
         },
         {
             "name": "adventure-import-export",
@@ -227,7 +190,44 @@
             "download": "https://github.com/cstadther/adventure-import-export/archive/0.4.7.zip",
             "license": "LICENSE",
             "foundryUrl": "/packages/adventure-import-export/",
-            "lastUpdate": "16 hours, 55 minutes ago"
+            "lastUpdate": "17 hours, 10 minutes ago"
+        },
+        {
+            "name": "cardsupport",
+            "title": "Card Support (Unofficial)",
+            "description": "Unofficial deck support for foundry that allows you to have cards and player hands and the like.",
+            "author": "Spacemandev, Norc",
+            "version": "1.2.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-card-support",
+            "manifest": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.json",
+            "download": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.zip",
+            "esmodules": [
+                "./scripts/decksupport.js",
+                "./scripts/tileHud.js",
+                "./scripts/tokenHUD.js",
+                "./scripts/drop.js",
+                "./scripts/socketListener.js",
+                "./lib/js-yaml.js",
+                "./lib/jszip.js",
+                "./cardhotbar/index.js"
+            ],
+            "styles": [
+                "./styles/sdf.css",
+                "./cardhotbar/css/card-hotbar.css",
+                "./styles/css/cardsupport.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "foundryUrl": "/packages/cardsupport/",
+            "lastUpdate": "16 hours, 54 minutes ago"
         },
         {
             "name": "betterrolls-swade",
@@ -258,7 +258,7 @@
             "manifest": "https://raw.githubusercontent.com/javierriveracastro/betteroll-swade/master/betterrolls-swade/module.json",
             "download": "https://github.com/javierriveracastro/betteroll-swade/raw/master/betterrolls-swade.zip",
             "foundryUrl": "/packages/betterrolls-swade/",
-            "lastUpdate": "20 hours, 52 minutes ago"
+            "lastUpdate": "21 hours, 7 minutes ago"
         },
         {
             "name": "workshop-party-unit-frames",
@@ -297,7 +297,7 @@
                 }
             ],
             "foundryUrl": "/packages/workshop-party-unit-frames/",
-            "lastUpdate": "23 hours, 12 minutes ago"
+            "lastUpdate": "23 hours, 27 minutes ago"
         },
         {
             "name": "forien-quest-log",
@@ -374,7 +374,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-quest-log/",
-            "lastUpdate": "23 hours, 13 minutes ago"
+            "lastUpdate": "23 hours, 28 minutes ago"
         },
         {
             "name": "pick-up-stix",
@@ -409,7 +409,7 @@
             "bugs": "https://github.com/kamcknig/pick-up-stix/issues",
             "changelog": "https://github.com/kamcknig/pick-up-stix/releases",
             "foundryUrl": "/packages/pick-up-stix/",
-            "lastUpdate": "23 hours, 32 minutes ago"
+            "lastUpdate": "23 hours, 47 minutes ago"
         },
         {
             "name": "forien-scene-navigator",
@@ -447,7 +447,7 @@
                 }
             ],
             "foundryUrl": "/packages/forien-scene-navigator/",
-            "lastUpdate": "23 hours, 32 minutes ago"
+            "lastUpdate": "23 hours, 47 minutes ago"
         },
         {
             "name": "forien-token-rotation",
@@ -488,7 +488,7 @@
                 }
             ],
             "foundryUrl": "/packages/forien-token-rotation/",
-            "lastUpdate": "23 hours, 32 minutes ago"
+            "lastUpdate": "23 hours, 47 minutes ago"
         },
         {
             "name": "forien-easy-polls",
@@ -530,7 +530,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-easy-polls/",
-            "lastUpdate": "23 hours, 32 minutes ago"
+            "lastUpdate": "23 hours, 47 minutes ago"
         },
         {
             "name": "forien-unidentified-items",
@@ -586,7 +586,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-unidentified-items/",
-            "lastUpdate": "23 hours, 33 minutes ago"
+            "lastUpdate": "23 hours, 48 minutes ago"
         },
         {
             "name": "forien-custom-fonts",
@@ -628,7 +628,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-custom-fonts/",
-            "lastUpdate": "23 hours, 33 minutes ago"
+            "lastUpdate": "23 hours, 48 minutes ago"
         },
         {
             "name": "forien-copy-environment",
@@ -656,7 +656,7 @@
                 "./scripts/prompt.js"
             ],
             "foundryUrl": "/packages/forien-copy-environment/",
-            "lastUpdate": "23 hours, 33 minutes ago"
+            "lastUpdate": "23 hours, 48 minutes ago"
         },
         {
             "name": "npc-chatter",
@@ -1123,7 +1123,7 @@
             "download": "https://github.com/Djphoenix719/PDFoundry/releases/download/v0.6.6/pdfoundry-v0.6.6.zip",
             "url": "https://github.com/Djphoenix719/PDFoundry",
             "foundryUrl": "/packages/pdfoundry/",
-            "lastUpdate": "3 days, 11 hours ago"
+            "lastUpdate": "3 days, 12 hours ago"
         },
         {
             "name": "custom-journal",
@@ -1172,7 +1172,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-4/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "gAudioBundle-3",
@@ -1194,7 +1194,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-3/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "gAudioBundle-2",
@@ -1216,7 +1216,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-2/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "gAudioBundle-1",
@@ -1238,7 +1238,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-1/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "dndAudioBundle-HammerHome",
@@ -1260,7 +1260,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/releases/download//v1.0/v1.0.zip",
             "foundryUrl": "/packages/dndAudioBundle-HammerHome/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "game-icons-net",
@@ -1274,7 +1274,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json",
             "download": "https://github.com/datdamnzotz/icons/releases/download/0.0.5/0.0.5.zip",
             "foundryUrl": "/packages/game-icons-net/",
-            "lastUpdate": "3 days, 16 hours ago"
+            "lastUpdate": "3 days, 17 hours ago"
         },
         {
             "name": "forbidden-lands-party-sheet",
@@ -1501,24 +1501,6 @@
             "lastUpdate": "4 days, 23 hours ago"
         },
         {
-            "name": "mergewalls",
-            "title": "Merge Walls",
-            "description": "Try and merge walls to reduce the number of wall segments",
-            "version": "0.0.11",
-            "author": "tposney",
-            "minimumCoreVersion": "0.4.4",
-            "scripts": [
-                "mergewalls.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "url": "https://gitlab.com/tposney/mergewalls/tree/master",
-            "manifest": "https://gitlab.com/tposney/mergewalls/raw/master/module.json",
-            "download": "https://gitlab.com/tposney/mergewalls/raw/master/mergewalls.zip",
-            "foundryUrl": "/packages/mergewalls/",
-            "lastUpdate": "5 days, 8 hours ago"
-        },
-        {
             "name": "about-time",
             "title": "About Time",
             "description": "",
@@ -1572,7 +1554,25 @@
             "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.50.zip",
             "foundryUrl": "/packages/about-time/",
-            "lastUpdate": "5 days, 8 hours ago"
+            "lastUpdate": "5 days, 9 hours ago"
+        },
+        {
+            "name": "mergewalls",
+            "title": "Merge Walls",
+            "description": "Try and merge walls to reduce the number of wall segments",
+            "version": "0.0.11",
+            "author": "tposney",
+            "minimumCoreVersion": "0.4.4",
+            "scripts": [
+                "mergewalls.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "url": "https://gitlab.com/tposney/mergewalls/tree/master",
+            "manifest": "https://gitlab.com/tposney/mergewalls/raw/master/module.json",
+            "download": "https://gitlab.com/tposney/mergewalls/raw/master/mergewalls.zip",
+            "foundryUrl": "/packages/mergewalls/",
+            "lastUpdate": "5 days, 9 hours ago"
         },
         {
             "name": "dynamiceffects",
@@ -1655,7 +1655,7 @@
             "manifest": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/dynamiceffects-v0.5.97.zip",
             "foundryUrl": "/packages/dynamiceffects/",
-            "lastUpdate": "5 days, 8 hours ago"
+            "lastUpdate": "5 days, 9 hours ago"
         },
         {
             "name": "minor-qol",
@@ -1718,7 +1718,7 @@
             "manifest": "https://gitlab.com/tposney/minor-qol/raw/master/module.json",
             "download": "https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip",
             "foundryUrl": "/packages/minor-qol/",
-            "lastUpdate": "5 days, 8 hours ago"
+            "lastUpdate": "5 days, 9 hours ago"
         },
         {
             "name": "about-face",
@@ -1796,7 +1796,7 @@
             "manifest": "https://raw.githubusercontent.com/bekriebel/fvtt-module-webrtc_tweaks/master/module.json",
             "download": "https://github.com/bekriebel/fvtt-module-webrtc_tweaks/archive/v0.4.1.zip",
             "foundryUrl": "/packages/webrtc-tweaks/",
-            "lastUpdate": "5 days, 13 hours ago"
+            "lastUpdate": "5 days, 14 hours ago"
         },
         {
             "name": "dndbeyond-character-sheet",
@@ -1819,7 +1819,7 @@
             "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json",
             "download": "https://github.com/jopeek/fvtt-dndbeyond-character-sheet/archive/master.zip",
             "foundryUrl": "/packages/dndbeyond-character-sheet/",
-            "lastUpdate": "5 days, 17 hours ago"
+            "lastUpdate": "5 days, 18 hours ago"
         },
         {
             "name": "tokenmagic",
@@ -2086,7 +2086,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/one-journal/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/one-journal/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/one-journal/",
-            "lastUpdate": "6 days, 23 hours ago"
+            "lastUpdate": "1 week ago"
         },
         {
             "name": "dd-import",
@@ -3262,37 +3262,6 @@
             "lastUpdate": "2 weeks, 5 days ago"
         },
         {
-            "name": "itemacro",
-            "title": "Item Macro",
-            "description": "A module that allows macros to be stored in items and executed in various places.",
-            "author": "Kekilla#7036",
-            "version": "v1.1.1",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "esmodules": [
-                "scripts/main.js"
-            ],
-            "styles": [
-                "styles/macro-config.css",
-                "styles/button-config.css"
-            ],
-            "systems": [
-                "dnd5e"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "url": "https://github.com/Kekilla0/Item-Macro",
-            "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json",
-            "download": "https://github.com/Kekilla0/Item-Macro/archive/v1.1.1.zip",
-            "foundryUrl": "/packages/itemacro/",
-            "lastUpdate": "2 weeks, 6 days ago"
-        },
-        {
             "name": "vtta-didyouknow",
             "title": "Virtual Tabletop Assets - Did you know?",
             "description": "Displays helpful (?) hints on Foundry start - contribute at https://discord.gg/yEyxJBH",
@@ -3323,6 +3292,37 @@
             "readme": "https://github.com/VTTAssets/vtta-didyouknow/blob/master/README.md",
             "changelog": "https://github.com/VTTAssets/vtta-didyouknow/releases",
             "foundryUrl": "/packages/vtta-didyouknow/",
+            "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
+            "name": "itemacro",
+            "title": "Item Macro",
+            "description": "A module that allows macros to be stored in items and executed in various places.",
+            "author": "Kekilla#7036",
+            "version": "v1.1.1",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "esmodules": [
+                "scripts/main.js"
+            ],
+            "styles": [
+                "styles/macro-config.css",
+                "styles/button-config.css"
+            ],
+            "systems": [
+                "dnd5e"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "url": "https://github.com/Kekilla0/Item-Macro",
+            "manifest": "https://github.com/Kekilla0/Item-Macro/raw/master/module.json",
+            "download": "https://github.com/Kekilla0/Item-Macro/archive/v1.1.1.zip",
+            "foundryUrl": "/packages/itemacro/",
             "lastUpdate": "2 weeks, 6 days ago"
         },
         {
@@ -3552,7 +3552,7 @@
             "download": "https://github.com/KayelGee/select-tool-everywhere/releases/download/v1.1.1/v1.1.1.zip",
             "readme": "https://github.com/KayelGee/select-tool-everywhere/blob/v1.1.1/README.md",
             "foundryUrl": "/packages/select-tool-everywhere/",
-            "lastUpdate": "3 weeks, 2 days ago"
+            "lastUpdate": "3 weeks, 3 days ago"
         },
         {
             "name": "simplemobile",
@@ -3672,6 +3672,27 @@
             "lastUpdate": "3 weeks, 4 days ago"
         },
         {
+            "name": "colorsettings",
+            "title": "lib - Color Settings",
+            "description": "Library that allows modules to add color settings and forms.",
+            "version": "2.4.1",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "colorSetting.js"
+            ],
+            "socket": true,
+            "url": "https://github.com/ardittristan/VTTColorSettings",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/master/module.json",
+            "download": "https://github.com/ardittristan/VTTColorSettings/releases/latest/download/colorSettings.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "styles": [
+                "./css/colorpicker.css"
+            ],
+            "foundryUrl": "/packages/colorsettings/",
+            "lastUpdate": "3 weeks, 5 days ago"
+        },
+        {
             "name": "savaged-foundry",
             "title": "savaged-foundry",
             "description": "Module to import Savage World Adventure Edition characters created in the amazing savaged.us character generator into FloRad's excellent SWADE system for FoundryVTT.",
@@ -3706,27 +3727,6 @@
             "bugs": "",
             "changelog": "",
             "foundryUrl": "/packages/savaged-foundry/",
-            "lastUpdate": "3 weeks, 5 days ago"
-        },
-        {
-            "name": "colorsettings",
-            "title": "lib - Color Settings",
-            "description": "Library that allows modules to add color settings and forms.",
-            "version": "2.4.1",
-            "author": "ardittristan#0001",
-            "esmodules": [
-                "colorSetting.js"
-            ],
-            "socket": true,
-            "url": "https://github.com/ardittristan/VTTColorSettings",
-            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/master/module.json",
-            "download": "https://github.com/ardittristan/VTTColorSettings/releases/latest/download/colorSettings.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "styles": [
-                "./css/colorpicker.css"
-            ],
-            "foundryUrl": "/packages/colorsettings/",
             "lastUpdate": "3 weeks, 5 days ago"
         },
         {
@@ -4421,27 +4421,6 @@
             "lastUpdate": "1 month ago"
         },
         {
-            "name": "macroeditor",
-            "title": "Macro Editor",
-            "description": "Better code editor for macros.",
-            "version": "1.0.4",
-            "author": "ardittristan#0001",
-            "esmodules": [
-                "editor.js"
-            ],
-            "styles": [
-                "css/macro-editor.css"
-            ],
-            "socket": true,
-            "url": "https://github.com/ardittristan/VTTMacroEditor",
-            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTMacroEditor/master/module.json",
-            "download": "https://github.com/ardittristan/VTTMacroEditor/releases/latest/download/macro-editor.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "foundryUrl": "/packages/macroeditor/",
-            "lastUpdate": "1 month ago"
-        },
-        {
             "name": "mageflame-srd-monsters",
             "title": "Mageflame SRD Monsters",
             "description": "A scraped import of SRD monsters from https://www.13thagesrd.com/monsters/ for https://gitlab.com/asacolips-projects/foundry-mods/archmage/tree/master",
@@ -4472,6 +4451,27 @@
             "manifest": "https://github.com/cswendrowski/FoundryVTT-Mageflame-SRD/releases/download/latest/module.json",
             "download": "https://github.com/cswendrowski/FoundryVTT-Mageflame-SRD/releases/download/2.0.0/mageflame-srd.zip",
             "foundryUrl": "/packages/mageflame-srd-monsters/",
+            "lastUpdate": "1 month ago"
+        },
+        {
+            "name": "macroeditor",
+            "title": "Macro Editor",
+            "description": "Better code editor for macros.",
+            "version": "1.0.4",
+            "author": "ardittristan#0001",
+            "esmodules": [
+                "editor.js"
+            ],
+            "styles": [
+                "css/macro-editor.css"
+            ],
+            "socket": true,
+            "url": "https://github.com/ardittristan/VTTMacroEditor",
+            "manifest": "https://raw.githubusercontent.com/ardittristan/VTTMacroEditor/master/module.json",
+            "download": "https://github.com/ardittristan/VTTMacroEditor/releases/latest/download/macro-editor.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "foundryUrl": "/packages/macroeditor/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -6353,30 +6353,6 @@
             "lastUpdate": "1 month, 4 weeks ago"
         },
         {
-            "name": "look-at-that",
-            "title": "Look At That",
-            "description": "Press 'P' to pull all players' views to where your mouse is pointed!",
-            "authors": [
-                {
-                    "name": "Will Saunders",
-                    "email": "willsaunders1014@gmail.com"
-                }
-            ],
-            "version": "0.0.1",
-            "minimumCoreVersion": "0.6.2",
-            "compatibleCoreVersion": "0.6.4",
-            "scripts": [
-                "look-at-that.js"
-            ],
-            "socket": true,
-            "changelog": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/README.md",
-            "url": "https://github.com/wsaunders1014/LookAtThat",
-            "manifest": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/module.json",
-            "download": "https://github.com/wsaunders1014/LookAtThat/archive/master.zip",
-            "foundryUrl": "/packages/look-at-that/",
-            "lastUpdate": "1 month, 4 weeks ago"
-        },
-        {
             "name": "obsidian",
             "title": "Obsidian Character Sheets",
             "description": "Dark theme character sheets.",
@@ -6430,6 +6406,30 @@
                 }
             ],
             "foundryUrl": "/packages/obsidian/",
+            "lastUpdate": "1 month, 4 weeks ago"
+        },
+        {
+            "name": "look-at-that",
+            "title": "Look At That",
+            "description": "Press 'P' to pull all players' views to where your mouse is pointed!",
+            "authors": [
+                {
+                    "name": "Will Saunders",
+                    "email": "willsaunders1014@gmail.com"
+                }
+            ],
+            "version": "0.0.1",
+            "minimumCoreVersion": "0.6.2",
+            "compatibleCoreVersion": "0.6.4",
+            "scripts": [
+                "look-at-that.js"
+            ],
+            "socket": true,
+            "changelog": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/README.md",
+            "url": "https://github.com/wsaunders1014/LookAtThat",
+            "manifest": "https://raw.githubusercontent.com/wsaunders1014/LookAtThat/master/module.json",
+            "download": "https://github.com/wsaunders1014/LookAtThat/archive/master.zip",
+            "foundryUrl": "/packages/look-at-that/",
             "lastUpdate": "1 month, 4 weeks ago"
         },
         {
@@ -7257,33 +7257,6 @@
             "lastUpdate": "2 months, 2 weeks ago"
         },
         {
-            "name": "imagemapper",
-            "title": "Compendium Image Mapper",
-            "description": "A tool to quickly map many images to compendium entries",
-            "version": "0.8.9",
-            "author": "Wilco#7302",
-            "scripts": [],
-            "esmodules": [
-                "imagemapper.js"
-            ],
-            "styles": [
-                "imagemapper.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.2",
-            "url": "https://gitlab.com/Wilco7302/compendium-image-mapper",
-            "manifest": "https://gitlab.com/Wilco7302/compendium-image-mapper/-/raw/master/dist/module.json",
-            "download": "https://gitlab.com/Wilco7302/compendium-image-mapper/-/raw/v0.8.9/package/imagemapper-v0.8.9.zip",
-            "license": "",
-            "readme": "",
-            "bugs": "",
-            "changelog": "",
-            "foundryUrl": "/packages/imagemapper/",
-            "lastUpdate": "2 months, 2 weeks ago"
-        },
-        {
             "name": "ChatPortrait",
             "title": "Chat Portrait",
             "description": "Display the Actor's portrait and colors on the Chat Message.",
@@ -7318,6 +7291,33 @@
             "manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-Chat-Portrait/master/module/module.json",
             "download": "https://github.com/ShoyuVanilla/FoundryVTT-Chat-Portrait/releases/download/v0.1.4/release.zip",
             "foundryUrl": "/packages/ChatPortrait/",
+            "lastUpdate": "2 months, 2 weeks ago"
+        },
+        {
+            "name": "imagemapper",
+            "title": "Compendium Image Mapper",
+            "description": "A tool to quickly map many images to compendium entries",
+            "version": "0.8.9",
+            "author": "Wilco#7302",
+            "scripts": [],
+            "esmodules": [
+                "imagemapper.js"
+            ],
+            "styles": [
+                "imagemapper.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.2",
+            "url": "https://gitlab.com/Wilco7302/compendium-image-mapper",
+            "manifest": "https://gitlab.com/Wilco7302/compendium-image-mapper/-/raw/master/dist/module.json",
+            "download": "https://gitlab.com/Wilco7302/compendium-image-mapper/-/raw/v0.8.9/package/imagemapper-v0.8.9.zip",
+            "license": "",
+            "readme": "",
+            "bugs": "",
+            "changelog": "",
+            "foundryUrl": "/packages/imagemapper/",
             "lastUpdate": "2 months, 2 weeks ago"
         },
         {
@@ -7643,47 +7643,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "sheet-to-token",
-            "title": "Sheet To Token",
-            "description": "Automatically updates an actor's Prototype Token to use the same image set for the actor",
-            "author": "Brunhine",
-            "version": "0.1",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "esmodules": [
-                "sheet-to-token.js"
-            ],
-            "scripts": [],
-            "url": "https://gitlab.com/brunhine/foundry-SheetToToken",
-            "manifest": "https://gitlab.com/brunhine/foundry-SheetToToken/raw/master/sheet-to-token/module.json",
-            "download": "https://gitlab.com/brunhine/foundry-SheetToToken/-/jobs/artifacts/0.1/raw/sheet-to-token.zip?job=build",
-            "foundryUrl": "/packages/sheet-to-token/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "effectifier",
-            "title": "Effectifier",
-            "description": "Enables dynamic effects on an actor's items",
-            "version": "0.0.3",
-            "author": "ohporter",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "systems": [
-                "dnd5e"
-            ],
-            "url": "https://gitlab.com/ohporter/effectifier",
-            "readme": "https://gitlab.com/ohporter/effectifier/-/blob/master/README.md",
-            "changelog": "https://gitlab.com/ohporter/effectifier/-/blob/master/CHANGELOG.md",
-            "license": "https://gitlab.com/ohporter/effectifier/-/blob/master/LICENSE",
-            "manifest": "https://gitlab.com/ohporter/effectifier/raw/master/module.json",
-            "download": "https://gitlab.com/ohporter/effectifier/raw/master/release/effectifier-0.0.3.zip",
-            "esmodules": [
-                "effectifier.js"
-            ],
-            "foundryUrl": "/packages/effectifier/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "combatready",
             "title": "Combat Ready!",
             "description": "'<b><i>My Combat Tracker is Ready</i></b>' Combat ready indicator to remind players of their turn, as well as time taken. ",
@@ -7749,34 +7708,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "cursor-hider",
-            "title": "Cursor Hider",
-            "description": "Allows participants in the game to hide the position of their mouse cursor temporarily or permanently.",
-            "version": "1.1.7",
-            "minimumCoreVersion": "0.4.4",
-            "compatibleCoreVersion": "0.6.1",
-            "author": "Azzurite#2004",
-            "scripts": [
-                "settings-extender.js",
-                "settings.js",
-                "cursor-hider.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "path": "languages/en.json"
-                }
-            ],
-            "socket": true,
-            "manifest": "https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json",
-            "download": "https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip",
-            "url": "https://gitlab.com/foundry-azzurite/cursor-hider",
-            "foundryUrl": "/packages/cursor-hider/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "foundry-pin",
             "title": "Pin",
             "description": "Pin windows to be restored on refresh.",
@@ -7791,43 +7722,6 @@
             "manifest": "https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json",
             "download": "https://bitbucket.org/Fyorl/foundry-pin/get/master.zip",
             "foundryUrl": "/packages/foundry-pin/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "metric-system-dnd5e",
-            "title": "Metric System for D&D5e",
-            "description": "Unit changer and value converter for items using the Metric System",
-            "version": "1.0.1",
-            "author": "Melithian539",
-            "minimumCoreVersion": "0.5.3",
-            "compatibleCoreVersion": "0.6.0",
-            "systems": [
-                "dnd5e"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português (Brasil)",
-                    "path": "lang/pt-BR.json"
-                }
-            ],
-            "styles": [
-                "./css/metric-system.css"
-            ],
-            "scripts": [],
-            "esmodules": [
-                "metric.js"
-            ],
-            "packs": [],
-            "url": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/-/tree/master",
-            "manifest": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/raw/master/module.json",
-            "download": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/-/jobs/artifacts/master/raw/metric-system-dnd5e.zip?job=build",
-            "foundryUrl": "/packages/metric-system-dnd5e/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -7909,65 +7803,6 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.5.5",
             "foundryUrl": "/packages/statdrawer/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "squeaker",
-            "title": "Squeaker",
-            "description": "<p>Chat sounds configuration</p>",
-            "version": "1.2.5",
-            "author": "U~man",
-            "scripts": [],
-            "esmodules": [
-                "squeaker.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "languages": [],
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/archive/master/foundryvtt-squeaker-master.zip",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.0",
-            "foundryUrl": "/packages/squeaker/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "spell-school-icons",
-            "title": "5e Spell School Icons",
-            "description": "Module that adds a new default icon to spells based off their school (requires DND5e)",
-            "author": "Brunhine",
-            "version": "0.9.1",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "systems": [
-                "dnd5e"
-            ],
-            "esmodules": [
-                "spell-school-icons.js"
-            ],
-            "scripts": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "it",
-                    "name": "Italian",
-                    "path": "./lang/it.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "lang/de.json"
-                }
-            ],
-            "url": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons",
-            "manifest": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/raw/master/spell-school-icons/module.json",
-            "download": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/-/jobs/artifacts/0.9.1/raw/spell-school-icons.zip?job=build",
-            "foundryUrl": "/packages/spell-school-icons/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -8138,29 +7973,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "smip-compendium",
-            "title": "Sane Magical Item Prices Compendium",
-            "description": "This is an implementation of the Sane Magical Item Prices PDF",
-            "version": "0.3.0",
-            "author": "fohswe#8355",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.0",
-            "packs": [
-                {
-                    "name": "sane-magical-item-prices",
-                    "label": "Sane Magical Item Prices",
-                    "path": "packs/sane-magical-item-prices.db",
-                    "entity": "JournalEntry",
-                    "system": "dnd5e"
-                }
-            ],
-            "url": "https://gitlab.com/fohswe/smip-compendium",
-            "manifest": "https://gitlab.com/fohswe/smip-compendium/-/raw/master/module.json",
-            "download": "https://gitlab.com/fohswe/smip-compendium/-/archive/master/smip-compendium-master.zip",
-            "foundryUrl": "/packages/smip-compendium/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "torch",
             "title": "Torch",
             "description": "Torch HUD Controls",
@@ -8214,37 +8026,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "mountup",
-            "title": "Mount Up!",
-            "description": "Allows tokens to carry or be carried by other tokens. This is completely system agnostic, and fully customizable to fit right into your game.",
-            "author": "Brunhine",
-            "version": "3.0.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.0",
-            "esmodules": [
-                "mountup.js"
-            ],
-            "scripts": [],
-            "socket": true,
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": " 日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "url": "https://github.com/Brunhine/MountUp",
-            "manifest": "https://raw.githubusercontent.com/Brunhine/MountUp/master/src/module.json",
-            "download": "https://github.com/Brunhine/MountUp/releases/download/v3.0.0/mountup.zip",
-            "foundryUrl": "/packages/mountup/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "token-audio",
             "title": "Token Audio",
             "description": "Allows you to attach ambient sounds to tokens",
@@ -8291,6 +8072,285 @@
             "manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-Printable-Stream/master/module/module.json",
             "download": "https://github.com/ShoyuVanilla/FoundryVTT-Printable-Stream/releases/download/v0.3.3/release.zip",
             "foundryUrl": "/packages/PrintableStream/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "max-crit",
+            "title": "Max Crit",
+            "description": "Crit dice deal max damage",
+            "version": "0.1.5",
+            "author": "Shawn Milligan",
+            "esmodules": [
+                "max-crit.js"
+            ],
+            "compatibleCoreVersion": "0.6.0",
+            "minimumCoreVersion": "0.6.0",
+            "systems": [
+                "dnd5e"
+            ],
+            "manifest": "https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json",
+            "download": "https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip",
+            "url": "https://github.com/smilligan93/max-crit-foundry-dnd5e",
+            "foundryUrl": "/packages/max-crit/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "effectifier",
+            "title": "Effectifier",
+            "description": "Enables dynamic effects on an actor's items",
+            "version": "0.0.3",
+            "author": "ohporter",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "systems": [
+                "dnd5e"
+            ],
+            "url": "https://gitlab.com/ohporter/effectifier",
+            "readme": "https://gitlab.com/ohporter/effectifier/-/blob/master/README.md",
+            "changelog": "https://gitlab.com/ohporter/effectifier/-/blob/master/CHANGELOG.md",
+            "license": "https://gitlab.com/ohporter/effectifier/-/blob/master/LICENSE",
+            "manifest": "https://gitlab.com/ohporter/effectifier/raw/master/module.json",
+            "download": "https://gitlab.com/ohporter/effectifier/raw/master/release/effectifier-0.0.3.zip",
+            "esmodules": [
+                "effectifier.js"
+            ],
+            "foundryUrl": "/packages/effectifier/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "discord-rich-presence",
+            "title": "Discord Rich Presence",
+            "description": "Displays current FoundryVTT status in Discord and enables Discord Voice Chat in Foundry",
+            "version": "2.1.4",
+            "minimumCoreVersion": "0.5.4",
+            "author": "Cody Swendrowski <cody@swendrowski.us>",
+            "scripts": [
+                "./richpresence.js",
+                "./reconnecting-websocket.js"
+            ],
+            "styles": [
+                "./richpresence.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                }
+            ],
+            "packs": [],
+            "url": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence",
+            "manifest": "https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/archive/master.zip",
+            "foundryUrl": "/packages/discord-rich-presence/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "spell-school-icons",
+            "title": "5e Spell School Icons",
+            "description": "Module that adds a new default icon to spells based off their school (requires DND5e)",
+            "author": "Brunhine",
+            "version": "0.9.1",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "systems": [
+                "dnd5e"
+            ],
+            "esmodules": [
+                "spell-school-icons.js"
+            ],
+            "scripts": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "it",
+                    "name": "Italian",
+                    "path": "./lang/it.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "lang/de.json"
+                }
+            ],
+            "url": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons",
+            "manifest": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/raw/master/spell-school-icons/module.json",
+            "download": "https://gitlab.com/brunhine/Foundry-5e-SpellSchoolIcons/-/jobs/artifacts/0.9.1/raw/spell-school-icons.zip?job=build",
+            "foundryUrl": "/packages/spell-school-icons/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "squeaker",
+            "title": "Squeaker",
+            "description": "<p>Chat sounds configuration</p>",
+            "version": "1.2.5",
+            "author": "U~man",
+            "scripts": [],
+            "esmodules": [
+                "squeaker.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "languages": [],
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/archive/master/foundryvtt-squeaker-master.zip",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.0",
+            "foundryUrl": "/packages/squeaker/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "sheet-to-token",
+            "title": "Sheet To Token",
+            "description": "Automatically updates an actor's Prototype Token to use the same image set for the actor",
+            "author": "Brunhine",
+            "version": "0.1",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "esmodules": [
+                "sheet-to-token.js"
+            ],
+            "scripts": [],
+            "url": "https://gitlab.com/brunhine/foundry-SheetToToken",
+            "manifest": "https://gitlab.com/brunhine/foundry-SheetToToken/raw/master/sheet-to-token/module.json",
+            "download": "https://gitlab.com/brunhine/foundry-SheetToToken/-/jobs/artifacts/0.1/raw/sheet-to-token.zip?job=build",
+            "foundryUrl": "/packages/sheet-to-token/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "vtta-party",
+            "title": "Virtual Tabletop Assets - Party overview",
+            "description": "Provides an instant overview about vital stats of the players active in the current scene",
+            "version": "2.2.3",
+            "author": "Sebastian Will (vttassets@gmail.com)",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.4",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "Deutsch",
+                    "path": "lang/de.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português Brasileiro",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "systems": [
+                "dnd5e",
+                "pf2e",
+                "wfrp4e"
+            ],
+            "esmodules": [
+                "./src/index.js"
+            ],
+            "styles": [
+                "./style/module-settings.css",
+                "./style/vtta.css",
+                "./style/module-settings.css"
+            ],
+            "packs": [],
+            "url": "https://www.vttassets.com/assets/vtta-party",
+            "manifest": "https://update.vttassets.com/modules/vtta-party/latest/module.json",
+            "download": "https://get.vttassets.com/modules/vtta-party/latest",
+            "license": "LICENSE",
+            "bugs": "https://github.com/VTTAssets/vtta-party/issues",
+            "readme": "https://github.com/VTTAssets/vtta-party/blob/master/README.md",
+            "changelog": "https://github.com/VTTAssets/vtta-party/releases",
+            "foundryUrl": "/packages/vtta-party/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "cursor-hider",
+            "title": "Cursor Hider",
+            "description": "Allows participants in the game to hide the position of their mouse cursor temporarily or permanently.",
+            "version": "1.1.7",
+            "minimumCoreVersion": "0.4.4",
+            "compatibleCoreVersion": "0.6.1",
+            "author": "Azzurite#2004",
+            "scripts": [
+                "settings-extender.js",
+                "settings.js",
+                "cursor-hider.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "path": "languages/en.json"
+                }
+            ],
+            "socket": true,
+            "manifest": "https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json",
+            "download": "https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip",
+            "url": "https://gitlab.com/foundry-azzurite/cursor-hider",
+            "foundryUrl": "/packages/cursor-hider/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "smip-compendium",
+            "title": "Sane Magical Item Prices Compendium",
+            "description": "This is an implementation of the Sane Magical Item Prices PDF",
+            "version": "0.3.0",
+            "author": "fohswe#8355",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.0",
+            "packs": [
+                {
+                    "name": "sane-magical-item-prices",
+                    "label": "Sane Magical Item Prices",
+                    "path": "packs/sane-magical-item-prices.db",
+                    "entity": "JournalEntry",
+                    "system": "dnd5e"
+                }
+            ],
+            "url": "https://gitlab.com/fohswe/smip-compendium",
+            "manifest": "https://gitlab.com/fohswe/smip-compendium/-/raw/master/module.json",
+            "download": "https://gitlab.com/fohswe/smip-compendium/-/archive/master/smip-compendium-master.zip",
+            "foundryUrl": "/packages/smip-compendium/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "mountup",
+            "title": "Mount Up!",
+            "description": "Allows tokens to carry or be carried by other tokens. This is completely system agnostic, and fully customizable to fit right into your game.",
+            "author": "Brunhine",
+            "version": "3.0.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.6.0",
+            "esmodules": [
+                "mountup.js"
+            ],
+            "scripts": [],
+            "socket": true,
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": " 日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "url": "https://github.com/Brunhine/MountUp",
+            "manifest": "https://raw.githubusercontent.com/Brunhine/MountUp/master/src/module.json",
+            "download": "https://github.com/Brunhine/MountUp/releases/download/v3.0.0/mountup.zip",
+            "foundryUrl": "/packages/mountup/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -8366,6 +8426,178 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
+            "name": "route-finder",
+            "title": "Route-Finder",
+            "description": "A module to find the shortest route for a token to reach a chosen point.",
+            "url": "https://github.com/Exote/foundry-vtt-pathfinding",
+            "download": "https://github.com/Exote/foundry-vtt-pathfinding/archive/v0.3.11.zip",
+            "manifest": "https://raw.githubusercontent.com/Exote/foundry-vtt-pathfinding/master/module.json",
+            "author": "Exote (Moe#6034)",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "version": "0.3.11",
+            "scripts": [
+                "./dist/js/main.js"
+            ],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.0",
+            "foundryUrl": "/packages/route-finder/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "item-delete-check",
+            "title": "Item Delete Check",
+            "description": "Add delete confirmation dialog to various sheets",
+            "version": "1.0.3",
+            "author": "tposney",
+            "minimumCoreVersion": "0.4.4",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "ja",
+                    "name": " 日本語",
+                    "path": "lang/ja.json"
+                }
+            ],
+            "esmodules": [
+                "main.js"
+            ],
+            "packs": [],
+            "socket": true,
+            "url": "https://gitlab.com/tposney/item-delete-check/tree/master",
+            "manifest": "https://gitlab.com/tposney/item-delete-check/raw/master/module.json",
+            "download": "https://gitlab.com/tposney/item-delete-check/raw/master/item-delete-check.zip",
+            "foundryUrl": "/packages/item-delete-check/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "query",
+            "title": "Query",
+            "description": "A very basic module to implement roll queries (like Roll20's) into macros and chat. It does NOT work in any rolls processed from the character sheet.",
+            "version": "0.0.4",
+            "author": "Sky#9453",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.7",
+            "scripts": [
+                "query.js"
+            ],
+            "url": "https://github.com/Sky-Captain-13/foundry/tree/master/query",
+            "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/query/query/module.json",
+            "download": "https://github.com/Sky-Captain-13/foundry/raw/master/query/query.zip",
+            "foundryUrl": "/packages/query/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "bullseye",
+            "title": "Bullseye",
+            "description": "A module to assist with finding targets",
+            "author": "Victor Ling <victorling@ionshard.com>",
+            "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
+            "version": "1.0.3",
+            "minimumCoreVersion": "0.5.0",
+            "compatibleCoreVersion": "0.6.0",
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "scripts": [
+                "scripts/anvil-menu.js"
+            ],
+            "esmodules": [
+                "src/index.js"
+            ],
+            "styles": [
+                "styles/bullseye.css"
+            ],
+            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
+            "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module",
+            "foundryUrl": "/packages/bullseye/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "gm-bg",
+            "title": "GM Scene Background",
+            "description": "Allows you to set a GM-only background image on scenes",
+            "version": "0.1.2",
+            "minimumCoreVersion": "0.5.4",
+            "compatibleCoreVersion": "0.5.5",
+            "author": "Evan Clarke [errational#2007]",
+            "url": "https://github.com/death-save/gm-bg",
+            "manifest": "https://raw.githubusercontent.com/death-save/gm-bg/master/module.json",
+            "download": "https://github.com/death-save/gm-bg/archive/master.zip",
+            "scripts": [
+                "./gm-bg.js"
+            ],
+            "foundryUrl": "/packages/gm-bg/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "metric-system-dnd5e",
+            "title": "Metric System for D&D5e",
+            "description": "Unit changer and value converter for items using the Metric System",
+            "version": "1.0.1",
+            "author": "Melithian539",
+            "minimumCoreVersion": "0.5.3",
+            "compatibleCoreVersion": "0.6.0",
+            "systems": [
+                "dnd5e"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "pt-BR",
+                    "name": "Português (Brasil)",
+                    "path": "lang/pt-BR.json"
+                }
+            ],
+            "styles": [
+                "./css/metric-system.css"
+            ],
+            "scripts": [],
+            "esmodules": [
+                "metric.js"
+            ],
+            "packs": [],
+            "url": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/-/tree/master",
+            "manifest": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/raw/master/module.json",
+            "download": "https://gitlab.com/foundry-vtt/foundryvtt-metricsystem-module/-/jobs/artifacts/master/raw/metric-system-dnd5e.zip?job=build",
+            "foundryUrl": "/packages/metric-system-dnd5e/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "speakerstats",
+            "title": "Speaker stats",
+            "description": "Speaker stats show talking times for users",
+            "author": "jvir",
+            "version": "0.3.2",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "scripts": [
+                "scripts/speakerstats.js"
+            ],
+            "url": "https://gitlab.com/jvir/foundryvtt-speakerstats",
+            "manifest": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json",
+            "download": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/archive/master/foundryvtt-speakerstats-master.zip",
+            "foundryUrl": "/packages/speakerstats/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
             "name": "fxmaster",
             "title": "FXMaster",
             "description": "<p>Adds various weather and filter effects</p>",
@@ -8434,238 +8666,6 @@
             "compatibleCoreVersion": "0.6.0",
             "minimumCoreVersion": "0.5.7",
             "foundryUrl": "/packages/fxmaster/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "item-delete-check",
-            "title": "Item Delete Check",
-            "description": "Add delete confirmation dialog to various sheets",
-            "version": "1.0.3",
-            "author": "tposney",
-            "minimumCoreVersion": "0.4.4",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "ja",
-                    "name": " 日本語",
-                    "path": "lang/ja.json"
-                }
-            ],
-            "esmodules": [
-                "main.js"
-            ],
-            "packs": [],
-            "socket": true,
-            "url": "https://gitlab.com/tposney/item-delete-check/tree/master",
-            "manifest": "https://gitlab.com/tposney/item-delete-check/raw/master/module.json",
-            "download": "https://gitlab.com/tposney/item-delete-check/raw/master/item-delete-check.zip",
-            "foundryUrl": "/packages/item-delete-check/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "max-crit",
-            "title": "Max Crit",
-            "description": "Crit dice deal max damage",
-            "version": "0.1.5",
-            "author": "Shawn Milligan",
-            "esmodules": [
-                "max-crit.js"
-            ],
-            "compatibleCoreVersion": "0.6.0",
-            "minimumCoreVersion": "0.6.0",
-            "systems": [
-                "dnd5e"
-            ],
-            "manifest": "https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json",
-            "download": "https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip",
-            "url": "https://github.com/smilligan93/max-crit-foundry-dnd5e",
-            "foundryUrl": "/packages/max-crit/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "discord-rich-presence",
-            "title": "Discord Rich Presence",
-            "description": "Displays current FoundryVTT status in Discord and enables Discord Voice Chat in Foundry",
-            "version": "2.1.4",
-            "minimumCoreVersion": "0.5.4",
-            "author": "Cody Swendrowski <cody@swendrowski.us>",
-            "scripts": [
-                "./richpresence.js",
-                "./reconnecting-websocket.js"
-            ],
-            "styles": [
-                "./richpresence.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                }
-            ],
-            "packs": [],
-            "url": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence",
-            "manifest": "https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/archive/master.zip",
-            "foundryUrl": "/packages/discord-rich-presence/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "bullseye",
-            "title": "Bullseye",
-            "description": "A module to assist with finding targets",
-            "author": "Victor Ling <victorling@ionshard.com>",
-            "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
-            "version": "1.0.3",
-            "minimumCoreVersion": "0.5.0",
-            "compatibleCoreVersion": "0.6.0",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "scripts": [
-                "scripts/anvil-menu.js"
-            ],
-            "esmodules": [
-                "src/index.js"
-            ],
-            "styles": [
-                "styles/bullseye.css"
-            ],
-            "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
-            "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module",
-            "foundryUrl": "/packages/bullseye/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "vtta-party",
-            "title": "Virtual Tabletop Assets - Party overview",
-            "description": "Provides an instant overview about vital stats of the players active in the current scene",
-            "version": "2.2.3",
-            "author": "Sebastian Will (vttassets@gmail.com)",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.6.4",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "Deutsch",
-                    "path": "lang/de.json"
-                },
-                {
-                    "lang": "pt-BR",
-                    "name": "Português Brasileiro",
-                    "path": "lang/pt-BR.json"
-                }
-            ],
-            "systems": [
-                "dnd5e",
-                "pf2e",
-                "wfrp4e"
-            ],
-            "esmodules": [
-                "./src/index.js"
-            ],
-            "styles": [
-                "./style/module-settings.css",
-                "./style/vtta.css",
-                "./style/module-settings.css"
-            ],
-            "packs": [],
-            "url": "https://www.vttassets.com/assets/vtta-party",
-            "manifest": "https://update.vttassets.com/modules/vtta-party/latest/module.json",
-            "download": "https://get.vttassets.com/modules/vtta-party/latest",
-            "license": "LICENSE",
-            "bugs": "https://github.com/VTTAssets/vtta-party/issues",
-            "readme": "https://github.com/VTTAssets/vtta-party/blob/master/README.md",
-            "changelog": "https://github.com/VTTAssets/vtta-party/releases",
-            "foundryUrl": "/packages/vtta-party/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "route-finder",
-            "title": "Route-Finder",
-            "description": "A module to find the shortest route for a token to reach a chosen point.",
-            "url": "https://github.com/Exote/foundry-vtt-pathfinding",
-            "download": "https://github.com/Exote/foundry-vtt-pathfinding/archive/v0.3.11.zip",
-            "manifest": "https://raw.githubusercontent.com/Exote/foundry-vtt-pathfinding/master/module.json",
-            "author": "Exote (Moe#6034)",
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "version": "0.3.11",
-            "scripts": [
-                "./dist/js/main.js"
-            ],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.0",
-            "foundryUrl": "/packages/route-finder/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "query",
-            "title": "Query",
-            "description": "A very basic module to implement roll queries (like Roll20's) into macros and chat. It does NOT work in any rolls processed from the character sheet.",
-            "version": "0.0.4",
-            "author": "Sky#9453",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.7",
-            "scripts": [
-                "query.js"
-            ],
-            "url": "https://github.com/Sky-Captain-13/foundry/tree/master/query",
-            "manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/query/query/module.json",
-            "download": "https://github.com/Sky-Captain-13/foundry/raw/master/query/query.zip",
-            "foundryUrl": "/packages/query/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "gm-bg",
-            "title": "GM Scene Background",
-            "description": "Allows you to set a GM-only background image on scenes",
-            "version": "0.1.2",
-            "minimumCoreVersion": "0.5.4",
-            "compatibleCoreVersion": "0.5.5",
-            "author": "Evan Clarke [errational#2007]",
-            "url": "https://github.com/death-save/gm-bg",
-            "manifest": "https://raw.githubusercontent.com/death-save/gm-bg/master/module.json",
-            "download": "https://github.com/death-save/gm-bg/archive/master.zip",
-            "scripts": [
-                "./gm-bg.js"
-            ],
-            "foundryUrl": "/packages/gm-bg/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "speakerstats",
-            "title": "Speaker stats",
-            "description": "Speaker stats show talking times for users",
-            "author": "jvir",
-            "version": "0.3.2",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "scripts": [
-                "scripts/speakerstats.js"
-            ],
-            "url": "https://gitlab.com/jvir/foundryvtt-speakerstats",
-            "manifest": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json",
-            "download": "https://gitlab.com/jvir/foundryvtt-speakerstats/-/archive/master/foundryvtt-speakerstats-master.zip",
-            "foundryUrl": "/packages/speakerstats/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -8975,27 +8975,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "image-drop",
-            "title": "ImageDrop",
-            "description": "<p>Allows dropping Journal Entry to the canvas as Tile</p>",
-            "version": "1.0.2",
-            "author": "U~man",
-            "scripts": [],
-            "esmodules": [
-                "drop.js"
-            ],
-            "styles": [],
-            "packs": [],
-            "languages": [],
-            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop",
-            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json",
-            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/archive/master/foundryvtt-image-drop-master.zip",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.0",
-            "foundryUrl": "/packages/image-drop/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "modbox",
             "title": "ModBox",
             "description": "<p>Displays a modifier box to modify roll results</p>",
@@ -9027,6 +9006,27 @@
             "minimumCoreVersion": "0.6.0",
             "compatibleCoreVersion": "0.6.0",
             "foundryUrl": "/packages/modbox/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "image-drop",
+            "title": "ImageDrop",
+            "description": "<p>Allows dropping Journal Entry to the canvas as Tile</p>",
+            "version": "1.0.2",
+            "author": "U~man",
+            "scripts": [],
+            "esmodules": [
+                "drop.js"
+            ],
+            "styles": [],
+            "packs": [],
+            "languages": [],
+            "url": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop",
+            "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json",
+            "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/archive/master/foundryvtt-image-drop-master.zip",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.0",
+            "foundryUrl": "/packages/image-drop/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
