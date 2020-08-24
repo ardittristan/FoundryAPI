@@ -1,5 +1,5 @@
 {
-    "updated": "Mon, 24 Aug 2020 21:11:00 GMT",
+    "updated": "Mon, 24 Aug 2020 21:25:55 GMT",
     "modules": [
         {
             "name": "tokenmagic",
@@ -98,7 +98,7 @@
             "manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
             "download": "https://github.com/Feu-Secret/Tokenmagic/releases/download/v0.4.0-alpha/Tokenmagic.zip",
             "foundryUrl": "/packages/tokenmagic/",
-            "lastUpdate": "1 hour, 13 minutes ago"
+            "lastUpdate": "1 hour, 28 minutes ago"
         },
         {
             "name": "illandril-hotbar-uses",
@@ -120,7 +120,7 @@
             "manifest": "https://github.com/illandril/FoundryVTT-hotbar-uses/releases/latest/download/module.json",
             "download": "https://github.com/illandril/FoundryVTT-hotbar-uses/releases/download/v1.0.1/illandril-hotbar-uses.zip",
             "foundryUrl": "/packages/illandril-hotbar-uses/",
-            "lastUpdate": "1 hour, 8 minutes ago"
+            "lastUpdate": "1 hour, 23 minutes ago"
         },
         {
             "type": "module",
@@ -143,7 +143,44 @@
             "manifest": "https://github.com/illandril/FoundryVTT-token-hud-scale/releases/latest/download/module.json",
             "download": "https://github.com/illandril/FoundryVTT-token-hud-scale/releases/download/v1.0.0/illandril-token-hud-scale.zip",
             "foundryUrl": "/packages/illandril-token-hud-scale/",
-            "lastUpdate": "1 hour, 8 minutes ago"
+            "lastUpdate": "1 hour, 23 minutes ago"
+        },
+        {
+            "name": "cardsupport",
+            "title": "Card Support (Unofficial)",
+            "description": "Unofficial deck support for foundry that allows you to have cards and player hands and the like.",
+            "author": "Spacemandev, Norc",
+            "version": "1.3.2",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-card-support",
+            "manifest": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.json",
+            "download": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.zip",
+            "esmodules": [
+                "./scripts/decksupport.js",
+                "./scripts/tileHud.js",
+                "./scripts/tokenHUD.js",
+                "./scripts/drop.js",
+                "./scripts/socketListener.js",
+                "./lib/js-yaml.js",
+                "./lib/jszip.js",
+                "./cardhotbar/index.js"
+            ],
+            "styles": [
+                "./styles/sdf.css",
+                "./cardhotbar/css/card-hotbar.css",
+                "./styles/css/cardsupport.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "socket": true,
+            "foundryUrl": "/packages/cardsupport/",
+            "lastUpdate": "3 hours, 7 minutes ago"
         },
         {
             "name": "ose-content",
@@ -207,44 +244,7 @@
             "manifest": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/raw/master/module.json",
             "download": "https://gitlab.com/mesfoliesludiques/foundryvtt-ose-content/-/raw/master/package/ose-content-v0.1.5.zip",
             "foundryUrl": "/packages/ose-content/",
-            "lastUpdate": "2 hours, 57 minutes ago"
-        },
-        {
-            "name": "cardsupport",
-            "title": "Card Support (Unofficial)",
-            "description": "Unofficial deck support for foundry that allows you to have cards and player hands and the like.",
-            "author": "Spacemandev, Norc",
-            "version": "1.3.2",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-card-support",
-            "manifest": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.json",
-            "download": "https://github.com/Brownie79/fvtt-card-support/releases/download/latest/module.zip",
-            "esmodules": [
-                "./scripts/decksupport.js",
-                "./scripts/tileHud.js",
-                "./scripts/tokenHUD.js",
-                "./scripts/drop.js",
-                "./scripts/socketListener.js",
-                "./lib/js-yaml.js",
-                "./lib/jszip.js",
-                "./cardhotbar/index.js"
-            ],
-            "styles": [
-                "./styles/sdf.css",
-                "./cardhotbar/css/card-hotbar.css",
-                "./styles/css/cardsupport.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "socket": true,
-            "foundryUrl": "/packages/cardsupport/",
-            "lastUpdate": "2 hours, 52 minutes ago"
+            "lastUpdate": "3 hours, 12 minutes ago"
         },
         {
             "name": "pdfoundry",
@@ -273,7 +273,7 @@
             "download": "https://github.com/Djphoenix719/PDFoundry/releases/download/v0.6.7/pdfoundry-v0.6.7.zip",
             "url": "https://github.com/Djphoenix719/PDFoundry",
             "foundryUrl": "/packages/pdfoundry/",
-            "lastUpdate": "3 hours, 55 minutes ago"
+            "lastUpdate": "4 hours, 10 minutes ago"
         },
         {
             "name": "foundry-drmapzo-free",
@@ -296,7 +296,7 @@
                 }
             ],
             "foundryUrl": "/packages/foundry-drmapzo-free/",
-            "lastUpdate": "4 hours, 54 minutes ago"
+            "lastUpdate": "5 hours, 8 minutes ago"
         },
         {
             "name": "illandril-chat-enhancements",
@@ -325,37 +325,7 @@
             "manifest": "https://github.com/illandril/FoundryVTT-chat-enhancements/releases/latest/download/module.json",
             "download": "https://github.com/illandril/FoundryVTT-chat-enhancements/releases/download/v1.0.0/illandril-chat-enhancements.zip",
             "foundryUrl": "/packages/illandril-chat-enhancements/",
-            "lastUpdate": "6 hours, 21 minutes ago"
-        },
-        {
-            "type": "module",
-            "name": "illandril-sheet5e-lockdown",
-            "version": "1.0.0",
-            "title": "Illandril's Character Sheet Lockdown (5e)",
-            "description": "Locks down character sheets (DnD5e only) to prevent players from making changes, and minimize the risk of accidental GM edits. Note: This is not a secure lockdown, and player could get around it if they really wanted.",
-            "author": "Joe Spandrusyszyn",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.6.5",
-            "styles": [
-                "./styles.css"
-            ],
-            "esmodules": [
-                "./init.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "license": "./LICENSE",
-            "url": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown",
-            "bugs": "https://github.com/illandril/FoundryVTT-sheet5e-lockdowns/issues",
-            "manifest": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown/releases/latest/download/module.json",
-            "download": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown/releases/download/v1.0.0/illandril-sheet5e-lockdown.zip",
-            "foundryUrl": "/packages/illandril-sheet5e-lockdown/",
-            "lastUpdate": "6 hours, 26 minutes ago"
+            "lastUpdate": "6 hours, 36 minutes ago"
         },
         {
             "name": "midi-qol",
@@ -421,7 +391,37 @@
             "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/midi-qol/raw/master/package/midi-qol-v0.2.4.zip",
             "foundryUrl": "/packages/midi-qol/",
-            "lastUpdate": "6 hours, 44 minutes ago"
+            "lastUpdate": "6 hours, 59 minutes ago"
+        },
+        {
+            "type": "module",
+            "name": "illandril-sheet5e-lockdown",
+            "version": "1.0.0",
+            "title": "Illandril's Character Sheet Lockdown (5e)",
+            "description": "Locks down character sheets (DnD5e only) to prevent players from making changes, and minimize the risk of accidental GM edits. Note: This is not a secure lockdown, and player could get around it if they really wanted.",
+            "author": "Joe Spandrusyszyn",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.6.5",
+            "styles": [
+                "./styles.css"
+            ],
+            "esmodules": [
+                "./init.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "license": "./LICENSE",
+            "url": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown",
+            "bugs": "https://github.com/illandril/FoundryVTT-sheet5e-lockdowns/issues",
+            "manifest": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown/releases/latest/download/module.json",
+            "download": "https://github.com/illandril/FoundryVTT-sheet5e-lockdown/releases/download/v1.0.0/illandril-sheet5e-lockdown.zip",
+            "foundryUrl": "/packages/illandril-sheet5e-lockdown/",
+            "lastUpdate": "6 hours, 41 minutes ago"
         },
         {
             "name": "tidy-ui_game-settings",
@@ -441,7 +441,7 @@
             "manifest": "https://raw.githubusercontent.com/sdenec/tidy-ui_game-settings/master/module.json",
             "download": "https://github.com/sdenec/tidy-ui_game-settings/raw/master/tidy-ui_game-settings.zip",
             "foundryUrl": "/packages/tidy-ui_game-settings/",
-            "lastUpdate": "6 hours, 46 minutes ago"
+            "lastUpdate": "7 hours, 1 minute ago"
         },
         {
             "type": "module",
@@ -464,7 +464,7 @@
             "manifest": "https://github.com/illandril/FoundryVTT-token-tooltips/releases/latest/download/module.json",
             "download": "https://github.com/illandril/FoundryVTT-token-tooltips/releases/download/v1.0.0/illandril-token-tooltips.zip",
             "foundryUrl": "/packages/illandril-token-tooltips/",
-            "lastUpdate": "6 hours, 30 minutes ago"
+            "lastUpdate": "6 hours, 45 minutes ago"
         },
         {
             "name": "statblockimporter",
@@ -488,7 +488,7 @@
             "minimumCoreVersion": "0.6.1",
             "compatibleCoreVersion": "0.6.5",
             "foundryUrl": "/packages/statblockimporter/",
-            "lastUpdate": "9 hours, 40 minutes ago"
+            "lastUpdate": "9 hours, 55 minutes ago"
         },
         {
             "name": "forien-quest-log",
@@ -569,7 +569,7 @@
             ],
             "socket": true,
             "foundryUrl": "/packages/forien-quest-log/",
-            "lastUpdate": "12 hours, 37 minutes ago"
+            "lastUpdate": "12 hours, 52 minutes ago"
         },
         {
             "name": "ShowArtwork",
@@ -592,7 +592,7 @@
             "manifest": "https://raw.githubusercontent.com/wsaunders1014/ShowArtwork/1.0.0/module.json",
             "download": "https://github.com/wsaunders1014/ShowArtwork/archive/1.0.0.zip",
             "foundryUrl": "/packages/ShowArtwork/",
-            "lastUpdate": "13 hours, 20 minutes ago"
+            "lastUpdate": "13 hours, 35 minutes ago"
         },
         {
             "name": "npcgen",
@@ -624,7 +624,7 @@
                 }
             ],
             "foundryUrl": "/packages/npcgen/",
-            "lastUpdate": "20 hours, 10 minutes ago"
+            "lastUpdate": "20 hours, 25 minutes ago"
         },
         {
             "name": "quick-insert",
@@ -653,7 +653,7 @@
             "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
             "changelog": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/blob/master/CHANGELOG.md",
             "foundryUrl": "/packages/quick-insert/",
-            "lastUpdate": "23 hours, 17 minutes ago"
+            "lastUpdate": "23 hours, 32 minutes ago"
         },
         {
             "name": "whisper-dialog",
@@ -680,7 +680,7 @@
             "manifest": "https://github.com/Kekilla0/whisper-dialog/raw/master/module.json",
             "download": "https://github.com/Kekilla0/whisper-dialog/archive/v0.1.2.zip",
             "foundryUrl": "/packages/whipser-dialog/",
-            "lastUpdate": "23 hours, 58 minutes ago"
+            "lastUpdate": "1 day ago"
         },
         {
             "name": "sfrpg-statblock-parser",
@@ -848,6 +848,32 @@
             "lastUpdate": "1 day, 3 hours ago"
         },
         {
+            "name": "hide-gm-rolls",
+            "title": "Hide GM Rolls",
+            "description": "<p>Some GMs prefer to limit the information that players receive, to maintain the mystery. For example you may wish to hide the bonuses that your legendary creature gets on its rolls, or to roll truly in the blind when an event occurs, without alerting your players to it.</p><p>This module allows sanitizing public GM rolls by hiding formulas and breakdowns from players, showing just the total instead. It can also hide private GM rolls from players entirely.</p>",
+            "author": [
+                "sPOiDar"
+            ],
+            "version": "0.1.3",
+            "minimumCoreVersion": "0.6.5",
+            "compatibleCoreVersion": "0.7.1",
+            "esmodules": [
+                "modules/hide_gm_rolls.js"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "url": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls",
+            "manifest": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/raw/master/module.json",
+            "download": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/releases/download/v0.1.3/hide-gm-rolls-v0.1.3.zip",
+            "foundryUrl": "/packages/hide-gm-rolls/",
+            "lastUpdate": "1 day, 22 hours ago"
+        },
+        {
             "name": "SupersHomebrewPack",
             "title": "Super's Homebrew Compendium",
             "description": "A module that adds additional homebrewed content for your dnd5e games. Classes, subclasses, races, feats, spells, items, you know it! Works even better when paired with Magic Items, Better Rolls and Dynamic Effects modules!",
@@ -923,32 +949,6 @@
             "lastUpdate": "1 day, 23 hours ago"
         },
         {
-            "name": "hide-gm-rolls",
-            "title": "Hide GM Rolls",
-            "description": "<p>Some GMs prefer to limit the information that players receive, to maintain the mystery. For example you may wish to hide the bonuses that your legendary creature gets on its rolls, or to roll truly in the blind when an event occurs, without alerting your players to it.</p><p>This module allows sanitizing public GM rolls by hiding formulas and breakdowns from players, showing just the total instead. It can also hide private GM rolls from players entirely.</p>",
-            "author": [
-                "sPOiDar"
-            ],
-            "version": "0.1.3",
-            "minimumCoreVersion": "0.6.5",
-            "compatibleCoreVersion": "0.7.1",
-            "esmodules": [
-                "modules/hide_gm_rolls.js"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "url": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls",
-            "manifest": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/raw/master/module.json",
-            "download": "https://github.com/sPOiDar/fvtt-module-hide-gm-rolls/releases/download/v0.1.3/hide-gm-rolls-v0.1.3.zip",
-            "foundryUrl": "/packages/hide-gm-rolls/",
-            "lastUpdate": "1 day, 21 hours ago"
-        },
-        {
             "name": "betterrolls-swade",
             "title": "Better Rolls for Savage Worlds",
             "description": "This module tries to port the most useful features from Better Roll to SWADE",
@@ -977,7 +977,7 @@
             "manifest": "https://raw.githubusercontent.com/javierriveracastro/betteroll-swade/master/betterrolls-swade/module.json",
             "download": "https://github.com/javierriveracastro/betteroll-swade/raw/master/betterrolls-swade.zip",
             "foundryUrl": "/packages/betterrolls-swade/",
-            "lastUpdate": "2 days, 4 hours ago"
+            "lastUpdate": "2 days, 5 hours ago"
         },
         {
             "name": "workshop-party-unit-frames",
@@ -1681,7 +1681,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-4/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-3",
@@ -1703,7 +1703,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-3/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-2",
@@ -1725,7 +1725,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2/releases/download/v2.2/v2.2.zip",
             "foundryUrl": "/packages/gAudioBundle-2/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "gAudioBundle-1",
@@ -1747,7 +1747,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1/releases/download/v2.1/v2.1.zip",
             "foundryUrl": "/packages/gAudioBundle-1/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "dndAudioBundle-HammerHome",
@@ -1769,7 +1769,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/master/module.json",
             "download": "https://github.com/datdamnzotz/FoundryVTT-DnD-Audio-Bundle-Hammer-Home/releases/download//v1.0/v1.0.zip",
             "foundryUrl": "/packages/dndAudioBundle-HammerHome/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "game-icons-net",
@@ -1783,7 +1783,7 @@
             "manifest": "https://raw.githubusercontent.com/datdamnzotz/icons/master/module.json",
             "download": "https://github.com/datdamnzotz/icons/releases/download/0.0.5/0.0.5.zip",
             "foundryUrl": "/packages/game-icons-net/",
-            "lastUpdate": "5 days ago"
+            "lastUpdate": "5 days, 1 hour ago"
         },
         {
             "name": "forbidden-lands-party-sheet",
@@ -1998,7 +1998,7 @@
             "manifest": "https://gitlab.com/tposney/mergewalls/raw/master/module.json",
             "download": "https://gitlab.com/tposney/mergewalls/raw/master/mergewalls.zip",
             "foundryUrl": "/packages/mergewalls/",
-            "lastUpdate": "6 days, 16 hours ago"
+            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "about-time",
@@ -2054,7 +2054,7 @@
             "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.50.zip",
             "foundryUrl": "/packages/about-time/",
-            "lastUpdate": "6 days, 16 hours ago"
+            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "dynamiceffects",
@@ -2137,7 +2137,7 @@
             "manifest": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/module.json",
             "download": "https://gitlab.com/tposney/dynamiceffects/raw/master/package/dynamiceffects-v0.5.98.zip",
             "foundryUrl": "/packages/dynamiceffects/",
-            "lastUpdate": "6 days, 16 hours ago"
+            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "minor-qol",
@@ -2200,7 +2200,7 @@
             "manifest": "https://gitlab.com/tposney/minor-qol/raw/master/module.json",
             "download": "https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip",
             "foundryUrl": "/packages/minor-qol/",
-            "lastUpdate": "6 days, 16 hours ago"
+            "lastUpdate": "6 days, 17 hours ago"
         },
         {
             "name": "about-face",
@@ -2278,7 +2278,7 @@
             "manifest": "https://raw.githubusercontent.com/bekriebel/fvtt-module-webrtc_tweaks/master/module.json",
             "download": "https://github.com/bekriebel/fvtt-module-webrtc_tweaks/archive/v0.4.1.zip",
             "foundryUrl": "/packages/webrtc-tweaks/",
-            "lastUpdate": "6 days, 21 hours ago"
+            "lastUpdate": "6 days, 22 hours ago"
         },
         {
             "name": "dndbeyond-character-sheet",
@@ -4840,6 +4840,50 @@
             "lastUpdate": "1 month ago"
         },
         {
+            "name": "data-toolbox",
+            "title": "Data Toolbox for FoundryVTT",
+            "description": "Tools for generating/manipulating data (compendiums). For example, it can be used for generating a compendium from a CSV file.",
+            "version": "1.2.2",
+            "author": "Sven Werlen",
+            "scripts": [
+                "data-toolbox.js",
+                "scripts/d3/d3.min.js",
+                "scripts/d3-fetch/d3-fetch.min.js",
+                "scripts/letscontribute.js",
+                "scripts/jdd/jdd.js"
+            ],
+            "styles": [
+                "data-toolbox.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                },
+                {
+                    "lang": "fr",
+                    "name": "French",
+                    "path": "lang/fr.json"
+                }
+            ],
+            "packs": [
+                {
+                    "name": "data-macros",
+                    "label": "Data Macros",
+                    "path": "./packs/data-macros.db",
+                    "entity": "Macro"
+                }
+            ],
+            "url": "https://github.com/SvenWerlen/fvtt-data-toolbox",
+            "download": "https://github.com/SvenWerlen/fvtt-data-toolbox/archive/v-1.2.2.zip",
+            "manifest": "https://raw.githubusercontent.com/SvenWerlen/fvtt-data-toolbox/master/module.json",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "1.0.0",
+            "foundryUrl": "/packages/data-toolbox/",
+            "lastUpdate": "1 month ago"
+        },
+        {
             "name": "magicitems",
             "title": "Magic Items",
             "description": "Module that adds the ability to create magical items with spells or feats that belong to the item itself, such as staffs or magic wands, which will be automatically inherited from the character who owns the item.",
@@ -4883,50 +4927,6 @@
             "manifest": "https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json",
             "download": "https://gitlab.com/riccisi/foundryvtt-magic-items/-/jobs/artifacts/1.18/raw/magic-items.zip?job=build",
             "foundryUrl": "/packages/magicitems/",
-            "lastUpdate": "1 month ago"
-        },
-        {
-            "name": "data-toolbox",
-            "title": "Data Toolbox for FoundryVTT",
-            "description": "Tools for generating/manipulating data (compendiums). For example, it can be used for generating a compendium from a CSV file.",
-            "version": "1.2.2",
-            "author": "Sven Werlen",
-            "scripts": [
-                "data-toolbox.js",
-                "scripts/d3/d3.min.js",
-                "scripts/d3-fetch/d3-fetch.min.js",
-                "scripts/letscontribute.js",
-                "scripts/jdd/jdd.js"
-            ],
-            "styles": [
-                "data-toolbox.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                },
-                {
-                    "lang": "fr",
-                    "name": "French",
-                    "path": "lang/fr.json"
-                }
-            ],
-            "packs": [
-                {
-                    "name": "data-macros",
-                    "label": "Data Macros",
-                    "path": "./packs/data-macros.db",
-                    "entity": "Macro"
-                }
-            ],
-            "url": "https://github.com/SvenWerlen/fvtt-data-toolbox",
-            "download": "https://github.com/SvenWerlen/fvtt-data-toolbox/archive/v-1.2.2.zip",
-            "manifest": "https://raw.githubusercontent.com/SvenWerlen/fvtt-data-toolbox/master/module.json",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "1.0.0",
-            "foundryUrl": "/packages/data-toolbox/",
             "lastUpdate": "1 month ago"
         },
         {
@@ -5021,7 +5021,7 @@
                 "styles/tokenbar.css"
             ],
             "foundryUrl": "/packages/fvtt-swade-tokenbar/",
-            "lastUpdate": "1 month ago"
+            "lastUpdate": "1 month, 1 week ago"
         },
         {
             "name": "master-mirror",
@@ -5306,27 +5306,6 @@
             "lastUpdate": "1 month, 1 week ago"
         },
         {
-            "name": "special-dice-roller",
-            "title": "Special Dice Roller",
-            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
-            "version": "0.11.3",
-            "author": "Bernhard Posselt",
-            "scripts": [
-                "./dist/main.js"
-            ],
-            "styles": [
-                "./public/css/styles.css"
-            ],
-            "packs": [],
-            "minimumCoreVersion": "0.5.7",
-            "compatibleCoreVersion": "0.6.5",
-            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
-            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
-            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
-            "foundryUrl": "/packages/special-dice-roller/",
-            "lastUpdate": "1 month, 1 week ago"
-        },
-        {
             "name": "point-of-vision",
             "title": "Point of Vision",
             "description": "Allows tweaking the point(s) of origin of vision on tokens",
@@ -5351,6 +5330,27 @@
                 }
             ],
             "foundryUrl": "/packages/point-of-vision/",
+            "lastUpdate": "1 month, 1 week ago"
+        },
+        {
+            "name": "special-dice-roller",
+            "title": "Special Dice Roller",
+            "description": "Supports rolling dice for: Legend of the 5 Rings 5th edition, Genesys, Vampire the Masquerade 5th edition, FFG's Star Wars TTRPG, HeroQuest, HeXXen 1733. Check out the README.md on the homepage for a guide on how to roll various dice.",
+            "version": "0.11.3",
+            "author": "Bernhard Posselt",
+            "scripts": [
+                "./dist/main.js"
+            ],
+            "styles": [
+                "./public/css/styles.css"
+            ],
+            "packs": [],
+            "minimumCoreVersion": "0.5.7",
+            "compatibleCoreVersion": "0.6.5",
+            "url": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
+            "manifest": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/raw/master/module.json",
+            "download": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller/archive/master.zip",
+            "foundryUrl": "/packages/special-dice-roller/",
             "lastUpdate": "1 month, 1 week ago"
         },
         {
@@ -5947,22 +5947,6 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
-            "name": "foundryvtt-show-notes",
-            "title": "Show Notes",
-            "description": "Always show notes.",
-            "author": "KrishMero#1792",
-            "version": "0.1",
-            "minimumCoreVersion": "0.6.0",
-            "esmodules": [
-                "scripts/main.js"
-            ],
-            "url": "https://github.com/shawndibble/foundryvtt-show-notes",
-            "manifest": "https://github.com/shawndibble/foundryvtt-show-notes/raw/master/module.json",
-            "download": "https://github.com/shawndibble/foundryvtt-show-notes/archive/0.1.zip",
-            "foundryUrl": "/packages/foundryvtt-show-notes/",
-            "lastUpdate": "1 month, 3 weeks ago"
-        },
-        {
             "name": "darksheet-style",
             "title": "styling for the darksheet 5 sheet",
             "description": "Adds styling to the 5e sheet",
@@ -5983,6 +5967,22 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.4",
             "foundryUrl": "/packages/darksheet-style/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "foundryvtt-show-notes",
+            "title": "Show Notes",
+            "description": "Always show notes.",
+            "author": "KrishMero#1792",
+            "version": "0.1",
+            "minimumCoreVersion": "0.6.0",
+            "esmodules": [
+                "scripts/main.js"
+            ],
+            "url": "https://github.com/shawndibble/foundryvtt-show-notes",
+            "manifest": "https://github.com/shawndibble/foundryvtt-show-notes/raw/master/module.json",
+            "download": "https://github.com/shawndibble/foundryvtt-show-notes/archive/0.1.zip",
+            "foundryUrl": "/packages/foundryvtt-show-notes/",
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
@@ -6037,6 +6037,32 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.0",
             "foundryUrl": "/packages/Darksheet/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "fa-dm-screen",
+            "title": "Forgotten Adventures Extensive DM Screen",
+            "description": "A Table of Contents for use with the Forgotten Adventures' Extensive DM Screen - 5th edition.",
+            "version": "0.4",
+            "author": "fohswe#8355",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.7.0",
+            "scripts": [
+                "scripts/fa-dm-screen.js"
+            ],
+            "packs": [
+                {
+                    "name": "fa-dm-screen-toc",
+                    "label": "FA's Exensive DM Screen",
+                    "path": "packs/fa-dm-screen.db",
+                    "entity": "JournalEntry",
+                    "system": "dnd5e"
+                }
+            ],
+            "url": "https://gitlab.com/fohswe/fa-dm-screen",
+            "manifest": "https://gitlab.com/fohswe/fa-dm-screen/-/raw/master/module.json",
+            "download": "https://gitlab.com/fohswe/fa-dm-screen/-/archive/master/fa-dm-screen-master.zip",
+            "foundryUrl": "/packages/fa-dm-screen/",
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
@@ -6095,32 +6121,6 @@
             "download": "https://github.com/RaySSharma/fvtt-encounter-builder/archive/v0.2.2.zip",
             "readme": "https://raw.githubusercontent.com/RaySSharma/fvtt-encounter-builder/master/README.md",
             "foundryUrl": "/packages/encounter-builder-5e/",
-            "lastUpdate": "1 month, 3 weeks ago"
-        },
-        {
-            "name": "fa-dm-screen",
-            "title": "Forgotten Adventures Extensive DM Screen",
-            "description": "A Table of Contents for use with the Forgotten Adventures' Extensive DM Screen - 5th edition.",
-            "version": "0.4",
-            "author": "fohswe#8355",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.7.0",
-            "scripts": [
-                "scripts/fa-dm-screen.js"
-            ],
-            "packs": [
-                {
-                    "name": "fa-dm-screen-toc",
-                    "label": "FA's Exensive DM Screen",
-                    "path": "packs/fa-dm-screen.db",
-                    "entity": "JournalEntry",
-                    "system": "dnd5e"
-                }
-            ],
-            "url": "https://gitlab.com/fohswe/fa-dm-screen",
-            "manifest": "https://gitlab.com/fohswe/fa-dm-screen/-/raw/master/module.json",
-            "download": "https://gitlab.com/fohswe/fa-dm-screen/-/archive/master/fa-dm-screen-master.zip",
-            "foundryUrl": "/packages/fa-dm-screen/",
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
@@ -6425,23 +6425,6 @@
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
-            "name": "cursor-zoom",
-            "title": "Cursor Zoom",
-            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
-            "author": "shem",
-            "version": "1.0.0-compatible-with-0.6.5",
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.6.5",
-            "scripts": [
-                "cursorzoom.js"
-            ],
-            "url": "https://github.com/itamarcu/CursorZoom",
-            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
-            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
-            "foundryUrl": "/packages/cursor-zoom/",
-            "lastUpdate": "1 month, 3 weeks ago"
-        },
-        {
             "name": "token-auras",
             "title": "Token Auras",
             "description": "Provide options for configuring token auras.",
@@ -6468,6 +6451,23 @@
                 }
             ],
             "foundryUrl": "/packages/token-auras/",
+            "lastUpdate": "1 month, 3 weeks ago"
+        },
+        {
+            "name": "cursor-zoom",
+            "title": "Cursor Zoom",
+            "description": "Zooming will be centered around the cursor, instead of the center of the screen.",
+            "author": "shem",
+            "version": "1.0.0-compatible-with-0.6.5",
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.6.5",
+            "scripts": [
+                "cursorzoom.js"
+            ],
+            "url": "https://github.com/itamarcu/CursorZoom",
+            "manifest": "https://raw.githubusercontent.com/itamarcu/CursorZoom/master/module.json",
+            "download": "https://github.com/itamarcu/CursorZoom/archive/master.zip",
+            "foundryUrl": "/packages/cursor-zoom/",
             "lastUpdate": "1 month, 3 weeks ago"
         },
         {
@@ -7759,7 +7759,7 @@
             "minimumCoreVersion": "0.5.5",
             "compatibleCoreVersion": "0.6.1",
             "foundryUrl": "/packages/displaymode/",
-            "lastUpdate": "2 months, 2 weeks ago"
+            "lastUpdate": "2 months, 3 weeks ago"
         },
         {
             "name": "actually-private-rolls",
@@ -7797,6 +7797,26 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
+            "name": "mindmap",
+            "title": "M.I.N.D.M.A.P. - Moerills Indecision Negator, Decision Maker, And Planner",
+            "description": "Adds a new view to Journal Entries for creating mind map like graphs. In this view you can create a network graph for organizing your relations, flow charts, campaign structures, ideas or whatever you can imagine! Just drag the data from the sidebar to begin planning.",
+            "version": "0.5.1",
+            "author": "Moerill",
+            "scripts": [
+                "graph.js"
+            ],
+            "styles": [
+                "graphs.css"
+            ],
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "url": "https://gitlab.com/moerills-fvtt-modules/graphs",
+            "manifest": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/master/src/module.json",
+            "download": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/v0.5.1/package/mindmap-v0.5.1.zip",
+            "foundryUrl": "/packages/mindmap/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
             "name": "layer-hotkeys",
             "title": "Layer Hotkeys",
             "description": "Adds customizable hotkeys for switching between layers and tools.",
@@ -7823,26 +7843,6 @@
             "manifest": "https://raw.githubusercontent.com/Moerill/Layer-Hotkeys/master/src/module.json",
             "download": "https://github.com/Moerill/Layer-Hotkeys/releases/download/v1.7.0/layer-hotkeys.zip",
             "foundryUrl": "/packages/layer-hotkeys/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "mindmap",
-            "title": "M.I.N.D.M.A.P. - Moerills Indecision Negator, Decision Maker, And Planner",
-            "description": "Adds a new view to Journal Entries for creating mind map like graphs. In this view you can create a network graph for organizing your relations, flow charts, campaign structures, ideas or whatever you can imagine! Just drag the data from the sidebar to begin planning.",
-            "version": "0.5.1",
-            "author": "Moerill",
-            "scripts": [
-                "graph.js"
-            ],
-            "styles": [
-                "graphs.css"
-            ],
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "url": "https://gitlab.com/moerills-fvtt-modules/graphs",
-            "manifest": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/master/src/module.json",
-            "download": "https://gitlab.com/moerills-fvtt-modules/graphs/raw/v0.5.1/package/mindmap-v0.5.1.zip",
-            "foundryUrl": "/packages/mindmap/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -9092,34 +9092,6 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
-            "name": "discord-rich-presence",
-            "title": "Discord Rich Presence",
-            "description": "Displays current FoundryVTT status in Discord and enables Discord Voice Chat in Foundry",
-            "version": "2.1.4",
-            "minimumCoreVersion": "0.5.4",
-            "author": "Cody Swendrowski <cody@swendrowski.us>",
-            "scripts": [
-                "./richpresence.js",
-                "./reconnecting-websocket.js"
-            ],
-            "styles": [
-                "./richpresence.css"
-            ],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                }
-            ],
-            "packs": [],
-            "url": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence",
-            "manifest": "https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json",
-            "download": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/archive/master.zip",
-            "foundryUrl": "/packages/discord-rich-presence/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
             "name": "bullseye",
             "title": "Bullseye",
             "description": "A module to assist with finding targets",
@@ -9147,6 +9119,34 @@
             "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
             "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module",
             "foundryUrl": "/packages/bullseye/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
+            "name": "discord-rich-presence",
+            "title": "Discord Rich Presence",
+            "description": "Displays current FoundryVTT status in Discord and enables Discord Voice Chat in Foundry",
+            "version": "2.1.4",
+            "minimumCoreVersion": "0.5.4",
+            "author": "Cody Swendrowski <cody@swendrowski.us>",
+            "scripts": [
+                "./richpresence.js",
+                "./reconnecting-websocket.js"
+            ],
+            "styles": [
+                "./richpresence.css"
+            ],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                }
+            ],
+            "packs": [],
+            "url": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence",
+            "manifest": "https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json",
+            "download": "https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/archive/master.zip",
+            "foundryUrl": "/packages/discord-rich-presence/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
@@ -9229,6 +9229,23 @@
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
+            "name": "sheet-macro",
+            "title": "Actor Sheet Macro",
+            "description": "Drag actors to the macro bar to create a macro that opens their sheet.",
+            "version": "1.0",
+            "minimumCoreVersion": "0.5.5",
+            "compatibleCoreVersion": "0.5.5",
+            "author": "Kim Mantas",
+            "scripts": [
+                "main.js"
+            ],
+            "url": "https://bitbucket.org/Fyorl/sheet-macro",
+            "manifest": "https://bitbucket.org/Fyorl/sheet-macro/raw/master/module.json",
+            "download": "https://bitbucket.org/Fyorl/sheet-macro/get/master.zip",
+            "foundryUrl": "/packages/sheet-macro/",
+            "lastUpdate": "2 months, 3 weeks ago"
+        },
+        {
             "name": "vtta-iconizer",
             "title": "Virtual Tabletop Assets - Iconizer",
             "description": "Sets item's icons automatically based on a prepulated and/or user-defined dictionary",
@@ -9261,23 +9278,6 @@
             "readme": "https://github.com/VTTAssets/vtta-iconizer/blob/master/readme.md",
             "changelog": "https://github.com/VTTAssets/vtta-iconizer/releases",
             "foundryUrl": "/packages/vtta-iconizer/",
-            "lastUpdate": "2 months, 3 weeks ago"
-        },
-        {
-            "name": "sheet-macro",
-            "title": "Actor Sheet Macro",
-            "description": "Drag actors to the macro bar to create a macro that opens their sheet.",
-            "version": "1.0",
-            "minimumCoreVersion": "0.5.5",
-            "compatibleCoreVersion": "0.5.5",
-            "author": "Kim Mantas",
-            "scripts": [
-                "main.js"
-            ],
-            "url": "https://bitbucket.org/Fyorl/sheet-macro",
-            "manifest": "https://bitbucket.org/Fyorl/sheet-macro/raw/master/module.json",
-            "download": "https://bitbucket.org/Fyorl/sheet-macro/get/master.zip",
-            "foundryUrl": "/packages/sheet-macro/",
             "lastUpdate": "2 months, 3 weeks ago"
         },
         {
