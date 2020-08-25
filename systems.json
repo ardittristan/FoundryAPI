@@ -1,5 +1,5 @@
 {
-    "updated": "Tue, 25 Aug 2020 02:25:59 GMT",
+    "updated": "Tue, 25 Aug 2020 02:40:57 GMT",
     "modules": [
         {
             "name": "demonlord",
@@ -87,7 +87,41 @@
             "manifest": "https://raw.githubusercontent.com/Xacus/demonlord/master/system.json",
             "download": "https://github.com/Xacus/demonlord/archive/master.zip",
             "foundryUrl": "/packages/demonlord/",
-            "lastUpdate": "2 hours, 48 minutes ago"
+            "lastUpdate": "3 hours, 3 minutes ago"
+        },
+        {
+            "name": "FVTT-Dishonored",
+            "title": "Dishonored Roleplaying Game Unofficial",
+            "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
+            "version": "0.2.4",
+            "minimumCoreVersion": "0.6.4",
+            "compatibleCoreVersion": "0.6.5",
+            "templateVersion": 1,
+            "author": "KaitoR95",
+            "esmodules": [
+                "module/dishonored.js"
+            ],
+            "styles": [
+                "styles/dishonored.css"
+            ],
+            "packs": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "lang/en.json"
+                }
+            ],
+            "gridDistance": 5,
+            "gridUnits": "ft",
+            "primaryTokenAttribute": "stress",
+            "secondaryTokenAttribute": "void",
+            "url": "https://github.com/CurtR95/FVTT-Dishonored",
+            "manifest": "https://raw.githubusercontent.com/CurtR95/FVTT-Dishonored/master/system.json",
+            "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
+            "license": "LICENSE.txt",
+            "foundryUrl": "/packages/FVTT-Dishonored/",
+            "lastUpdate": "7 hours, 32 minutes ago"
         },
         {
             "name": "blades-in-the-dark",
@@ -192,41 +226,7 @@
                 }
             ],
             "foundryUrl": "/packages/blades-in-the-dark/",
-            "lastUpdate": "13 hours, 41 minutes ago"
-        },
-        {
-            "name": "FVTT-Dishonored",
-            "title": "Dishonored Roleplaying Game Unofficial",
-            "description": "An unofficial rendition of the Modiphius tabletop role playing game system.",
-            "version": "0.2.4",
-            "minimumCoreVersion": "0.6.4",
-            "compatibleCoreVersion": "0.6.5",
-            "templateVersion": 1,
-            "author": "KaitoR95",
-            "esmodules": [
-                "module/dishonored.js"
-            ],
-            "styles": [
-                "styles/dishonored.css"
-            ],
-            "packs": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "lang/en.json"
-                }
-            ],
-            "gridDistance": 5,
-            "gridUnits": "ft",
-            "primaryTokenAttribute": "stress",
-            "secondaryTokenAttribute": "void",
-            "url": "https://github.com/CurtR95/FVTT-Dishonored",
-            "manifest": "https://raw.githubusercontent.com/CurtR95/FVTT-Dishonored/master/system.json",
-            "download": "https://github.com/CurtR95/FVTT-Dishonored/archive/master.zip",
-            "license": "LICENSE.txt",
-            "foundryUrl": "/packages/FVTT-Dishonored/",
-            "lastUpdate": "7 hours, 17 minutes ago"
+            "lastUpdate": "13 hours, 56 minutes ago"
         },
         {
             "name": "alienrpg",
@@ -293,7 +293,7 @@
             "download": "https://github.com/pwatson100/alienrpg/archive/master.zip",
             "socket": true,
             "foundryUrl": "/packages/alienrpg/",
-            "lastUpdate": "14 hours, 3 minutes ago"
+            "lastUpdate": "14 hours, 18 minutes ago"
         },
         {
             "name": "sandbox",
@@ -320,7 +320,7 @@
             "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/master/system.json",
             "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/master/sandbox-master.zip",
             "foundryUrl": "/packages/sandbox/",
-            "lastUpdate": "14 hours, 26 minutes ago"
+            "lastUpdate": "14 hours, 41 minutes ago"
         },
         {
             "name": "sfrpg",
@@ -637,7 +637,7 @@
             "manifest": "https://raw.githubusercontent.com/winks-vtt/yze-coriolis/master/system.json",
             "download": "https://github.com/winks-vtt/yze-coriolis/archive/v0.93.zip",
             "foundryUrl": "/packages/yzecoriolis/",
-            "lastUpdate": "2 days, 2 hours ago"
+            "lastUpdate": "2 days, 3 hours ago"
         },
         {
             "name": "burningwheel",
@@ -1361,7 +1361,7 @@
             "download": "https://gitlab.com/jbhuddleston/gurps4e/-/archive/master/gurps4e-master.zip",
             "license": "LICENSE.txt",
             "foundryUrl": "/packages/gurps4e/",
-            "lastUpdate": "5 days, 12 hours ago"
+            "lastUpdate": "5 days, 13 hours ago"
         },
         {
             "name": "callofcthulhu",
@@ -1562,7 +1562,7 @@
             "bugs": "",
             "changelog": "https://raw.githubusercontent.com/L4D15/foundry-vtt-l5r/master/CHANGELOG.md",
             "foundryUrl": "/packages/l5r/",
-            "lastUpdate": "6 days, 17 hours ago"
+            "lastUpdate": "6 days, 18 hours ago"
         },
         {
             "name": "vaesen",
@@ -1661,35 +1661,6 @@
             "lastUpdate": "1 week, 3 days ago"
         },
         {
-            "name": "risklegacy",
-            "title": "Risk: Legacy (Unoffical)",
-            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
-            "version": "1.0.0",
-            "templateVersion": 2,
-            "author": "spacemandev",
-            "scripts": [],
-            "esmodules": [
-                "legacy.js",
-                "modules/registerHandlebarHelpers.js",
-                "lib/js-yaml.js",
-                "pdfoundry-dist/bundle.js",
-                "lib/drop.js"
-            ],
-            "styles": [
-                "styles/risk.css",
-                "styles/diceroll.css"
-            ],
-            "packs": [],
-            "languages": [],
-            "minimumCoreVersion": "0.6.0",
-            "compatibleCoreVersion": "0.7.0",
-            "url": "https://github.com/Brownie79/fvtt-risklegacy",
-            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
-            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
-            "foundryUrl": "/packages/risklegacy/",
-            "lastUpdate": "1 week, 4 days ago"
-        },
-        {
             "name": "kamigakari",
             "title": "Kamigakari: God Hunter",
             "description": "Urban fantasy action trpg, Kamigakari System",
@@ -1751,6 +1722,35 @@
             "lastUpdate": "1 week, 6 days ago"
         },
         {
+            "name": "risklegacy",
+            "title": "Risk: Legacy (Unoffical)",
+            "description": "Port of the Risk:Legacy Board Game to Foundry VTT",
+            "version": "1.0.0",
+            "templateVersion": 2,
+            "author": "spacemandev",
+            "scripts": [],
+            "esmodules": [
+                "legacy.js",
+                "modules/registerHandlebarHelpers.js",
+                "lib/js-yaml.js",
+                "pdfoundry-dist/bundle.js",
+                "lib/drop.js"
+            ],
+            "styles": [
+                "styles/risk.css",
+                "styles/diceroll.css"
+            ],
+            "packs": [],
+            "languages": [],
+            "minimumCoreVersion": "0.6.0",
+            "compatibleCoreVersion": "0.7.0",
+            "url": "https://github.com/Brownie79/fvtt-risklegacy",
+            "manifest": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.json",
+            "download": "https://github.com/Brownie79/fvtt-risklegacy/releases/download/latest/system.zip",
+            "foundryUrl": "/packages/risklegacy/",
+            "lastUpdate": "1 week, 4 days ago"
+        },
+        {
             "version": 0.32,
             "name": "cyberpunkred",
             "title": "Cyberpunk RED",
@@ -1788,6 +1788,38 @@
             "license": "Copyright 2020 @gerdofal#0763 - License Terms GNU GPL v3 see file license.md",
             "foundryUrl": "/packages/cyberpunkred/",
             "lastUpdate": "2 weeks, 6 days ago"
+        },
+        {
+            "name": "fatex",
+            "title": "Fate Extended (FateX)",
+            "description": "An extended implementation of Fate and its derivative systems",
+            "version": "0.6.1",
+            "author": "Patrick Bauer (Daddi#2333)",
+            "scripts": [
+                "system.js"
+            ],
+            "esmodules": [],
+            "styles": [],
+            "languages": [
+                {
+                    "lang": "en",
+                    "name": "English",
+                    "path": "languages/en.json"
+                },
+                {
+                    "lang": "de",
+                    "name": "German",
+                    "path": "languages/de.json"
+                }
+            ],
+            "minimumCoreVersion": "0.5.2",
+            "compatibleCoreVersion": "0.7.0",
+            "socket": true,
+            "url": "https://github.com/anvil-vtt/FateX",
+            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
+            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
+            "foundryUrl": "/packages/fatex/",
+            "lastUpdate": "2 weeks ago"
         },
         {
             "name": "archmage",
@@ -1923,38 +1955,6 @@
             "primaryTokenAttribute": "attributes.hp",
             "foundryUrl": "/packages/archmage/",
             "lastUpdate": "3 weeks ago"
-        },
-        {
-            "name": "fatex",
-            "title": "Fate Extended (FateX)",
-            "description": "An extended implementation of Fate and its derivative systems",
-            "version": "0.6.1",
-            "author": "Patrick Bauer (Daddi#2333)",
-            "scripts": [
-                "system.js"
-            ],
-            "esmodules": [],
-            "styles": [],
-            "languages": [
-                {
-                    "lang": "en",
-                    "name": "English",
-                    "path": "languages/en.json"
-                },
-                {
-                    "lang": "de",
-                    "name": "German",
-                    "path": "languages/de.json"
-                }
-            ],
-            "minimumCoreVersion": "0.5.2",
-            "compatibleCoreVersion": "0.7.0",
-            "socket": true,
-            "url": "https://github.com/anvil-vtt/FateX",
-            "manifest": "https://github.com/anvil-vtt/FateX/releases/latest/download/system.json",
-            "download": "https://github.com/anvil-vtt/FateX/releases/latest/download/fatex.zip",
-            "foundryUrl": "/packages/fatex/",
-            "lastUpdate": "2 weeks ago"
         },
         {
             "name": "electricbastionland",
@@ -3203,7 +3203,7 @@
             "download": "https://gitlab.com/lemaire.erw/coc/-/archive/master/coc-master.zip",
             "manifest": "https://gitlab.com/lemaire.erw/coc/-/raw/master/system.json",
             "foundryUrl": "/packages/coc/",
-            "lastUpdate": "2 months ago"
+            "lastUpdate": "2 months, 1 week ago"
         },
         {
             "name": "blue-rose",
