@@ -1,3 +1,5 @@
+**Deprecated by Forge api**
+
 # Foundry VTT API
 
 Logs all modules/systems that are on foundry.
